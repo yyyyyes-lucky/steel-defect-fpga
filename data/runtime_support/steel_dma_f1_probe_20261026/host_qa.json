@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "hardware_access_performed": false,
+  "mock_dma_used": true,
+  "tested_files": {
+    "candidate_decode.py": "79dfeb3295b8328705d1399331b46d5647fb13811c3451a42bbd611d4475ef44",
+    "f1_adapter.py": "06db9cccccbd55e618490dea2fdd357005be5cc259c1880f690572c2ba214e7c",
+    "f1_budget.py": "0c81d596f3a7f009279b65f9e9ca34591b239e5184ab4ec6998b863aeed8bb9a",
+    "inspect_pynq_cache.py": "8b1420c07f1c0b3c1bc59d002de587277fa74fe6479543de9767bada528df5d5",
+    "probe_context.py": "23aace51133d47d12a7e687301146b1dba75cb0890d99c271b28b289732424d6",
+    "probe_runner.py": "e803ad88203812ced9d61a356f18f56fa3d2de4295bd419ccd5dd9086ffe8ca7",
+    "profiled_driver.py": "a8f0d562c3b6222b2e9834e5c196018b3c5e06379f5d76575401fc3a4273311b",
+    "test_probe.py": "6bd01014464f2cafbb2e4e10b410dbeb4e6e5d564f17d287745dc29014436602"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "package": "steel_binary_ops_v8_experiment_20261022",
+  "purpose": "isolated ellipse7 HLS/DMA experiment for class-2 binary supported_union",
+  "base_verified_version": "runtime_gaussian_final_20261022_v1",
+  "preserves_existing_bitstream": true,
+  "fpga_part": "xc7z020clg400-1",
+  "vivado_version": "2026.1",
+  "new_control_addresses": {
+    "axi_dma_ellipse": "0x40430000",
+    "ellipse7_0": "0x43C10000"
+  },
+  "new_memory_channels": [
+    "axi_mem_intercon/S06_AXI",
+    "axi_mem_intercon/S07_AXI"
+  ],
+  "hls_contract": {
+    "input": "3-pixel zero border, one 0/1 uint32 per AXIS beat",
+    "output": "height*width one 0/1 uint32 per AXIS beat",
+    "height_range": "1..512",
+    "width_range": "1..512",
+    "kernel": "7x7 OpenCV ellipse, 33 active taps"
+  },
+  "evidence_before_board": {
+    "scope": "v8 was independently rerun on 2026-10-22; reference/hls_evidence.json and reference/host_evidence.json are historical v7 only",
+    "csim_pass": true,
+    "rtl_cosim_pass": true,
+    "hls_ip_exported": true,
+    "new_hls_transaction_count": 49,
+    "new_hls_fixture_case_count": 45,
+    "vivado_implemented": true,
+    "board_test": false
+  },
+  "formal_runtime_replaced": false,
+  "current_evidence": "reference/v8_build_evidence.json"
+}

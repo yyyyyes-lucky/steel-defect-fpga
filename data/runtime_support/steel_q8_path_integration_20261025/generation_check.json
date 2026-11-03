@@ -1,0 +1,9 @@
+{
+  "only_two_function_body_edits": true,
+  "reverting_hunks_restores_original_ast": true,
+  "dma_control_and_close_source_unchanged": true,
+  "kernel_sha256": "9d2c48aad4a0ecf712410c8d6d7153e06f69951e3a752154e0ef9aae16c3ae73",
+  "kernel_identical_to_arm_ps_probe": true,
+  "prior_arm_report_sha256": "a8e95f47347fbd78a011e8004682d64ce586a7b8dae2fa53b1dc65acb43e9569",
+  "prior_v10_entry_report_sha256": "cb57f7079864cf4afbfc588ff6a6b9b2c8546547e2449a8b4306cfa0dcb474a9"
+}

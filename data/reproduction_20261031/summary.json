@@ -1,0 +1,310 @@
+{
+  "schema": "reproduction_evidence/1.0",
+  "organized_date": "2026-10-31",
+  "runs": [
+    {
+      "hardware": "reference",
+      "identity": {
+        "bit": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+        "hwh": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362"
+      },
+      "static": {
+        "completed": true,
+        "pass": true,
+        "frames": 120,
+        "rois": 317,
+        "measurements": 480,
+        "cpu_mean_ms": 2353.347467121042,
+        "fpga_mean_ms": 701.5685384082038,
+        "speedup": 3.3544084979360345,
+        "agreement": {
+          "frames": 120,
+          "frames_exact": 51,
+          "rois": 317,
+          "rois_exact": 120,
+          "mask_rois_different": 2,
+          "mask_different_pixels": 2,
+          "all_semantic_outputs_exact": false,
+          "features_exact": true,
+          "branch_states_equal": true,
+          "review_reasons_equal": true
+        }
+      },
+      "dynamic": {
+        "completed": true,
+        "pass": true,
+        "hardware_session_safe": true,
+        "stop_reason": "user_stop",
+        "frames": 9,
+        "frames_with_detections": 9,
+        "host_board_all_matched": true,
+        "first_capture": "2026-10-31T16:30:38.288+08:00",
+        "last_capture": "2026-10-31T16:31:44.278+08:00"
+      }
+    },
+    {
+      "hardware": "rebuilt",
+      "identity": {
+        "bit": "c3078385294ea67d0b112b47d22617cf4f69d213712897505cfcdf284708820e",
+        "hwh": "e4daa69bc8845896e7ff4b72ad4e3082c870a19d4a6fb3c126c07b689f565285"
+      },
+      "static": {
+        "completed": true,
+        "pass": true,
+        "frames": 120,
+        "rois": 317,
+        "measurements": 480,
+        "cpu_mean_ms": 2334.491061729174,
+        "fpga_mean_ms": 701.15679740411,
+        "speedup": 3.3294850315537863,
+        "agreement": {
+          "frames": 120,
+          "frames_exact": 51,
+          "rois": 317,
+          "rois_exact": 120,
+          "mask_rois_different": 2,
+          "mask_different_pixels": 2,
+          "all_semantic_outputs_exact": false,
+          "features_exact": true,
+          "branch_states_equal": true,
+          "review_reasons_equal": true
+        }
+      },
+      "dynamic": {
+        "completed": true,
+        "pass": true,
+        "hardware_session_safe": true,
+        "stop_reason": "user_stop",
+        "frames": 12,
+        "frames_with_detections": 9,
+        "host_board_all_matched": true,
+        "first_capture": "2026-10-31T17:04:07.233+08:00",
+        "last_capture": "2026-10-31T17:05:03.374+08:00"
+      }
+    }
+  ],
+  "cross_run_outputs": {
+    "cpu": {
+      "comparisons": 240,
+      "different_semantic_digests": 0
+    },
+    "fpga": {
+      "comparisons": 240,
+      "different_semantic_digests": 0
+    }
+  },
+  "same_static_inputs": true,
+  "rebuilt_board_identity_matches_build": true,
+  "build_directory_name": "v10_20261031_141207_691",
+  "resources": {
+    "Slice LUTs": {
+      "used": 22525.0,
+      "available": 53200.0,
+      "percent": 42.34
+    },
+    "Slice Registers": {
+      "used": 23379.0,
+      "available": 106400.0,
+      "percent": 21.97
+    },
+    "Block RAM Tile": {
+      "used": 37.5,
+      "available": 140.0,
+      "percent": 26.79
+    },
+    "DSPs": {
+      "used": 113.0,
+      "available": 220.0,
+      "percent": 51.36
+    }
+  },
+  "clock_mhz": 100,
+  "wns_ns": 0.747,
+  "whs_ns": 0.014,
+  "drc": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "warnings": 180,
+    "advisories": 10
+  },
+  "scope": "120 valid images, 317 ROIs, two paired rounds per hardware; dynamic 9 and 12 frames. No claim of long-duration reliability, segmentation accuracy or camera end-to-end speedup.",
+  "clock_note": "Board result-directory timestamps show 2025-05-07; PC captures show 2026-10-31 +08:00. Raw records preserved; correlate via hardware identity and frame IDs, not board wall clock.",
+  "historical_flags_note": "entry_board_qualified=false and board_tested_by_this_script=false in original records describe their original fields/script scope. This derived evidence connects actual completed board sessions to the specific build; originals are unchanged.",
+  "deployment_default": "Reference board/hardware remains unchanged. Rebuilt files are separately archived in board/rebuilt_20261031.",
+  "excluded": [
+    "Personal dynamic images, masks and per-frame ZIPs",
+    "Design report",
+    "Open-source publication/license work",
+    "Demonstration video"
+  ],
+  "source_files": [
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (2).zip",
+      "archive_sha256": "037b1d44eae03990a4a14e6ac1bc0082929082493027a60fac4b7e374b943197",
+      "member": "static_compare.json",
+      "destination": "data/reproduction_20261031/reference/static/static_compare.json",
+      "sha256": "6c332a7a3d1a2f2e41cfffb98c1b8b785d5cb7d7df5f64684c89b7debc156d9f"
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (2).zip",
+      "archive_sha256": "037b1d44eae03990a4a14e6ac1bc0082929082493027a60fac4b7e374b943197",
+      "member": "evidence.json",
+      "destination": "data/reproduction_20261031/reference/static/evidence.json",
+      "sha256": "6e629aadccbd2107fe488ad742936cb4b14a72938a37611374b62bfe6fc1d071",
+      "source_member_sha256": "292e998edaa3754173faf5bae344f50f3fb386e1e0caa7c3f2a01d9e6d5f62d4",
+      "presentation_change": "Frame display metadata restored from matching inputs.json; measured results and image payloads unchanged."
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (2).zip",
+      "archive_sha256": "037b1d44eae03990a4a14e6ac1bc0082929082493027a60fac4b7e374b943197",
+      "member": "static_demo.html",
+      "destination": "data/reproduction_20261031/reference/static/static_demo.html",
+      "sha256": "28f99b3c6834fcf78559fda3c0a0ae05ce92bab598591b02717c9d12b77d83c7",
+      "source_member_sha256": "ab376dacfc65d1bf802afe4b2f96acdfe59c892f70620092d8c2862ec011e313",
+      "presentation_change": "Frame display metadata restored from matching inputs.json; measured results and image payloads unchanged."
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (2).zip",
+      "archive_sha256": "037b1d44eae03990a4a14e6ac1bc0082929082493027a60fac4b7e374b943197",
+      "member": "inputs.json",
+      "destination": "data/reproduction_20261031/reference/static/inputs.json",
+      "sha256": "4223df5511f2764ade05b3fddc1671f6091a32911255906500db6986f03f1f58",
+      "source_member_sha256": "701e222db2ae352ba3743b5cd56e229a5b3a285eed92e43c09d3210ea6ac3311",
+      "presentation_change": "Portable source/model path labels normalized; frame inputs and predictions unchanged."
+    },
+    {
+      "source": "C:\\Users\\LENOVO\\Downloads\\v10_session (1).json",
+      "destination": "data/reproduction_20261031/reference/dynamic/v10_session.json",
+      "sha256": "ba81b9ea4de187f5d74521f16baf766dcfb0da9fb1f5fea99f685c90e86acac9"
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (1).zip",
+      "archive_sha256": "7bc19fba15e981c15761dc302705b0677ff8076b13928bf8139c98b541307590",
+      "member": "static_compare.json",
+      "destination": "data/reproduction_20261031/rebuilt/static/static_compare.json",
+      "sha256": "3a771369c1acc1f1c7b4f78bd943fe10268573346001ebecbe09ab8b74f73773"
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (1).zip",
+      "archive_sha256": "7bc19fba15e981c15761dc302705b0677ff8076b13928bf8139c98b541307590",
+      "member": "evidence.json",
+      "destination": "data/reproduction_20261031/rebuilt/static/evidence.json",
+      "sha256": "c0b63f71e173dc702a872cb156ee1b2be83d0f9371b4bebfd6684a2af054790d",
+      "source_member_sha256": "7a4b920bb3d6b701e045d03eea1d344e4421a61205d2a888336724d8913d9e22",
+      "presentation_change": "Frame display metadata restored from matching inputs.json; measured results and image payloads unchanged."
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (1).zip",
+      "archive_sha256": "7bc19fba15e981c15761dc302705b0677ff8076b13928bf8139c98b541307590",
+      "member": "static_demo.html",
+      "destination": "data/reproduction_20261031/rebuilt/static/static_demo.html",
+      "sha256": "81c691c952f4ae2cf023f3b4e81ca3bada9c4c9df15b4a0e36aa4943c25e66a3",
+      "source_member_sha256": "47d831624636451b7da0259e261e5fe696335e3640cfbb072a74e80d35b3d306",
+      "presentation_change": "Frame display metadata restored from matching inputs.json; measured results and image payloads unchanged."
+    },
+    {
+      "source_archive": "C:\\Users\\LENOVO\\Downloads\\static_demo_results (1).zip",
+      "archive_sha256": "7bc19fba15e981c15761dc302705b0677ff8076b13928bf8139c98b541307590",
+      "member": "inputs.json",
+      "destination": "data/reproduction_20261031/rebuilt/static/inputs.json",
+      "sha256": "4223df5511f2764ade05b3fddc1671f6091a32911255906500db6986f03f1f58",
+      "source_member_sha256": "701e222db2ae352ba3743b5cd56e229a5b3a285eed92e43c09d3210ea6ac3311",
+      "presentation_change": "Portable source/model path labels normalized; frame inputs and predictions unchanged."
+    },
+    {
+      "source": "C:\\Users\\LENOVO\\Downloads\\v10_session (2).json",
+      "destination": "data/reproduction_20261031/rebuilt/dynamic/v10_session.json",
+      "sha256": "b314e3f16f1018b47157030e0d51c94752dac3e66a9a1497b93b8d515cd51736"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\build_summary.json",
+      "destination": "build/reference/reproduction_20261031/build_summary.json",
+      "sha256": "cbef663859bb2cb7e8c1082ea2945e069a3311febc43931db40f5945625b3353"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\build_state.json",
+      "destination": "build/reference/reproduction_20261031/build_state.json",
+      "sha256": "a449e6d6a36e060e5b16bca692a69cc9a22050ee0663d3a632c8c6ecc8f70808"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\gaussian_v10_system_bd.tcl",
+      "destination": "build/reference/reproduction_20261031/gaussian_v10_system_bd.tcl",
+      "sha256": "5261829f7d88e0221e01ee89452b16488be93373872114a88bc9da268dc41982"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\vivado_build.log",
+      "destination": "build/reference/reproduction_20261031/vivado_build.log",
+      "sha256": "cc8e6d66c96d7ace54a131df596ebb166712f8eccaec34159944726b23160e9e"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\reports\\gaussian_v10_drc.rpt",
+      "destination": "build/reference/reproduction_20261031/reports/gaussian_v10_drc.rpt",
+      "sha256": "68ba0465de336c8ffc4c5b506937faa4bca6d1440fe42731dbecbb8ab1ae4a33"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\reports\\gaussian_v10_timing.rpt",
+      "destination": "build/reference/reproduction_20261031/reports/gaussian_v10_timing.rpt",
+      "sha256": "c09cb1e7f13011b1bf6d6af719310264ef9757801f33272a0bac4bf67b75db85"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\reports\\gaussian_v10_utilization.rpt",
+      "destination": "build/reference/reproduction_20261031/reports/gaussian_v10_utilization.rpt",
+      "sha256": "b52e4b7915981d95dda0224891579c42bfb3f8b01bd03026128d8d45b068c0c2"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\receipts\\blur3.json",
+      "destination": "build/reference/reproduction_20261031/receipts/blur3.json",
+      "sha256": "99fbf2d9da3321320497b9aeb9371cc57e132258e7596f29954564a8ff755199"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\receipts\\ellipse7.json",
+      "destination": "build/reference/reproduction_20261031/receipts/ellipse7.json",
+      "sha256": "a4e4a0d83fe8890b4a63f296beb1e6ed04fec67b148fd52b6af7280836ed5a49"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\receipts\\gaussian.json",
+      "destination": "build/reference/reproduction_20261031/receipts/gaussian.json",
+      "sha256": "88de3eac5f845d463a115ba4eaea4a28c8a46cf05a52629d483de95e9d7fbc7f"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\receipts\\gaussian_extended.json",
+      "destination": "build/reference/reproduction_20261031/receipts/gaussian_extended.json",
+      "sha256": "334721b3455c1d84d128b230e382d9a68cdde773643854b247494c8fdbe1bf09"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\logs\\gaussian.log",
+      "destination": "build/reference/reproduction_20261031/logs/gaussian.log",
+      "sha256": "88f648362e70d3261d617b608fee73cf4845f45a53fa93b69555a8d2888de70e"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\logs\\gaussian_extended.log",
+      "destination": "build/reference/reproduction_20261031/logs/gaussian_extended.log",
+      "sha256": "0a858f68f7585d1f60f8037c4305afff950c180ae4e89b8314d2a929b7198a6e"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\logs\\ellipse7.log",
+      "destination": "build/reference/reproduction_20261031/logs/ellipse7.log",
+      "sha256": "b8faf4e88ad1f7130af07daa4215626834a40e36c9eed42e606270a14a52c291"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\logs\\blur3.log",
+      "destination": "build/reference/reproduction_20261031/logs/blur3.log",
+      "sha256": "36dea6eda75ef8d5490fc281c4902dde2a06bee61dd94c2e75d8885612773de3"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\logs\\vivado_console.log",
+      "destination": "build/reference/reproduction_20261031/logs/vivado_console.log",
+      "sha256": "9adb954f26d99af1f2c78cb9bb5586d3f33918fbea52851d2a3770ecbc2195a5"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\hardware\\steel_gaussian_v10.bit",
+      "destination": "board/rebuilt_20261031/steel_gaussian_v10.bit",
+      "sha256": "c3078385294ea67d0b112b47d22617cf4f69d213712897505cfcdf284708820e"
+    },
+    {
+      "source": "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691\\hardware\\steel_gaussian_v10.hwh",
+      "destination": "board/rebuilt_20261031/steel_gaussian_v10.hwh",
+      "sha256": "e4daa69bc8845896e7ff4b72ad4e3082c870a19d4a6fb3c126c07b689f565285"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model_source": "best.pt",
+  "weights_sha256": "8eff1afc237acfe5cb6c2e1ff1d2559b53146f726990a3317339c791e2fd7d12",
+  "task": "detect",
+  "input_size": 512,
+  "class_order": [
+    "裂纹",
+    "夹杂",
+    "斑块",
+    "麻面",
+    "氧化皮压入",
+    "划痕"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "steel_v9_1_daily_entry/1.0",
+  "files": {
+    "candidates.py": "1b09e2524f803ec73eeff8d73104f8865eeb0ac98d6a2790b00a3e5ff166ea5c",
+    "combined_runtime.py": "17f32e5302cc2b40202dae7c6278d1b5eca79c306ce5c312b6e856c41b502b7d",
+    "gaussian_candidate.py": "ee9feccbb319b9ed5636ac83dbcbd8b7e99b68bcbcfdf435376276b4cdc8abdb",
+    "host_tests.txt": "11fbf611e5c41cddf8c652b01b7c352719e36e4cbdb7aaad2ae7b8463dee2fe8",
+    "qualification/combined_review_zh.md": "25abaea572f52149cc2b60591d647e4f8eae582312156a28cdd35be685affc7d",
+    "qualification/roi_blur3_smoke.json": "939c59a23f4812471ec762f6cd83a653e735e07f41eaf1213e1d90135394407f",
+    "qualification/v9_combined_acceptance.json": "f7f15ef047aaf77c7175924ecbcb23ad11acc58a366c7712a12c5b9eb0ef1d8e",
+    "qualification.json": "12b6c0d315e822b3d19eb5732337b8b467e1e25696e90ef12acd7099a58077a5",
+    "readme_zh.md": "78fdce096ea80efdd57fb81d33f03e16a8165db797e74de4b1b767abfee78dff",
+    "reference/run_v9_1.template.ipynb": "ac69466949ff7c20469e775ce299baee305f3c7ce8f220aa4dfeaf6292a82c0d",
+    "runtime_v9_1.py": "84bad825beb2b03b3f06864f7ad5e12c6927af23b174045a8a6a32f7a34fee3c",
+    "test_entry.py": "bbf4bacfeb46896f6f28af1acb9241af86d70ce55cd7a443f2164028363f5682"
+  },
+  "notebook_policy": "Working notebook mutable; sealed reference template included"
+}

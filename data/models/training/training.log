@@ -1,0 +1,174 @@
+Ultralytics 8.3.160  Python-3.12.14 torch-2.6.0+cu124 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+[34m[1mengine\trainer: [0magnostic_nms=False, amp=True, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, conf=0.001, copy_paste=0.0, copy_paste_mode=flip, cos_lr=True, cutmix=0.0, data=E:\FPGAyz\yolo_retrain_originals_20261028\dataset.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=60, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.1, imgsz=512, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.1, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=E:\FPGAyz\runs\steel_yolov8n\weights\best.pt, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=15, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=E:\FPGAyz\yolo_retrain_originals_20261028, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=E:\FPGAyz\yolo_retrain_originals_20261028\training, save_frames=False, save_json=False, save_period=10, save_txt=False, scale=0.1, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.05, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.0, warmup_epochs=2.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]                 
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]                
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]             
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]                
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]             
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]           
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]           
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]                 
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]                 
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]                  
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]                 
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]                 
+ 22        [15, 18, 21]  1    752482  ultralytics.nn.modules.head.Detect           [6, [64, 128, 256]]           
+Model summary: 129 layers, 3,012,018 parameters, 3,012,002 gradients, 8.2 GFLOPs
+
+Transferred 355/355 items from pretrained weights
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt to 'yolo11n.pt'...
+[34m[1mAMP: [0mchecks passed 
+[34m[1mtrain: [0mFast image access  (ping: 0.00.0 ms, read: 469.9227.8 MB/s, size: 34.0 KB)
+[34m[1mtrain: [0mE:\FPGAyz\\train\images\crazing_120_jpg.rf.6d9883669505da9037090f10c4557520.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mE:\FPGAyz\\train\images\inclusion_62_jpg.rf.2ca88e9c54521d7b3e4a75f6dbc4fd0e.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mE:\FPGAyz\\train\images\patches_198_jpg.rf.2ce0b5b67cebc21a431165d46979edec.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mNew cache created: E:\FPGAyz\\train\labels.cache
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 366.7178.8 MB/s, size: 28.8 KB)
+Plotting labels to E:\FPGAyz\yolo_retrain_originals_20261028\training\labels.jpg... 
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 512 train, 512 val
+Using 0 dataloader workers
+Logging results to [1mE:\FPGAyz\yolo_retrain_originals_20261028\training[0m
+Starting training for 60 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.651       0.73      0.746      0.402
+EPOCH_SUMMARY {"epoch": 1, "AP50": {"0": 0.4682347361849644, "1": 0.8111264086679024, "2": 0.9108421093323723, "3": 0.715167832333417, "4": 0.6258459372661481, "5": 0.9473743334724347}, "AP50_95": {"0": 0.1568512005339891, "1": 0.4203817355865736, "2": 0.5625571513788444, "3": 0.4183298645396034, "4": 0.29245956314204224, "5": 0.5617471706672696}, "weak_score": 0.5470403367255563, "metrics": {"metrics/precision(B)": 0.65146, "metrics/recall(B)": 0.72989, "metrics/mAP50(B)": 0.74643, "metrics/mAP50-95(B)": 0.40205, "val/box_loss": 1.60657, "val/cls_loss": 1.2199, "val/dfl_loss": 1.62503}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.761      0.679      0.766      0.417
+EPOCH_SUMMARY {"epoch": 2, "AP50": {"0": 0.49549758644161185, "1": 0.8389264285020982, "2": 0.9170211127649694, "3": 0.7072478362033132, "4": 0.6888675862152588, "5": 0.9458080269969851}, "AP50_95": {"0": 0.1588276409008636, "1": 0.4407016194252543, "2": 0.5830902599388565, "3": 0.4196637518903451, "4": 0.3235784431605128, "5": 0.574775574042788}, "weak_score": 0.5921825863284353, "metrics": {"metrics/precision(B)": 0.7609, "metrics/recall(B)": 0.67922, "metrics/mAP50(B)": 0.76556, "metrics/mAP50-95(B)": 0.41677, "val/box_loss": 1.56461, "val/cls_loss": 1.17648, "val/dfl_loss": 1.6228}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.668      0.747      0.766      0.418
+EPOCH_SUMMARY {"epoch": 3, "AP50": {"0": 0.4651619907160349, "1": 0.8391564056678172, "2": 0.9155654057199508, "3": 0.7527583159391337, "4": 0.6774017653376908, "5": 0.9456722934647844}, "AP50_95": {"0": 0.150111071564337, "1": 0.4480309700497175, "2": 0.5873127957759283, "3": 0.42632883885553474, "4": 0.3412333266079015, "5": 0.5567101402797994}, "weak_score": 0.5712818780268629, "metrics": {"metrics/precision(B)": 0.66821, "metrics/recall(B)": 0.74659, "metrics/mAP50(B)": 0.76595, "metrics/mAP50-95(B)": 0.41829, "val/box_loss": 1.55652, "val/cls_loss": 1.17424, "val/dfl_loss": 1.61742}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.729      0.708      0.768      0.422
+EPOCH_SUMMARY {"epoch": 4, "AP50": {"0": 0.46792035286101485, "1": 0.8421940866192451, "2": 0.9151227445890467, "3": 0.7418947084796945, "4": 0.6895072735696808, "5": 0.9486373965262379}, "AP50_95": {"0": 0.1601145383940656, "1": 0.4407292786819118, "2": 0.5728826196731837, "3": 0.4368741647920399, "4": 0.33660020329676, "5": 0.58494099395368}, "weak_score": 0.5787138132153478, "metrics": {"metrics/precision(B)": 0.72904, "metrics/recall(B)": 0.7082, "metrics/mAP50(B)": 0.76755, "metrics/mAP50-95(B)": 0.42202, "val/box_loss": 1.55522, "val/cls_loss": 1.15189, "val/dfl_loss": 1.62772}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416       0.73      0.716      0.772      0.423
+EPOCH_SUMMARY {"epoch": 5, "AP50": {"0": 0.4865582532018934, "1": 0.8426388960695068, "2": 0.9145925479786291, "3": 0.7619024196691525, "4": 0.6744483782476864, "5": 0.954045028021131}, "AP50_95": {"0": 0.1674547613106436, "1": 0.437070606176506, "2": 0.5845372079581855, "3": 0.4683044575208533, "4": 0.31374133759595735, "5": 0.5688835188691252}, "weak_score": 0.5805033157247899, "metrics": {"metrics/precision(B)": 0.73029, "metrics/recall(B)": 0.71558, "metrics/mAP50(B)": 0.77236, "metrics/mAP50-95(B)": 0.42333, "val/box_loss": 1.56292, "val/cls_loss": 1.13508, "val/dfl_loss": 1.62928}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.695       0.74      0.765      0.422
+EPOCH_SUMMARY {"epoch": 6, "AP50": {"0": 0.459597082515875, "1": 0.8422103552638248, "2": 0.922272168075631, "3": 0.7344392892123637, "4": 0.6841557354074495, "5": 0.9445634212729482}, "AP50_95": {"0": 0.15731782885969586, "1": 0.4590836910415164, "2": 0.583989495657985, "3": 0.4411560367025545, "4": 0.31951870599179977, "5": 0.5689788622792559}, "weak_score": 0.5718764089616623, "metrics": {"metrics/precision(B)": 0.69517, "metrics/recall(B)": 0.73958, "metrics/mAP50(B)": 0.76454, "metrics/mAP50-95(B)": 0.42167, "val/box_loss": 1.55203, "val/cls_loss": 1.13055, "val/dfl_loss": 1.62892}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.689      0.743      0.765      0.424
+EPOCH_SUMMARY {"epoch": 7, "AP50": {"0": 0.4831447123741645, "1": 0.8299955067294438, "2": 0.927944918316265, "3": 0.7548120137100038, "4": 0.6654473428456156, "5": 0.9260959622268631}, "AP50_95": {"0": 0.17066282103085847, "1": 0.4519913680106956, "2": 0.6045637293696094, "3": 0.4315297641023939, "4": 0.30860555957255353, "5": 0.5776890060299721}, "weak_score": 0.5742960276098901, "metrics": {"metrics/precision(B)": 0.68916, "metrics/recall(B)": 0.74333, "metrics/mAP50(B)": 0.76457, "metrics/mAP50-95(B)": 0.42417, "val/box_loss": 1.55037, "val/cls_loss": 1.11165, "val/dfl_loss": 1.62873}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.739      0.689      0.767      0.425
+EPOCH_SUMMARY {"epoch": 8, "AP50": {"0": 0.47958956480859966, "1": 0.8365906930094397, "2": 0.9251892508379235, "3": 0.7352237536063374, "4": 0.6873032571276699, "5": 0.9366045976500001}, "AP50_95": {"0": 0.183937742815575, "1": 0.4481558316108205, "2": 0.5879645752792348, "3": 0.4267712009760305, "4": 0.34006305735182896, "5": 0.561608718576445}, "weak_score": 0.5834464109681348, "metrics": {"metrics/precision(B)": 0.73873, "metrics/recall(B)": 0.68918, "metrics/mAP50(B)": 0.76675, "metrics/mAP50-95(B)": 0.42475, "val/box_loss": 1.55207, "val/cls_loss": 1.1156, "val/dfl_loss": 1.63637}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.742       0.71      0.768      0.428
+EPOCH_SUMMARY {"epoch": 9, "AP50": {"0": 0.4956222890088506, "1": 0.8453458002701774, "2": 0.9246813994531355, "3": 0.7438868862793795, "4": 0.6707965530753517, "5": 0.9292566790855019}, "AP50_95": {"0": 0.1690481989179497, "1": 0.4747453511518828, "2": 0.5947306655136272, "3": 0.42058366364503275, "4": 0.32176960938625887, "5": 0.5869160884561958}, "weak_score": 0.5832094210421012, "metrics": {"metrics/precision(B)": 0.74191, "metrics/recall(B)": 0.71036, "metrics/mAP50(B)": 0.76826, "metrics/mAP50-95(B)": 0.42797, "val/box_loss": 1.5567, "val/cls_loss": 1.09532, "val/dfl_loss": 1.64668}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.727      0.718      0.767      0.431
+EPOCH_SUMMARY {"epoch": 10, "AP50": {"0": 0.49981715348989514, "1": 0.8284027789654433, "2": 0.928756855686422, "3": 0.7298676897422364, "4": 0.6782574781194926, "5": 0.935786245500531}, "AP50_95": {"0": 0.19409145826885413, "1": 0.4359535513357159, "2": 0.6051119192564551, "3": 0.4260480081535653, "4": 0.3328655556129908, "5": 0.5921032603674912}, "weak_score": 0.5890373158046939, "metrics": {"metrics/precision(B)": 0.72746, "metrics/recall(B)": 0.71839, "metrics/mAP50(B)": 0.76681, "metrics/mAP50-95(B)": 0.43103, "val/box_loss": 1.55685, "val/cls_loss": 1.09612, "val/dfl_loss": 1.64302}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416       0.74      0.713       0.76      0.424
+EPOCH_SUMMARY {"epoch": 11, "AP50": {"0": 0.5038059443195142, "1": 0.8413899882401173, "2": 0.9228523438873063, "3": 0.7291678191130715, "4": 0.6138114628278906, "5": 0.9490857108182795}, "AP50_95": {"0": 0.1781132379479052, "1": 0.4352976732874188, "2": 0.590770824633093, "3": 0.43346533323368497, "4": 0.3116422647122191, "5": 0.5927380732542695}, "weak_score": 0.5588087035737024, "metrics": {"metrics/precision(B)": 0.73951, "metrics/recall(B)": 0.71269, "metrics/mAP50(B)": 0.76002, "metrics/mAP50-95(B)": 0.42367, "val/box_loss": 1.58038, "val/cls_loss": 1.10072, "val/dfl_loss": 1.66662}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416        0.8        0.7      0.772      0.439
+EPOCH_SUMMARY {"epoch": 12, "AP50": {"0": 0.5018729371815032, "1": 0.8453854555165538, "2": 0.9269050004107805, "3": 0.7515293165701494, "4": 0.6503280836859364, "5": 0.9571135100449261}, "AP50_95": {"0": 0.1870688504139959, "1": 0.45520936372373866, "2": 0.6110372591945036, "3": 0.45040103665947573, "4": 0.32243504782404375, "5": 0.6098832931695615}, "weak_score": 0.5761005104337198, "metrics": {"metrics/precision(B)": 0.79977, "metrics/recall(B)": 0.70043, "metrics/mAP50(B)": 0.77219, "metrics/mAP50-95(B)": 0.43934, "val/box_loss": 1.5367, "val/cls_loss": 1.09201, "val/dfl_loss": 1.63555}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.757       0.73      0.775      0.425
+EPOCH_SUMMARY {"epoch": 13, "AP50": {"0": 0.5145502590925397, "1": 0.8663331700508733, "2": 0.9162120970740424, "3": 0.7493648947758764, "4": 0.660718283118829, "5": 0.9445758312169391}, "AP50_95": {"0": 0.1687316320427356, "1": 0.460113253423582, "2": 0.5911380306836322, "3": 0.42881236173440807, "4": 0.32527939241923715, "5": 0.5743311585245099}, "weak_score": 0.5876342711056843, "metrics": {"metrics/precision(B)": 0.75654, "metrics/recall(B)": 0.73039, "metrics/mAP50(B)": 0.77529, "metrics/mAP50-95(B)": 0.42473, "val/box_loss": 1.55955, "val/cls_loss": 1.11457, "val/dfl_loss": 1.64615}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.739      0.728      0.769      0.421
+EPOCH_SUMMARY {"epoch": 14, "AP50": {"0": 0.460845477778698, "1": 0.8553268771101116, "2": 0.9263653734810672, "3": 0.7445728885048917, "4": 0.686367629245884, "5": 0.942474510701032}, "AP50_95": {"0": 0.16155435765002651, "1": 0.46051438167992187, "2": 0.6035524469203016, "3": 0.4075217310920494, "4": 0.325845864804959, "5": 0.5646697723849653}, "weak_score": 0.573606553512291, "metrics": {"metrics/precision(B)": 0.73929, "metrics/recall(B)": 0.72844, "metrics/mAP50(B)": 0.76933, "metrics/mAP50-95(B)": 0.42061, "val/box_loss": 1.57559, "val/cls_loss": 1.1104, "val/dfl_loss": 1.65888}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.748      0.737      0.779      0.422
+EPOCH_SUMMARY {"epoch": 15, "AP50": {"0": 0.4741910720657577, "1": 0.8609678775806103, "2": 0.9256376722661475, "3": 0.7459096542129369, "4": 0.7242196414446652, "5": 0.9403002938983428}, "AP50_95": {"0": 0.15542544666677752, "1": 0.46148055141473376, "2": 0.5838344930169241, "3": 0.4248436482960363, "4": 0.3401225161822679, "5": 0.5675697759096372}, "weak_score": 0.5992053567552115, "metrics": {"metrics/precision(B)": 0.74801, "metrics/recall(B)": 0.73748, "metrics/mAP50(B)": 0.77854, "metrics/mAP50-95(B)": 0.42221, "val/box_loss": 1.55469, "val/cls_loss": 1.10273, "val/dfl_loss": 1.64919}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.789      0.715      0.777      0.422
+EPOCH_SUMMARY {"epoch": 16, "AP50": {"0": 0.4977143340542941, "1": 0.8584582916692778, "2": 0.9281658259321354, "3": 0.749201992311992, "4": 0.6838620904250915, "5": 0.942029567090461}, "AP50_95": {"0": 0.17078045305371833, "1": 0.45037611526850296, "2": 0.6049646504819541, "3": 0.43997570764600746, "4": 0.30850190188335697, "5": 0.5553005255530417}, "weak_score": 0.5907882122396928, "metrics": {"metrics/precision(B)": 0.7888, "metrics/recall(B)": 0.71472, "metrics/mAP50(B)": 0.77657, "metrics/mAP50-95(B)": 0.42165, "val/box_loss": 1.57163, "val/cls_loss": 1.0992, "val/dfl_loss": 1.64662}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.779      0.718      0.777      0.422
+EPOCH_SUMMARY {"epoch": 17, "AP50": {"0": 0.49416117112658026, "1": 0.8387932881282618, "2": 0.9310580141314844, "3": 0.7709450864388554, "4": 0.6945881676931605, "5": 0.9346995549016247}, "AP50_95": {"0": 0.167200651736957, "1": 0.4427350053800273, "2": 0.5938919566436508, "3": 0.4423271660367288, "4": 0.31175828698457325, "5": 0.576152090224099}, "weak_score": 0.5943746694098704, "metrics": {"metrics/precision(B)": 0.77873, "metrics/recall(B)": 0.71779, "metrics/mAP50(B)": 0.77737, "metrics/mAP50-95(B)": 0.42234, "val/box_loss": 1.57861, "val/cls_loss": 1.11155, "val/dfl_loss": 1.65978}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.782      0.719      0.788      0.434
+EPOCH_SUMMARY {"epoch": 18, "AP50": {"0": 0.5220353926451812, "1": 0.8618488355652567, "2": 0.9212702392191204, "3": 0.7784569222068158, "4": 0.6981400109774043, "5": 0.9457048166887744}, "AP50_95": {"0": 0.17783714801698042, "1": 0.45590329191606893, "2": 0.601044452182559, "3": 0.45364432524937104, "4": 0.32886270881913104, "5": 0.5859102922196472}, "weak_score": 0.6100877018112927, "metrics": {"metrics/precision(B)": 0.78218, "metrics/recall(B)": 0.71929, "metrics/mAP50(B)": 0.78791, "metrics/mAP50-95(B)": 0.43387, "val/box_loss": 1.5442, "val/cls_loss": 1.09732, "val/dfl_loss": 1.63792}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.786      0.713      0.784       0.43
+EPOCH_SUMMARY {"epoch": 19, "AP50": {"0": 0.5157272868466989, "1": 0.8626810362317501, "2": 0.9283644351138474, "3": 0.766029755322915, "4": 0.6811508876183819, "5": 0.947651929078555}, "AP50_95": {"0": 0.17881534467362556, "1": 0.4567997329257304, "2": 0.5997188605574187, "3": 0.44926718079109557, "4": 0.3150757158992069, "5": 0.5821664357256403}, "weak_score": 0.5984390872325405, "metrics": {"metrics/precision(B)": 0.78553, "metrics/recall(B)": 0.71347, "metrics/mAP50(B)": 0.7836, "metrics/mAP50-95(B)": 0.43031, "val/box_loss": 1.54264, "val/cls_loss": 1.10382, "val/dfl_loss": 1.64557}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.784      0.724      0.778      0.432
+EPOCH_SUMMARY {"epoch": 20, "AP50": {"0": 0.4992018074992069, "1": 0.8564163072477219, "2": 0.9313395471957236, "3": 0.7769507160674491, "4": 0.6591937796292144, "5": 0.9475917680126068}, "AP50_95": {"0": 0.17999167698731305, "1": 0.46002651801069216, "2": 0.6005313868092697, "3": 0.45928424293648645, "4": 0.3100320336174795, "5": 0.5846095041611192}, "weak_score": 0.5791977935642106, "metrics": {"metrics/precision(B)": 0.78368, "metrics/recall(B)": 0.72361, "metrics/mAP50(B)": 0.77845, "metrics/mAP50-95(B)": 0.43241, "val/box_loss": 1.55256, "val/cls_loss": 1.09832, "val/dfl_loss": 1.65209}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.795      0.715      0.783      0.432
+EPOCH_SUMMARY {"epoch": 21, "AP50": {"0": 0.48997261031762784, "1": 0.8627134342052767, "2": 0.9329475201798281, "3": 0.791242898405833, "4": 0.6797758111078523, "5": 0.944056716729947}, "AP50_95": {"0": 0.1861679819300263, "1": 0.46192015603671177, "2": 0.6029520326207152, "3": 0.4511523813930155, "4": 0.3166162242973093, "5": 0.5747702329928112}, "weak_score": 0.58487421071274, "metrics": {"metrics/precision(B)": 0.79549, "metrics/recall(B)": 0.71542, "metrics/mAP50(B)": 0.78345, "metrics/mAP50-95(B)": 0.43226, "val/box_loss": 1.56137, "val/cls_loss": 1.08792, "val/dfl_loss": 1.67365}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.781      0.714      0.782      0.437
+EPOCH_SUMMARY {"epoch": 22, "AP50": {"0": 0.4965584763342318, "1": 0.8636037598192234, "2": 0.9210822236162224, "3": 0.7736832723252831, "4": 0.6897437777911679, "5": 0.9467817363023634}, "AP50_95": {"0": 0.17693916353944167, "1": 0.46734131398630224, "2": 0.5947542920033217, "3": 0.4585325424855893, "4": 0.3312770905079425, "5": 0.5937533087692037}, "weak_score": 0.5931511270626999, "metrics": {"metrics/precision(B)": 0.78056, "metrics/recall(B)": 0.71409, "metrics/mAP50(B)": 0.78191, "metrics/mAP50-95(B)": 0.4371, "val/box_loss": 1.55805, "val/cls_loss": 1.09332, "val/dfl_loss": 1.66615}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.782      0.733      0.783      0.435
+EPOCH_SUMMARY {"epoch": 23, "AP50": {"0": 0.4848504731760781, "1": 0.8657405304240154, "2": 0.9270719764272835, "3": 0.7747918896604552, "4": 0.7000961215257486, "5": 0.9456002656062964}, "AP50_95": {"0": 0.17759035690092762, "1": 0.46212688947359115, "2": 0.5980727147576685, "3": 0.4582243120002397, "4": 0.3265644579647494, "5": 0.5878571475222938}, "weak_score": 0.5924732973509134, "metrics": {"metrics/precision(B)": 0.78157, "metrics/recall(B)": 0.73258, "metrics/mAP50(B)": 0.78303, "metrics/mAP50-95(B)": 0.43507, "val/box_loss": 1.565, "val/cls_loss": 1.09467, "val/dfl_loss": 1.66626}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.792       0.72       0.78      0.434
+EPOCH_SUMMARY {"epoch": 24, "AP50": {"0": 0.49296120381410913, "1": 0.8602343533556087, "2": 0.9324124436705081, "3": 0.7632161792091832, "4": 0.6814573258798295, "5": 0.9511364036870212}, "AP50_95": {"0": 0.18616665068615432, "1": 0.46747728297605134, "2": 0.5982114619095916, "3": 0.4437397855726605, "4": 0.3159138508391035, "5": 0.5920721641248357}, "weak_score": 0.5872092648469693, "metrics": {"metrics/precision(B)": 0.79182, "metrics/recall(B)": 0.71994, "metrics/mAP50(B)": 0.78024, "metrics/mAP50-95(B)": 0.43393, "val/box_loss": 1.5515, "val/cls_loss": 1.09329, "val/dfl_loss": 1.6656}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.794      0.717      0.784      0.426
+EPOCH_SUMMARY {"epoch": 25, "AP50": {"0": 0.4969776740393076, "1": 0.8668442720292145, "2": 0.9300930721930186, "3": 0.7673389152960673, "4": 0.6833021640857737, "5": 0.9583737715043684}, "AP50_95": {"0": 0.17402678770487728, "1": 0.45828935371759166, "2": 0.5941515293060604, "3": 0.4341376400225564, "4": 0.31531726561780676, "5": 0.5819381465375933}, "weak_score": 0.5901399190625407, "metrics": {"metrics/precision(B)": 0.79359, "metrics/recall(B)": 0.7175, "metrics/mAP50(B)": 0.78382, "metrics/mAP50-95(B)": 0.42631, "val/box_loss": 1.5715, "val/cls_loss": 1.10982, "val/dfl_loss": 1.6882}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.811      0.713      0.781      0.426
+EPOCH_SUMMARY {"epoch": 26, "AP50": {"0": 0.48982457770408877, "1": 0.8635246763661264, "2": 0.9195785682150752, "3": 0.7737094006506046, "4": 0.6814389073118251, "5": 0.958613150116203}, "AP50_95": {"0": 0.18898250358750884, "1": 0.456979592894551, "2": 0.5966592225503935, "3": 0.4215153172212852, "4": 0.31678617303669526, "5": 0.5758318837139491}, "weak_score": 0.5856317425079569, "metrics": {"metrics/precision(B)": 0.81083, "metrics/recall(B)": 0.71253, "metrics/mAP50(B)": 0.78111, "metrics/mAP50-95(B)": 0.42613, "val/box_loss": 1.57933, "val/cls_loss": 1.1, "val/dfl_loss": 1.68314}}
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all        179        416      0.823      0.717      0.784      0.433
+[34m[1mEarlyStopping: [0mTraining stopped early as no improvement observed in last 15 epochs. Best results observed at epoch 12, best model saved as best.pt.
+To update EarlyStopping(patience=15) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+EPOCH_SUMMARY {"epoch": 27, "AP50": {"0": 0.5243826370774316, "1": 0.8431939790674217, "2": 0.9202777203662681, "3": 0.7535890879363268, "4": 0.7123332662326894, "5": 0.9530796155687359}, "AP50_95": {"0": 0.1888858354870475, "1": 0.45113348416438265, "2": 0.6091620970650979, "3": 0.42672248193758094, "4": 0.3311823461938279, "5": 0.5938286832894232}, "weak_score": 0.6183579516550606, "metrics": {"metrics/precision(B)": 0.82328, "metrics/recall(B)": 0.71738, "metrics/mAP50(B)": 0.78448, "metrics/mAP50-95(B)": 0.43349, "val/box_loss": 1.5653, "val/cls_loss": 1.09735, "val/dfl_loss": 1.6824}}
+
+27 epochs completed in 0.114 hours.
+Optimizer stripped from E:\FPGAyz\yolo_retrain_originals_20261028\training\weights\last.pt, 6.2MB
+Optimizer stripped from E:\FPGAyz\yolo_retrain_originals_20261028\training\weights\best.pt, 6.2MB
+
+Validating E:\FPGAyz\yolo_retrain_originals_20261028\training\weights\best.pt...
+Ultralytics 8.3.160  Python-3.12.14 torch-2.6.0+cu124 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+Model summary (fused): 72 layers, 3,006,818 parameters, 0 gradients, 8.1 GFLOPs
+                   all        179        416      0.797      0.697      0.772      0.439
+                             27         63       0.74      0.317      0.502      0.188
+                             36         83      0.836      0.771      0.846      0.455
+                             43        114      0.838      0.895      0.927      0.609
+                             29         46       0.85      0.696      0.751      0.452
+                          31         64      0.637      0.547       0.65      0.322
+                             25         46      0.881      0.957      0.957      0.608
+Speed: 0.2ms preprocess, 1.2ms inference, 0.0ms loss, 1.2ms postprocess per image
+Results saved to [1mE:\FPGAyz\yolo_retrain_originals_20261028\training[0m
+COMPLETED E:\FPGAyz\yolo_retrain_originals_20261028\comparison.json

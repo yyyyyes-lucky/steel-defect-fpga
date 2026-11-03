@@ -1,0 +1,4413 @@
+{
+  "schema": "p2_f3_check/1.0",
+  "pass": true,
+  "completed": true,
+  "hardware_session_safe": true,
+  "errors": [],
+  "integrity": {
+    "manifest_sha256": "9f6a0c2acc1687331895b556ad024ffe32145b1a8808cc2061afc95873bace23",
+    "qualified_base": {
+      "candidate_manifest_sha256": "b166cf580e4bc403dcb8a3ba77270d86dc33c5f28df620e2fb161322035084db",
+      "candidate_files": {
+        "dependency_lock.json": "255d0df8fb47234eabaa3db2a401a5a2c449a90f96fa4fce8831b36cfa7a6d57",
+        "generated_paths.py": "ebfd5c3b8c7e2130b4d6b0572202fded24e6a228b978a65d42c4df52712446b5",
+        "generation_check.json": "7b22305b4d5a23e9f6ed69360c0c69aa30b03f3974a4959aba0386f56b2441c5",
+        "host_qa.json": "19822069f7e1d9d1c58cbf78391c73be8714fc450190327e6c4635e5f0a45534",
+        "integration_context.py": "7ca8bd61dd1f67801c45410eecae099f84597aba31e8c24e9676f2469827c135",
+        "integration_kernels.py": "9d2c48aad4a0ecf712410c8d6d7153e06f69951e3a752154e0ef9aae16c3ae73",
+        "integration_runner.py": "a5384dc44cc1349190c00d76272f9a270c2f99892e83a4367a23b96bb2f24d62",
+        "readme_zh.md": "c30a9b2f5c33b9782954d54b94503f96fa27de17bc68abaab24449947dcba2b3",
+        "source_changes.diff": "2a581c4a3117624da6fa5ffc64a89315434762bf4313a7b373a3fb8989eaebfd",
+        "test_integration.py": "5d81459bb25ebd0658212590794d942a2982b5f9dfaca6486862eb25ecebbd21",
+        "reference/run_q8_path_integration.template.ipynb": "dffa6ba53a6ee6b35d276690f47e1a32a810733a6e4a35284780ab09adfdaa9e"
+      },
+      "dependency_lock": {
+        "steel_binary_ops_v8_experiment_20261022/baseline/board/dual_features.py": "0fe9b6b649835c815ebd93613435c8e07f47b52ca528c8ff9304feb9f2d6ae8d",
+        "steel_binary_ops_v8_experiment_20261022/baseline/runtime/roi_runtime_portable_v31.py": "325268431b193fe817acc4d41cb2767c13f909b56ab2acfd601a1b522e5d463c",
+        "steel_runtime_v10_candidate_20261025/manifest.json": "972f9c78ef3b4a9447f09663dac2bda7898e4de0f293dab1bb011403f979c269",
+        "steel_runtime_v10_candidate_20261025/runtime_v10.py": "addfb075a95e7e7cca383f90e74f5b3a6b6c35c84df4ac60edc29ffe92aefb7d"
+      },
+      "v10_integrity": {
+        "package": "/home/xilinx/jupyter_notebooks/q8_dual_test/steel_gaussian_v10_board_20261023",
+        "manifest_sha256": "bd5037126dc03acdbb8819fbc583e9d6e664025c29e1484cc7a7f373bc4d22c0",
+        "new_bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+        "new_hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362",
+        "daily_integrity": {
+          "version": "steel_runtime_v9_1_qualified_20261023",
+          "entry_manifest_sha256": "2f4fb9b8627642a325420c94dced6ee58ef6e584b2c63688882162d350e1457d",
+          "entry_package": "/home/xilinx/jupyter_notebooks/q8_dual_test/steel_runtime_v9_1_qualified_20261023",
+          "v9_integrity": {
+            "source_package": "/home/xilinx/jupyter_notebooks/q8_dual_test/steel_binary_ops_v8_experiment_20261022",
+            "package": "/home/xilinx/jupyter_notebooks/q8_dual_test/steel_roi_blur3_v9_board_20261023",
+            "manifest_sha256": "c4b62bda0185108f7dac1139c403ceecece7482f1f0c7f114a685fe1502713ce",
+            "source_integrity": {
+              "release_manifest_sha256": "850875f139576dbb5e6f8958a21ce986357ffafe288950de942408a5cc94f054",
+              "new_bit_sha256": "49586aa08f01c7eef6452439463794f0fa042c220ae8a0af51ab80cd7e3c7f91",
+              "new_hwh_sha256": "8ad01169fc0c1ccfac44d118f7fbe8b2fd23718df340a76a53c1b8e79d6f17b5",
+              "baseline_hashes": {
+                "bit": "54b3cf3f2d13405f23b6559fc4305f3d36c3f898d7691ef4450765cd7947ddb1",
+                "hwh": "ca2209c49e0ab6255b41171cafed569a03cc3834bd77dd459d555d870f4fbc6e"
+              },
+              "verified_file_count": 242
+            },
+            "hardware_contract": {
+              "addresses": {
+                "axi_dma_0": 1077936128,
+                "axi_dma_sobel": 1078001664,
+                "axi_dma_dark": 1078067200,
+                "axi_dma_ellipse": 1078132736,
+                "axi_dma_blur3": 1078198272,
+                "gaussian_row_q30_0": 1136656384,
+                "ellipse7_0": 1136721920,
+                "blur3_0": 1136787456
+              },
+              "registers": {
+                "CTRL": 0,
+                "GIER": 4,
+                "IP_IER": 8,
+                "IP_ISR": 12,
+                "height": 16,
+                "width": 24,
+                "status": 32,
+                "status_ctrl": 36
+              },
+              "dma_parameters": {
+                "C_INCLUDE_SG": 0,
+                "C_M_AXIS_MM2S_TDATA_WIDTH": 32,
+                "C_SG_LENGTH_WIDTH": 26,
+                "C_S_AXIS_S2MM_TDATA_WIDTH": 32
+              }
+            },
+            "v9_bit_sha256": "b11e91fb9f5cea2ea4ba0264c9e8aa8942e9548f677d49ccbbd94096b4d953b6",
+            "v9_hwh_sha256": "7dcbef385f222953f6c46dae9ba8520c881465996c8089f3b1c636b6bfcb5e7f"
+          },
+          "algorithm_acceptance": "Combined full184/403 plus 3 supplemental passed; representative 60/60 pairs faster",
+          "software_version": "v9.1",
+          "hardware_version": "v9",
+          "entrypoint_board_stability": "pending until this entry is exercised on board"
+        },
+        "environment": {
+          "opencv": "4.5.4",
+          "numpy": "1.21.5"
+        }
+      }
+    }
+  },
+  "frames": [
+    {
+      "case": "class_0",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 568.315316000735,
+      "context_ms": 0.36847900082648266,
+      "pipeline_plus_context_ms": 568.6837950015615,
+      "call_wall_including_existing_oracle_ms": 571.0028600005899,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 25.021883000590606,
+          "dma_completion_observed_ms": {
+            "sobel": 4.1259439985879,
+            "q8": 4.7701779985800385
+          },
+          "prepare_dma_and_copy_ms": 50.94843000006222
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.900197,
+          "total_compute_ms": 482.613002,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.698363,
+            "sobel_prepare_ms": 0.018671,
+            "local_std_sigma2_ms": 0.00576,
+            "local_std_sigma4_ms": 16.0908,
+            "inclusion_dark_response_ms": 0.006726,
+            "broad_dark_response_ms": 0.014855
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 427.041722,
+              "mean_ms": 213.520861,
+              "max_ms": 219.165458
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 568.315316000735,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 627.804447998642,
+      "context_ms": 0.31741399834572803,
+      "pipeline_plus_context_ms": 628.1218619969877,
+      "call_wall_including_existing_oracle_ms": 630.4982999990898,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.308929001330398,
+          "dma_completion_observed_ms": {
+            "sobel": 4.632160000255681,
+            "q8": 5.056313999375561
+          },
+          "prepare_dma_and_copy_ms": 33.97518800011312
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 333.809778,
+          "total_compute_ms": 564.605033,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.024339,
+            "sobel_prepare_ms": 0.019785,
+            "local_std_sigma2_ms": 0.005939,
+            "local_std_sigma4_ms": 16.157514,
+            "inclusion_dark_response_ms": 316.489741,
+            "broad_dark_response_ms": 0.024031
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 219.62686,
+              "mean_ms": 54.906715,
+              "max_ms": 133.459673
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 627.804447998642,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 857.2080719986843,
+      "context_ms": 0.37187099951552227,
+      "pipeline_plus_context_ms": 857.5799429981998,
+      "call_wall_including_existing_oracle_ms": 5981.140293000863,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 6.032751000020653,
+          "dma_completion_observed_ms": {
+            "sobel": 4.395334999571787,
+            "q8": 4.835858000660664
+          },
+          "prepare_dma_and_copy_ms": 33.61681199930899
+        },
+        "gaussian_response_ms": 338.5837290006748,
+        "fixed_oracle_ms_excluded_from_pipeline": 5086.099180000019,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 356.210504,
+          "total_compute_ms": 794.133137,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.815649,
+            "sobel_prepare_ms": 0.019514,
+            "local_std_sigma2_ms": 0.005933,
+            "local_std_sigma4_ms": 16.643699,
+            "inclusion_dark_response_ms": 0.006511,
+            "broad_dark_response_ms": 338.644264
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 420.108615,
+              "mean_ms": 140.036205,
+              "max_ms": 204.295427
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 857.2080719986843,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 2.9848310005036183,
+            "launch_dma_core_wait_ms": 2.1527999997488223,
+            "invalidate_copy_ms": 0.4883760011580307,
+            "call_ms": 5.626007001410471
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.6964429998770356,
+            "launch_dma_core_wait_ms": 1.8505850002838997,
+            "invalidate_copy_ms": 0.4241229999024654,
+            "call_ms": 4.971151000063401
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.2052249987609684,
+            "launch_dma_core_wait_ms": 1.5474830015591579,
+            "invalidate_copy_ms": 0.30399299976124894,
+            "call_ms": 4.056701000081375
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 251.81465800051228,
+      "context_ms": 0.37795099888171535,
+      "pipeline_plus_context_ms": 252.192608999394,
+      "call_wall_including_existing_oracle_ms": 254.4067750004615,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.0902950006275205,
+          "dma_completion_observed_ms": {
+            "sobel": 5.189612998947268,
+            "q8": 5.253101999187493
+          },
+          "prepare_dma_and_copy_ms": 32.26326100048027
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.516473,
+          "total_compute_ms": 190.34043,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.720276,
+            "sobel_prepare_ms": 0.019932,
+            "local_std_sigma2_ms": 0.005926,
+            "local_std_sigma4_ms": 16.679545,
+            "inclusion_dark_response_ms": 0.006695,
+            "broad_dark_response_ms": 0.015551
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 146.698326,
+              "mean_ms": 73.349163,
+              "max_ms": 108.383938
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 251.81465800051228,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 510.7247809992259,
+      "context_ms": 0.30926699946576264,
+      "pipeline_plus_context_ms": 511.0340479986917,
+      "call_wall_including_existing_oracle_ms": 5557.723732999875,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.19964299928688,
+          "dma_completion_observed_ms": {
+            "sobel": 4.860314000325161,
+            "q8": 4.919367000184138
+          },
+          "prepare_dma_and_copy_ms": 31.44636300021375
+        },
+        "gaussian_response_ms": 335.3996300011204,
+        "fixed_oracle_ms_excluded_from_pipeline": 5008.976127999631,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 351.836762,
+          "total_compute_ms": 450.375353,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.394412,
+            "sobel_prepare_ms": 0.019846,
+            "local_std_sigma2_ms": 0.005772,
+            "local_std_sigma4_ms": 15.879551,
+            "inclusion_dark_response_ms": 0.006178,
+            "broad_dark_response_ms": 335.459981
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 94.254597,
+              "mean_ms": 94.254597,
+              "max_ms": 94.254597
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 510.7247809992259,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 332.08867700159317,
+      "context_ms": 0.3017659983015619,
+      "pipeline_plus_context_ms": 332.39044299989473,
+      "call_wall_including_existing_oracle_ms": 334.50070099934237,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.542072999058291,
+          "dma_completion_observed_ms": {
+            "sobel": 4.143317000853131,
+            "q8": 4.8616309995850315
+          },
+          "prepare_dma_and_copy_ms": 34.191032998933224
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 18.08605,
+          "total_compute_ms": 268.739169,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.710382,
+            "sobel_prepare_ms": 0.020647,
+            "local_std_sigma2_ms": 0.005754,
+            "local_std_sigma4_ms": 17.256695,
+            "inclusion_dark_response_ms": 0.006603,
+            "broad_dark_response_ms": 0.015047
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 240.004781,
+              "mean_ms": 120.002391,
+              "max_ms": 153.486769
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 332.08867700159317,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "warmup",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 60.266639999099425,
+      "context_ms": 7.8806950004945975,
+      "pipeline_plus_context_ms": 68.14733499959402,
+      "call_wall_including_existing_oracle_ms": 70.1093719999335,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.302468000081717,
+          "dma_completion_observed_ms": {
+            "sobel": 4.157809000389534,
+            "q8": 4.804381000212743
+          },
+          "prepare_dma_and_copy_ms": 31.276702000468504
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.244542,
+          "total_compute_ms": 0.318142,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.141662,
+            "sobel_prepare_ms": 0.016837,
+            "local_std_sigma2_ms": 0.005212,
+            "local_std_sigma4_ms": 0.004178,
+            "inclusion_dark_response_ms": 0.005126,
+            "broad_dark_response_ms": 0.013477
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 60.266639999099425,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 472.0992180009489,
+      "context_ms": 0.30524300018441863,
+      "pipeline_plus_context_ms": 472.4044610011333,
+      "call_wall_including_existing_oracle_ms": 474.6255989994097,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 10.758166001323843,
+          "dma_completion_observed_ms": {
+            "sobel": 4.319870999097475,
+            "q8": 4.7013479997986
+          },
+          "prepare_dma_and_copy_ms": 35.56723099973169
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.85064,
+          "total_compute_ms": 407.864209,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.628129,
+            "sobel_prepare_ms": 0.018658,
+            "local_std_sigma2_ms": 0.00568,
+            "local_std_sigma4_ms": 16.111459,
+            "inclusion_dark_response_ms": 0.006831,
+            "broad_dark_response_ms": 0.014578
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 365.465513,
+              "mean_ms": 182.732756,
+              "max_ms": 214.379895
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 472.0992180009489,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 564.369132000138,
+      "context_ms": 0.2988860014738748,
+      "pipeline_plus_context_ms": 564.6680180016119,
+      "call_wall_including_existing_oracle_ms": 567.044891000478,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.148222000570968,
+          "dma_completion_observed_ms": {
+            "sobel": 4.925834000459872,
+            "q8": 4.988713999409811
+          },
+          "prepare_dma_and_copy_ms": 33.34347700001672
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 372.514111,
+          "total_compute_ms": 500.791612,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.037871,
+            "sobel_prepare_ms": 0.019852,
+            "local_std_sigma2_ms": 0.005884,
+            "local_std_sigma4_ms": 17.25704,
+            "inclusion_dark_response_ms": 354.077101,
+            "broad_dark_response_ms": 0.023218
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 116.020405,
+              "mean_ms": 29.005101,
+              "max_ms": 35.594873
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 564.369132000138,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 861.4754879999964,
+      "context_ms": 0.3562279980542371,
+      "pipeline_plus_context_ms": 861.8317159980506,
+      "call_wall_including_existing_oracle_ms": 6204.007787999217,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.677015000808751,
+          "dma_completion_observed_ms": {
+            "sobel": 4.2425539995747386,
+            "q8": 4.954227999405703
+          },
+          "prepare_dma_and_copy_ms": 33.50027700071223
+        },
+        "gaussian_response_ms": 341.76933499838924,
+        "fixed_oracle_ms_excluded_from_pipeline": 5302.956182998969,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 359.424326,
+          "total_compute_ms": 798.466738,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.819311,
+            "sobel_prepare_ms": 0.019717,
+            "local_std_sigma2_ms": 0.00576,
+            "local_std_sigma4_ms": 16.665859,
+            "inclusion_dark_response_ms": 0.006609,
+            "broad_dark_response_ms": 341.831865
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 420.7343,
+              "mean_ms": 140.244767,
+              "max_ms": 197.983679
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 861.4754879999964,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 3.100664000157849,
+            "launch_dma_core_wait_ms": 2.154382000298938,
+            "invalidate_copy_ms": 0.5036919992562616,
+            "call_ms": 5.758737999713048
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.801839998937794,
+            "launch_dma_core_wait_ms": 1.85065200093959,
+            "invalidate_copy_ms": 0.4150770000705961,
+            "call_ms": 5.06756899994798
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.214577998529421,
+            "launch_dma_core_wait_ms": 1.5304000007745344,
+            "invalidate_copy_ms": 0.3878839997923933,
+            "call_ms": 4.132861999096349
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 253.2595869997749,
+      "context_ms": 0.34740299997793045,
+      "pipeline_plus_context_ms": 253.60698999975284,
+      "call_wall_including_existing_oracle_ms": 256.1077099999238,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.8867560005164705,
+          "dma_completion_observed_ms": {
+            "sobel": 4.4334529993648175,
+            "q8": 4.8155139993468765
+          },
+          "prepare_dma_and_copy_ms": 33.81159300079162
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.457717,
+          "total_compute_ms": 190.201784,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.64608,
+            "sobel_prepare_ms": 0.02043,
+            "local_std_sigma2_ms": 0.006234,
+            "local_std_sigma4_ms": 16.695144,
+            "inclusion_dark_response_ms": 0.007299,
+            "broad_dark_response_ms": 0.01517
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 146.703895,
+              "mean_ms": 73.351947,
+              "max_ms": 108.337065
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 253.2595869997749,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 512.2862640000676,
+      "context_ms": 0.3169659994455287,
+      "pipeline_plus_context_ms": 512.6032299995131,
+      "call_wall_including_existing_oracle_ms": 5590.802773000178,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.160203000239562,
+          "dma_completion_observed_ms": {
+            "sobel": 4.349162998551037,
+            "q8": 4.722676998426323
+          },
+          "prepare_dma_and_copy_ms": 31.492074000198045
+        },
+        "gaussian_response_ms": 338.06610999999975,
+        "fixed_oracle_ms_excluded_from_pipeline": 5041.679383999508,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 354.727058,
+          "total_compute_ms": 451.898855,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.399557,
+            "sobel_prepare_ms": 0.020467,
+            "local_std_sigma2_ms": 0.005877,
+            "local_std_sigma4_ms": 16.096295,
+            "inclusion_dark_response_ms": 0.006837,
+            "broad_dark_response_ms": 338.126449
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 93.077877,
+              "mean_ms": 93.077877,
+              "max_ms": 93.077877
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 512.2862640000676,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 312.25980300041556,
+      "context_ms": 0.29711499882978387,
+      "pipeline_plus_context_ms": 312.55691799924534,
+      "call_wall_including_existing_oracle_ms": 314.6331629995984,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.948990001139464,
+          "dma_completion_observed_ms": {
+            "sobel": 4.5921909986645915,
+            "q8": 4.6557299992855405
+          },
+          "prepare_dma_and_copy_ms": 32.09386399976211
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.761465,
+          "total_compute_ms": 251.468203,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.801754,
+            "sobel_prepare_ms": 0.021403,
+            "local_std_sigma2_ms": 0.005877,
+            "local_std_sigma4_ms": 15.842061,
+            "inclusion_dark_response_ms": 0.00661,
+            "broad_dark_response_ms": 0.014892
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 224.379385,
+              "mean_ms": 112.189693,
+              "max_ms": 145.55088
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 312.25980300041556,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "measured",
+      "block": 0,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 61.58022799900209,
+      "context_ms": 0.3028560004167957,
+      "pipeline_plus_context_ms": 61.883083999418886,
+      "call_wall_including_existing_oracle_ms": 63.765736000277684,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.471851999071077,
+          "dma_completion_observed_ms": {
+            "sobel": 4.168572000708082,
+            "q8": 4.875409000305808
+          },
+          "prepare_dma_and_copy_ms": 31.929920000038692
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.248609,
+          "total_compute_ms": 0.326227,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.141901,
+            "sobel_prepare_ms": 0.018037,
+            "local_std_sigma2_ms": 0.005354,
+            "local_std_sigma4_ms": 0.004073,
+            "inclusion_dark_response_ms": 0.005766,
+            "broad_dark_response_ms": 0.013415
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 61.58022799900209,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "boundary_scale259",
+      "phase": "coverage",
+      "block": -1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 1023.6558199994761,
+      "context_ms": 0.7904859994596336,
+      "pipeline_plus_context_ms": 1024.4463059989357,
+      "call_wall_including_existing_oracle_ms": 6386.94200899954,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 4
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 6.529956999656861,
+          "dma_completion_observed_ms": {
+            "sobel": 4.179428000497865,
+            "q8": 4.922129000988207
+          },
+          "prepare_dma_and_copy_ms": 31.617139000445604
+        },
+        "gaussian_response_ms": 344.43811100027233,
+        "fixed_oracle_ms_excluded_from_pipeline": 5323.0921710000985,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 362.315328,
+          "total_compute_ms": 962.576035,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.018886,
+            "sobel_prepare_ms": 0.019532,
+            "local_std_sigma2_ms": 0.006301,
+            "local_std_sigma4_ms": 16.689667,
+            "inclusion_dark_response_ms": 0.006843,
+            "broad_dark_response_ms": 344.497611
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 4,
+              "total_ms": 569.317119,
+              "mean_ms": 142.32928,
+              "max_ms": 255.548301
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 1023.6558199994761,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "frame_143",
+      "phase": "coverage",
+      "block": -1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 663.5962269992888,
+      "context_ms": 0.8344489997398341,
+      "pipeline_plus_context_ms": 664.4306759990286,
+      "call_wall_including_existing_oracle_ms": 5763.957867999125,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 12.854805998358643,
+          "dma_completion_observed_ms": {
+            "sobel": 4.223871001158841,
+            "q8": 4.873483001574641
+          },
+          "prepare_dma_and_copy_ms": 36.28121199835732
+        },
+        "gaussian_response_ms": 343.0719570005749,
+        "fixed_oracle_ms_excluded_from_pipeline": 5060.4597220008145,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 361.177415,
+          "total_compute_ms": 597.891083,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.713287,
+            "sobel_prepare_ms": 0.02064,
+            "local_std_sigma2_ms": 0.005957,
+            "local_std_sigma4_ms": 17.225028,
+            "inclusion_dark_response_ms": 0.006763,
+            "broad_dark_response_ms": 343.129907
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 2,
+              "total_ms": 226.687115,
+              "mean_ms": 113.343558,
+              "max_ms": 128.941785
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 663.5962269992888,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 485.89414700109046,
+      "context_ms": 0.770128999647568,
+      "pipeline_plus_context_ms": 486.664276000738,
+      "call_wall_including_existing_oracle_ms": 489.1117959996336,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.618941999680828,
+          "dma_completion_observed_ms": {
+            "sobel": 4.236301001583342,
+            "q8": 4.968473000189988
+          },
+          "prepare_dma_and_copy_ms": 32.15413500038267
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.545846,
+          "total_compute_ms": 424.421722,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.64112,
+            "sobel_prepare_ms": 0.020055,
+            "local_std_sigma2_ms": 0.005748,
+            "local_std_sigma4_ms": 16.788006,
+            "inclusion_dark_response_ms": 0.006874,
+            "broad_dark_response_ms": 0.015335
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 380.291033,
+              "mean_ms": 190.145516,
+              "max_ms": 223.393218
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 485.89414700109046,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 508.882915999493,
+      "context_ms": 0.8342890014318982,
+      "pipeline_plus_context_ms": 509.7172050009249,
+      "call_wall_including_existing_oracle_ms": 512.3043740004505,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 4
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.258191000801162,
+          "dma_completion_observed_ms": {
+            "sobel": 4.327962999013835,
+            "q8": 4.702000000179396
+          },
+          "prepare_dma_and_copy_ms": 32.11477500008186
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 325.416233,
+          "total_compute_ms": 447.178934,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.00755,
+            "sobel_prepare_ms": 0.01976,
+            "local_std_sigma2_ms": 0.005785,
+            "local_std_sigma4_ms": 15.98864,
+            "inclusion_dark_response_ms": 308.285132,
+            "broad_dark_response_ms": 0.022461
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 110.367945,
+              "mean_ms": 27.591986,
+              "max_ms": 33.74976
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 508.882915999493,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 891.0505769999872,
+      "context_ms": 0.7644249999430031,
+      "pipeline_plus_context_ms": 891.8150019999302,
+      "call_wall_including_existing_oracle_ms": 5954.7526679998555,
+      "fusion": {
+        "eligible_rois": 2,
+        "fallback_class2_rois": 1,
+        "selector_calls": [
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 9,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.3176610011432786,
+            "launch_dma_core_wait_ms": 20.570578999468125,
+            "invalidate_decode_ms": 7.478608999008429,
+            "call_ms": 30.366848999619833
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 10,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.0368929999676766,
+            "launch_dma_core_wait_ms": 26.562572000329965,
+            "invalidate_decode_ms": 7.764800000586547,
+            "call_ms": 36.36426500088419
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 11,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.6831200009619351,
+            "launch_dma_core_wait_ms": 8.974947999377036,
+            "invalidate_decode_ms": 3.8886580005055293,
+            "call_ms": 14.546726000844501
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 12,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.5669539989175973,
+            "launch_dma_core_wait_ms": 9.633686000597663,
+            "invalidate_decode_ms": 3.7879009996686364,
+            "call_ms": 14.988540999183897
+          }
+        ],
+        "ps_ccl_calls_deleted": 10,
+        "descriptor_calls": 3
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.185699001231114,
+          "dma_completion_observed_ms": {
+            "sobel": 4.791538000063156,
+            "q8": 4.8518339990550885
+          },
+          "prepare_dma_and_copy_ms": 30.117551001239917
+        },
+        "gaussian_response_ms": 341.0320300008607,
+        "fixed_oracle_ms_excluded_from_pipeline": 5026.068496999869,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 358.646,
+          "total_compute_ms": 831.591624,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.820653,
+            "sobel_prepare_ms": 0.01997,
+            "local_std_sigma2_ms": 0.00592,
+            "local_std_sigma4_ms": 16.62112,
+            "inclusion_dark_response_ms": 0.006769,
+            "broad_dark_response_ms": 341.096535
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 454.309821,
+              "mean_ms": 151.436607,
+              "max_ms": 199.358258
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 891.0505769999872,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 3.111968999292003,
+            "launch_dma_core_wait_ms": 2.15432600089116,
+            "invalidate_copy_ms": 0.5098950005049119,
+            "call_ms": 5.776190000688075
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.6547200013737893,
+            "launch_dma_core_wait_ms": 1.985709999644314,
+            "invalidate_copy_ms": 0.41283700011263136,
+            "call_ms": 5.053267001130735
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.036825000686804,
+            "launch_dma_core_wait_ms": 1.4608860001317225,
+            "invalidate_copy_ms": 0.29240599906188436,
+            "call_ms": 3.7901169998804107
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 248.79758099996252,
+      "context_ms": 0.7579379998787772,
+      "pipeline_plus_context_ms": 249.5555189998413,
+      "call_wall_including_existing_oracle_ms": 252.11381500048446,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.298953998542856,
+          "dma_completion_observed_ms": {
+            "sobel": 4.41694100118184,
+            "q8": 4.807360000995686
+          },
+          "prepare_dma_and_copy_ms": 32.065697998405085
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.428757,
+          "total_compute_ms": 187.416597,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.648818,
+            "sobel_prepare_ms": 0.019132,
+            "local_std_sigma2_ms": 0.005767,
+            "local_std_sigma4_ms": 16.664665,
+            "inclusion_dark_response_ms": 0.006818,
+            "broad_dark_response_ms": 0.015231
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 144.186709,
+              "mean_ms": 72.093354,
+              "max_ms": 105.733385
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 248.79758099996252,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 521.2735000004614,
+      "context_ms": 0.9138269997492898,
+      "pipeline_plus_context_ms": 522.1873270002106,
+      "call_wall_including_existing_oracle_ms": 5896.552273999987,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 1
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.370270999264903,
+          "dma_completion_observed_ms": {
+            "sobel": 4.61202500082436,
+            "q8": 4.67680000110704
+          },
+          "prepare_dma_and_copy_ms": 30.686984999192646
+        },
+        "gaussian_response_ms": 341.70866400017985,
+        "fixed_oracle_ms_excluded_from_pipeline": 5335.122145999776,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 358.893446,
+          "total_compute_ms": 460.98331,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.3928,
+            "sobel_prepare_ms": 0.020517,
+            "local_std_sigma2_ms": 0.006147,
+            "local_std_sigma4_ms": 16.611643,
+            "inclusion_dark_response_ms": 0.007484,
+            "broad_dark_response_ms": 341.780314
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 97.715704,
+              "mean_ms": 97.715704,
+              "max_ms": 97.715704
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 521.2735000004614,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 317.9290400003083,
+      "context_ms": 0.8625660011603031,
+      "pipeline_plus_context_ms": 318.7916060014686,
+      "call_wall_including_existing_oracle_ms": 321.1227190004138,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.238430998768308,
+          "dma_completion_observed_ms": {
+            "sobel": 4.336271000283887,
+            "q8": 4.710725999757415
+          },
+          "prepare_dma_and_copy_ms": 32.37005600021803
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.806431,
+          "total_compute_ms": 256.94288,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.744659,
+            "sobel_prepare_ms": 0.022117,
+            "local_std_sigma2_ms": 0.005593,
+            "local_std_sigma4_ms": 15.945422,
+            "inclusion_dark_response_ms": 0.006493,
+            "broad_dark_response_ms": 0.014708
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 229.312228,
+              "mean_ms": 114.656114,
+              "max_ms": 148.491089
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 317.9290400003083,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "warmup",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 62.33649199930369,
+      "context_ms": 0.7525839992013061,
+      "pipeline_plus_context_ms": 63.089075998504995,
+      "call_wall_including_existing_oracle_ms": 65.13215399900218,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 0
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.25574199896073,
+          "dma_completion_observed_ms": {
+            "sobel": 4.276160001609242,
+            "q8": 4.646738001611084
+          },
+          "prepare_dma_and_copy_ms": 32.83983400069701
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.24408,
+          "total_compute_ms": 0.31912,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.137618,
+            "sobel_prepare_ms": 0.018406,
+            "local_std_sigma2_ms": 0.005194,
+            "local_std_sigma4_ms": 0.00416,
+            "inclusion_dark_response_ms": 0.005538,
+            "broad_dark_response_ms": 0.013145
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 62.33649199930369,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 482.67219599983946,
+      "context_ms": 0.8211070016841404,
+      "pipeline_plus_context_ms": 483.4933030015236,
+      "call_wall_including_existing_oracle_ms": 485.8316850004485,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.195408999497886,
+          "dma_completion_observed_ms": {
+            "sobel": 4.639779001081479,
+            "q8": 4.701083000327344
+          },
+          "prepare_dma_and_copy_ms": 30.298591000246233
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.372498,
+          "total_compute_ms": 422.957162,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.638658,
+            "sobel_prepare_ms": 0.019624,
+            "local_std_sigma2_ms": 0.006,
+            "local_std_sigma4_ms": 16.618295,
+            "inclusion_dark_response_ms": 0.006609,
+            "broad_dark_response_ms": 0.015212
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 379.367157,
+              "mean_ms": 189.683579,
+              "max_ms": 223.454012
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 482.67219599983946,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 511.2968359990191,
+      "context_ms": 0.7740670007478911,
+      "pipeline_plus_context_ms": 512.070902999767,
+      "call_wall_including_existing_oracle_ms": 514.7760910003853,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 4
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.187291999798617,
+          "dma_completion_observed_ms": {
+            "sobel": 4.297224999390892,
+            "q8": 4.662381999878562
+          },
+          "prepare_dma_and_copy_ms": 31.6967749986361
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 328.727317,
+          "total_compute_ms": 450.11184,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.000585,
+            "sobel_prepare_ms": 0.01832,
+            "local_std_sigma2_ms": 0.005286,
+            "local_std_sigma4_ms": 17.305151,
+            "inclusion_dark_response_ms": 310.284086,
+            "broad_dark_response_ms": 0.023384
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 110.218339,
+              "mean_ms": 27.554585,
+              "max_ms": 33.608443
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 511.2968359990191,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 896.932718998869,
+      "context_ms": 0.8797549999144394,
+      "pipeline_plus_context_ms": 897.8124739987834,
+      "call_wall_including_existing_oracle_ms": 6254.860588000156,
+      "fusion": {
+        "eligible_rois": 2,
+        "fallback_class2_rois": 1,
+        "selector_calls": [
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 13,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.32294799934607,
+            "launch_dma_core_wait_ms": 20.488991000092938,
+            "invalidate_decode_ms": 7.530449000114459,
+            "call_ms": 30.342387999553466
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 14,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.195242999732727,
+            "launch_dma_core_wait_ms": 26.830099001017516,
+            "invalidate_decode_ms": 7.799261000400293,
+            "call_ms": 36.824603001150535
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 15,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 2.0492799994826782,
+            "launch_dma_core_wait_ms": 8.944098000938538,
+            "invalidate_decode_ms": 4.016614999272861,
+            "call_ms": 15.009992999694077
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 16,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.669476998358732,
+            "launch_dma_core_wait_ms": 9.741908001160482,
+            "invalidate_decode_ms": 4.006314000434941,
+            "call_ms": 15.417698999954155
+          }
+        ],
+        "ps_ccl_calls_deleted": 10,
+        "descriptor_calls": 3
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.394387999738683,
+          "dma_completion_observed_ms": {
+            "sobel": 4.407611999340588,
+            "q8": 4.782596999575617
+          },
+          "prepare_dma_and_copy_ms": 31.263279999620863
+        },
+        "gaussian_response_ms": 341.14327399947797,
+        "fixed_oracle_ms_excluded_from_pipeline": 5318.4411860002,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 358.842597,
+          "total_compute_ms": 836.222208,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.822376,
+            "sobel_prepare_ms": 0.02096,
+            "local_std_sigma2_ms": 0.006289,
+            "local_std_sigma4_ms": 16.705686,
+            "inclusion_dark_response_ms": 0.006665,
+            "broad_dark_response_ms": 341.205661
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 458.231243,
+              "mean_ms": 152.743748,
+              "max_ms": 199.169065
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 896.932718998869,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 3.0037540000193985,
+            "launch_dma_core_wait_ms": 2.133525998942787,
+            "invalidate_copy_ms": 0.5143140006111935,
+            "call_ms": 5.651593999573379
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.677071001016884,
+            "launch_dma_core_wait_ms": 1.8593349996081088,
+            "invalidate_copy_ms": 0.4188610000710469,
+            "call_ms": 4.95526700069604
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.1271010009513702,
+            "launch_dma_core_wait_ms": 1.539341999887256,
+            "invalidate_copy_ms": 0.30058499942242634,
+            "call_ms": 3.9670280002610525
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 241.4429910004401,
+      "context_ms": 0.7880249995650956,
+      "pipeline_plus_context_ms": 242.23101600000518,
+      "call_wall_including_existing_oracle_ms": 244.66735399983008,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.093957001416129,
+          "dma_completion_observed_ms": {
+            "sobel": 4.658848998587928,
+            "q8": 5.363322999983211
+          },
+          "prepare_dma_and_copy_ms": 32.15636900131358
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.635637,
+          "total_compute_ms": 180.478824,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.627372,
+            "sobel_prepare_ms": 0.019243,
+            "local_std_sigma2_ms": 0.005742,
+            "local_std_sigma4_ms": 15.895305,
+            "inclusion_dark_response_ms": 0.006806,
+            "broad_dark_response_ms": 0.014622
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 138.593126,
+              "mean_ms": 69.296563,
+              "max_ms": 101.540203
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 241.4429910004401,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 508.5191309990478,
+      "context_ms": 0.7535939985245932,
+      "pipeline_plus_context_ms": 509.27272499757237,
+      "call_wall_including_existing_oracle_ms": 5583.205517999886,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 1
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.34960000065621,
+          "dma_completion_observed_ms": {
+            "sobel": 4.375648999484838,
+            "q8": 4.755624999233987
+          },
+          "prepare_dma_and_copy_ms": 32.60934200079646
+        },
+        "gaussian_response_ms": 333.24393200018676,
+        "fixed_oracle_ms_excluded_from_pipeline": 5037.310268999136,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 349.763009,
+          "total_compute_ms": 446.911673,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.400536,
+            "sobel_prepare_ms": 0.018382,
+            "local_std_sigma2_ms": 0.005526,
+            "local_std_sigma4_ms": 15.956713,
+            "inclusion_dark_response_ms": 0.006707,
+            "broad_dark_response_ms": 333.302547
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 92.968504,
+              "mean_ms": 92.968504,
+              "max_ms": 92.968504
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 508.5191309990478,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 323.17380200038315,
+      "context_ms": 0.7589540018670959,
+      "pipeline_plus_context_ms": 323.93275600225024,
+      "call_wall_including_existing_oracle_ms": 327.64284900076746,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.219033999717794,
+          "dma_completion_observed_ms": {
+            "sobel": 4.434940999999526,
+            "q8": 4.817464001462213
+          },
+          "prepare_dma_and_copy_ms": 32.00737800034403
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.299606,
+          "total_compute_ms": 261.927058,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.634006,
+            "sobel_prepare_ms": 0.019403,
+            "local_std_sigma2_ms": 0.006129,
+            "local_std_sigma4_ms": 16.549157,
+            "inclusion_dark_response_ms": 0.006394,
+            "broad_dark_response_ms": 0.01533
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 233.80331,
+              "mean_ms": 116.901655,
+              "max_ms": 151.421138
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 323.17380200038315,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "measured",
+      "block": 1,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 62.53312599983474,
+      "context_ms": 0.7853899987821933,
+      "pipeline_plus_context_ms": 63.31851599861693,
+      "call_wall_including_existing_oracle_ms": 65.52548199942976,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 0
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.778294999297941,
+          "dma_completion_observed_ms": {
+            "sobel": 4.49286200091592,
+            "q8": 4.875828000876936
+          },
+          "prepare_dma_and_copy_ms": 32.800257999042515
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.330702,
+          "total_compute_ms": 0.424123,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.208905,
+            "sobel_prepare_ms": 0.021101,
+            "local_std_sigma2_ms": 0.005692,
+            "local_std_sigma4_ms": 0.004363,
+            "inclusion_dark_response_ms": 0.006308,
+            "broad_dark_response_ms": 0.01344
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 62.53312599983474,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 465.3376370006299,
+      "context_ms": 0.9087570015253732,
+      "pipeline_plus_context_ms": 466.2463940021553,
+      "call_wall_including_existing_oracle_ms": 468.67446700161963,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.134368999686558,
+          "dma_completion_observed_ms": {
+            "sobel": 4.437908000909374,
+            "q8": 4.81588299953728
+          },
+          "prepare_dma_and_copy_ms": 31.31356300036714
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.73261,
+          "total_compute_ms": 405.121686,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.623274,
+            "sobel_prepare_ms": 0.019341,
+            "local_std_sigma2_ms": 0.005637,
+            "local_std_sigma4_ms": 15.996818,
+            "inclusion_dark_response_ms": 0.006578,
+            "broad_dark_response_ms": 0.015009
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 362.958461,
+              "mean_ms": 181.479231,
+              "max_ms": 213.499495
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 465.3376370006299,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 509.0284670004621,
+      "context_ms": 0.7557790013379417,
+      "pipeline_plus_context_ms": 509.78424600180006,
+      "call_wall_including_existing_oracle_ms": 512.3023190008098,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 4
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.34371699905023,
+          "dma_completion_observed_ms": {
+            "sobel": 4.484806000618846,
+            "q8": 4.8986890014930395
+          },
+          "prepare_dma_and_copy_ms": 30.491305000396096
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 327.169612,
+          "total_compute_ms": 449.215477,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.006603,
+            "sobel_prepare_ms": 0.018868,
+            "local_std_sigma2_ms": 0.005569,
+            "local_std_sigma4_ms": 16.211244,
+            "inclusion_dark_response_ms": 309.815427,
+            "broad_dark_response_ms": 0.023287
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 110.612787,
+              "mean_ms": 27.653197,
+              "max_ms": 33.782184
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 509.0284670004621,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 876.7649530000199,
+      "context_ms": 0.7555020001746016,
+      "pipeline_plus_context_ms": 877.5204550001945,
+      "call_wall_including_existing_oracle_ms": 6038.182164000318,
+      "fusion": {
+        "eligible_rois": 2,
+        "fallback_class2_rois": 1,
+        "selector_calls": [
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 17,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.3080249993654434,
+            "launch_dma_core_wait_ms": 20.364664000226185,
+            "invalidate_decode_ms": 7.168165999246412,
+            "call_ms": 29.84085499883804
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 18,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.075833999697352,
+            "launch_dma_core_wait_ms": 26.78702100092778,
+            "invalidate_decode_ms": 8.019151000553393,
+            "call_ms": 36.882006001178524
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 19,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.7821109995566076,
+            "launch_dma_core_wait_ms": 8.706714001164073,
+            "invalidate_decode_ms": 3.8037659996916773,
+            "call_ms": 14.292591000412358
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 20,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.5830270003789337,
+            "launch_dma_core_wait_ms": 9.670456000094418,
+            "invalidate_decode_ms": 3.8207510006031953,
+            "call_ms": 15.074234001076547
+          }
+        ],
+        "ps_ccl_calls_deleted": 10,
+        "descriptor_calls": 3
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.0501540008554,
+          "dma_completion_observed_ms": {
+            "sobel": 4.79836299928138,
+            "q8": 4.860172999542556
+          },
+          "prepare_dma_and_copy_ms": 30.4732429995056
+        },
+        "gaussian_response_ms": 336.0441900003934,
+        "fixed_oracle_ms_excluded_from_pipeline": 5123.169242000586,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 353.764892,
+          "total_compute_ms": 816.89531,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.82429,
+            "sobel_prepare_ms": 0.019945,
+            "local_std_sigma2_ms": 0.005489,
+            "local_std_sigma4_ms": 16.726191,
+            "inclusion_dark_response_ms": 0.007145,
+            "broad_dark_response_ms": 336.106048
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 444.715686,
+              "mean_ms": 148.238562,
+              "max_ms": 192.756769
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 876.7649530000199,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 2.895101000831346,
+            "launch_dma_core_wait_ms": 2.039932000116096,
+            "invalidate_copy_ms": 0.497175999043975,
+            "call_ms": 5.432208999991417
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.6721779995568795,
+            "launch_dma_core_wait_ms": 1.766270999723929,
+            "invalidate_copy_ms": 0.40604300011182204,
+            "call_ms": 4.8444919993926305
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.020621999690775,
+            "launch_dma_core_wait_ms": 1.4529719992424361,
+            "invalidate_copy_ms": 0.2872180011763703,
+            "call_ms": 3.7608120001095813
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 254.1175749993272,
+      "context_ms": 0.7610459979332518,
+      "pipeline_plus_context_ms": 254.87862099726044,
+      "call_wall_including_existing_oracle_ms": 257.31423899924266,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.171175999450497,
+          "dma_completion_observed_ms": {
+            "sobel": 4.2812609990505734,
+            "q8": 4.995212000721949
+          },
+          "prepare_dma_and_copy_ms": 32.71758199844044
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 19.345138,
+          "total_compute_ms": 192.189058,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.637138,
+            "sobel_prepare_ms": 0.01987,
+            "local_std_sigma2_ms": 0.00557,
+            "local_std_sigma4_ms": 18.594289,
+            "inclusion_dark_response_ms": 0.006504,
+            "broad_dark_response_ms": 0.015348
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 145.770185,
+              "mean_ms": 72.885092,
+              "max_ms": 106.381625
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 254.1175749993272,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 506.3645899990661,
+      "context_ms": 0.8578899996791733,
+      "pipeline_plus_context_ms": 507.22247999874526,
+      "call_wall_including_existing_oracle_ms": 5574.040509000042,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 1
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.26918800137355,
+          "dma_completion_observed_ms": {
+            "sobel": 4.357396999694174,
+            "q8": 4.749285999423591
+          },
+          "prepare_dma_and_copy_ms": 31.9692680004664
+        },
+        "gaussian_response_ms": 331.5255130000878,
+        "fixed_oracle_ms_excluded_from_pipeline": 5029.5288910001545,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 348.240529,
+          "total_compute_ms": 445.413975,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.405219,
+            "sobel_prepare_ms": 0.018658,
+            "local_std_sigma2_ms": 0.005945,
+            "local_std_sigma4_ms": 16.146787,
+            "inclusion_dark_response_ms": 0.006751,
+            "broad_dark_response_ms": 331.585335
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 93.085267,
+              "mean_ms": 93.085267,
+              "max_ms": 93.085267
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 506.3645899990661,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 323.4087869986979,
+      "context_ms": 0.8718339995539282,
+      "pipeline_plus_context_ms": 324.28062099825183,
+      "call_wall_including_existing_oracle_ms": 326.67418499841006,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.540455000300426,
+          "dma_completion_observed_ms": {
+            "sobel": 4.1058219994738465,
+            "q8": 4.820677000680007
+          },
+          "prepare_dma_and_copy_ms": 31.231488999765133
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.48605,
+          "total_compute_ms": 262.876911,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.63941,
+            "sobel_prepare_ms": 0.020191,
+            "local_std_sigma2_ms": 0.005717,
+            "local_std_sigma4_ms": 16.729889,
+            "inclusion_dark_response_ms": 0.006431,
+            "broad_dark_response_ms": 0.015366
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 234.670455,
+              "mean_ms": 117.335228,
+              "max_ms": 152.075323
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 323.4087869986979,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "warmup",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 59.797506999530015,
+      "context_ms": 0.7853240003896644,
+      "pipeline_plus_context_ms": 60.58283099991968,
+      "call_wall_including_existing_oracle_ms": 62.624541998957284,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 0
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.527716999495169,
+          "dma_completion_observed_ms": {
+            "sobel": 4.267772001185222,
+            "q8": 5.021212000428932
+          },
+          "prepare_dma_and_copy_ms": 30.873322999468655
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.241181,
+          "total_compute_ms": 0.314412,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.137858,
+            "sobel_prepare_ms": 0.01664,
+            "local_std_sigma2_ms": 0.005341,
+            "local_std_sigma4_ms": 0.004093,
+            "inclusion_dark_response_ms": 0.00536,
+            "broad_dark_response_ms": 0.013237
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 59.797506999530015,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 491.2624480002705,
+      "context_ms": 0.7630399995832704,
+      "pipeline_plus_context_ms": 492.0254879998538,
+      "call_wall_including_existing_oracle_ms": 494.6370699999534,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.596307001425885,
+          "dma_completion_observed_ms": {
+            "sobel": 4.250424999554525,
+            "q8": 4.955618998792488
+          },
+          "prepare_dma_and_copy_ms": 33.06684900053369
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.497329,
+          "total_compute_ms": 429.119095,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.823237,
+            "sobel_prepare_ms": 0.02187,
+            "local_std_sigma2_ms": 0.00619,
+            "local_std_sigma4_ms": 16.554012,
+            "inclusion_dark_response_ms": 0.006954,
+            "broad_dark_response_ms": 0.015095
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 385.548116,
+              "mean_ms": 192.774058,
+              "max_ms": 229.704233
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 491.2624480002705,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 508.57475599877944,
+      "context_ms": 0.7847690012567909,
+      "pipeline_plus_context_ms": 509.35952500003623,
+      "call_wall_including_existing_oracle_ms": 512.2309350008436,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 4
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.879759999923408,
+          "dma_completion_observed_ms": {
+            "sobel": 4.247655000654049,
+            "q8": 4.631378000340192
+          },
+          "prepare_dma_and_copy_ms": 32.3626579993288
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 325.025267,
+          "total_compute_ms": 446.835624,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.005157,
+            "sobel_prepare_ms": 0.019397,
+            "local_std_sigma2_ms": 0.005452,
+            "local_std_sigma4_ms": 16.012486,
+            "inclusion_dark_response_ms": 307.869864,
+            "broad_dark_response_ms": 0.022664
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 110.610843,
+              "mean_ms": 27.652711,
+              "max_ms": 33.864468
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 508.57475599877944,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 932.2746870002447,
+      "context_ms": 0.8301729994855123,
+      "pipeline_plus_context_ms": 933.1048599997303,
+      "call_wall_including_existing_oracle_ms": 6315.908360000321,
+      "fusion": {
+        "eligible_rois": 2,
+        "fallback_class2_rois": 1,
+        "selector_calls": [
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 21,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.460399999108631,
+            "launch_dma_core_wait_ms": 20.461206000618404,
+            "invalidate_decode_ms": 7.414669998979662,
+            "call_ms": 30.336275998706697
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "minimum": 20,
+            "tag": 22,
+            "status": 0,
+            "input_bytes": 48440,
+            "output_bytes": 48488,
+            "prepare_flush_ms": 2.1620490006171167,
+            "launch_dma_core_wait_ms": 26.616769999236567,
+            "invalidate_decode_ms": 7.966356999531854,
+            "call_ms": 36.74517599938554
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 23,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.7727379999996629,
+            "launch_dma_core_wait_ms": 8.959662000052049,
+            "invalidate_decode_ms": 3.91333499828761,
+            "call_ms": 14.645734998339321
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "minimum": 20,
+            "tag": 24,
+            "status": 0,
+            "input_bytes": 20608,
+            "output_bytes": 20656,
+            "prepare_flush_ms": 1.6461480008729268,
+            "launch_dma_core_wait_ms": 9.77220899949316,
+            "invalidate_decode_ms": 3.9955020001798403,
+            "call_ms": 15.413859000545926
+          }
+        ],
+        "ps_ccl_calls_deleted": 10,
+        "descriptor_calls": 3
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.915366000204813,
+          "dma_completion_observed_ms": {
+            "sobel": 7.083537999278633,
+            "q8": 7.163672999013215
+          },
+          "prepare_dma_and_copy_ms": 32.31889800008503
+        },
+        "gaussian_response_ms": 364.7659319995,
+        "fixed_oracle_ms_excluded_from_pipeline": 5343.319321998933,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 390.439267,
+          "total_compute_ms": 867.088036,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.881458,
+            "sobel_prepare_ms": 0.023729,
+            "local_std_sigma2_ms": 0.006197,
+            "local_std_sigma4_ms": 24.608443,
+            "inclusion_dark_response_ms": 0.008142,
+            "broad_dark_response_ms": 364.832227
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 457.619107,
+              "mean_ms": 152.539702,
+              "max_ms": 199.072418
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 932.2746870002447,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 2.9891320009483024,
+            "launch_dma_core_wait_ms": 2.11399399995571,
+            "invalidate_copy_ms": 0.5767319998994935,
+            "call_ms": 5.679858000803506
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.7988250003545545,
+            "launch_dma_core_wait_ms": 1.8178400005126605,
+            "invalidate_copy_ms": 0.4202210002404172,
+            "call_ms": 5.036886001107632
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.137888999641291,
+            "launch_dma_core_wait_ms": 1.6215080013353145,
+            "invalidate_copy_ms": 0.30295999931695405,
+            "call_ms": 4.062357000293559
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 248.2445909990929,
+      "context_ms": 0.7759070012980374,
+      "pipeline_plus_context_ms": 249.02049800039094,
+      "call_wall_including_existing_oracle_ms": 251.578461000463,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.2446089994191425,
+          "dma_completion_observed_ms": {
+            "sobel": 5.542763001358253,
+            "q8": 5.6047200014290866
+          },
+          "prepare_dma_and_copy_ms": 30.925181999919005
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.49312,
+          "total_compute_ms": 188.131409,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.68635,
+            "sobel_prepare_ms": 0.021372,
+            "local_std_sigma2_ms": 0.006154,
+            "local_std_sigma4_ms": 16.687298,
+            "inclusion_dark_response_ms": 0.006861,
+            "broad_dark_response_ms": 0.01544
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 144.649026,
+              "mean_ms": 72.324513,
+              "max_ms": 106.428116
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 248.2445909990929,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 509.3299990003288,
+      "context_ms": 0.794398998550605,
+      "pipeline_plus_context_ms": 510.12439799887943,
+      "call_wall_including_existing_oracle_ms": 5626.35419399885,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 1
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.208738999906927,
+          "dma_completion_observed_ms": {
+            "sobel": 4.08412900105759,
+            "q8": 4.805212000064785
+          },
+          "prepare_dma_and_copy_ms": 31.926874000419048
+        },
+        "gaussian_response_ms": 334.24716199988325,
+        "fixed_oracle_ms_excluded_from_pipeline": 5079.183967000063,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 350.860867,
+          "total_compute_ms": 448.41494,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.397089,
+            "sobel_prepare_ms": 0.018504,
+            "local_std_sigma2_ms": 0.005908,
+            "local_std_sigma4_ms": 16.055483,
+            "inclusion_dark_response_ms": 0.006301,
+            "broad_dark_response_ms": 334.307231
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 93.369563,
+              "mean_ms": 93.369563,
+              "max_ms": 93.369563
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 509.3299990003288,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 325.4057530011778,
+      "context_ms": 0.7604860020364868,
+      "pipeline_plus_context_ms": 326.1662390032143,
+      "call_wall_including_existing_oracle_ms": 329.6995690016047,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 2
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.028628000829485,
+          "dma_completion_observed_ms": {
+            "sobel": 4.443630999958259,
+            "q8": 4.826615999263595
+          },
+          "prepare_dma_and_copy_ms": 32.44657300092513
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.394757,
+          "total_compute_ms": 263.688129,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.640425,
+            "sobel_prepare_ms": 0.019384,
+            "local_std_sigma2_ms": 0.005982,
+            "local_std_sigma4_ms": 16.640295,
+            "inclusion_dark_response_ms": 0.006714,
+            "broad_dark_response_ms": 0.015114
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 235.689496,
+              "mean_ms": 117.844748,
+              "max_ms": 153.624234
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 325.4057530011778,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "measured",
+      "block": 2,
+      "variant": "f3",
+      "exact": true,
+      "pipeline_ms": 61.71242500022345,
+      "context_ms": 0.7849350004107691,
+      "pipeline_plus_context_ms": 62.49736000063422,
+      "call_wall_including_existing_oracle_ms": 64.61265200050548,
+      "fusion": {
+        "eligible_rois": 0,
+        "fallback_class2_rois": 0,
+        "selector_calls": [],
+        "ps_ccl_calls_deleted": 0,
+        "descriptor_calls": 0
+      },
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.635027001218987,
+          "dma_completion_observed_ms": {
+            "sobel": 4.417993999595637,
+            "q8": 4.78882499919564
+          },
+          "prepare_dma_and_copy_ms": 32.72525500142365
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.23504,
+          "total_compute_ms": 0.306351,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.134167,
+            "sobel_prepare_ms": 0.017163,
+            "local_std_sigma2_ms": 0.005274,
+            "local_std_sigma4_ms": 0.004,
+            "inclusion_dark_response_ms": 0.005963,
+            "broad_dark_response_ms": 0.013028
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 61.71242500022345,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 481.6465040003095,
+      "context_ms": 0.3990399982285453,
+      "pipeline_plus_context_ms": 482.04554399853805,
+      "call_wall_including_existing_oracle_ms": 484.461857999122,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.170819000340998,
+          "dma_completion_observed_ms": {
+            "sobel": 4.188509999949019,
+            "q8": 4.54302700018161
+          },
+          "prepare_dma_and_copy_ms": 28.51345199997013
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.591416,
+          "total_compute_ms": 423.551311,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.661459,
+            "sobel_prepare_ms": 0.020677,
+            "local_std_sigma2_ms": 0.006222,
+            "local_std_sigma4_ms": 16.809902,
+            "inclusion_dark_response_ms": 0.006849,
+            "broad_dark_response_ms": 0.015588
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 379.458462,
+              "mean_ms": 189.729231,
+              "max_ms": 222.948677
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 481.6465040003095,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 508.21274999907473,
+      "context_ms": 0.33680600063235033,
+      "pipeline_plus_context_ms": 508.5495559997071,
+      "call_wall_including_existing_oracle_ms": 510.930061000181,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.7857899996160995,
+          "dma_completion_observed_ms": {
+            "sobel": 4.146843000853551,
+            "q8": 4.838536000534077
+          },
+          "prepare_dma_and_copy_ms": 33.52057200027048
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 323.910916,
+          "total_compute_ms": 445.098529,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.008332,
+            "sobel_prepare_ms": 0.019987,
+            "local_std_sigma2_ms": 0.005613,
+            "local_std_sigma4_ms": 15.926234,
+            "inclusion_dark_response_ms": 306.840474,
+            "broad_dark_response_ms": 0.023415
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 109.778498,
+              "mean_ms": 27.444624,
+              "max_ms": 33.495803
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 508.21274999907473,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 834.9998569992749,
+      "context_ms": 0.3728179999598069,
+      "pipeline_plus_context_ms": 835.3726749992347,
+      "call_wall_including_existing_oracle_ms": 5958.444507999957,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.316425000273739,
+          "dma_completion_observed_ms": {
+            "sobel": 4.49836300140305,
+            "q8": 4.940566001096158
+          },
+          "prepare_dma_and_copy_ms": 30.74333600125101
+        },
+        "gaussian_response_ms": 334.26702699944144,
+        "fixed_oracle_ms_excluded_from_pipeline": 5086.525617000007,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 351.387507,
+          "total_compute_ms": 775.399057,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.805686,
+            "sobel_prepare_ms": 0.019243,
+            "local_std_sigma2_ms": 0.005908,
+            "local_std_sigma4_ms": 16.146351,
+            "inclusion_dark_response_ms": 0.006677,
+            "broad_dark_response_ms": 334.327876
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 405.976905,
+              "mean_ms": 135.325635,
+              "max_ms": 192.429871
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 834.9998569992749,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 3.775477000090177,
+            "launch_dma_core_wait_ms": 2.405999999609776,
+            "invalidate_copy_ms": 0.5008799998904578,
+            "call_ms": 6.682356999590411
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 2.719471000091289,
+            "launch_dma_core_wait_ms": 1.8633910003700294,
+            "invalidate_copy_ms": 0.41246799992222805,
+            "call_ms": 4.995330000383547
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.141420998668764,
+            "launch_dma_core_wait_ms": 1.5596560006088112,
+            "invalidate_copy_ms": 0.29409799935820047,
+            "call_ms": 3.9951749986357754
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 250.0921050013858,
+      "context_ms": 0.30344600054377224,
+      "pipeline_plus_context_ms": 250.39555100192956,
+      "call_wall_including_existing_oracle_ms": 252.71401800091553,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.325459000843694,
+          "dma_completion_observed_ms": {
+            "sobel": 4.233169000144699,
+            "q8": 4.984326000339934
+          },
+          "prepare_dma_and_copy_ms": 32.94069600087823
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.430868,
+          "total_compute_ms": 187.976351,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.780646,
+            "sobel_prepare_ms": 0.021785,
+            "local_std_sigma2_ms": 0.005957,
+            "local_std_sigma4_ms": 16.532517,
+            "inclusion_dark_response_ms": 0.006745,
+            "broad_dark_response_ms": 0.015895
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 144.478239,
+              "mean_ms": 72.23912,
+              "max_ms": 106.083846
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 250.0921050013858,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 524.5333650000248,
+      "context_ms": 0.31542900069325697,
+      "pipeline_plus_context_ms": 524.848794000718,
+      "call_wall_including_existing_oracle_ms": 5942.535043999669,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.236633998720208,
+          "dma_completion_observed_ms": {
+            "sobel": 4.798418000063975,
+            "q8": 4.856835999817122
+          },
+          "prepare_dma_and_copy_ms": 31.839943998420495
+        },
+        "gaussian_response_ms": 343.8544479995471,
+        "fixed_oracle_ms_excluded_from_pipeline": 5378.701186000399,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 361.011052,
+          "total_compute_ms": 463.231999,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.404837,
+            "sobel_prepare_ms": 0.019698,
+            "local_std_sigma2_ms": 0.006154,
+            "local_std_sigma4_ms": 16.580289,
+            "inclusion_dark_response_ms": 0.007077,
+            "broad_dark_response_ms": 343.917655
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 97.838855,
+              "mean_ms": 97.838855,
+              "max_ms": 97.838855
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 524.5333650000248,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 323.85027700001956,
+      "context_ms": 0.3117099986411631,
+      "pipeline_plus_context_ms": 324.1619869986607,
+      "call_wall_including_existing_oracle_ms": 326.2686699999904,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.075907999227638,
+          "dma_completion_observed_ms": {
+            "sobel": 4.586787999869557,
+            "q8": 4.968880000888021
+          },
+          "prepare_dma_and_copy_ms": 32.60422799939988
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.370899,
+          "total_compute_ms": 261.817225,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.66592,
+            "sobel_prepare_ms": 0.022296,
+            "local_std_sigma2_ms": 0.005809,
+            "local_std_sigma4_ms": 16.585956,
+            "inclusion_dark_response_ms": 0.006954,
+            "broad_dark_response_ms": 0.015484
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 233.832189,
+              "mean_ms": 116.916095,
+              "max_ms": 152.327205
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 323.85027700001956,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "warmup",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 61.6566150001745,
+      "context_ms": 0.31267699887393974,
+      "pipeline_plus_context_ms": 61.96929199904844,
+      "call_wall_including_existing_oracle_ms": 63.779568999962066,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.662965999770677,
+          "dma_completion_observed_ms": {
+            "sobel": 4.341593999924953,
+            "q8": 4.7224930003721965
+          },
+          "prepare_dma_and_copy_ms": 32.51393199934682
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.242554,
+          "total_compute_ms": 0.315299,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.139803,
+            "sobel_prepare_ms": 0.017797,
+            "local_std_sigma2_ms": 0.005194,
+            "local_std_sigma4_ms": 0.004228,
+            "inclusion_dark_response_ms": 0.005459,
+            "broad_dark_response_ms": 0.013366
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 61.6566150001745,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_0",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 483.2291749989963,
+      "context_ms": 0.3089660003752215,
+      "pipeline_plus_context_ms": 483.53814099937154,
+      "call_wall_including_existing_oracle_ms": 485.69328499979747,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.44996899952821,
+          "dma_completion_observed_ms": {
+            "sobel": 4.340191000665072,
+            "q8": 4.769200000737328
+          },
+          "prepare_dma_and_copy_ms": 30.87611699993431
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 17.420326,
+          "total_compute_ms": 423.199532,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.752874,
+            "sobel_prepare_ms": 0.022252,
+            "local_std_sigma2_ms": 0.005791,
+            "local_std_sigma4_ms": 16.54752,
+            "inclusion_dark_response_ms": 0.007107,
+            "broad_dark_response_ms": 0.015107
+          },
+          "roi_compute_by_class": {
+            "0": {
+              "count": 2,
+              "total_ms": 379.280301,
+              "mean_ms": 189.640151,
+              "max_ms": 222.212259
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 483.2291749989963,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_1",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 507.1183870004461,
+      "context_ms": 0.3087439981754869,
+      "pipeline_plus_context_ms": 507.4271309986216,
+      "call_wall_including_existing_oracle_ms": 509.7829459991772,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.521716999894124,
+          "dma_completion_observed_ms": {
+            "sobel": 4.416117000801023,
+            "q8": 4.809939000551822
+          },
+          "prepare_dma_and_copy_ms": 32.8535019998526
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 324.482535,
+          "total_compute_ms": 444.844381,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.00381,
+            "sobel_prepare_ms": 0.019607,
+            "local_std_sigma2_ms": 0.005846,
+            "local_std_sigma4_ms": 16.113987,
+            "inclusion_dark_response_ms": 307.221963,
+            "broad_dark_response_ms": 0.0264
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 109.009754,
+              "mean_ms": 27.252439,
+              "max_ms": 33.473262
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 507.1183870004461,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_2",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 850.6292669990216,
+      "context_ms": 0.30099099785729777,
+      "pipeline_plus_context_ms": 850.9302579968789,
+      "call_wall_including_existing_oracle_ms": 5960.195215999192,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.425759998615831,
+          "dma_completion_observed_ms": {
+            "sobel": 4.4524000004457776,
+            "q8": 4.889397001534235
+          },
+          "prepare_dma_and_copy_ms": 30.86398799860035
+        },
+        "gaussian_response_ms": 333.3054400009132,
+        "fixed_oracle_ms_excluded_from_pipeline": 5071.795451000071,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 350.409415,
+          "total_compute_ms": 790.929279,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.795729,
+            "sobel_prepare_ms": 0.018905,
+            "local_std_sigma2_ms": 0.006049,
+            "local_std_sigma4_ms": 16.139261,
+            "inclusion_dark_response_ms": 0.006437,
+            "broad_dark_response_ms": 333.369624
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 3,
+              "total_ms": 421.722326,
+              "mean_ms": 140.574109,
+              "max_ms": 191.058616
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 850.6292669990216,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [
+          {
+            "height": 402,
+            "width": 172,
+            "status": 0,
+            "input_bytes": 79800,
+            "output_bytes": 69144,
+            "prepare_and_flush_ms": 2.922048999607796,
+            "launch_dma_core_wait_ms": 2.035519999481039,
+            "invalidate_copy_ms": 0.4864070015173638,
+            "call_ms": 5.443976000606199
+          },
+          {
+            "height": 346,
+            "width": 139,
+            "status": 0,
+            "input_bytes": 57148,
+            "output_bytes": 48094,
+            "prepare_and_flush_ms": 3.264775999923586,
+            "launch_dma_core_wait_ms": 3.9897229999041883,
+            "invalidate_copy_ms": 0.6427139996958431,
+            "call_ms": 7.897212999523617
+          },
+          {
+            "height": 92,
+            "width": 221,
+            "status": 0,
+            "input_bytes": 26292,
+            "output_bytes": 20332,
+            "prepare_and_flush_ms": 2.667920000021695,
+            "launch_dma_core_wait_ms": 1.849771999332006,
+            "invalidate_copy_ms": 0.3226589997211704,
+            "call_ms": 4.840350999074872
+          }
+        ],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_3",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 246.27839300046617,
+      "context_ms": 0.2994999995280523,
+      "pipeline_plus_context_ms": 246.57789299999422,
+      "call_wall_including_existing_oracle_ms": 248.80256500000542,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.229606000284548,
+          "dma_completion_observed_ms": {
+            "sobel": 4.568497999571264,
+            "q8": 4.628005999620655
+          },
+          "prepare_dma_and_copy_ms": 30.458577999525005
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.687613,
+          "total_compute_ms": 187.094505,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.615071,
+            "sobel_prepare_ms": 0.02045,
+            "local_std_sigma2_ms": 0.005735,
+            "local_std_sigma4_ms": 15.959225,
+            "inclusion_dark_response_ms": 0.006554,
+            "broad_dark_response_ms": 0.015403
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 2,
+              "total_ms": 143.436854,
+              "mean_ms": 71.718427,
+              "max_ms": 104.94739
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 246.27839300046617,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_4",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 522.5665100006154,
+      "context_ms": 0.30557399986719247,
+      "pipeline_plus_context_ms": 522.8720840004826,
+      "call_wall_including_existing_oracle_ms": 5873.348242999782,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "pl_gaussian",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 8.816233999823453,
+          "dma_completion_observed_ms": {
+            "sobel": 4.484676999709336,
+            "q8": 4.87275699924794
+          },
+          "prepare_dma_and_copy_ms": 33.170701999551966
+        },
+        "gaussian_response_ms": 340.69856600035564,
+        "fixed_oracle_ms_excluded_from_pipeline": 5311.483395000323,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 357.842553,
+          "total_compute_ms": 459.964356,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.411858,
+            "sobel_prepare_ms": 0.019853,
+            "local_std_sigma2_ms": 0.005926,
+            "local_std_sigma4_ms": 16.564585,
+            "inclusion_dark_response_ms": 0.006277,
+            "broad_dark_response_ms": 340.761286
+          },
+          "roi_compute_by_class": {
+            "4": {
+              "count": 1,
+              "total_ms": 97.760153,
+              "mean_ms": 97.760153,
+              "max_ms": 97.760153
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 522.5665100006154,
+        "pl_integer_model_different_pixels": 0,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "class_5",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 314.0744979991723,
+      "context_ms": 0.3123320002487162,
+      "pipeline_plus_context_ms": 314.386829999421,
+      "call_wall_including_existing_oracle_ms": 316.5784430002532,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 7.86547099960444,
+          "dma_completion_observed_ms": {
+            "sobel": 4.208849000860937,
+            "q8": 4.902485999991768
+          },
+          "prepare_dma_and_copy_ms": 33.88665199963725
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 16.761779,
+          "total_compute_ms": 251.368043,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.62208,
+            "sobel_prepare_ms": 0.020024,
+            "local_std_sigma2_ms": 0.005452,
+            "local_std_sigma4_ms": 16.024123,
+            "inclusion_dark_response_ms": 0.006418,
+            "broad_dark_response_ms": 0.01555
+          },
+          "roi_compute_by_class": {
+            "5": {
+              "count": 2,
+              "total_ms": 224.481649,
+              "mean_ms": 112.240825,
+              "max_ms": 146.485723
+            }
+          },
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 314.0744979991723,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    },
+    {
+      "case": "empty_predictions",
+      "phase": "measured",
+      "block": 3,
+      "variant": "baseline",
+      "exact": true,
+      "pipeline_ms": 75.3640369985078,
+      "context_ms": 0.3378329984116135,
+      "pipeline_plus_context_ms": 75.70186999691941,
+      "call_wall_including_existing_oracle_ms": 77.60465799947269,
+      "fusion": null,
+      "timing": {
+        "version": "runtime_gaussian_final_20261022_v1",
+        "requested_mode": "pl_gaussian",
+        "actual_mode": "arm_float",
+        "fallback_reason": null,
+        "feature_timing": {
+          "prepare_and_flush_ms": 5.632782000247971,
+          "dma_completion_observed_ms": {
+            "sobel": 13.815039999826695,
+            "q8": 13.879729000109364
+          },
+          "prepare_dma_and_copy_ms": 43.58125500039023
+        },
+        "gaussian_response_ms": 0.0,
+        "fixed_oracle_ms_excluded_from_pipeline": 0.0,
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 0.236345,
+          "total_compute_ms": 0.307114,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.133969,
+            "sobel_prepare_ms": 0.018357,
+            "local_std_sigma2_ms": 0.004923,
+            "local_std_sigma4_ms": 0.004031,
+            "inclusion_dark_response_ms": 0.005175,
+            "broad_dark_response_ms": 0.012837
+          },
+          "roi_compute_by_class": {},
+          "scope": "Portable ARM-oriented ROI runtime; excludes input loading, result saving and transport."
+        },
+        "end_to_end_static_pipeline_ms": 75.3640369985078,
+        "pl_integer_model_different_pixels": null,
+        "candidate_version": "gauss_tail32_full184_v1_20261023",
+        "gaussian_variant": "tail32",
+        "roi_blur_version": "steel_roi_blur3_v9_20261023",
+        "blur3_requested": true,
+        "blur3_calls": [],
+        "combined_version": "v9_combined_candidate_20261023",
+        "combined_configuration": "combined"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "variant": "baseline",
+      "pass": true,
+      "completed": true,
+      "hardware_session_safe": true,
+      "errors": [],
+      "bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+      "hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362"
+    },
+    {
+      "variant": "f3",
+      "pass": true,
+      "completed": true,
+      "hardware_session_safe": true,
+      "errors": [],
+      "bit_sha256": "43cb449e24463a4a48f294d71c921d7b98d590e8f56937a13c9a90fd77918d67",
+      "hwh_sha256": "0aca6dcd0e533eb4b91c5f36e66db24b3e415952afb0a9ce16ef33bfdc7ca79e"
+    },
+    {
+      "variant": "baseline",
+      "pass": true,
+      "completed": true,
+      "hardware_session_safe": true,
+      "errors": [],
+      "bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+      "hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362"
+    }
+  ],
+  "core_smoke": [
+    {
+      "name": "empty_1x1_1",
+      "height": 1,
+      "width": 1,
+      "minimum": 1,
+      "stats": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 1,
+        "width": 1,
+        "minimum": 1,
+        "tag": 1,
+        "status": 0,
+        "input_bytes": 4,
+        "output_bytes": 52,
+        "prepare_flush_ms": 1.3381230000959476,
+        "launch_dma_core_wait_ms": 1.342055998975411,
+        "invalidate_decode_ms": 1.0591810005280422,
+        "call_ms": 3.739359999599401
+      }
+    },
+    {
+      "name": "full_1x1_1",
+      "height": 1,
+      "width": 1,
+      "minimum": 1,
+      "stats": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 1,
+        "width": 1,
+        "minimum": 1,
+        "tag": 2,
+        "status": 0,
+        "input_bytes": 4,
+        "output_bytes": 52,
+        "prepare_flush_ms": 1.2622270005522296,
+        "launch_dma_core_wait_ms": 1.1612620000960305,
+        "invalidate_decode_ms": 1.0643080004228977,
+        "call_ms": 3.487797001071158
+      }
+    },
+    {
+      "name": "full_1x1_65536",
+      "height": 1,
+      "width": 1,
+      "minimum": 65536,
+      "stats": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 1,
+        "width": 1,
+        "minimum": 65536,
+        "tag": 3,
+        "status": 0,
+        "input_bytes": 4,
+        "output_bytes": 52,
+        "prepare_flush_ms": 1.431969998520799,
+        "launch_dma_core_wait_ms": 1.2934830010635778,
+        "invalidate_decode_ms": 1.1640060001809616,
+        "call_ms": 3.8894589997653384
+      }
+    },
+    {
+      "name": "empty_128x512_1",
+      "height": 128,
+      "width": 512,
+      "minimum": 1,
+      "stats": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 128,
+        "width": 512,
+        "minimum": 1,
+        "tag": 4,
+        "status": 0,
+        "input_bytes": 65536,
+        "output_bytes": 65584,
+        "prepare_flush_ms": 2.691809000680223,
+        "launch_dma_core_wait_ms": 16.303021999192424,
+        "invalidate_decode_ms": 35.918166000556084,
+        "call_ms": 54.91299700042873
+      }
+    },
+    {
+      "name": "full_256x256_20",
+      "height": 256,
+      "width": 256,
+      "minimum": 20,
+      "stats": [
+        1,
+        65536,
+        65536,
+        1,
+        65536,
+        65536
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 256,
+        "width": 256,
+        "minimum": 20,
+        "tag": 5,
+        "status": 0,
+        "input_bytes": 65536,
+        "output_bytes": 65584,
+        "prepare_flush_ms": 2.3200060004455736,
+        "launch_dma_core_wait_ms": 34.695292999458616,
+        "invalidate_decode_ms": 36.46370400019805,
+        "call_ms": 73.47900300010224
+      }
+    },
+    {
+      "name": "random_127x511_20",
+      "height": 127,
+      "width": 511,
+      "minimum": 20,
+      "stats": [
+        27,
+        26835,
+        25722,
+        22,
+        26711,
+        25722
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 127,
+        "width": 511,
+        "minimum": 20,
+        "tag": 6,
+        "status": 0,
+        "input_bytes": 65024,
+        "output_bytes": 65072,
+        "prepare_flush_ms": 2.7195570000912994,
+        "launch_dma_core_wait_ms": 25.857951000944013,
+        "invalidate_decode_ms": 9.010294999825419,
+        "call_ms": 37.58780300086073
+      }
+    },
+    {
+      "name": "isolated_129x508_1",
+      "height": 129,
+      "width": 508,
+      "minimum": 1,
+      "stats": [
+        16510,
+        16510,
+        1,
+        578,
+        578,
+        1
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 129,
+        "width": 508,
+        "minimum": 1,
+        "tag": 7,
+        "status": 0,
+        "input_bytes": 65532,
+        "output_bytes": 65580,
+        "prepare_flush_ms": 2.4839139987307135,
+        "launch_dma_core_wait_ms": 19.008437000593403,
+        "invalidate_decode_ms": 36.1929720002081,
+        "call_ms": 57.68532299953222
+      }
+    },
+    {
+      "name": "diagonal_3x7_1",
+      "height": 3,
+      "width": 7,
+      "minimum": 1,
+      "stats": [
+        2,
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "ownership_pass": true,
+      "timing": {
+        "height": 3,
+        "width": 7,
+        "minimum": 1,
+        "tag": 8,
+        "status": 0,
+        "input_bytes": 24,
+        "output_bytes": 72,
+        "prepare_flush_ms": 1.549003000036464,
+        "launch_dma_core_wait_ms": 1.2853600001108134,
+        "invalidate_decode_ms": 1.4322950009955093,
+        "call_ms": 4.266658001142787
+      }
+    }
+  ],
+  "overlay_loads": 3,
+  "hardware_base": "original v10, no F1",
+  "software": "same v9.1 combined + qualified Q8 minmax/staged + explicit caches",
+  "formal_release_replaced": false,
+  "full184_rerun": false,
+  "new_hardware_used": true,
+  "timing_scope": "Existing pipeline plus context setup/exit; includes selector flags, DMA/cache/control, decode and retained PS. Validation/I/O/overlay load excluded. Call wall including existing oracle separately reported.",
+  "summary": {
+    "session_order_pairs": [
+      {
+        "order": "baseline_first",
+        "baseline_ms": 434.2220595712466,
+        "f3_ms": 433.1616704283598,
+        "saved_ms": 1.0603891428867769,
+        "reduction_pct": 0.24420434648894096
+      },
+      {
+        "order": "candidate_first",
+        "baseline_ms": 428.776315284527,
+        "f3_ms": 440.3283382861056,
+        "saved_ms": -11.552023001578561,
+        "reduction_pct": -2.6941840278451146
+      }
+    ],
+    "per_case": [
+      {
+        "case": "class_0",
+        "baseline_ms": 477.9713010002524,
+        "f3_ms": 487.7593955006887,
+        "saved_ms": -9.788094500436273,
+        "reduction_pct": -2.047841466622091
+      },
+      {
+        "case": "class_1",
+        "baseline_ms": 536.0475745001168,
+        "f3_ms": 510.7152139999016,
+        "saved_ms": 25.332360500215145,
+        "reduction_pct": 4.725767208971787
+      },
+      {
+        "case": "class_2",
+        "baseline_ms": 856.3809869974648,
+        "f3_ms": 915.4586669992568,
+        "saved_ms": -59.07768000179203,
+        "reduction_pct": -6.8985277462689565
+      },
+      {
+        "case": "class_3",
+        "baseline_ms": 250.09244149987353,
+        "f3_ms": 245.62575700019806,
+        "saved_ms": 4.466684499675466,
+        "reduction_pct": 1.7860133928428668
+      },
+      {
+        "case": "class_4",
+        "baseline_ms": 517.7376569999979,
+        "f3_ms": 509.6985614982259,
+        "saved_ms": 8.039095501771953,
+        "reduction_pct": 1.552735327067778
+      },
+      {
+        "case": "class_5",
+        "baseline_ms": 313.4718739993332,
+        "f3_ms": 325.04949750273227,
+        "saved_ms": -11.577623503399082,
+        "reduction_pct": -3.6933532044484796
+      },
+      {
+        "case": "empty_predictions",
+        "baseline_ms": 68.79247699816915,
+        "f3_ms": 62.907937999625574,
+        "saved_ms": 5.884538998543576,
+        "reduction_pct": 8.554044359676405
+      }
+    ],
+    "promising_in_both_orders": false,
+    "scope": "Initial seven-case, 28 measured frame screen only, actual original-v10 versus new-v10+F3 overlay. Not stable-release selection, full184, camera/YOLO/network E2E or a comparison with pending F1."
+  },
+  "retained_after_close": true,
+  "last_loaded_hardware": "original v10"
+}

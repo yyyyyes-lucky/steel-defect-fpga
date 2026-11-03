@@ -1,0 +1,9 @@
+{
+  "files": {
+    "board_service.py": "1be00573379fcefc1a6cf1a5351e29cae07cafb32729b51a0e141b136680791c",
+    "wire.py": "fc0c85bf950774a14c9c7eab5a7756e1f86c79954f82d905b405cfa4839e8988"
+  },
+  "dependencies": {
+    "steel_static_demo_20261029/manifest.json": "62029f6d1de391683fde51d0179a90fd6f69e47a23d36a72e86f3a921eeb5b8e"
+  }
+}

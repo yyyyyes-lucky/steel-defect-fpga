@@ -1,0 +1,6 @@
+{
+  "steel_binary_ops_v8_experiment_20261022/baseline/board/dual_features.py": "0fe9b6b649835c815ebd93613435c8e07f47b52ca528c8ff9304feb9f2d6ae8d",
+  "steel_binary_ops_v8_experiment_20261022/baseline/runtime/roi_runtime_portable_v31.py": "325268431b193fe817acc4d41cb2767c13f909b56ab2acfd601a1b522e5d463c",
+  "steel_runtime_v10_candidate_20261025/manifest.json": "70139d61d96a8ffc68663e86ce65564f328edbe3e896d2feb5a009ae4c9e549f",
+  "steel_runtime_v10_candidate_20261025/runtime_v10.py": "bbb4a562204ee06d9c1b9d9dae23377573243c7586b7954a76a57bfd9096f8c0"
+}

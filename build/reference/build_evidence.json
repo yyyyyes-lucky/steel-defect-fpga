@@ -1,0 +1,21 @@
+{
+  "hardware_built": true,
+  "board_tested": false,
+  "promoted": false,
+  "wns_ns": 0.747,
+  "whs_ns": 0.014,
+  "interface_check": {
+    "same_instance_names": true,
+    "same_address_map": true,
+    "same_gaussian_registers": true,
+    "gaussian_vlnv": "steel.local:hls:gaussian_row_q30:2.1"
+  },
+  "rtl_cosim_pass": true,
+  "frozen_csim_cases": 24,
+  "extended_csim_cases": 14,
+  "host_test_exit_code": 0,
+  "host_test_output": "test_faults_never_pass_or_remove_guard (__main__.Tests.test_faults_never_pass_or_remove_guard) ... ok\ntest_full_and_rollback (__main__.Tests.test_full_and_rollback) ... ok\ntest_real_fixtures_and_tamper (__main__.Tests.test_real_fixtures_and_tamper) ... ok\ntest_smoke_abba_and_safe_old_hardware (__main__.Tests.test_smoke_abba_and_safe_old_hardware) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.205s\n\nOK\n",
+  "bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+  "hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362",
+  "ccl_in_bitstream": false
+}

@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "note": "Illustrative records only, not a hardware measurement. Ratio of totals is 2.0, not the average of per-case ratios.",
+  "timing_scope": "Synthetic task duration in ms",
+  "measurements": [
+    {"round": 0, "case": "small", "variant": "cpu", "pipeline_ms": 10},
+    {"round": 0, "case": "small", "variant": "fpga", "pipeline_ms": 5},
+    {"round": 0, "case": "large", "variant": "cpu", "pipeline_ms": 30},
+    {"round": 0, "case": "large", "variant": "fpga", "pipeline_ms": 15},
+    {"round": 1, "case": "large", "variant": "fpga", "pipeline_ms": 20},
+    {"round": 1, "case": "large", "variant": "cpu", "pipeline_ms": 32},
+    {"round": 1, "case": "small", "variant": "fpga", "pipeline_ms": 2},
+    {"round": 1, "case": "small", "variant": "cpu", "pipeline_ms": 12}
+  ]
+}

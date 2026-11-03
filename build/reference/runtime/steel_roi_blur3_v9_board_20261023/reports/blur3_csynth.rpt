@@ -1,0 +1,190 @@
+
+
+================================================================
+== Vitis HLS Report for 'blur3'
+================================================================
+* Date:           Fri Oct 23 17:42:37 2026
+
+* Version:        2026.1 (Build 6493734 on Jun 16 2026)
+* Project:        blur3_project
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.390 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------+------------------------------+---------+---------+----------+----------+-----+-----+-------------------+
+        |                                        |                              |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+        |                Instance                |            Module            |   min   |   max   |    min   |    max   | min | max |        Type       |
+        +----------------------------------------+------------------------------+---------+---------+----------+----------+-----+-----+-------------------+
+        |grp_blur3_Pipeline_scan_y_scan_x_fu_99  |blur3_Pipeline_scan_y_scan_x  |        ?|        ?|         ?|         ?|    0|    0|  loop pipeline stp|
+        +----------------------------------------+------------------------------+---------+---------+----------+----------+-----+-----+-------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    211|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |       17|   10|    3437|   3268|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|    121|    -|
+|Register         |        -|    -|     366|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |       17|   10|    3803|   3600|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        6|    4|       3|      6|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------+------------------------------+---------+----+------+------+-----+
+    |                Instance                |            Module            | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +----------------------------------------+------------------------------+---------+----+------+------+-----+
+    |grp_blur3_Pipeline_scan_y_scan_x_fu_99  |blur3_Pipeline_scan_y_scan_x  |       17|   0|  2792|  2886|    0|
+    |control_s_axi_U                         |control_s_axi                 |        0|   0|   150|   232|    0|
+    |mul_32ns_32ns_64_2_1_U18                |mul_32ns_32ns_64_2_1          |        0|   4|   165|    50|    0|
+    |mul_32s_32s_32_2_1_U19                  |mul_32s_32s_32_2_1            |        0|   3|   165|    50|    0|
+    |mul_32s_32s_32_2_1_U20                  |mul_32s_32s_32_2_1            |        0|   3|   165|    50|    0|
+    +----------------------------------------+------------------------------+---------+----+------+------+-----+
+    |Total                                   |                              |       17|  10|  3437|  3268|    0|
+    +----------------------------------------+------------------------------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                      Variable Name                     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------------------------------------------+----------+----+---+----+------------+------------+
+    |add_ln16_1_fu_154_p2                                    |         +|   0|  0|  39|          32|           2|
+    |add_ln16_fu_138_p2                                      |         +|   0|  0|  39|          32|           2|
+    |add_ln26_1_fu_188_p2                                    |         +|   0|  0|  39|          32|           5|
+    |add_ln26_fu_182_p2                                      |         +|   0|  0|  39|          32|           5|
+    |grp_blur3_Pipeline_scan_y_scan_x_fu_99_output_r_TREADY  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln16_fu_176_p2                                     |      icmp|   0|  0|  30|          23|           1|
+    |or_ln16_fu_170_p2                                       |        or|   0|  0|  23|          23|          23|
+    +--------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                   |          |   0|  0| 211|         175|          39|
+    +--------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------+----+-----------+-----+-----------+
+    |             Name            | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                    |  42|          8|    1|          8|
+    |input_r_TREADY_int_regslice  |   9|          2|    1|          2|
+    |output_r_TDATA_int_regslice  |   9|          2|   32|         64|
+    |output_r_TKEEP_int_regslice  |   9|          2|    4|          8|
+    |output_r_TLAST_int_regslice  |   9|          2|    1|          2|
+    |output_r_TSTRB_int_regslice  |   9|          2|    4|          8|
+    |status                       |  20|          4|   32|        128|
+    |status_ap_vld                |  14|          3|    1|          3|
+    +-----------------------------+----+-----------+-----+-----------+
+    |Total                        | 121|         25|   76|        223|
+    +-----------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------------------------------+----+----+-----+-----------+
+    |                         Name                        | FF | LUT| Bits| Const Bits|
+    +-----------------------------------------------------+----+----+-----+-----------+
+    |add_ln26_1_reg_225                                   |  32|   0|   32|          0|
+    |add_ln26_reg_219                                     |  32|   0|   32|          0|
+    |ap_CS_fsm                                            |   7|   0|    7|          0|
+    |grp_blur3_Pipeline_scan_y_scan_x_fu_99_ap_start_reg  |   1|   0|    1|          0|
+    |height_read_reg_211                                  |  32|   0|   32|          0|
+    |input_bytes_reg_242                                  |  32|   0|   32|          0|
+    |mul_ln21_reg_257                                     |  64|   0|   64|          0|
+    |mul_ln80_reg_252                                     |  32|   0|   32|          0|
+    |output_r_TDATA_reg                                   |  32|   0|   32|          0|
+    |output_r_TKEEP_reg                                   |   4|   0|    4|          0|
+    |output_r_TLAST_reg                                   |   1|   0|    1|          0|
+    |output_r_TSTRB_reg                                   |   4|   0|    4|          0|
+    |status_reg                                           |  32|   0|   32|          0|
+    |trunc_ln26_reg_247                                   |  29|   0|   29|          0|
+    |width_read_reg_206                                   |  32|   0|   32|          0|
+    +-----------------------------------------------------+----+----+-----+-----------+
+    |Total                                                | 366|   0|  366|          0|
+    +-----------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+-------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++-----------------------+-----+-----+------------+-------------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|            control|       pointer|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|            control|       pointer|
+|s_axi_control_AWADDR   |   in|    6|       s_axi|            control|       pointer|
+|s_axi_control_WVALID   |   in|    1|       s_axi|            control|       pointer|
+|s_axi_control_WREADY   |  out|    1|       s_axi|            control|       pointer|
+|s_axi_control_WDATA    |   in|   32|       s_axi|            control|       pointer|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|            control|       pointer|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|            control|       pointer|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|            control|       pointer|
+|s_axi_control_ARADDR   |   in|    6|       s_axi|            control|       pointer|
+|s_axi_control_RVALID   |  out|    1|       s_axi|            control|       pointer|
+|s_axi_control_RREADY   |   in|    1|       s_axi|            control|       pointer|
+|s_axi_control_RDATA    |  out|   32|       s_axi|            control|       pointer|
+|s_axi_control_RRESP    |  out|    2|       s_axi|            control|       pointer|
+|s_axi_control_BVALID   |  out|    1|       s_axi|            control|       pointer|
+|s_axi_control_BREADY   |   in|    1|       s_axi|            control|       pointer|
+|s_axi_control_BRESP    |  out|    2|       s_axi|            control|       pointer|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|              blur3|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|              blur3|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|              blur3|  return value|
+|input_r_TDATA          |   in|   32|        axis|   input_r_V_data_V|       pointer|
+|input_r_TVALID         |   in|    1|        axis|   input_r_V_last_V|       pointer|
+|input_r_TREADY         |  out|    1|        axis|   input_r_V_last_V|       pointer|
+|input_r_TLAST          |   in|    1|        axis|   input_r_V_last_V|       pointer|
+|input_r_TKEEP          |   in|    4|        axis|   input_r_V_keep_V|       pointer|
+|input_r_TSTRB          |   in|    4|        axis|   input_r_V_strb_V|       pointer|
+|output_r_TDATA         |  out|   32|        axis|  output_r_V_data_V|       pointer|
+|output_r_TVALID        |  out|    1|        axis|  output_r_V_last_V|       pointer|
+|output_r_TREADY        |   in|    1|        axis|  output_r_V_last_V|       pointer|
+|output_r_TLAST         |  out|    1|        axis|  output_r_V_last_V|       pointer|
+|output_r_TKEEP         |  out|    4|        axis|  output_r_V_keep_V|       pointer|
+|output_r_TSTRB         |  out|    4|        axis|  output_r_V_strb_V|       pointer|
++-----------------------+-----+-----+------------+-------------------+--------------+
+

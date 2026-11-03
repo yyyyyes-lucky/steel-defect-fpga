@@ -1,0 +1,22 @@
+{
+  "schema": "camera_q8_provenance/1.0",
+  "evidence": {
+    "steel_camera_bridge_v10_20261025/results/camera_20261025_210033_59fa8215/camera_application.json": "ab3797a0ebb5430afdaa5f550d98c0599e9244aed466c08a731f57098f7ee577",
+    "f1_f3_results_20261027/analysis.json": "9863ec1643279d02b4874685d09477c371e9dae53627099dc6c27e4735e874ba",
+    "q8_path_full184_audit_20261026/q8_path_full184_check.json": "41e6c4e236741ea4f7faf1ecaedff348e038122d896a6638b84fde24afa360e8"
+  },
+  "sources": {
+    "steel_camera_bridge_v10_20261025/pc_camera.py": "63dccdd66fb378c68a264db1cfd579163d29759d95fdb12eec13fa7e1bf9577d",
+    "steel_camera_bridge_v10_20261025/protocol.py": "4a0d9e02386d53b333214cc271c8e50fbc30fb3facaf82ef6ecb4c01873e1ed9"
+  },
+  "pc_changes": [
+    "release verification at health and per-response",
+    "record board health and camera release",
+    "default 30 frames"
+  ],
+  "new_bitstream": false,
+  "old_packages_modified": false,
+  "actual_camera_accessed_during_build": false,
+  "actual_board_accessed_during_build": false,
+  "new_camera_board_acceptance_pending": true
+}

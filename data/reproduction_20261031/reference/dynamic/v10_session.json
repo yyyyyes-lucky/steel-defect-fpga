@@ -1,0 +1,853 @@
+{
+  "schema": "v10_candidate_session/1.0",
+  "purpose": "dynamic_selected_masks",
+  "completed": true,
+  "pass": true,
+  "hardware_session_safe": true,
+  "formal_release_replaced": false,
+  "entry_board_qualified": false,
+  "hardware_version": "v10",
+  "software_configuration": "v9.1_combined",
+  "integrity": {
+    "package": "/home/xilinx/jupyter_notebooks/Untitled Folder/steel_repro_20250507_230127_x47i5uel/steel_board_runtime/steel_gaussian_v10_board_20261023",
+    "manifest_sha256": "10bbeceb50560024d36c89e64d7439a4e90f2f636f70bdd2ae3b398773fd791a",
+    "new_bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+    "new_hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362",
+    "daily_integrity": {
+      "version": "steel_runtime_v9_1_qualified_20261023",
+      "entry_manifest_sha256": "3f5cd482d4bbb015c6340c24a405d2be01ee925f52715b926ad4aa2eccb931a4",
+      "entry_package": "/home/xilinx/jupyter_notebooks/Untitled Folder/steel_repro_20250507_230127_x47i5uel/steel_board_runtime/steel_runtime_v9_1_qualified_20261023",
+      "v9_integrity": {
+        "source_package": "/home/xilinx/jupyter_notebooks/Untitled Folder/steel_repro_20250507_230127_x47i5uel/steel_board_runtime/steel_binary_ops_v8_experiment_20261022",
+        "package": "/home/xilinx/jupyter_notebooks/Untitled Folder/steel_repro_20250507_230127_x47i5uel/steel_board_runtime/steel_roi_blur3_v9_board_20261023",
+        "manifest_sha256": "ee3d37d62c178cada893f7a765ec886725423f0bf872ae59fc5b83a5c446b7c3",
+        "source_integrity": {
+          "release_manifest_sha256": "501c0fd3986e1f8e4b380d0ff3cf5a119848dcccada411803554d6e995c6ddf2",
+          "new_bit_sha256": "49586aa08f01c7eef6452439463794f0fa042c220ae8a0af51ab80cd7e3c7f91",
+          "new_hwh_sha256": "8ad01169fc0c1ccfac44d118f7fbe8b2fd23718df340a76a53c1b8e79d6f17b5",
+          "baseline_hashes": {
+            "bit": "54b3cf3f2d13405f23b6559fc4305f3d36c3f898d7691ef4450765cd7947ddb1",
+            "hwh": "ca2209c49e0ab6255b41171cafed569a03cc3834bd77dd459d555d870f4fbc6e"
+          },
+          "file_integrity_enforced": false
+        },
+        "hardware_contract": {
+          "addresses": {
+            "axi_dma_0": 1077936128,
+            "axi_dma_sobel": 1078001664,
+            "axi_dma_dark": 1078067200,
+            "axi_dma_ellipse": 1078132736,
+            "axi_dma_blur3": 1078198272,
+            "gaussian_row_q30_0": 1136656384,
+            "ellipse7_0": 1136721920,
+            "blur3_0": 1136787456
+          },
+          "registers": {
+            "CTRL": 0,
+            "GIER": 4,
+            "IP_IER": 8,
+            "IP_ISR": 12,
+            "height": 16,
+            "width": 24,
+            "status": 32,
+            "status_ctrl": 36
+          },
+          "dma_parameters": {
+            "C_INCLUDE_SG": 0,
+            "C_M_AXIS_MM2S_TDATA_WIDTH": 32,
+            "C_SG_LENGTH_WIDTH": 26,
+            "C_S_AXIS_S2MM_TDATA_WIDTH": 32
+          }
+        },
+        "v9_bit_sha256": "b11e91fb9f5cea2ea4ba0264c9e8aa8942e9548f677d49ccbbd94096b4d953b6",
+        "v9_hwh_sha256": "7dcbef385f222953f6c46dae9ba8520c881465996c8089f3b1c636b6bfcb5e7f"
+      },
+      "algorithm_acceptance": "Combined full184/403 plus 3 supplemental passed; representative 60/60 pairs faster",
+      "software_version": "v9.1",
+      "hardware_version": "v9",
+      "entrypoint_board_stability": "pending until this entry is exercised on board"
+    },
+    "environment": {
+      "opencv": "4.5.4",
+      "numpy": "1.21.5"
+    },
+    "hardware_contract": {
+      "addresses": {
+        "axi_dma_0": 1077936128,
+        "axi_dma_sobel": 1078001664,
+        "axi_dma_dark": 1078067200,
+        "axi_dma_ellipse": 1078132736,
+        "axi_dma_blur3": 1078198272,
+        "gaussian_row_q30_0": 1136656384,
+        "ellipse7_0": 1136721920,
+        "blur3_0": 1136787456
+      },
+      "registers": {
+        "CTRL": 0,
+        "GIER": 4,
+        "IP_IER": 8,
+        "IP_ISR": 12,
+        "height": 16,
+        "width": 24,
+        "status": 32,
+        "status_ctrl": 36
+      },
+      "dma_parameters": {
+        "C_INCLUDE_SG": 0,
+        "C_M_AXIS_MM2S_TDATA_WIDTH": 32,
+        "C_SG_LENGTH_WIDTH": 26,
+        "C_S_AXIS_S2MM_TDATA_WIDTH": 32
+      }
+    }
+  },
+  "boot_id": "ec949398-bb11-4935-8a75-fb60165141bb",
+  "errors": [],
+  "frames": [
+    {
+      "case": "267ee29e0d5c4d8b94d18981efaa2a5e",
+      "image_sha256": "ed8db1d68cc8d83740cd891ac6fba725f389a540f4564dbca929539ae6545f7f",
+      "roi_count": 4,
+      "timing": {
+        "pipeline_ms": 1784.3460830008553,
+        "feature_ms": 69.37310099965543,
+        "feature_timing": {
+          "prepare_and_flush_ms": 6.220110000867862,
+          "dma_completion_observed_ms": {
+            "sobel": 4.103151000890648,
+            "q8": 4.776874000526732
+          },
+          "prepare_dma_and_copy_ms": 37.87492300034501
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 796.797058,
+          "total_compute_ms": 1711.619653,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.149533,
+            "sobel_prepare_ms": 0.021427,
+            "local_std_sigma2_ms": 0.00664,
+            "local_std_sigma4_ms": 24.731877,
+            "selected_quality_maps_ms": 770.765955
+          },
+          "roi_compute_by_class": {
+            "1": {
+              "count": 4,
+              "total_ms": 914.082663,
+              "mean_ms": 228.520666,
+              "max_ms": 321.486886
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 4.854800001339754,
+                "launch_dma_and_core_wait_ms": 6.662436997430632,
+                "invalidate_and_copy_ms": 7.323496000026353,
+                "row_pass_ms": 18.84073299879674
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.103182000137167,
+                "launch_dma_and_core_wait_ms": 6.702929000311997,
+                "invalidate_and_copy_ms": 7.217619000584818,
+                "row_pass_ms": 36.02373000103398
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.651962997944793,
+                "launch_dma_and_core_wait_ms": 39.290098000492435,
+                "invalidate_and_copy_ms": 7.429027999023674,
+                "row_pass_ms": 52.3710889974609
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.43513199998415,
+                "launch_dma_and_core_wait_ms": 39.09451700019417,
+                "invalidate_and_copy_ms": 7.198535000497941,
+                "row_pass_ms": 71.72818400067626
+              }
+            ],
+            "response_ms": 342.5613350009371,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "735c0042779c4128afb37d7779f39bed",
+      "image_sha256": "a320e29b70c33caba92cf0352029e88ab5940482991119a944efa585f5697c80",
+      "roi_count": 1,
+      "timing": {
+        "pipeline_ms": 231.5698579986929,
+        "feature_ms": 60.47479999688221,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.222683000989491,
+          "dma_completion_observed_ms": {
+            "sobel": 4.389722998894285,
+            "q8": 4.751779000798706
+          },
+          "prepare_dma_and_copy_ms": 30.514977999700932
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 24.437631,
+          "total_compute_ms": 170.64096,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.410911,
+            "sobel_prepare_ms": 0.018671,
+            "local_std_sigma2_ms": 0.005772,
+            "local_std_sigma4_ms": 23.890455,
+            "selected_quality_maps_ms": 0.053059
+          },
+          "roi_compute_by_class": {
+            "3": {
+              "count": 1,
+              "total_ms": 145.666917,
+              "mean_ms": 145.666917,
+              "max_ms": 145.666917
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "dec7eecfec6f448588eb4638596638f8",
+      "image_sha256": "0d3d3c7ba43ca428c2125e74a1dc809b27ab7f90822de3108bb41ed5f0a61248",
+      "roi_count": 2,
+      "timing": {
+        "pipeline_ms": 798.1676919989695,
+        "feature_ms": 59.528873996896436,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.268676999345189,
+          "dma_completion_observed_ms": {
+            "sobel": 4.323034001572523,
+            "q8": 4.686000000219792
+          },
+          "prepare_dma_and_copy_ms": 29.404123000858817
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 495.469931,
+          "total_compute_ms": 736.715045,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.624547,
+            "sobel_prepare_ms": 0.018419,
+            "local_std_sigma2_ms": 0.005514,
+            "local_std_sigma4_ms": 23.87584,
+            "selected_quality_maps_ms": 470.870424
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 2,
+              "total_ms": 240.67811,
+              "mean_ms": 120.339055,
+              "max_ms": 150.431095
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.6299509993114043,
+                "launch_dma_and_core_wait_ms": 6.694542000332149,
+                "invalidate_and_copy_ms": 7.3997600011352915,
+                "row_pass_ms": 17.724253000778845
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.362486000929493,
+                "launch_dma_and_core_wait_ms": 6.590848999621812,
+                "invalidate_and_copy_ms": 7.305169998289784,
+                "row_pass_ms": 36.25850499884109
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.295451999700163,
+                "launch_dma_and_core_wait_ms": 39.088597000954906,
+                "invalidate_and_copy_ms": 7.275187999766786,
+                "row_pass_ms": 51.659237000421854
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.322073997813277,
+                "launch_dma_and_core_wait_ms": 39.17185200043605,
+                "invalidate_and_copy_ms": 7.2562029999971855,
+                "row_pass_ms": 71.75012899824651
+              }
+            ],
+            "response_ms": 340.0941910003894,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "13deeb40fb4c443e86c9c6306276218c",
+      "image_sha256": "afa95ed453843c4c0713192636c96c8757dafa769a3dfcca72a836c257f67e65",
+      "roi_count": 2,
+      "timing": {
+        "pipeline_ms": 817.7441709995037,
+        "feature_ms": 60.66273800024646,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.209200000332203,
+          "dma_completion_observed_ms": {
+            "sobel": 4.082645999005763,
+            "q8": 4.753957000502851
+          },
+          "prepare_dma_and_copy_ms": 30.45941500022309
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 496.502874,
+          "total_compute_ms": 755.084412,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.631391,
+            "sobel_prepare_ms": 0.019926,
+            "local_std_sigma2_ms": 0.005821,
+            "local_std_sigma4_ms": 23.878523,
+            "selected_quality_maps_ms": 471.89331
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 1,
+              "total_ms": 159.12699,
+              "mean_ms": 159.12699,
+              "max_ms": 159.12699
+            },
+            "3": {
+              "count": 1,
+              "total_ms": 98.531698,
+              "mean_ms": 98.531698,
+              "max_ms": 98.531698
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.73298499835073,
+                "launch_dma_and_core_wait_ms": 6.605618000321556,
+                "invalidate_and_copy_ms": 7.3684310009412,
+                "row_pass_ms": 17.707033999613486
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.287378000328317,
+                "launch_dma_and_core_wait_ms": 6.600056000024779,
+                "invalidate_and_copy_ms": 7.285772000614088,
+                "row_pass_ms": 36.173206000967184
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.290067001624266,
+                "launch_dma_and_core_wait_ms": 39.223809999384684,
+                "invalidate_and_copy_ms": 7.286295000085374,
+                "row_pass_ms": 51.800172001094325
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.293697999586584,
+                "launch_dma_and_core_wait_ms": 39.060178998624906,
+                "invalidate_and_copy_ms": 7.235464003315428,
+                "row_pass_ms": 71.58934100152692
+              }
+            ],
+            "response_ms": 340.76409800036345,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "cf1084ec8a6342609f345f6e95e05fbf",
+      "image_sha256": "b6123d40f6cda2f2e3997f87043336e72fc7bcbe9cea0e693e89defe4ba5172c",
+      "roi_count": 1,
+      "timing": {
+        "pipeline_ms": 722.8210579996812,
+        "feature_ms": 60.48373599696788,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.262111000571167,
+          "dma_completion_observed_ms": {
+            "sobel": 4.095858002983732,
+            "q8": 4.766713002027245
+          },
+          "prepare_dma_and_copy_ms": 30.501132001518272
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 494.763113,
+          "total_compute_ms": 660.386855,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.410037,
+            "sobel_prepare_ms": 0.019551,
+            "local_std_sigma2_ms": 0.005901,
+            "local_std_sigma4_ms": 23.843656,
+            "selected_quality_maps_ms": 470.409242
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 1,
+              "total_ms": 165.09016,
+              "mean_ms": 165.09016,
+              "max_ms": 165.09016
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.742739001609152,
+                "launch_dma_and_core_wait_ms": 6.605433998629451,
+                "invalidate_and_copy_ms": 7.3791750000964385,
+                "row_pass_ms": 17.72734800033504
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.159814998303773,
+                "launch_dma_and_core_wait_ms": 6.668756999715697,
+                "invalidate_and_copy_ms": 7.177655003033578,
+                "row_pass_ms": 36.00622700105305
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.261877002340043,
+                "launch_dma_and_core_wait_ms": 39.16900900003384,
+                "invalidate_and_copy_ms": 7.416996999381809,
+                "row_pass_ms": 51.84788300175569
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.13888599787606,
+                "launch_dma_and_core_wait_ms": 39.34929200113402,
+                "invalidate_and_copy_ms": 7.403562998661073,
+                "row_pass_ms": 71.89174099767115
+              }
+            ],
+            "response_ms": 339.6592540011625,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "2d76a4ba542c4fcf9307a783fb0f2ed0",
+      "image_sha256": "7e0751d2e82cf9a636f8e0e4c806f28dd2e61cb0dadaeb63c03372847195362d",
+      "roi_count": 1,
+      "timing": {
+        "pipeline_ms": 728.8197470006708,
+        "feature_ms": 59.1597169986926,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.252171998814447,
+          "dma_completion_observed_ms": {
+            "sobel": 4.41492300160462,
+            "q8": 4.776707999553764
+          },
+          "prepare_dma_and_copy_ms": 29.22428899910301
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 494.024356,
+          "total_compute_ms": 667.872657,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.405951,
+            "sobel_prepare_ms": 0.019834,
+            "local_std_sigma2_ms": 0.006012,
+            "local_std_sigma4_ms": 23.887538,
+            "selected_quality_maps_ms": 469.631673
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 1,
+              "total_ms": 173.308646,
+              "mean_ms": 173.308646,
+              "max_ms": 173.308646
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.736122998816427,
+                "launch_dma_and_core_wait_ms": 6.589526001334889,
+                "invalidate_and_copy_ms": 7.3291080007038545,
+                "row_pass_ms": 17.65475700085517
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.252652001043316,
+                "launch_dma_and_core_wait_ms": 6.666288998530945,
+                "invalidate_and_copy_ms": 7.2195570028270595,
+                "row_pass_ms": 36.13849800240132
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.275403000268852,
+                "launch_dma_and_core_wait_ms": 39.24187699885806,
+                "invalidate_and_copy_ms": 7.43208000130835,
+                "row_pass_ms": 51.94936000043526
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 24.789144001260865,
+                "launch_dma_and_core_wait_ms": 39.01406200020574,
+                "invalidate_and_copy_ms": 7.232854997710092,
+                "row_pass_ms": 71.0360609991767
+              }
+            ],
+            "response_ms": 338.76534099908895,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "4532d8af8bf042768e146e31ca14508a",
+      "image_sha256": "b554838ddb71268a6920fc5d8b352682e5b57269ea467643f638e3fe1e9a98c2",
+      "roi_count": 4,
+      "timing": {
+        "pipeline_ms": 997.4131980015954,
+        "feature_ms": 59.63304000033531,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.242277002049377,
+          "dma_completion_observed_ms": {
+            "sobel": 4.35518099766341,
+            "q8": 4.718202999356436
+          },
+          "prepare_dma_and_copy_ms": 29.0943200016045
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 496.225507,
+          "total_compute_ms": 935.840792,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 1.16816,
+            "sobel_prepare_ms": 0.022375,
+            "local_std_sigma2_ms": 0.005526,
+            "local_std_sigma4_ms": 24.215969,
+            "selected_quality_maps_ms": 470.73291
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 2,
+              "total_ms": 356.194614,
+              "mean_ms": 178.097307,
+              "max_ms": 231.717341
+            },
+            "3": {
+              "count": 2,
+              "total_ms": 82.43344,
+              "mean_ms": 41.21672,
+              "max_ms": 45.315908
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.6313169985078275,
+                "launch_dma_and_core_wait_ms": 6.662350999249611,
+                "invalidate_and_copy_ms": 7.449237000400899,
+                "row_pass_ms": 17.742904998158338
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.25229499890702,
+                "launch_dma_and_core_wait_ms": 6.592376001208322,
+                "invalidate_and_copy_ms": 7.352116001129616,
+                "row_pass_ms": 36.19678700124496
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.248732002655743,
+                "launch_dma_and_core_wait_ms": 39.03283099862165,
+                "invalidate_and_copy_ms": 7.348849001573399,
+                "row_pass_ms": 51.63041200285079
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.353304998134263,
+                "launch_dma_and_core_wait_ms": 39.09077500065905,
+                "invalidate_and_copy_ms": 7.376825000392273,
+                "row_pass_ms": 71.82090499918559
+              }
+            ],
+            "response_ms": 339.85056600067765,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "4c34537445a84904a02c058707b7fac2",
+      "image_sha256": "4376113ee2bd85b0d61c7ef84cf9a25c710900c3fa0c30dd3ae0a934a8cfe5e7",
+      "roi_count": 1,
+      "timing": {
+        "pipeline_ms": 722.3274450007011,
+        "feature_ms": 57.740067000850104,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.335082998295547,
+          "dma_completion_observed_ms": {
+            "sobel": 4.305422000470571,
+            "q8": 4.662665000068955
+          },
+          "prepare_dma_and_copy_ms": 27.790788000856992
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 497.31643,
+          "total_compute_ms": 662.662103,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.412443,
+            "sobel_prepare_ms": 0.02,
+            "local_std_sigma2_ms": 0.005637,
+            "local_std_sigma4_ms": 24.29664,
+            "selected_quality_maps_ms": 472.508891
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 1,
+              "total_ms": 164.806547,
+              "mean_ms": 164.806547,
+              "max_ms": 164.806547
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.7967080024827737,
+                "launch_dma_and_core_wait_ms": 6.598025000130292,
+                "invalidate_and_copy_ms": 7.413414998154622,
+                "row_pass_ms": 17.808148000767687
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.138030999485636,
+                "launch_dma_and_core_wait_ms": 6.702708000375424,
+                "invalidate_and_copy_ms": 7.19300899800146,
+                "row_pass_ms": 36.03374799786252
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.170714000996668,
+                "launch_dma_and_core_wait_ms": 39.22284899817896,
+                "invalidate_and_copy_ms": 7.6238159999775235,
+                "row_pass_ms": 52.01737899915315
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.262947001465363,
+                "launch_dma_and_core_wait_ms": 39.092116996471304,
+                "invalidate_and_copy_ms": 7.469342002877966,
+                "row_pass_ms": 71.82440600081463
+              }
+            ],
+            "response_ms": 341.7181350014289,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    },
+    {
+      "case": "eca8ef37a97e43db8f929b469049bc5d",
+      "image_sha256": "e45f5fe848c3ad9a280231d7ad8cee6400f2df6f3fd18757e4aad6cd235d22f8",
+      "roi_count": 2,
+      "timing": {
+        "pipeline_ms": 814.1389650008932,
+        "feature_ms": 59.34411699854536,
+        "feature_timing": {
+          "prepare_and_flush_ms": 4.246825003065169,
+          "dma_completion_observed_ms": {
+            "sobel": 4.0730519976932555,
+            "q8": 4.738394000014523
+          },
+          "prepare_dma_and_copy_ms": 29.229802999907406
+        },
+        "roi_runtime_timing": {
+          "full_frame_compute_ms": 496.784123,
+          "total_compute_ms": 752.930405,
+          "full_frame_stages_ms": {
+            "input_validation_ms": 0.621434,
+            "sobel_prepare_ms": 0.02016,
+            "local_std_sigma2_ms": 0.005668,
+            "local_std_sigma4_ms": 23.897625,
+            "selected_quality_maps_ms": 472.16552
+          },
+          "roi_compute_by_class": {
+            "2": {
+              "count": 1,
+              "total_ms": 159.247145,
+              "mean_ms": 159.247145,
+              "max_ms": 159.247145
+            },
+            "3": {
+              "count": 1,
+              "total_ms": 95.97648,
+              "mean_ms": 95.97648,
+              "max_ms": 95.97648
+            }
+          },
+          "scope": "Direct selected ROI algorithm; shared maps once; excludes input loading, saving and transport."
+        },
+        "gaussian_calls": [
+          {
+            "branch": "broad",
+            "passes": [
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 3.6392000001796987,
+                "launch_dma_and_core_wait_ms": 6.696067997836508,
+                "invalidate_and_copy_ms": 7.373754000582267,
+                "row_pass_ms": 17.709021998598473
+              },
+              {
+                "kernel_id": 1,
+                "rows": 512,
+                "prepare_and_flush_ms": 22.538973000337137,
+                "launch_dma_and_core_wait_ms": 6.584757000382524,
+                "invalidate_and_copy_ms": 7.297020998521475,
+                "row_pass_ms": 36.420750999241136
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 5.270966998068616,
+                "launch_dma_and_core_wait_ms": 39.037777998601086,
+                "invalidate_and_copy_ms": 7.258265002747066,
+                "row_pass_ms": 51.56700999941677
+              },
+              {
+                "kernel_id": 3,
+                "rows": 512,
+                "prepare_and_flush_ms": 25.321624998468906,
+                "launch_dma_and_core_wait_ms": 39.12072000093758,
+                "invalidate_and_copy_ms": 7.238905000122031,
+                "row_pass_ms": 71.68124999952852
+              }
+            ],
+            "response_ms": 339.86739000101807,
+            "scope": "PS padding/transposes/copies, four DMA row passes, PS subtraction/decode"
+          }
+        ],
+        "blur3_calls": [],
+        "legacy_masks_computed": 0,
+        "fixed_oracle_calls": 0,
+        "version": "v10_v91_q8_selected_masks_direct_1",
+        "backend": "v10_fpga",
+        "scope": "input validation, context, DMA/cache/waits/decode, shared broad response and PS masks; no I/O or YOLO"
+      },
+      "reference_checked": false
+    }
+  ],
+  "result_directory": "/home/xilinx/jupyter_notebooks/Untitled Folder/steel_repro_20250507_230127_x47i5uel/steel_board_runtime/steel_runtime_v10_candidate_20261025/results/run_20250507_232000_2d84a766",
+  "timing_scope": "Qualified static pipeline; excludes detector, disk, overlay load and oracle. No new speedup claim.",
+  "stop_reason": "user_stop"
+}

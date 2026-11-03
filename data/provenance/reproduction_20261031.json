@@ -1,0 +1,10 @@
+{
+  "schema": "reproduction_evidence_pointer/1.0",
+  "summary": "../reproduction_20261031/summary.json",
+  "reader": "../reproduction_20261031/readme.md",
+  "new_hardware_board_tested": true,
+  "bit_sha256": "c3078385294ea67d0b112b47d22617cf4f69d213712897505cfcdf284708820e",
+  "hwh_sha256": "e4daa69bc8845896e7ff4b72ad4e3082c870a19d4a6fb3c126c07b689f565285",
+  "test_scope": "120 static images, two paired rounds; 12 live frames; safe close.",
+  "original_build_and_session_records_preserved": true
+}

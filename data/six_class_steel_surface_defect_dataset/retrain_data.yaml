@@ -1,0 +1,14 @@
+{
+  "train": "train_originals.txt",
+  "val": "valid/images",
+  "test": "test/images",
+  "nc": 6,
+  "names": [
+    "裂纹",
+    "夹杂",
+    "斑块",
+    "麻面",
+    "氧化皮压入",
+    "划痕"
+  ]
+}

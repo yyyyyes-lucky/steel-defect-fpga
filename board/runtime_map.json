@@ -1,0 +1,1452 @@
+{
+  "schema": "runtime_assembly/2.0",
+  "files": {
+    "steel_static_demo_20261029/manifest.json": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/manifest.json"
+    },
+    "steel_static_demo_20261029/direct_dispatch.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/direct_dispatch.py"
+    },
+    "steel_static_demo_20261029/selected_inclusion.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/selected_inclusion.py"
+    },
+    "steel_static_demo_20261029/selected_quality.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/selected_quality.py"
+    },
+    "steel_static_demo_20261029/selected_branch.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/selected_branch.py"
+    },
+    "steel_static_demo_20261029/quality_runtime.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/quality_runtime.py"
+    },
+    "steel_static_demo_20261029/check_support.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/check_support.py"
+    },
+    "steel_static_demo_20261029/cpu_baseline.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/cpu_baseline.py"
+    },
+    "steel_static_demo_20261029/comparison.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/comparison.py"
+    },
+    "steel_static_demo_20261029/demo_support.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/demo_support.py"
+    },
+    "steel_static_demo_20261029/benchmark.py": {
+      "source": "src/ps/runtime/steel_static_demo_20261029/benchmark.py"
+    },
+    "steel_static_demo_20261029/viewer.html": {
+      "source": "data/runtime_support/steel_static_demo_20261029/viewer.html"
+    },
+    "steel_static_demo_20261029/inputs.json": {
+      "source": "data/static_inputs/inputs.json"
+    },
+    "steel_static_demo_20261029/model_manifest.json": {
+      "source": "data/models/static_model_manifest.json"
+    },
+    "steel_static_demo_20261029/inputs/demo_001.png": {
+      "source": "data/static_inputs/inputs/demo_001.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_002.png": {
+      "source": "data/static_inputs/inputs/demo_002.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_003.png": {
+      "source": "data/static_inputs/inputs/demo_003.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_004.png": {
+      "source": "data/static_inputs/inputs/demo_004.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_005.png": {
+      "source": "data/static_inputs/inputs/demo_005.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_006.png": {
+      "source": "data/static_inputs/inputs/demo_006.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_007.png": {
+      "source": "data/static_inputs/inputs/demo_007.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_008.png": {
+      "source": "data/static_inputs/inputs/demo_008.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_009.png": {
+      "source": "data/static_inputs/inputs/demo_009.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_010.png": {
+      "source": "data/static_inputs/inputs/demo_010.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_011.png": {
+      "source": "data/static_inputs/inputs/demo_011.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_012.png": {
+      "source": "data/static_inputs/inputs/demo_012.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_013.png": {
+      "source": "data/static_inputs/inputs/demo_013.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_014.png": {
+      "source": "data/static_inputs/inputs/demo_014.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_015.png": {
+      "source": "data/static_inputs/inputs/demo_015.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_016.png": {
+      "source": "data/static_inputs/inputs/demo_016.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_017.png": {
+      "source": "data/static_inputs/inputs/demo_017.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_018.png": {
+      "source": "data/static_inputs/inputs/demo_018.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_019.png": {
+      "source": "data/static_inputs/inputs/demo_019.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_020.png": {
+      "source": "data/static_inputs/inputs/demo_020.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_021.png": {
+      "source": "data/static_inputs/inputs/demo_021.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_022.png": {
+      "source": "data/static_inputs/inputs/demo_022.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_023.png": {
+      "source": "data/static_inputs/inputs/demo_023.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_024.png": {
+      "source": "data/static_inputs/inputs/demo_024.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_025.png": {
+      "source": "data/static_inputs/inputs/demo_025.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_026.png": {
+      "source": "data/static_inputs/inputs/demo_026.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_027.png": {
+      "source": "data/static_inputs/inputs/demo_027.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_028.png": {
+      "source": "data/static_inputs/inputs/demo_028.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_029.png": {
+      "source": "data/static_inputs/inputs/demo_029.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_030.png": {
+      "source": "data/static_inputs/inputs/demo_030.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_031.png": {
+      "source": "data/static_inputs/inputs/demo_031.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_032.png": {
+      "source": "data/static_inputs/inputs/demo_032.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_033.png": {
+      "source": "data/static_inputs/inputs/demo_033.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_034.png": {
+      "source": "data/static_inputs/inputs/demo_034.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_035.png": {
+      "source": "data/static_inputs/inputs/demo_035.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_036.png": {
+      "source": "data/static_inputs/inputs/demo_036.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_037.png": {
+      "source": "data/static_inputs/inputs/demo_037.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_038.png": {
+      "source": "data/static_inputs/inputs/demo_038.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_039.png": {
+      "source": "data/static_inputs/inputs/demo_039.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_040.png": {
+      "source": "data/static_inputs/inputs/demo_040.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_041.png": {
+      "source": "data/static_inputs/inputs/demo_041.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_042.png": {
+      "source": "data/static_inputs/inputs/demo_042.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_043.png": {
+      "source": "data/static_inputs/inputs/demo_043.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_044.png": {
+      "source": "data/static_inputs/inputs/demo_044.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_045.png": {
+      "source": "data/static_inputs/inputs/demo_045.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_046.png": {
+      "source": "data/static_inputs/inputs/demo_046.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_047.png": {
+      "source": "data/static_inputs/inputs/demo_047.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_048.png": {
+      "source": "data/static_inputs/inputs/demo_048.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_049.png": {
+      "source": "data/static_inputs/inputs/demo_049.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_050.png": {
+      "source": "data/static_inputs/inputs/demo_050.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_051.png": {
+      "source": "data/static_inputs/inputs/demo_051.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_052.png": {
+      "source": "data/static_inputs/inputs/demo_052.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_053.png": {
+      "source": "data/static_inputs/inputs/demo_053.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_054.png": {
+      "source": "data/static_inputs/inputs/demo_054.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_055.png": {
+      "source": "data/static_inputs/inputs/demo_055.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_056.png": {
+      "source": "data/static_inputs/inputs/demo_056.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_057.png": {
+      "source": "data/static_inputs/inputs/demo_057.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_058.png": {
+      "source": "data/static_inputs/inputs/demo_058.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_059.png": {
+      "source": "data/static_inputs/inputs/demo_059.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_060.png": {
+      "source": "data/static_inputs/inputs/demo_060.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_061.png": {
+      "source": "data/static_inputs/inputs/demo_061.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_062.png": {
+      "source": "data/static_inputs/inputs/demo_062.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_063.png": {
+      "source": "data/static_inputs/inputs/demo_063.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_064.png": {
+      "source": "data/static_inputs/inputs/demo_064.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_065.png": {
+      "source": "data/static_inputs/inputs/demo_065.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_066.png": {
+      "source": "data/static_inputs/inputs/demo_066.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_067.png": {
+      "source": "data/static_inputs/inputs/demo_067.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_068.png": {
+      "source": "data/static_inputs/inputs/demo_068.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_069.png": {
+      "source": "data/static_inputs/inputs/demo_069.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_070.png": {
+      "source": "data/static_inputs/inputs/demo_070.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_071.png": {
+      "source": "data/static_inputs/inputs/demo_071.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_072.png": {
+      "source": "data/static_inputs/inputs/demo_072.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_073.png": {
+      "source": "data/static_inputs/inputs/demo_073.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_074.png": {
+      "source": "data/static_inputs/inputs/demo_074.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_075.png": {
+      "source": "data/static_inputs/inputs/demo_075.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_076.png": {
+      "source": "data/static_inputs/inputs/demo_076.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_077.png": {
+      "source": "data/static_inputs/inputs/demo_077.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_078.png": {
+      "source": "data/static_inputs/inputs/demo_078.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_079.png": {
+      "source": "data/static_inputs/inputs/demo_079.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_080.png": {
+      "source": "data/static_inputs/inputs/demo_080.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_081.png": {
+      "source": "data/static_inputs/inputs/demo_081.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_082.png": {
+      "source": "data/static_inputs/inputs/demo_082.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_083.png": {
+      "source": "data/static_inputs/inputs/demo_083.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_084.png": {
+      "source": "data/static_inputs/inputs/demo_084.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_085.png": {
+      "source": "data/static_inputs/inputs/demo_085.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_086.png": {
+      "source": "data/static_inputs/inputs/demo_086.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_087.png": {
+      "source": "data/static_inputs/inputs/demo_087.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_088.png": {
+      "source": "data/static_inputs/inputs/demo_088.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_089.png": {
+      "source": "data/static_inputs/inputs/demo_089.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_090.png": {
+      "source": "data/static_inputs/inputs/demo_090.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_091.png": {
+      "source": "data/static_inputs/inputs/demo_091.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_092.png": {
+      "source": "data/static_inputs/inputs/demo_092.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_093.png": {
+      "source": "data/static_inputs/inputs/demo_093.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_094.png": {
+      "source": "data/static_inputs/inputs/demo_094.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_095.png": {
+      "source": "data/static_inputs/inputs/demo_095.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_096.png": {
+      "source": "data/static_inputs/inputs/demo_096.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_097.png": {
+      "source": "data/static_inputs/inputs/demo_097.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_098.png": {
+      "source": "data/static_inputs/inputs/demo_098.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_099.png": {
+      "source": "data/static_inputs/inputs/demo_099.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_100.png": {
+      "source": "data/static_inputs/inputs/demo_100.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_101.png": {
+      "source": "data/static_inputs/inputs/demo_101.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_102.png": {
+      "source": "data/static_inputs/inputs/demo_102.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_103.png": {
+      "source": "data/static_inputs/inputs/demo_103.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_104.png": {
+      "source": "data/static_inputs/inputs/demo_104.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_105.png": {
+      "source": "data/static_inputs/inputs/demo_105.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_106.png": {
+      "source": "data/static_inputs/inputs/demo_106.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_107.png": {
+      "source": "data/static_inputs/inputs/demo_107.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_108.png": {
+      "source": "data/static_inputs/inputs/demo_108.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_109.png": {
+      "source": "data/static_inputs/inputs/demo_109.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_110.png": {
+      "source": "data/static_inputs/inputs/demo_110.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_111.png": {
+      "source": "data/static_inputs/inputs/demo_111.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_112.png": {
+      "source": "data/static_inputs/inputs/demo_112.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_113.png": {
+      "source": "data/static_inputs/inputs/demo_113.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_114.png": {
+      "source": "data/static_inputs/inputs/demo_114.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_115.png": {
+      "source": "data/static_inputs/inputs/demo_115.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_116.png": {
+      "source": "data/static_inputs/inputs/demo_116.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_117.png": {
+      "source": "data/static_inputs/inputs/demo_117.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_118.png": {
+      "source": "data/static_inputs/inputs/demo_118.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_119.png": {
+      "source": "data/static_inputs/inputs/demo_119.png"
+    },
+    "steel_static_demo_20261029/inputs/demo_120.png": {
+      "source": "data/static_inputs/inputs/demo_120.png"
+    },
+    "steel_camera_q8_20261027/manifest.json": {
+      "source": "src/ps/runtime/steel_camera_q8_20261027/manifest.json"
+    },
+    "steel_camera_q8_20261027/board_camera.py": {
+      "source": "src/ps/runtime/steel_camera_q8_20261027/board_camera.py"
+    },
+    "steel_camera_q8_20261027/camera_runtime.py": {
+      "source": "src/ps/runtime/steel_camera_q8_20261027/camera_runtime.py"
+    },
+    "steel_camera_q8_20261027/pc_camera.py": {
+      "source": "src/ps/runtime/steel_camera_q8_20261027/pc_camera.py"
+    },
+    "steel_camera_q8_20261027/protocol.py": {
+      "source": "src/ps/runtime/steel_camera_q8_20261027/protocol.py"
+    },
+    "steel_camera_q8_20261027/test_camera_q8.py": {
+      "source": "sim/ps/steel_camera_q8_20261027/test_camera_q8.py"
+    },
+    "steel_camera_q8_20261027/provenance.json": {
+      "source": "data/runtime_support/steel_camera_q8_20261027/provenance.json"
+    },
+    "steel_camera_bridge_v10_20261025/board_service.py": {
+      "source": "src/ps/runtime/steel_camera_bridge_v10_20261025/board_service.py"
+    },
+    "steel_camera_bridge_v10_20261025/pc_camera.py": {
+      "source": "src/ps/runtime/steel_camera_bridge_v10_20261025/pc_camera.py"
+    },
+    "steel_camera_bridge_v10_20261025/protocol.py": {
+      "source": "src/ps/runtime/steel_camera_bridge_v10_20261025/protocol.py"
+    },
+    "steel_camera_bridge_v10_20261025/test_bridge.py": {
+      "source": "sim/ps/steel_camera_bridge_v10_20261025/test_bridge.py"
+    },
+    "steel_camera_bridge_v10_20261025/manifest.json": {
+      "source": "src/ps/runtime/steel_camera_bridge_v10_20261025/manifest.json"
+    },
+    "steel_q8_path_integration_20261025/integration_context.py": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/integration_context.py"
+    },
+    "steel_q8_path_integration_20261025/generated_paths.py": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/generated_paths.py"
+    },
+    "steel_q8_path_integration_20261025/integration_kernels.py": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/integration_kernels.py"
+    },
+    "steel_q8_path_integration_20261025/manifest.json": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/manifest.json"
+    },
+    "steel_q8_path_integration_20261025/dependency_lock.json": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/dependency_lock.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/dual_features.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/board/dual_features.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/runtime/roi_runtime_portable_v31.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/runtime/roi_runtime_portable_v31.py"
+    },
+    "steel_runtime_v10_candidate_20261025/manifest.json": {
+      "source": "src/ps/runtime/steel_runtime_v10_candidate_20261025/manifest.json"
+    },
+    "steel_runtime_v10_candidate_20261025/dependency_lock.json": {
+      "source": "src/ps/runtime/steel_runtime_v10_candidate_20261025/dependency_lock.json"
+    },
+    "steel_gaussian_v10_board_20261023/manifest.json": {
+      "source": "src/ps/runtime/steel_gaussian_v10_board_20261023/manifest.json"
+    },
+    "steel_gaussian_v10_board_20261023/evidence/build_evidence.json": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/evidence/build_evidence.json"
+    },
+    "steel_gaussian_v10_board_20261023/evidence/ccl_host_validation.json": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/evidence/ccl_host_validation.json"
+    },
+    "steel_gaussian_v10_board_20261023/fixtures.bin": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/fixtures.bin"
+    },
+    "steel_gaussian_v10_board_20261023/gaussian_v10_runner.py": {
+      "source": "src/ps/runtime/steel_gaussian_v10_board_20261023/gaussian_v10_runner.py"
+    },
+    "steel_gaussian_v10_board_20261023/hardware/steel_gaussian_v10.bit": {
+      "source": "board/hardware/steel_gaussian_v10.bit"
+    },
+    "steel_gaussian_v10_board_20261023/hardware/steel_gaussian_v10.hwh": {
+      "source": "board/hardware/steel_gaussian_v10.hwh"
+    },
+    "steel_gaussian_v10_board_20261023/reports/extended_csim.log": {
+      "source": "sim/reference/steel_gaussian_v10_board_20261023/reports/extended_csim.log"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_cosim.rpt": {
+      "source": "sim/reference/steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_cosim.rpt"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_csim.log": {
+      "source": "sim/reference/steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_csim.log"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_csynth.rpt": {
+      "source": "build/reference/runtime/steel_gaussian_v10_board_20261023/reports/gaussian_row_q30_csynth.rpt"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_v10_drc.rpt": {
+      "source": "build/reference/runtime/steel_gaussian_v10_board_20261023/reports/gaussian_v10_drc.rpt"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_v10_timing.rpt": {
+      "source": "build/reference/runtime/steel_gaussian_v10_board_20261023/reports/gaussian_v10_timing.rpt"
+    },
+    "steel_gaussian_v10_board_20261023/reports/gaussian_v10_utilization.rpt": {
+      "source": "build/reference/runtime/steel_gaussian_v10_board_20261023/reports/gaussian_v10_utilization.rpt"
+    },
+    "steel_gaussian_v10_board_20261023/source/build_board_package.py": {
+      "source": "src/ps/runtime/steel_gaussian_v10_board_20261023/source/build_board_package.py"
+    },
+    "steel_gaussian_v10_board_20261023/source/ccl_stats.cpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/ccl_stats.cpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/coefficients_q30.hpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/coefficients_q30.hpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/feasibility_zh.md": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/feasibility_zh.md"
+    },
+    "steel_gaussian_v10_board_20261023/source/gaussian_row_q30.cpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/gaussian_row_q30.cpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/gaussian_row_q30.hpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/gaussian_row_q30.hpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/test_board_runner.py": {
+      "source": "sim/ps/steel_gaussian_v10_board_20261023/source/test_board_runner.py"
+    },
+    "steel_gaussian_v10_board_20261023/source/test_extended.cpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/test_extended.cpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/test_gaussian_row.cpp": {
+      "source": "data/runtime_support/steel_gaussian_v10_board_20261023/source/test_gaussian_row.cpp"
+    },
+    "steel_gaussian_v10_board_20261023/source/validate_ccl.py": {
+      "source": "src/ps/runtime/steel_gaussian_v10_board_20261023/source/validate_ccl.py"
+    },
+    "steel_runtime_v9_1_qualified_20261023/manifest.json": {
+      "source": "src/ps/runtime/steel_runtime_v9_1_qualified_20261023/manifest.json"
+    },
+    "steel_runtime_v9_1_qualified_20261023/candidates.py": {
+      "source": "src/ps/runtime/steel_runtime_v9_1_qualified_20261023/candidates.py"
+    },
+    "steel_runtime_v9_1_qualified_20261023/combined_runtime.py": {
+      "source": "src/ps/runtime/steel_runtime_v9_1_qualified_20261023/combined_runtime.py"
+    },
+    "steel_runtime_v9_1_qualified_20261023/gaussian_candidate.py": {
+      "source": "src/ps/runtime/steel_runtime_v9_1_qualified_20261023/gaussian_candidate.py"
+    },
+    "steel_runtime_v9_1_qualified_20261023/qualification/combined_review_zh.md": {
+      "source": "data/runtime_support/steel_runtime_v9_1_qualified_20261023/qualification/combined_review_zh.md"
+    },
+    "steel_runtime_v9_1_qualified_20261023/qualification/roi_blur3_smoke.json": {
+      "source": "data/runtime_support/steel_runtime_v9_1_qualified_20261023/qualification/roi_blur3_smoke.json"
+    },
+    "steel_runtime_v9_1_qualified_20261023/qualification/v9_combined_acceptance.json": {
+      "source": "data/runtime_support/steel_runtime_v9_1_qualified_20261023/qualification/v9_combined_acceptance.json"
+    },
+    "steel_runtime_v9_1_qualified_20261023/qualification.json": {
+      "source": "data/runtime_support/steel_runtime_v9_1_qualified_20261023/qualification.json"
+    },
+    "steel_runtime_v9_1_qualified_20261023/runtime_v9_1.py": {
+      "source": "src/ps/runtime/steel_runtime_v9_1_qualified_20261023/runtime_v9_1.py"
+    },
+    "steel_runtime_v9_1_qualified_20261023/test_entry.py": {
+      "source": "sim/ps/steel_runtime_v9_1_qualified_20261023/test_entry.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/manifest.json": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/manifest.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/acceptance_common.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/acceptance_common.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/blur3_driver.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/blur3_driver.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/blur3_model.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/blur3_model.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/board_runner.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/board_runner.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/build_evidence.json": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/build_evidence.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/candidate_response.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/candidate_response.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/evidence/fixtures.json": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/evidence/fixtures.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/evidence/gauss_roi_probe.json": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/evidence/gauss_roi_probe.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/evidence/gauss_tail32_full184.json": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/evidence/gauss_tail32_full184.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/evidence/host_test_result.json": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/evidence/host_test_result.json"
+    },
+    "steel_roi_blur3_v9_board_20261023/fixtures.bin": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/fixtures.bin"
+    },
+    "steel_roi_blur3_v9_board_20261023/gauss_tail.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/gauss_tail.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/hardware/steel_roi_blur3.bit": {
+      "source": "board/reference/steel_roi_blur3_v9_board_20261023/hardware/steel_roi_blur3.bit"
+    },
+    "steel_roi_blur3_v9_board_20261023/hardware/steel_roi_blur3.hwh": {
+      "source": "board/reference/steel_roi_blur3_v9_board_20261023/hardware/steel_roi_blur3.hwh"
+    },
+    "steel_roi_blur3_v9_board_20261023/integrated_runtime.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/integrated_runtime.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/blur3_cosim.rpt": {
+      "source": "sim/reference/steel_roi_blur3_v9_board_20261023/reports/blur3_cosim.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/blur3_csim.log": {
+      "source": "sim/reference/steel_roi_blur3_v9_board_20261023/reports/blur3_csim.log"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/blur3_csynth.rpt": {
+      "source": "build/reference/runtime/steel_roi_blur3_v9_board_20261023/reports/blur3_csynth.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/blur3_pipeline_scan_y_scan_x_csynth.rpt": {
+      "source": "build/reference/runtime/steel_roi_blur3_v9_board_20261023/reports/blur3_pipeline_scan_y_scan_x_csynth.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/roi_blur3_drc.rpt": {
+      "source": "build/reference/runtime/steel_roi_blur3_v9_board_20261023/reports/roi_blur3_drc.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/roi_blur3_timing.rpt": {
+      "source": "build/reference/runtime/steel_roi_blur3_v9_board_20261023/reports/roi_blur3_timing.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/reports/roi_blur3_utilization.rpt": {
+      "source": "build/reference/runtime/steel_roi_blur3_v9_board_20261023/reports/roi_blur3_utilization.rpt"
+    },
+    "steel_roi_blur3_v9_board_20261023/roi_blur_runtime.py": {
+      "source": "src/ps/runtime/steel_roi_blur3_v9_board_20261023/roi_blur_runtime.py"
+    },
+    "steel_roi_blur3_v9_board_20261023/source/blur3.cpp": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/source/blur3.cpp"
+    },
+    "steel_roi_blur3_v9_board_20261023/source/blur3.hpp": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/source/blur3.hpp"
+    },
+    "steel_roi_blur3_v9_board_20261023/source/test_blur3.cpp": {
+      "source": "data/runtime_support/steel_roi_blur3_v9_board_20261023/source/test_blur3.cpp"
+    },
+    "steel_roi_blur3_v9_board_20261023/source/test_host.py": {
+      "source": "sim/ps/steel_roi_blur3_v9_board_20261023/source/test_host.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/release_manifest.json": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/release_manifest.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/fixed_dark_response.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/board/fixed_dark_response.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/gaussian_rows.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/board/gaussian_rows.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/inclusion_1_jpg.rf.4fc8c6bf6cd12c84e13943c2e4bae254.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/inclusion_1_jpg.rf.4fc8c6bf6cd12c84e13943c2e4bae254.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/patches_5_jpg.rf.dfd6bac4c25dc2083ea1b6bceaba38cf.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/patches_5_jpg.rf.dfd6bac4c25dc2083ea1b6bceaba38cf.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/pitted_surface_115_jpg.rf.99683124196d70948a46af67c4a8d459.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/pitted_surface_115_jpg.rf.99683124196d70948a46af67c4a8d459.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/rolled-in_scale_259_jpg.rf.4e6dea58d3875fb3e42a195e0e7da0f7.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/rolled-in_scale_259_jpg.rf.4e6dea58d3875fb3e42a195e0e7da0f7.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/rolled-in_scale_34_jpg.rf.0c47b4f881226fa4ba932255ee8b70de.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/rolled-in_scale_34_jpg.rf.0c47b4f881226fa4ba932255ee8b70de.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/scratches_116_jpg.rf.710528c127a3b934d86c296340e5475f.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/scratches_116_jpg.rf.710528c127a3b934d86c296340e5475f.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/images/test.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/images/test.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/q8_reference.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/board/q8_reference.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/samples.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/board/samples.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/steel_triple.bit": {
+      "source": "board/reference/steel_binary_ops_v8_experiment_20261022/baseline/board/steel_triple.bit"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/board/steel_triple.hwh": {
+      "source": "board/reference/steel_binary_ops_v8_experiment_20261022/baseline/board/steel_triple.hwh"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/fixtures/frame_143.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/fixtures/frame_143.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/fixtures/frame_143.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/fixtures/frame_143.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_01/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_01/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_02/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_02/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_03/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_03/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_04/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_04/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_05/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_05/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_06/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_06/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_07/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_07/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_08/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_08/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_09/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_09/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_10/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_10/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_100/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_100/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_101/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_101/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_102/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_102/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_103/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_103/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_104/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_104/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_105/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_105/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_106/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_106/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_107/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_107/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_108/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_108/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_109/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_109/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_11/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_11/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_110/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_110/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_111/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_111/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_112/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_112/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_113/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_113/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_114/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_114/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_115/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_115/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_116/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_116/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_117/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_117/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_118/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_118/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_119/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_119/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_12/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_12/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_120/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_120/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_121/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_121/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_122/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_122/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_123/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_123/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_124/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_124/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_125/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_125/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_126/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_126/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_127/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_127/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_128/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_128/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_129/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_129/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_13/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_13/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_130/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_130/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_131/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_131/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_132/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_132/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_133/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_133/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_134/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_134/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_135/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_135/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_136/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_136/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_137/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_137/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_138/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_138/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_139/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_139/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_14/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_14/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_140/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_140/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_141/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_141/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_142/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_142/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_143/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_143/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_144/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_144/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_145/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_145/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_146/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_146/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_147/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_147/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_148/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_148/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_149/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_149/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_15/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_15/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_150/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_150/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_151/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_151/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_152/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_152/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_153/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_153/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_154/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_154/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_155/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_155/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_156/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_156/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_157/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_157/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_158/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_158/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_159/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_159/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_16/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_16/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_160/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_160/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_161/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_161/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_162/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_162/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_163/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_163/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_164/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_164/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_165/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_165/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_166/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_166/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_167/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_167/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_168/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_168/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_169/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_169/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_17/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_17/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_170/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_170/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_171/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_171/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_172/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_172/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_173/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_173/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_174/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_174/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_175/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_175/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_176/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_176/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_177/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_177/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_178/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_178/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_179/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_179/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_18/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_18/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_180/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_180/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_181/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_181/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_182/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_182/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_183/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_183/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_184/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_184/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_19/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_19/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_20/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_20/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_21/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_21/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_22/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_22/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_23/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_23/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_24/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_24/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_25/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_25/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_26/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_26/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_27/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_27/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_28/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_28/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_29/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_29/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_30/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_30/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_31/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_31/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_32/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_32/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_33/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_33/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_34/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_34/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_35/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_35/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_36/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_36/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_37/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_37/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_38/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_38/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_39/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_39/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_40/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_40/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_41/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_41/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_42/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_42/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_43/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_43/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_44/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_44/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_45/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_45/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_46/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_46/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_47/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_47/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_48/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_48/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_49/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_49/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_50/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_50/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_51/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_51/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_52/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_52/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_53/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_53/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_54/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_54/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_55/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_55/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_56/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_56/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_57/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_57/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_58/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_58/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_59/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_59/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_60/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_60/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_61/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_61/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_62/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_62/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_63/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_63/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_64/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_64/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_65/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_65/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_66/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_66/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_67/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_67/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_68/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_68/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_69/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_69/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_70/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_70/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_71/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_71/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_72/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_72/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_73/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_73/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_74/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_74/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_75/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_75/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_76/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_76/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_77/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_77/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_78/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_78/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_79/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_79/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_80/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_80/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_81/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_81/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_82/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_82/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_83/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_83/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_84/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_84/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_85/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_85/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_86/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_86/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_87/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_87/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_88/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_88/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_89/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_89/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_90/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_90/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_91/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_91/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_92/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_92/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_93/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_93/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_94/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_94/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_95/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_95/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_96/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_96/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_97/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_97/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_98/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_98/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_99/input_gray.png": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full184/frame_99/input_gray.png"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/frozen/full_manifest.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/baseline/frozen/full_manifest.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/run_full_acceptance.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/run_full_acceptance.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/run_smoke.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/run_smoke.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/runtime/optimized/roi_runtime_fast_v32.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/runtime/optimized/roi_runtime_fast_v32.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/steel_defect_runtime.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/baseline/steel_defect_runtime.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/baseline/tests/test_runtime.py": {
+      "source": "sim/ps/steel_binary_ops_v8_experiment_20261022/baseline/tests/test_runtime.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/binary_candidate.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/binary_candidate.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/binary_models.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/binary_models.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/ellipse7_board_test.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/ellipse7_board_test.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/ellipse7_driver.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/ellipse7_driver.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/inclusion_1_jpg.rf.4fc8c6bf6cd12c84e13943c2e4bae254.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/inclusion_1_jpg.rf.4fc8c6bf6cd12c84e13943c2e4bae254.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/patches_5_jpg.rf.dfd6bac4c25dc2083ea1b6bceaba38cf.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/patches_5_jpg.rf.dfd6bac4c25dc2083ea1b6bceaba38cf.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/pitted_surface_115_jpg.rf.99683124196d70948a46af67c4a8d459.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/pitted_surface_115_jpg.rf.99683124196d70948a46af67c4a8d459.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/rolled-in_scale_259_jpg.rf.4e6dea58d3875fb3e42a195e0e7da0f7.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/rolled-in_scale_259_jpg.rf.4e6dea58d3875fb3e42a195e0e7da0f7.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/rolled-in_scale_34_jpg.rf.0c47b4f881226fa4ba932255ee8b70de.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/rolled-in_scale_34_jpg.rf.0c47b4f881226fa4ba932255ee8b70de.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/scratches_116_jpg.rf.710528c127a3b934d86c296340e5475f.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/scratches_116_jpg.rf.710528c127a3b934d86c296340e5475f.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/images/test.jpg": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/images/test.jpg"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/optimized/roi_runtime_fast_v32.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/optimized/roi_runtime_fast_v32.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/q8_reference.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/q8_reference.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/roi_runtime_portable_v31.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/roi_runtime_portable_v31.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/samples.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/board/samples.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/board/transport_common.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/board/transport_common.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/build_board_package.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/build_board_package.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/experiment_runtime.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/experiment_runtime.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/hardware/steel_binary_experiment.bit": {
+      "source": "board/reference/steel_binary_ops_v8_experiment_20261022/hardware/steel_binary_experiment.bit"
+    },
+    "steel_binary_ops_v8_experiment_20261022/hardware/steel_binary_experiment.hwh": {
+      "source": "board/reference/steel_binary_ops_v8_experiment_20261022/hardware/steel_binary_experiment.hwh"
+    },
+    "steel_binary_ops_v8_experiment_20261022/package_manifest.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/package_manifest.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/hls_evidence.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/reference/hls_evidence.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/host_evidence.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/reference/host_evidence.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/v8_build_evidence.json": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/reference/v8_build_evidence.json"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_cosim.rpt": {
+      "source": "sim/reference/steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_cosim.rpt"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_csim.log": {
+      "source": "sim/reference/steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_csim.log"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_csynth.xml": {
+      "source": "data/runtime_support/steel_binary_ops_v8_experiment_20261022/reference/v8_ellipse7_csynth.xml"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_drc.rpt": {
+      "source": "build/reference/runtime/steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_drc.rpt"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_timing.rpt": {
+      "source": "build/reference/runtime/steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_timing.rpt"
+    },
+    "steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_utilization.rpt": {
+      "source": "build/reference/runtime/steel_binary_ops_v8_experiment_20261022/reports/binary_experiment_utilization.rpt"
+    },
+    "steel_binary_ops_v8_experiment_20261022/rollback.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/rollback.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/run_board_acceptance.py": {
+      "source": "src/ps/runtime/steel_binary_ops_v8_experiment_20261022/run_board_acceptance.py"
+    },
+    "steel_binary_ops_v8_experiment_20261022/test_host.py": {
+      "source": "sim/ps/steel_binary_ops_v8_experiment_20261022/test_host.py"
+    },
+    "steel_runtime_v10_candidate_20261025/q8_screen.py": {
+      "source": "src/ps/runtime/steel_runtime_v10_candidate_20261025/q8_screen.py"
+    },
+    "steel_runtime_v10_candidate_20261025/qualification/q8_host_screen.json": {
+      "source": "data/runtime_support/steel_runtime_v10_candidate_20261025/qualification/q8_host_screen.json"
+    },
+    "steel_runtime_v10_candidate_20261025/qualification.json": {
+      "source": "data/runtime_support/steel_runtime_v10_candidate_20261025/qualification.json"
+    },
+    "steel_runtime_v10_candidate_20261025/runtime_v10.py": {
+      "source": "src/ps/runtime/steel_runtime_v10_candidate_20261025/runtime_v10.py"
+    },
+    "steel_runtime_v10_candidate_20261025/test_entry.py": {
+      "source": "sim/ps/steel_runtime_v10_candidate_20261025/test_entry.py"
+    },
+    "steel_q8_path_integration_20261025/generation_check.json": {
+      "source": "data/runtime_support/steel_q8_path_integration_20261025/generation_check.json"
+    },
+    "steel_q8_path_integration_20261025/host_qa.json": {
+      "source": "data/runtime_support/steel_q8_path_integration_20261025/host_qa.json"
+    },
+    "steel_q8_path_integration_20261025/integration_runner.py": {
+      "source": "src/ps/runtime/steel_q8_path_integration_20261025/integration_runner.py"
+    },
+    "steel_q8_path_integration_20261025/source_changes.diff": {
+      "source": "data/runtime_support/steel_q8_path_integration_20261025/source_changes.diff"
+    },
+    "steel_q8_path_integration_20261025/test_integration.py": {
+      "source": "sim/ps/steel_q8_path_integration_20261025/test_integration.py"
+    },
+    "steel_dma_f1_probe_20261026/candidate_decode.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/candidate_decode.py"
+    },
+    "steel_dma_f1_probe_20261026/manifest.json": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/manifest.json"
+    },
+    "steel_dma_f1_probe_20261026/f1_adapter.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/f1_adapter.py"
+    },
+    "steel_dma_f1_probe_20261026/f1_budget.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/f1_budget.py"
+    },
+    "steel_dma_f1_probe_20261026/host_qa.json": {
+      "source": "data/runtime_support/steel_dma_f1_probe_20261026/host_qa.json"
+    },
+    "steel_dma_f1_probe_20261026/inspect_pynq_cache.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/inspect_pynq_cache.py"
+    },
+    "steel_dma_f1_probe_20261026/probe_context.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/probe_context.py"
+    },
+    "steel_dma_f1_probe_20261026/probe_runner.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/probe_runner.py"
+    },
+    "steel_dma_f1_probe_20261026/profiled_driver.py": {
+      "source": "src/ps/runtime/steel_dma_f1_probe_20261026/profiled_driver.py"
+    },
+    "steel_dma_f1_probe_20261026/test_probe.py": {
+      "source": "sim/ps/steel_dma_f1_probe_20261026/test_probe.py"
+    },
+    "steel_dynamic_demo_20261028/board_manifest.json": {
+      "source": "src/ps/runtime/steel_dynamic_demo_20261028/board_manifest.json"
+    },
+    "steel_dynamic_demo_20261028/board_service.py": {
+      "source": "src/ps/runtime/steel_dynamic_demo_20261028/board_service.py"
+    },
+    "steel_dynamic_demo_20261028/wire.py": {
+      "source": "src/ps/runtime/steel_dynamic_demo_20261028/wire.py"
+    },
+    "run_static.ipynb": {
+      "source": "board/run_static.ipynb"
+    },
+    "run_dynamic.ipynb": {
+      "source": "board/run_dynamic.ipynb"
+    },
+    "dynamic_settings.example.json": {
+      "source": "board/dynamic_settings.example.json"
+    }
+  },
+  "file_hash_gates": false
+}

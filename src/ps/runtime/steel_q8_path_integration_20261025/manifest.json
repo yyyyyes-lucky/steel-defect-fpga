@@ -1,0 +1,19 @@
+{
+  "schema": "q8_path_integration_package/1.0",
+  "files": {
+    "dependency_lock.json": "a8abd1d459352737bfd84f11d9ede49703c2827c39f9820d0eca87a14b5d5f37",
+    "generated_paths.py": "ebfd5c3b8c7e2130b4d6b0572202fded24e6a228b978a65d42c4df52712446b5",
+    "generation_check.json": "7b22305b4d5a23e9f6ed69360c0c69aa30b03f3974a4959aba0386f56b2441c5",
+    "host_qa.json": "19822069f7e1d9d1c58cbf78391c73be8714fc450190327e6c4635e5f0a45534",
+    "integration_context.py": "7ca8bd61dd1f67801c45410eecae099f84597aba31e8c24e9676f2469827c135",
+    "integration_kernels.py": "9d2c48aad4a0ecf712410c8d6d7153e06f69951e3a752154e0ef9aae16c3ae73",
+    "integration_runner.py": "a5384dc44cc1349190c00d76272f9a270c2f99892e83a4367a23b96bb2f24d62",
+    "readme_zh.md": "c30a9b2f5c33b9782954d54b94503f96fa27de17bc68abaab24449947dcba2b3",
+    "source_changes.diff": "2a581c4a3117624da6fa5ffc64a89315434762bf4313a7b373a3fb8989eaebfd",
+    "test_integration.py": "5d81459bb25ebd0658212590794d942a2982b5f9dfaca6486862eb25ecebbd21",
+    "reference/run_q8_path_integration.template.ipynb": "dffa6ba53a6ee6b35d276690f47e1a32a810733a6e4a35284780ab09adfdaa9e"
+  },
+  "board_integration_qualified": false,
+  "hardware_version": "v10",
+  "notebook_policy": "Working notebook mutable; reference template is sealed."
+}

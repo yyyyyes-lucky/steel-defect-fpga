@@ -1,0 +1,14 @@
+{
+  "schema": "v10_candidate_entry/1.0",
+  "files": {
+    "dependency_lock.json": "7c97e1237116e5dc595623c6019c8c83d2675fcf48ad18d875bb85d0205fbf3c",
+    "q8_screen.py": "831836f9147411d4fadf446b49b42b51b523f16cd7de03234ea50ab6dd062f13",
+    "qualification/q8_host_screen.json": "56ec9385fc4f3bc6de758cb543cfe46912a5e115ae97ae022cb249b3a20368b9",
+    "qualification.json": "bbca1a84f01ee4c0c0f2b6b299488c4b38c2011afb33489c1cb3c639b974845b",
+    "readme_zh.md": "e4e5c717c7738857d3fb2daca7099ae1e2190440f95f5dd10f8f46553738de6d",
+    "reference/run_v10_entry.template.ipynb": "6ab51e40fbb8b4aa0ab3cdc407b4b7437fe8a50cb259342f426a78e8c232f21d",
+    "runtime_v10.py": "bbb4a562204ee06d9c1b9d9dae23377573243c7586b7954a76a57bfd9096f8c0",
+    "test_entry.py": "1a0848ab1349af8bd8380f3ec9d60f426cfbe6ec385f6eb4d26e5a5fda994a30"
+  },
+  "notebook_policy": "Working notebook mutable; reference template is sealed."
+}

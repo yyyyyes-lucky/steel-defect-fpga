@@ -1,0 +1,34 @@
+{
+  "primitives": {
+    "pass": true,
+    "ellipse_patterns": 55,
+    "threshold_adjacent_float32_values": true,
+    "input_rejection_and_exception_restore": true
+  },
+  "hls_fixture": {
+    "cases": 45,
+    "sha256": "b903b490d1c11a12fa69f728fbcaf661aeff1cda49003bc292ffb25d3aae2f9c",
+    "oracle": "original OpenCV ellipse dilation"
+  },
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "source_sha256": {
+    "binary_candidate.py": "18796d913e9b3d7bb149281771af41cb6a28ed4513485e86f999dc67db27c815",
+    "binary_models.py": "7ffc810402c6467a9e66d74c27347d9b696531473065643a784773a8b699f990",
+    "q8_reference.py": "f5ce92a8cb62d8e73e7152c793b39db00450cb3f861364fa7498459c4d0d2d47",
+    "roi_runtime_portable_v31.py": "325268431b193fe817acc4d41cb2767c13f909b56ab2acfd601a1b522e5d463c",
+    "transport_common.py": "454bbec0c81f93777e3931a4ab1c5023a94fddd5edc8c6fc9ab7dcf34942ac9e",
+    "optimized\\roi_runtime_fast_v32.py": "6a136ca1e053f75b9717a2b8b0f3ccee539bbe816033915f5002d51f7b9972ab"
+  },
+  "pass": true,
+  "new_fpga_access": false,
+  "full184": {
+    "frames": 184,
+    "rois": 403
+  },
+  "test181": {
+    "frames": 181,
+    "rois": 394
+  },
+  "source_report_sha256": "1809d896eb83b3615861243ea04dc90d1e63aa24f33df03e1eff0ef9529136c7"
+}

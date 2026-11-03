@@ -1,0 +1,25 @@
+﻿{
+    "outputs":  {
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/sim.bat":  "39C5F9E6A28316707D6480075445EA85B8A2F922CAFA6CCEF3E0496679B6F64B",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/csim.exe":  "D7B35A9D0A5761EB15CAF76D17B4784CA42F7C616EFA749B5BEC839AD07743CD",
+                    "hls/gaussian_row_q30/extended_project/hls.app":  "AA2119EC8EC6DB119552C06BCE5695AE425FB6C0470A5B6183E3174B86018235",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/run_sim.tcl":  "B0EB3652E2D98B7EC750712CE8478EB4D8D2DED15050F0E2B5728F4EAB804E10",
+                    "hls/gaussian_row_q30/extended_project/solution1/.autopilot/db/dsp_style":  "9424DE3DA7D87E258F4D768C6A71624897246E531E0421E9CAB9B4EB74487E94",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/obj/.dir":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/csim.mk":  "5AB7B8F4251B1BE572F40E31A32C0E78410A84D0F1DCB332FF272ABA3F863A86",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/obj/test_extended.d":  "265AD8393258A48874887E06F8E4C5C9864A211F0A90881715EA8C04AB48CE4A",
+                    "hls/gaussian_row_q30/extended_project/solution1/solution1.log":  "40718CAA555B2C95A1FCC473824B38E4352990E797379AE789D60C0C8F246A1A",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/obj/test_extended.o":  "C0E2D1A5DD530DDAB8A0922E82C4180E6E73A4BABC6C4629C0D9B190EFA94995",
+                    "hls/gaussian_row_q30/extended_project/solution1/solution1.aps":  "05CE172C0E4954D91011563FAAC7D53CE9DA8D10E18226546805AFE0819578FE",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/report/gaussian_row_q30_csim.log":  "D8376B61F0A4AE4A5E510B15CCB307F418BC6BCA6313769469196B68B7E8F03C",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/obj/gaussian_row_q30.d":  "181C33D50E89086F5B5C96C9B641E4B90A2C46EC74F7E3609946E28DAB4B30F2",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/Makefile.rules":  "B3EE109CAB3477AC2BA66B4889248629CFBA3A1BDE9ECCACB92E14B4F2F7C0C2",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/obj/gaussian_row_q30.o":  "96506B803258938FF57EB66BCD1FC851941FB686F5F7043287FD0A0B574F5193",
+                    "hls/gaussian_row_q30/extended_project/solution1/.autopilot/db/autopilot.flow.log":  "78CABB1F5AB948113F1F6D345BE990102B4C9067019C5431D11598D9F3C84BA8",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/.lst_opt.tcl":  "BD3609BA6E45BE6976046673CE65347E82C55A726643A51B99E112C12EBF5CDA",
+                    "hls/gaussian_row_q30/extended_project/solution1/csim/build/env.json":  "F257288ED138631FDBC6DD440D4CC89EEF4F75EEE36146F6FFEAAFADBB38A4E0"
+                },
+    "input_sha256":  "8411737ccc7943f7d21cb362946a910bdddce24301241cc27396769103cfad70",
+    "checked_at":  "2026-10-31T14:15:06.8359556+08:00",
+    "stage":  "gaussian_extended"
+}

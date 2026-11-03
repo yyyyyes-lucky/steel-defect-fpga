@@ -1,0 +1,16 @@
+{
+  "scope": "HOST MOCK ONLY; not FPGA performance or board acceptance",
+  "command": "Python313/python.exe steel_roi_blur3_v9_20261023/test_host.py",
+  "tests": 4,
+  "seconds": 40.027,
+  "pass": true,
+  "coverage": [
+    "120 primitive fixtures through fake packed DMA driver; strided input; output ownership",
+    "Invalid input, timeout, protocol error, received length, failed reset and retained buffers",
+    "Scoped runtime replacement restored after injected failure",
+    "Real runtime full184/403 and three supplemental fixtures using fake hardware",
+    "Smoke old/new paths and 24 timing pairs using fake hardware",
+    "86 actual class2 blur calls, no unexpected routing",
+    "Persistent interrupted-session marker across simulated module reload and reboot"
+  ]
+}

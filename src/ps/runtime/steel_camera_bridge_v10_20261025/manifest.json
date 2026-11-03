@@ -1,0 +1,13 @@
+{
+  "schema": "steel_camera_bridge/1.0",
+  "files": {
+    "board_service.py": "f5f47c9a3850fd7e0918dca56af522dd789b6612ebaffe01c46315dbe05c3643",
+    "pc_camera.py": "63dccdd66fb378c68a264db1cfd579163d29759d95fdb12eec13fa7e1bf9577d",
+    "protocol.py": "4a0d9e02386d53b333214cc271c8e50fbc30fb3facaf82ef6ecb4c01873e1ed9",
+    "readme_zh.md": "63aa8338416e7c550b374277a43da3aa86cd0f45e3127482f27d5ba5fd5b50ea",
+    "reference/run_camera_service.template.ipynb": "215e124afa705012675f299a3416c4eb388e76e92169cf758c8bf7dad2bc8869",
+    "test_bridge.py": "de1e6d6ceea9e19acc6b1df3b45c216d7c660f2545282f348412dd3fbf132560"
+  },
+  "working_notebook_mutable": true,
+  "actual_camera_and_board_acceptance_pending": true
+}

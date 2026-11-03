@@ -1,0 +1,5 @@
+{
+  "port": 8767,
+  "max_frames": 1000,
+  "idle_seconds": 600
+}

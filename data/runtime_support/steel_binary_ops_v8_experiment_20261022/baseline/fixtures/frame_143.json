@@ -1,0 +1,19 @@
+{
+  "frame_id": "frame_143",
+  "image_name": "rolled-in_scale_163_jpg.rf.83a25ccc305a9acc8b3daeccfca8fa76.jpg",
+  "sha256": "8a67c02065ff4925a7d3d2a37d5a170b4360e05fd2db553f26db341d8c3ee894",
+  "predictions": [
+    {
+      "class_id": 4,
+      "detection_index": 0,
+      "confidence": 0.688441,
+      "box_xyxy_pixel": [146.174, 379.127, 303.265, 511.927]
+    },
+    {
+      "class_id": 4,
+      "detection_index": 1,
+      "confidence": 0.278808,
+      "box_xyxy_pixel": [132.044, 123.544, 282.279, 344.323]
+    }
+  ]
+}

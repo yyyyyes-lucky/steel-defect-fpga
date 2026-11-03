@@ -1,0 +1,7087 @@
+{
+  "schema": "descriptor_reduce_v14/1.0",
+  "phase": "full",
+  "completed": true,
+  "pass": true,
+  "hardware_session_safe": true,
+  "formal_release_replaced": false,
+  "promotion_approved": false,
+  "integrity": {
+    "manifest_sha256": "0adfed246a70569520456d2b029ca1cdabd082705f01976b42c1b80b00444403",
+    "bit_sha256": "3f2a3ecd88f17834995f4674cfe81f133ea7a2902715279e523ed4aa85108815",
+    "hwh_sha256": "d5e409fd153fec795b51505123223743eaa11b415d458354fcc969557617bbe3",
+    "baseline_manifest_sha256": "850875f139576dbb5e6f8958a21ce986357ffafe288950de942408a5cc94f054",
+    "hardware_contract": {
+      "addresses": {
+        "axi_dma_descriptor": "0x40450000",
+        "descriptor_reduce_0": "0x43c30000"
+      },
+      "registers": {
+        "CTRL": 0,
+        "GIER": 4,
+        "IP_IER": 8,
+        "IP_ISR": 12,
+        "width": 16,
+        "height": 24,
+        "status": 32,
+        "status_ctrl": 36
+      },
+      "dma_parameters": {
+        "C_INCLUDE_SG": 0,
+        "C_M_AXIS_MM2S_TDATA_WIDTH": 32,
+        "C_SG_LENGTH_WIDTH": 26,
+        "C_S_AXIS_S2MM_TDATA_WIDTH": 32
+      }
+    }
+  },
+  "boot_id": "dfc9b3bc-14fe-44a7-969f-a6cc4ed7720b",
+  "frames": [
+    {
+      "case": "frame_01",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            117,
+            163
+          ],
+          "exact": true,
+          "timing": {
+            "height": 117,
+            "width": 163,
+            "output_words": 58,
+            "call_ms": 1.9710340000074211
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            114,
+            503
+          ],
+          "exact": true,
+          "timing": {
+            "height": 114,
+            "width": 503,
+            "output_words": 58,
+            "call_ms": 2.516005999950721
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            213,
+            414
+          ],
+          "exact": true,
+          "timing": {
+            "height": 213,
+            "width": 414,
+            "output_words": 58,
+            "call_ms": 3.326633999904516
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_02",
+      "roi_count": 0,
+      "exact": true,
+      "rois": []
+    },
+    {
+      "case": "frame_03",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            163,
+            246
+          ],
+          "exact": true,
+          "timing": {
+            "height": 163,
+            "width": 246,
+            "output_words": 58,
+            "call_ms": 2.318897999998626
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            210,
+            216
+          ],
+          "exact": true,
+          "timing": {
+            "height": 210,
+            "width": 216,
+            "output_words": 58,
+            "call_ms": 2.4357169999120742
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_04",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            138,
+            411
+          ],
+          "exact": true,
+          "timing": {
+            "height": 138,
+            "width": 411,
+            "output_words": 58,
+            "call_ms": 2.4432799999658528
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_05",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            177,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 177,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 3.2079819999353276
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_06",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            157,
+            496
+          ],
+          "exact": true,
+          "timing": {
+            "height": 157,
+            "width": 496,
+            "output_words": 58,
+            "call_ms": 2.958454999998139
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            139,
+            489
+          ],
+          "exact": true,
+          "timing": {
+            "height": 139,
+            "width": 489,
+            "output_words": 58,
+            "call_ms": 2.6718760000221664
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_07",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            160,
+            314
+          ],
+          "exact": true,
+          "timing": {
+            "height": 160,
+            "width": 314,
+            "output_words": 58,
+            "call_ms": 2.4498469999798544
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            151,
+            460
+          ],
+          "exact": true,
+          "timing": {
+            "height": 151,
+            "width": 460,
+            "output_words": 58,
+            "call_ms": 2.686671000105889
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            152,
+            509
+          ],
+          "exact": true,
+          "timing": {
+            "height": 152,
+            "width": 509,
+            "output_words": 58,
+            "call_ms": 2.971279999997023
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_08",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            197,
+            385
+          ],
+          "exact": true,
+          "timing": {
+            "height": 197,
+            "width": 385,
+            "output_words": 58,
+            "call_ms": 2.95793300006153
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            276,
+            281
+          ],
+          "exact": true,
+          "timing": {
+            "height": 276,
+            "width": 281,
+            "output_words": 58,
+            "call_ms": 2.934239999945021
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_09",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            97,
+            189
+          ],
+          "exact": true,
+          "timing": {
+            "height": 97,
+            "width": 189,
+            "output_words": 58,
+            "call_ms": 2.044627000032051
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_10",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            168,
+            420
+          ],
+          "exact": true,
+          "timing": {
+            "height": 168,
+            "width": 420,
+            "output_words": 58,
+            "call_ms": 2.964880000035919
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            143,
+            145
+          ],
+          "exact": true,
+          "timing": {
+            "height": 143,
+            "width": 145,
+            "output_words": 58,
+            "call_ms": 1.9307940000317103
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_11",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            144,
+            411
+          ],
+          "exact": true,
+          "timing": {
+            "height": 144,
+            "width": 411,
+            "output_words": 58,
+            "call_ms": 2.7742280000211395
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            177,
+            216
+          ],
+          "exact": true,
+          "timing": {
+            "height": 177,
+            "width": 216,
+            "output_words": 58,
+            "call_ms": 2.343255000027966
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_12",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            117,
+            233
+          ],
+          "exact": true,
+          "timing": {
+            "height": 117,
+            "width": 233,
+            "output_words": 58,
+            "call_ms": 1.9872559998930228
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_13",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            132,
+            56
+          ],
+          "exact": true,
+          "timing": {
+            "height": 132,
+            "width": 56,
+            "output_words": 58,
+            "call_ms": 1.6989779999221355
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            190
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 190,
+            "output_words": 58,
+            "call_ms": 3.3037849999573154
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_14",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            360,
+            89
+          ],
+          "exact": true,
+          "timing": {
+            "height": 360,
+            "width": 89,
+            "output_words": 58,
+            "call_ms": 2.265335000060986
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_15",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            118,
+            61
+          ],
+          "exact": true,
+          "timing": {
+            "height": 118,
+            "width": 61,
+            "output_words": 58,
+            "call_ms": 1.69683100000384
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            141,
+            62
+          ],
+          "exact": true,
+          "timing": {
+            "height": 141,
+            "width": 62,
+            "output_words": 58,
+            "call_ms": 1.6713410000193107
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            69,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 69,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.661022000007506
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_16",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            129,
+            55
+          ],
+          "exact": true,
+          "timing": {
+            "height": 129,
+            "width": 55,
+            "output_words": 58,
+            "call_ms": 1.7016000000467102
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            468,
+            113
+          ],
+          "exact": true,
+          "timing": {
+            "height": 468,
+            "width": 113,
+            "output_words": 58,
+            "call_ms": 2.4969910000436357
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            210,
+            65
+          ],
+          "exact": true,
+          "timing": {
+            "height": 210,
+            "width": 65,
+            "output_words": 58,
+            "call_ms": 1.6843629999812038
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            162,
+            67
+          ],
+          "exact": true,
+          "timing": {
+            "height": 162,
+            "width": 67,
+            "output_words": 58,
+            "call_ms": 1.7623070000354346
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            65,
+            40
+          ],
+          "exact": true,
+          "timing": {
+            "height": 65,
+            "width": 40,
+            "output_words": 58,
+            "call_ms": 1.7052860000603687
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_17",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            473,
+            67
+          ],
+          "exact": true,
+          "timing": {
+            "height": 473,
+            "width": 67,
+            "output_words": 58,
+            "call_ms": 2.3529110000026776
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            106
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 106,
+            "output_words": 58,
+            "call_ms": 2.51409899999544
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_18",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            187
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 187,
+            "output_words": 58,
+            "call_ms": 3.401827999937268
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            254,
+            75
+          ],
+          "exact": true,
+          "timing": {
+            "height": 254,
+            "width": 75,
+            "output_words": 58,
+            "call_ms": 1.9616309999719306
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_19",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            180,
+            117
+          ],
+          "exact": true,
+          "timing": {
+            "height": 180,
+            "width": 117,
+            "output_words": 58,
+            "call_ms": 1.9776490000822378
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            93,
+            101
+          ],
+          "exact": true,
+          "timing": {
+            "height": 93,
+            "width": 101,
+            "output_words": 58,
+            "call_ms": 1.7872070000066742
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            86,
+            91
+          ],
+          "exact": true,
+          "timing": {
+            "height": 86,
+            "width": 91,
+            "output_words": 58,
+            "call_ms": 1.667569000005642
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_20",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            85,
+            101
+          ],
+          "exact": true,
+          "timing": {
+            "height": 85,
+            "width": 101,
+            "output_words": 58,
+            "call_ms": 1.6892250000637432
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            259,
+            192
+          ],
+          "exact": true,
+          "timing": {
+            "height": 259,
+            "width": 192,
+            "output_words": 58,
+            "call_ms": 2.5050709999732135
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            196,
+            119
+          ],
+          "exact": true,
+          "timing": {
+            "height": 196,
+            "width": 119,
+            "output_words": 58,
+            "call_ms": 1.9514329999310576
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            68,
+            96
+          ],
+          "exact": true,
+          "timing": {
+            "height": 68,
+            "width": 96,
+            "output_words": 58,
+            "call_ms": 1.6664369999261908
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            489,
+            129
+          ],
+          "exact": true,
+          "timing": {
+            "height": 489,
+            "width": 129,
+            "output_words": 58,
+            "call_ms": 2.775225000050341
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_21",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            417,
+            205
+          ],
+          "exact": true,
+          "timing": {
+            "height": 417,
+            "width": 205,
+            "output_words": 58,
+            "call_ms": 3.1278209999072715
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_22",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            117,
+            116
+          ],
+          "exact": true,
+          "timing": {
+            "height": 117,
+            "width": 116,
+            "output_words": 58,
+            "call_ms": 1.6224800000372852
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            323,
+            192
+          ],
+          "exact": true,
+          "timing": {
+            "height": 323,
+            "width": 192,
+            "output_words": 58,
+            "call_ms": 2.684492000071259
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            162,
+            93
+          ],
+          "exact": true,
+          "timing": {
+            "height": 162,
+            "width": 93,
+            "output_words": 58,
+            "call_ms": 1.6221099999711441
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            157,
+            203
+          ],
+          "exact": true,
+          "timing": {
+            "height": 157,
+            "width": 203,
+            "output_words": 58,
+            "call_ms": 2.172886000039398
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            158,
+            165
+          ],
+          "exact": true,
+          "timing": {
+            "height": 158,
+            "width": 165,
+            "output_words": 58,
+            "call_ms": 1.9255939999993643
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_23",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            260,
+            206
+          ],
+          "exact": true,
+          "timing": {
+            "height": 260,
+            "width": 206,
+            "output_words": 58,
+            "call_ms": 2.4213110000346205
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            312,
+            193
+          ],
+          "exact": true,
+          "timing": {
+            "height": 312,
+            "width": 193,
+            "output_words": 58,
+            "call_ms": 2.7131320000535197
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            71,
+            112
+          ],
+          "exact": true,
+          "timing": {
+            "height": 71,
+            "width": 112,
+            "output_words": 58,
+            "call_ms": 1.5970709999919563
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_24",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            141,
+            123
+          ],
+          "exact": true,
+          "timing": {
+            "height": 141,
+            "width": 123,
+            "output_words": 58,
+            "call_ms": 1.8396859999256776
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            132,
+            117
+          ],
+          "exact": true,
+          "timing": {
+            "height": 132,
+            "width": 117,
+            "output_words": 58,
+            "call_ms": 1.6224869999632574
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            132,
+            78
+          ],
+          "exact": true,
+          "timing": {
+            "height": 132,
+            "width": 78,
+            "output_words": 58,
+            "call_ms": 1.6359200000124474
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_25",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            394,
+            126
+          ],
+          "exact": true,
+          "timing": {
+            "height": 394,
+            "width": 126,
+            "output_words": 58,
+            "call_ms": 2.435556000023098
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_26",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            316
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 316,
+            "output_words": 58,
+            "call_ms": 4.746953999983816
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            511,
+            139
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 139,
+            "output_words": 58,
+            "call_ms": 2.9398280000805244
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_27",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            214
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 214,
+            "output_words": 58,
+            "call_ms": 3.81992600000558
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            324
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 324,
+            "output_words": 58,
+            "call_ms": 4.773279999994884
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_28",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            510,
+            312
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 312,
+            "output_words": 58,
+            "call_ms": 4.594596999936584
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_29",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 6.545637000044735
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_30",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            435
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 435,
+            "output_words": 58,
+            "call_ms": 5.7831689999829905
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            510,
+            97
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 97,
+            "output_words": 58,
+            "call_ms": 2.423686000042835
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_31",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            510,
+            206
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 206,
+            "output_words": 58,
+            "call_ms": 3.4596000000419735
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            510,
+            271
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 271,
+            "output_words": 58,
+            "call_ms": 4.227224999908685
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_32",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            493
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 493,
+            "output_words": 58,
+            "call_ms": 6.569648999970923
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_33",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 6.722116999981154
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_34",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            473
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 473,
+            "output_words": 58,
+            "call_ms": 6.2508680000519234
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_35",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            313,
+            178
+          ],
+          "exact": true,
+          "timing": {
+            "height": 313,
+            "width": 178,
+            "output_words": 58,
+            "call_ms": 2.5917049999861774
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            170,
+            241
+          ],
+          "exact": true,
+          "timing": {
+            "height": 170,
+            "width": 241,
+            "output_words": 58,
+            "call_ms": 2.252060999921923
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_36",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            181,
+            142
+          ],
+          "exact": true,
+          "timing": {
+            "height": 181,
+            "width": 142,
+            "output_words": 58,
+            "call_ms": 1.9321420001006118
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            77,
+            94
+          ],
+          "exact": true,
+          "timing": {
+            "height": 77,
+            "width": 94,
+            "output_words": 58,
+            "call_ms": 1.6384309999466495
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            53,
+            140
+          ],
+          "exact": true,
+          "timing": {
+            "height": 53,
+            "width": 140,
+            "output_words": 58,
+            "call_ms": 1.6329420000147365
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_37",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            241,
+            121
+          ],
+          "exact": true,
+          "timing": {
+            "height": 241,
+            "width": 121,
+            "output_words": 58,
+            "call_ms": 1.928695000060543
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_38",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            427,
+            193
+          ],
+          "exact": true,
+          "timing": {
+            "height": 427,
+            "width": 193,
+            "output_words": 58,
+            "call_ms": 2.9665170000043872
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            209,
+            190
+          ],
+          "exact": true,
+          "timing": {
+            "height": 209,
+            "width": 190,
+            "output_words": 58,
+            "call_ms": 2.186972999993486
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            247,
+            141
+          ],
+          "exact": true,
+          "timing": {
+            "height": 247,
+            "width": 141,
+            "output_words": 58,
+            "call_ms": 2.20274400010112
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_39",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            257,
+            211
+          ],
+          "exact": true,
+          "timing": {
+            "height": 257,
+            "width": 211,
+            "output_words": 58,
+            "call_ms": 2.4976680000463602
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            201,
+            241
+          ],
+          "exact": true,
+          "timing": {
+            "height": 201,
+            "width": 241,
+            "output_words": 58,
+            "call_ms": 2.505956999925729
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_40",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            166,
+            55
+          ],
+          "exact": true,
+          "timing": {
+            "height": 166,
+            "width": 55,
+            "output_words": 58,
+            "call_ms": 1.603465000016513
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            185,
+            30
+          ],
+          "exact": true,
+          "timing": {
+            "height": 185,
+            "width": 30,
+            "output_words": 58,
+            "call_ms": 1.583753999966575
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            90,
+            26
+          ],
+          "exact": true,
+          "timing": {
+            "height": 90,
+            "width": 26,
+            "output_words": 58,
+            "call_ms": 1.5650709999590617
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            120,
+            38
+          ],
+          "exact": true,
+          "timing": {
+            "height": 120,
+            "width": 38,
+            "output_words": 58,
+            "call_ms": 1.5735260000155904
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_41",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            310,
+            31
+          ],
+          "exact": true,
+          "timing": {
+            "height": 310,
+            "width": 31,
+            "output_words": 58,
+            "call_ms": 1.6028860000005807
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            123,
+            28
+          ],
+          "exact": true,
+          "timing": {
+            "height": 123,
+            "width": 28,
+            "output_words": 58,
+            "call_ms": 1.709174999973584
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_42",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            266,
+            57
+          ],
+          "exact": true,
+          "timing": {
+            "height": 266,
+            "width": 57,
+            "output_words": 58,
+            "call_ms": 1.605340999958571
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            232,
+            46
+          ],
+          "exact": true,
+          "timing": {
+            "height": 232,
+            "width": 46,
+            "output_words": 58,
+            "call_ms": 1.5890280000121493
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            137,
+            49
+          ],
+          "exact": true,
+          "timing": {
+            "height": 137,
+            "width": 49,
+            "output_words": 58,
+            "call_ms": 1.5780070000346313
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            136,
+            35
+          ],
+          "exact": true,
+          "timing": {
+            "height": 136,
+            "width": 35,
+            "output_words": 58,
+            "call_ms": 1.5777660000821925
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_43",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            35,
+            197
+          ],
+          "exact": true,
+          "timing": {
+            "height": 35,
+            "width": 197,
+            "output_words": 58,
+            "call_ms": 1.6075449999561897
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            68,
+            369
+          ],
+          "exact": true,
+          "timing": {
+            "height": 68,
+            "width": 369,
+            "output_words": 58,
+            "call_ms": 1.870344000053592
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            50,
+            375
+          ],
+          "exact": true,
+          "timing": {
+            "height": 50,
+            "width": 375,
+            "output_words": 58,
+            "call_ms": 1.8802460000415522
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            44,
+            489
+          ],
+          "exact": true,
+          "timing": {
+            "height": 44,
+            "width": 489,
+            "output_words": 58,
+            "call_ms": 1.893335999966439
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_44",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            46,
+            509
+          ],
+          "exact": true,
+          "timing": {
+            "height": 46,
+            "width": 509,
+            "output_words": 58,
+            "call_ms": 1.9987440000477363
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            32,
+            260
+          ],
+          "exact": true,
+          "timing": {
+            "height": 32,
+            "width": 260,
+            "output_words": 58,
+            "call_ms": 1.573065000002316
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_45",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            40,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 40,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 1.8767870000147013
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            65,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 65,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 2.1632610000779096
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            98,
+            511
+          ],
+          "exact": true,
+          "timing": {
+            "height": 98,
+            "width": 511,
+            "output_words": 58,
+            "call_ms": 2.3841409999931784
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            71,
+            483
+          ],
+          "exact": true,
+          "timing": {
+            "height": 71,
+            "width": 483,
+            "output_words": 58,
+            "call_ms": 2.49071999996886
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_46",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            310,
+            39
+          ],
+          "exact": true,
+          "timing": {
+            "height": 310,
+            "width": 39,
+            "output_words": 58,
+            "call_ms": 1.6109969999433815
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            90,
+            94
+          ],
+          "exact": true,
+          "timing": {
+            "height": 90,
+            "width": 94,
+            "output_words": 58,
+            "call_ms": 1.6953170000988393
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_47",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            97,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 97,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 2.4008860000321874
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_48",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            51
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 51,
+            "output_words": 58,
+            "call_ms": 1.87247999997453
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            491,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 491,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.8682529999978215
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            351,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 351,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.5938959999175495
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_49",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            125,
+            463
+          ],
+          "exact": true,
+          "timing": {
+            "height": 125,
+            "width": 463,
+            "output_words": 58,
+            "call_ms": 2.6644609999948443
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_50",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            172,
+            502
+          ],
+          "exact": true,
+          "timing": {
+            "height": 172,
+            "width": 502,
+            "output_words": 58,
+            "call_ms": 3.214930000012828
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_51",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            117,
+            206
+          ],
+          "exact": true,
+          "timing": {
+            "height": 117,
+            "width": 206,
+            "output_words": 58,
+            "call_ms": 1.8884250000610336
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_52",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            211,
+            186
+          ],
+          "exact": true,
+          "timing": {
+            "height": 211,
+            "width": 186,
+            "output_words": 58,
+            "call_ms": 2.155650000077003
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            161,
+            277
+          ],
+          "exact": true,
+          "timing": {
+            "height": 161,
+            "width": 277,
+            "output_words": 58,
+            "call_ms": 2.4898030000031213
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            143,
+            292
+          ],
+          "exact": true,
+          "timing": {
+            "height": 143,
+            "width": 292,
+            "output_words": 58,
+            "call_ms": 2.1417420000489074
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_53",
+      "roi_count": 0,
+      "exact": true,
+      "rois": []
+    },
+    {
+      "case": "frame_54",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            199,
+            269
+          ],
+          "exact": true,
+          "timing": {
+            "height": 199,
+            "width": 269,
+            "output_words": 58,
+            "call_ms": 2.403975999982322
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_55",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            169,
+            276
+          ],
+          "exact": true,
+          "timing": {
+            "height": 169,
+            "width": 276,
+            "output_words": 58,
+            "call_ms": 2.408584000022529
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            143,
+            318
+          ],
+          "exact": true,
+          "timing": {
+            "height": 143,
+            "width": 318,
+            "output_words": 58,
+            "call_ms": 2.4039569999558807
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_56",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            137,
+            377
+          ],
+          "exact": true,
+          "timing": {
+            "height": 137,
+            "width": 377,
+            "output_words": 58,
+            "call_ms": 2.4316800000860894
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            145,
+            477
+          ],
+          "exact": true,
+          "timing": {
+            "height": 145,
+            "width": 477,
+            "output_words": 58,
+            "call_ms": 2.658873999962452
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_57",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            151,
+            327
+          ],
+          "exact": true,
+          "timing": {
+            "height": 151,
+            "width": 327,
+            "output_words": 58,
+            "call_ms": 2.520861999983026
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            155,
+            425
+          ],
+          "exact": true,
+          "timing": {
+            "height": 155,
+            "width": 425,
+            "output_words": 58,
+            "call_ms": 2.6525600000013583
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_58",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            118,
+            439
+          ],
+          "exact": true,
+          "timing": {
+            "height": 118,
+            "width": 439,
+            "output_words": 58,
+            "call_ms": 2.4391500001001987
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            178,
+            454
+          ],
+          "exact": true,
+          "timing": {
+            "height": 178,
+            "width": 454,
+            "output_words": 58,
+            "call_ms": 2.9300800000555682
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_59",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            140,
+            330
+          ],
+          "exact": true,
+          "timing": {
+            "height": 140,
+            "width": 330,
+            "output_words": 58,
+            "call_ms": 2.412306999985958
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            179,
+            324
+          ],
+          "exact": true,
+          "timing": {
+            "height": 179,
+            "width": 324,
+            "output_words": 58,
+            "call_ms": 2.645693000090432
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_60",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            189,
+            496
+          ],
+          "exact": true,
+          "timing": {
+            "height": 189,
+            "width": 496,
+            "output_words": 58,
+            "call_ms": 3.268565999974271
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_61",
+      "roi_count": 0,
+      "exact": true,
+      "rois": []
+    },
+    {
+      "case": "frame_62",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            146,
+            263
+          ],
+          "exact": true,
+          "timing": {
+            "height": 146,
+            "width": 263,
+            "output_words": 58,
+            "call_ms": 2.334775000008449
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_63",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            195,
+            496
+          ],
+          "exact": true,
+          "timing": {
+            "height": 195,
+            "width": 496,
+            "output_words": 58,
+            "call_ms": 3.2791259999385147
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            104,
+            502
+          ],
+          "exact": true,
+          "timing": {
+            "height": 104,
+            "width": 502,
+            "output_words": 58,
+            "call_ms": 2.4818460000233245
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_64",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            197,
+            313
+          ],
+          "exact": true,
+          "timing": {
+            "height": 197,
+            "width": 313,
+            "output_words": 58,
+            "call_ms": 2.764880000086123
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            187,
+            483
+          ],
+          "exact": true,
+          "timing": {
+            "height": 187,
+            "width": 483,
+            "output_words": 58,
+            "call_ms": 3.370381999957317
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_65",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            151,
+            495
+          ],
+          "exact": true,
+          "timing": {
+            "height": 151,
+            "width": 495,
+            "output_words": 58,
+            "call_ms": 3.0234889999292136
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            162,
+            490
+          ],
+          "exact": true,
+          "timing": {
+            "height": 162,
+            "width": 490,
+            "output_words": 58,
+            "call_ms": 3.0205479999949603
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_66",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            178,
+            364
+          ],
+          "exact": true,
+          "timing": {
+            "height": 178,
+            "width": 364,
+            "output_words": 58,
+            "call_ms": 2.77881800002433
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            149,
+            497
+          ],
+          "exact": true,
+          "timing": {
+            "height": 149,
+            "width": 497,
+            "output_words": 58,
+            "call_ms": 3.0294220000541827
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_67",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            189,
+            194
+          ],
+          "exact": true,
+          "timing": {
+            "height": 189,
+            "width": 194,
+            "output_words": 58,
+            "call_ms": 2.2544670000570477
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_68",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            170,
+            510
+          ],
+          "exact": true,
+          "timing": {
+            "height": 170,
+            "width": 510,
+            "output_words": 58,
+            "call_ms": 3.310036999891963
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            208,
+            476
+          ],
+          "exact": true,
+          "timing": {
+            "height": 208,
+            "width": 476,
+            "output_words": 58,
+            "call_ms": 3.5350029997971433
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            163,
+            345
+          ],
+          "exact": true,
+          "timing": {
+            "height": 163,
+            "width": 345,
+            "output_words": 58,
+            "call_ms": 2.4863630001163983
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            150,
+            244
+          ],
+          "exact": true,
+          "timing": {
+            "height": 150,
+            "width": 244,
+            "output_words": 58,
+            "call_ms": 2.2532069999670057
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_69",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            179,
+            452
+          ],
+          "exact": true,
+          "timing": {
+            "height": 179,
+            "width": 452,
+            "output_words": 58,
+            "call_ms": 3.052314000115075
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_70",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            181,
+            337
+          ],
+          "exact": true,
+          "timing": {
+            "height": 181,
+            "width": 337,
+            "output_words": 58,
+            "call_ms": 3.330368999968414
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_71",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            106,
+            493
+          ],
+          "exact": true,
+          "timing": {
+            "height": 106,
+            "width": 493,
+            "output_words": 58,
+            "call_ms": 2.4343879999833007
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_72",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            154,
+            273
+          ],
+          "exact": true,
+          "timing": {
+            "height": 154,
+            "width": 273,
+            "output_words": 58,
+            "call_ms": 2.147378000017852
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            125,
+            463
+          ],
+          "exact": true,
+          "timing": {
+            "height": 125,
+            "width": 463,
+            "output_words": 58,
+            "call_ms": 2.7024680000522494
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_73",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            166,
+            277
+          ],
+          "exact": true,
+          "timing": {
+            "height": 166,
+            "width": 277,
+            "output_words": 58,
+            "call_ms": 2.602202999923975
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            102,
+            182
+          ],
+          "exact": true,
+          "timing": {
+            "height": 102,
+            "width": 182,
+            "output_words": 58,
+            "call_ms": 1.9617969999217166
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_74",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            172,
+            503
+          ],
+          "exact": true,
+          "timing": {
+            "height": 172,
+            "width": 503,
+            "output_words": 58,
+            "call_ms": 3.293643000006341
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_75",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            156,
+            217
+          ],
+          "exact": true,
+          "timing": {
+            "height": 156,
+            "width": 217,
+            "output_words": 58,
+            "call_ms": 2.2109230001206015
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_76",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            244,
+            219
+          ],
+          "exact": true,
+          "timing": {
+            "height": 244,
+            "width": 219,
+            "output_words": 58,
+            "call_ms": 2.6541540000835084
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            122,
+            460
+          ],
+          "exact": true,
+          "timing": {
+            "height": 122,
+            "width": 460,
+            "output_words": 58,
+            "call_ms": 2.4739570001202082
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_77",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            117,
+            217
+          ],
+          "exact": true,
+          "timing": {
+            "height": 117,
+            "width": 217,
+            "output_words": 58,
+            "call_ms": 1.9606219998422603
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            228,
+            489
+          ],
+          "exact": true,
+          "timing": {
+            "height": 228,
+            "width": 489,
+            "output_words": 58,
+            "call_ms": 3.5875080000096204
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_78",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            105
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 105,
+            "output_words": 58,
+            "call_ms": 2.521119999983057
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            200,
+            91
+          ],
+          "exact": true,
+          "timing": {
+            "height": 200,
+            "width": 91,
+            "output_words": 58,
+            "call_ms": 1.9710340000074211
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            127,
+            62
+          ],
+          "exact": true,
+          "timing": {
+            "height": 127,
+            "width": 62,
+            "output_words": 58,
+            "call_ms": 1.6600369999650866
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_79",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            439,
+            125
+          ],
+          "exact": true,
+          "timing": {
+            "height": 439,
+            "width": 125,
+            "output_words": 58,
+            "call_ms": 2.5143140001091524
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_80",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            142,
+            61
+          ],
+          "exact": true,
+          "timing": {
+            "height": 142,
+            "width": 61,
+            "output_words": 58,
+            "call_ms": 1.794043000018064
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_81",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            108,
+            50
+          ],
+          "exact": true,
+          "timing": {
+            "height": 108,
+            "width": 50,
+            "output_words": 58,
+            "call_ms": 1.5988249999736581
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            59,
+            38
+          ],
+          "exact": true,
+          "timing": {
+            "height": 59,
+            "width": 38,
+            "output_words": 58,
+            "call_ms": 1.558775999910722
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_82",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            310,
+            128
+          ],
+          "exact": true,
+          "timing": {
+            "height": 310,
+            "width": 128,
+            "output_words": 58,
+            "call_ms": 2.2280000000591826
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            139,
+            60
+          ],
+          "exact": true,
+          "timing": {
+            "height": 139,
+            "width": 60,
+            "output_words": 58,
+            "call_ms": 1.6681230001722724
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_83",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            107,
+            63
+          ],
+          "exact": true,
+          "timing": {
+            "height": 107,
+            "width": 63,
+            "output_words": 58,
+            "call_ms": 1.6669599999659113
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            76,
+            38
+          ],
+          "exact": true,
+          "timing": {
+            "height": 76,
+            "width": 38,
+            "output_words": 58,
+            "call_ms": 1.6431569999895146
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            76,
+            38
+          ],
+          "exact": true,
+          "timing": {
+            "height": 76,
+            "width": 38,
+            "output_words": 58,
+            "call_ms": 1.7231140000149026
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            227,
+            58
+          ],
+          "exact": true,
+          "timing": {
+            "height": 227,
+            "width": 58,
+            "output_words": 58,
+            "call_ms": 1.656165999975201
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_84",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            494,
+            127
+          ],
+          "exact": true,
+          "timing": {
+            "height": 494,
+            "width": 127,
+            "output_words": 58,
+            "call_ms": 3.105162999872846
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            334,
+            70
+          ],
+          "exact": true,
+          "timing": {
+            "height": 334,
+            "width": 70,
+            "output_words": 58,
+            "call_ms": 2.38670099997762
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_85",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            384,
+            100
+          ],
+          "exact": true,
+          "timing": {
+            "height": 384,
+            "width": 100,
+            "output_words": 58,
+            "call_ms": 2.261766000174248
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_86",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            217,
+            84
+          ],
+          "exact": true,
+          "timing": {
+            "height": 217,
+            "width": 84,
+            "output_words": 58,
+            "call_ms": 1.9370649999927991
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            179,
+            97
+          ],
+          "exact": true,
+          "timing": {
+            "height": 179,
+            "width": 97,
+            "output_words": 58,
+            "call_ms": 1.6718770000352379
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_87",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            136
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 136,
+            "output_words": 58,
+            "call_ms": 2.7471690000311355
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_88",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            115,
+            41
+          ],
+          "exact": true,
+          "timing": {
+            "height": 115,
+            "width": 41,
+            "output_words": 58,
+            "call_ms": 1.599452999926143
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            101,
+            45
+          ],
+          "exact": true,
+          "timing": {
+            "height": 101,
+            "width": 45,
+            "output_words": 58,
+            "call_ms": 1.5755750000607804
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            53,
+            91
+          ],
+          "exact": true,
+          "timing": {
+            "height": 53,
+            "width": 91,
+            "output_words": 58,
+            "call_ms": 1.5724859999863838
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            94,
+            44
+          ],
+          "exact": true,
+          "timing": {
+            "height": 94,
+            "width": 44,
+            "output_words": 58,
+            "call_ms": 1.5792240001246682
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_89",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            508,
+            98
+          ],
+          "exact": true,
+          "timing": {
+            "height": 508,
+            "width": 98,
+            "output_words": 58,
+            "call_ms": 2.421937999997681
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            253,
+            88
+          ],
+          "exact": true,
+          "timing": {
+            "height": 253,
+            "width": 88,
+            "output_words": 58,
+            "call_ms": 1.900517000194668
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            261,
+            65
+          ],
+          "exact": true,
+          "timing": {
+            "height": 261,
+            "width": 65,
+            "output_words": 58,
+            "call_ms": 1.6206210000291321
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            79,
+            49
+          ],
+          "exact": true,
+          "timing": {
+            "height": 79,
+            "width": 49,
+            "output_words": 58,
+            "call_ms": 1.5739630000553007
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_90",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            113
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 113,
+            "output_words": 58,
+            "call_ms": 2.614849999872604
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_91",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            120
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 120,
+            "output_words": 58,
+            "call_ms": 2.75845000010122
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_92",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            75
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 75,
+            "output_words": 58,
+            "call_ms": 2.2303570001440676
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_93",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            148,
+            56
+          ],
+          "exact": true,
+          "timing": {
+            "height": 148,
+            "width": 56,
+            "output_words": 58,
+            "call_ms": 1.6602769999281008
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            165,
+            64
+          ],
+          "exact": true,
+          "timing": {
+            "height": 165,
+            "width": 64,
+            "output_words": 58,
+            "call_ms": 1.6667570000663545
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_94",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            383,
+            76
+          ],
+          "exact": true,
+          "timing": {
+            "height": 383,
+            "width": 76,
+            "output_words": 58,
+            "call_ms": 1.9488739999360405
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            377,
+            107
+          ],
+          "exact": true,
+          "timing": {
+            "height": 377,
+            "width": 107,
+            "output_words": 58,
+            "call_ms": 2.2062640000513056
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            511,
+            93
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 93,
+            "output_words": 58,
+            "call_ms": 2.495169999974678
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_95",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            112
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 112,
+            "output_words": 58,
+            "call_ms": 2.4996119998377253
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_96",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            197,
+            76
+          ],
+          "exact": true,
+          "timing": {
+            "height": 197,
+            "width": 76,
+            "output_words": 58,
+            "call_ms": 1.6823260000364826
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            98,
+            54
+          ],
+          "exact": true,
+          "timing": {
+            "height": 98,
+            "width": 54,
+            "output_words": 58,
+            "call_ms": 1.657022000017605
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            147,
+            62
+          ],
+          "exact": true,
+          "timing": {
+            "height": 147,
+            "width": 62,
+            "output_words": 58,
+            "call_ms": 1.7967259998385998
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            135,
+            103
+          ],
+          "exact": true,
+          "timing": {
+            "height": 135,
+            "width": 103,
+            "output_words": 58,
+            "call_ms": 1.677933000109988
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_97",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            107,
+            65
+          ],
+          "exact": true,
+          "timing": {
+            "height": 107,
+            "width": 65,
+            "output_words": 58,
+            "call_ms": 1.6684669999449397
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            255,
+            61
+          ],
+          "exact": true,
+          "timing": {
+            "height": 255,
+            "width": 61,
+            "output_words": 58,
+            "call_ms": 1.65684900002816
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            75,
+            40
+          ],
+          "exact": true,
+          "timing": {
+            "height": 75,
+            "width": 40,
+            "output_words": 58,
+            "call_ms": 1.6252620000614115
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_98",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            147,
+            52
+          ],
+          "exact": true,
+          "timing": {
+            "height": 147,
+            "width": 52,
+            "output_words": 58,
+            "call_ms": 1.6674710000188497
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            183,
+            61
+          ],
+          "exact": true,
+          "timing": {
+            "height": 183,
+            "width": 61,
+            "output_words": 58,
+            "call_ms": 1.6495319998739433
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_99",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            247,
+            85
+          ],
+          "exact": true,
+          "timing": {
+            "height": 247,
+            "width": 85,
+            "output_words": 58,
+            "call_ms": 1.8755700000383513
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            122,
+            100
+          ],
+          "exact": true,
+          "timing": {
+            "height": 122,
+            "width": 100,
+            "output_words": 58,
+            "call_ms": 1.6043200000694924
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            169,
+            52
+          ],
+          "exact": true,
+          "timing": {
+            "height": 169,
+            "width": 52,
+            "output_words": 58,
+            "call_ms": 1.5944059998673765
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            141,
+            60
+          ],
+          "exact": true,
+          "timing": {
+            "height": 141,
+            "width": 60,
+            "output_words": 58,
+            "call_ms": 1.607219000106852
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            213,
+            67
+          ],
+          "exact": true,
+          "timing": {
+            "height": 213,
+            "width": 67,
+            "output_words": 58,
+            "call_ms": 1.5997849998257152
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_100",
+      "roi_count": 6,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            181,
+            85
+          ],
+          "exact": true,
+          "timing": {
+            "height": 181,
+            "width": 85,
+            "output_words": 58,
+            "call_ms": 1.6144000001077075
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            98,
+            39
+          ],
+          "exact": true,
+          "timing": {
+            "height": 98,
+            "width": 39,
+            "output_words": 58,
+            "call_ms": 1.578762999997707
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            64,
+            36
+          ],
+          "exact": true,
+          "timing": {
+            "height": 64,
+            "width": 36,
+            "output_words": 58,
+            "call_ms": 1.5574399999422894
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            63,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 63,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.5601479999531875
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            73,
+            36
+          ],
+          "exact": true,
+          "timing": {
+            "height": 73,
+            "width": 36,
+            "output_words": 58,
+            "call_ms": 1.648682999984885
+          }
+        },
+        {
+          "roi": 5,
+          "shape": [
+            142,
+            93
+          ],
+          "exact": true,
+          "timing": {
+            "height": 142,
+            "width": 93,
+            "output_words": 58,
+            "call_ms": 1.619033999986641
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_101",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            202,
+            264
+          ],
+          "exact": true,
+          "timing": {
+            "height": 202,
+            "width": 264,
+            "output_words": 58,
+            "call_ms": 2.4247690000720468
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            493,
+            119
+          ],
+          "exact": true,
+          "timing": {
+            "height": 493,
+            "width": 119,
+            "output_words": 58,
+            "call_ms": 2.672695000001113
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            334,
+            179
+          ],
+          "exact": true,
+          "timing": {
+            "height": 334,
+            "width": 179,
+            "output_words": 58,
+            "call_ms": 2.673938000043563
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_102",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            200,
+            118
+          ],
+          "exact": true,
+          "timing": {
+            "height": 200,
+            "width": 118,
+            "output_words": 58,
+            "call_ms": 1.8903689999660855
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            356,
+            179
+          ],
+          "exact": true,
+          "timing": {
+            "height": 356,
+            "width": 179,
+            "output_words": 58,
+            "call_ms": 2.653619000057006
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            55,
+            55
+          ],
+          "exact": true,
+          "timing": {
+            "height": 55,
+            "width": 55,
+            "output_words": 58,
+            "call_ms": 1.6021970000110741
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_103",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            356,
+            195
+          ],
+          "exact": true,
+          "timing": {
+            "height": 356,
+            "width": 195,
+            "output_words": 58,
+            "call_ms": 2.9231819999040454
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            197,
+            204
+          ],
+          "exact": true,
+          "timing": {
+            "height": 197,
+            "width": 204,
+            "output_words": 58,
+            "call_ms": 2.1511200000077224
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            40,
+            112
+          ],
+          "exact": true,
+          "timing": {
+            "height": 40,
+            "width": 112,
+            "output_words": 58,
+            "call_ms": 1.577906999955303
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_104",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            253,
+            137
+          ],
+          "exact": true,
+          "timing": {
+            "height": 253,
+            "width": 137,
+            "output_words": 58,
+            "call_ms": 2.1376740000960126
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_105",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            164,
+            241
+          ],
+          "exact": true,
+          "timing": {
+            "height": 164,
+            "width": 241,
+            "output_words": 58,
+            "call_ms": 2.162923000014416
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_106",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            208,
+            195
+          ],
+          "exact": true,
+          "timing": {
+            "height": 208,
+            "width": 195,
+            "output_words": 58,
+            "call_ms": 2.15292299981229
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            156,
+            141
+          ],
+          "exact": true,
+          "timing": {
+            "height": 156,
+            "width": 141,
+            "output_words": 58,
+            "call_ms": 1.887125999928685
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            54,
+            163
+          ],
+          "exact": true,
+          "timing": {
+            "height": 54,
+            "width": 163,
+            "output_words": 58,
+            "call_ms": 1.5907069998775114
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            169,
+            119
+          ],
+          "exact": true,
+          "timing": {
+            "height": 169,
+            "width": 119,
+            "output_words": 58,
+            "call_ms": 1.8822639999598323
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_107",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            240,
+            109
+          ],
+          "exact": true,
+          "timing": {
+            "height": 240,
+            "width": 109,
+            "output_words": 58,
+            "call_ms": 1.896811999813508
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            190,
+            125
+          ],
+          "exact": true,
+          "timing": {
+            "height": 190,
+            "width": 125,
+            "output_words": 58,
+            "call_ms": 1.8850709998332604
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            450,
+            155
+          ],
+          "exact": true,
+          "timing": {
+            "height": 450,
+            "width": 155,
+            "output_words": 58,
+            "call_ms": 2.775359999986904
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            97,
+            104
+          ],
+          "exact": true,
+          "timing": {
+            "height": 97,
+            "width": 104,
+            "output_words": 58,
+            "call_ms": 1.5909790001842339
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_108",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            358,
+            188
+          ],
+          "exact": true,
+          "timing": {
+            "height": 358,
+            "width": 188,
+            "output_words": 58,
+            "call_ms": 2.8736120000303345
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            510,
+            110
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 110,
+            "output_words": 58,
+            "call_ms": 2.476363000141646
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            118,
+            206
+          ],
+          "exact": true,
+          "timing": {
+            "height": 118,
+            "width": 206,
+            "output_words": 58,
+            "call_ms": 1.955828000063775
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_109",
+      "roi_count": 6,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            459,
+            202
+          ],
+          "exact": true,
+          "timing": {
+            "height": 459,
+            "width": 202,
+            "output_words": 58,
+            "call_ms": 3.282892000015636
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            137,
+            147
+          ],
+          "exact": true,
+          "timing": {
+            "height": 137,
+            "width": 147,
+            "output_words": 58,
+            "call_ms": 1.9634640000276704
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            134,
+            40
+          ],
+          "exact": true,
+          "timing": {
+            "height": 134,
+            "width": 40,
+            "output_words": 58,
+            "call_ms": 1.654732000133663
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            159,
+            215
+          ],
+          "exact": true,
+          "timing": {
+            "height": 159,
+            "width": 215,
+            "output_words": 58,
+            "call_ms": 2.230060999863781
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            115,
+            81
+          ],
+          "exact": true,
+          "timing": {
+            "height": 115,
+            "width": 81,
+            "output_words": 58,
+            "call_ms": 1.6460370000004332
+          }
+        },
+        {
+          "roi": 5,
+          "shape": [
+            319,
+            45
+          ],
+          "exact": true,
+          "timing": {
+            "height": 319,
+            "width": 45,
+            "output_words": 58,
+            "call_ms": 1.7848059999323596
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_110",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            222,
+            172
+          ],
+          "exact": true,
+          "timing": {
+            "height": 222,
+            "width": 172,
+            "output_words": 58,
+            "call_ms": 2.236271000128909
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            94,
+            155
+          ],
+          "exact": true,
+          "timing": {
+            "height": 94,
+            "width": 155,
+            "output_words": 58,
+            "call_ms": 1.6598830000020826
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            131,
+            160
+          ],
+          "exact": true,
+          "timing": {
+            "height": 131,
+            "width": 160,
+            "output_words": 58,
+            "call_ms": 2.0240559999820107
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            88,
+            191
+          ],
+          "exact": true,
+          "timing": {
+            "height": 88,
+            "width": 191,
+            "output_words": 58,
+            "call_ms": 1.762491999897975
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            81,
+            60
+          ],
+          "exact": true,
+          "timing": {
+            "height": 81,
+            "width": 60,
+            "output_words": 58,
+            "call_ms": 1.890461999892068
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_111",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            156,
+            195
+          ],
+          "exact": true,
+          "timing": {
+            "height": 156,
+            "width": 195,
+            "output_words": 58,
+            "call_ms": 1.9609050000326533
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            103,
+            129
+          ],
+          "exact": true,
+          "timing": {
+            "height": 103,
+            "width": 129,
+            "output_words": 58,
+            "call_ms": 1.6658150000239402
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_112",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            88,
+            142
+          ],
+          "exact": true,
+          "timing": {
+            "height": 88,
+            "width": 142,
+            "output_words": 58,
+            "call_ms": 1.6681229999448988
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            106,
+            109
+          ],
+          "exact": true,
+          "timing": {
+            "height": 106,
+            "width": 109,
+            "output_words": 58,
+            "call_ms": 4.051360000175919
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            92,
+            172
+          ],
+          "exact": true,
+          "timing": {
+            "height": 92,
+            "width": 172,
+            "output_words": 58,
+            "call_ms": 2.017703999854348
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_113",
+      "roi_count": 5,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            109,
+            114
+          ],
+          "exact": true,
+          "timing": {
+            "height": 109,
+            "width": 114,
+            "output_words": 58,
+            "call_ms": 1.6786339999725897
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            190,
+            113
+          ],
+          "exact": true,
+          "timing": {
+            "height": 190,
+            "width": 113,
+            "output_words": 58,
+            "call_ms": 1.962683000101606
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            248,
+            162
+          ],
+          "exact": true,
+          "timing": {
+            "height": 248,
+            "width": 162,
+            "output_words": 58,
+            "call_ms": 2.234651999970083
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            113,
+            174
+          ],
+          "exact": true,
+          "timing": {
+            "height": 113,
+            "width": 174,
+            "output_words": 58,
+            "call_ms": 1.9595510000272043
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            299,
+            163
+          ],
+          "exact": true,
+          "timing": {
+            "height": 299,
+            "width": 163,
+            "output_words": 58,
+            "call_ms": 2.580240000042977
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_114",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            168,
+            226
+          ],
+          "exact": true,
+          "timing": {
+            "height": 168,
+            "width": 226,
+            "output_words": 58,
+            "call_ms": 2.2194709999894258
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            198,
+            126
+          ],
+          "exact": true,
+          "timing": {
+            "height": 198,
+            "width": 126,
+            "output_words": 58,
+            "call_ms": 1.941906999945786
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            119,
+            97
+          ],
+          "exact": true,
+          "timing": {
+            "height": 119,
+            "width": 97,
+            "output_words": 58,
+            "call_ms": 1.643815000079485
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_115",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            162,
+            309
+          ],
+          "exact": true,
+          "timing": {
+            "height": 162,
+            "width": 309,
+            "output_words": 58,
+            "call_ms": 2.5080120001348405
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            355,
+            330
+          ],
+          "exact": true,
+          "timing": {
+            "height": 355,
+            "width": 330,
+            "output_words": 58,
+            "call_ms": 3.9102949999687553
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            286,
+            157
+          ],
+          "exact": true,
+          "timing": {
+            "height": 286,
+            "width": 157,
+            "output_words": 58,
+            "call_ms": 2.604713999971864
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_116",
+      "roi_count": 6,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            241,
+            183
+          ],
+          "exact": true,
+          "timing": {
+            "height": 241,
+            "width": 183,
+            "output_words": 58,
+            "call_ms": 2.2242649999952846
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            133,
+            112
+          ],
+          "exact": true,
+          "timing": {
+            "height": 133,
+            "width": 112,
+            "output_words": 58,
+            "call_ms": 1.6548609999063046
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            136,
+            119
+          ],
+          "exact": true,
+          "timing": {
+            "height": 136,
+            "width": 119,
+            "output_words": 58,
+            "call_ms": 1.670609000029799
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            62,
+            64
+          ],
+          "exact": true,
+          "timing": {
+            "height": 62,
+            "width": 64,
+            "output_words": 58,
+            "call_ms": 1.6428490000635065
+          }
+        },
+        {
+          "roi": 4,
+          "shape": [
+            39,
+            85
+          ],
+          "exact": true,
+          "timing": {
+            "height": 39,
+            "width": 85,
+            "output_words": 58,
+            "call_ms": 1.6224180001245259
+          }
+        },
+        {
+          "roi": 5,
+          "shape": [
+            48,
+            79
+          ],
+          "exact": true,
+          "timing": {
+            "height": 48,
+            "width": 79,
+            "output_words": 58,
+            "call_ms": 1.6397290000895737
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_117",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            211,
+            154
+          ],
+          "exact": true,
+          "timing": {
+            "height": 211,
+            "width": 154,
+            "output_words": 58,
+            "call_ms": 2.243335000002844
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            145
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 145,
+            "output_words": 58,
+            "call_ms": 3.003206000130376
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_118",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            340,
+            194
+          ],
+          "exact": true,
+          "timing": {
+            "height": 340,
+            "width": 194,
+            "output_words": 58,
+            "call_ms": 2.8686090001883713
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            500,
+            165
+          ],
+          "exact": true,
+          "timing": {
+            "height": 500,
+            "width": 165,
+            "output_words": 58,
+            "call_ms": 3.0272799999693234
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_119",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            180,
+            117
+          ],
+          "exact": true,
+          "timing": {
+            "height": 180,
+            "width": 117,
+            "output_words": 58,
+            "call_ms": 1.864343999841367
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            93,
+            101
+          ],
+          "exact": true,
+          "timing": {
+            "height": 93,
+            "width": 101,
+            "output_words": 58,
+            "call_ms": 1.5982400000211783
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            86,
+            91
+          ],
+          "exact": true,
+          "timing": {
+            "height": 86,
+            "width": 91,
+            "output_words": 58,
+            "call_ms": 1.668812000161779
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_120",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            180,
+            134
+          ],
+          "exact": true,
+          "timing": {
+            "height": 180,
+            "width": 134,
+            "output_words": 58,
+            "call_ms": 1.8761469998480607
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            314,
+            99
+          ],
+          "exact": true,
+          "timing": {
+            "height": 314,
+            "width": 99,
+            "output_words": 58,
+            "call_ms": 1.8988369999988208
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_121",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            337,
+            147
+          ],
+          "exact": true,
+          "timing": {
+            "height": 337,
+            "width": 147,
+            "output_words": 58,
+            "call_ms": 2.40017800001624
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            91,
+            221
+          ],
+          "exact": true,
+          "timing": {
+            "height": 91,
+            "width": 221,
+            "output_words": 58,
+            "call_ms": 1.8598829999518784
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            394,
+            158
+          ],
+          "exact": true,
+          "timing": {
+            "height": 394,
+            "width": 158,
+            "output_words": 58,
+            "call_ms": 2.6649600001746876
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            75,
+            69
+          ],
+          "exact": true,
+          "timing": {
+            "height": 75,
+            "width": 69,
+            "output_words": 58,
+            "call_ms": 1.5773420000186889
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_122",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            510,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 6.5677540001161105
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_123",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            510
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 510,
+            "output_words": 58,
+            "call_ms": 6.692497999893021
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_124",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            508,
+            172
+          ],
+          "exact": true,
+          "timing": {
+            "height": 508,
+            "width": 172,
+            "output_words": 58,
+            "call_ms": 3.179943999839452
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_125",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            319
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 319,
+            "output_words": 58,
+            "call_ms": 4.595502000029228
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_126",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            511
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 511,
+            "output_words": 58,
+            "call_ms": 6.817291999823283
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_127",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            485,
+            511
+          ],
+          "exact": true,
+          "timing": {
+            "height": 485,
+            "width": 511,
+            "output_words": 58,
+            "call_ms": 6.555796999919039
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_128",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            490,
+            316
+          ],
+          "exact": true,
+          "timing": {
+            "height": 490,
+            "width": 316,
+            "output_words": 58,
+            "call_ms": 4.640762999997605
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_129",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            230
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 230,
+            "output_words": 58,
+            "call_ms": 3.941168999972433
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_130",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            433
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 433,
+            "output_words": 58,
+            "call_ms": 5.742553999880329
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_131",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            506,
+            512
+          ],
+          "exact": true,
+          "timing": {
+            "height": 506,
+            "width": 512,
+            "output_words": 58,
+            "call_ms": 6.551470999966114
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_132",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            510
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 510,
+            "output_words": 58,
+            "call_ms": 6.795150000016292
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_133",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            510,
+            509
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 509,
+            "output_words": 58,
+            "call_ms": 6.691557000067405
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_134",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            224
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 224,
+            "output_words": 58,
+            "call_ms": 3.8530520000676916
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            510,
+            215
+          ],
+          "exact": true,
+          "timing": {
+            "height": 510,
+            "width": 215,
+            "output_words": 58,
+            "call_ms": 3.488867999976719
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_135",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            508
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 508,
+            "output_words": 58,
+            "call_ms": 6.526166000185185
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_136",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            111
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 111,
+            "output_words": 58,
+            "call_ms": 2.672338000138552
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            507,
+            259
+          ],
+          "exact": true,
+          "timing": {
+            "height": 507,
+            "width": 259,
+            "output_words": 58,
+            "call_ms": 3.9484369999627233
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_137",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            235,
+            241
+          ],
+          "exact": true,
+          "timing": {
+            "height": 235,
+            "width": 241,
+            "output_words": 58,
+            "call_ms": 2.6942160000089643
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            46,
+            170
+          ],
+          "exact": true,
+          "timing": {
+            "height": 46,
+            "width": 170,
+            "output_words": 58,
+            "call_ms": 1.5767320001032203
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_138",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            433,
+            164
+          ],
+          "exact": true,
+          "timing": {
+            "height": 433,
+            "width": 164,
+            "output_words": 58,
+            "call_ms": 2.9265790001318237
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            157,
+            92
+          ],
+          "exact": true,
+          "timing": {
+            "height": 157,
+            "width": 92,
+            "output_words": 58,
+            "call_ms": 1.5977539999312285
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_139",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            214,
+            121
+          ],
+          "exact": true,
+          "timing": {
+            "height": 214,
+            "width": 121,
+            "output_words": 58,
+            "call_ms": 1.8829109999387583
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            122,
+            151
+          ],
+          "exact": true,
+          "timing": {
+            "height": 122,
+            "width": 151,
+            "output_words": 58,
+            "call_ms": 1.8737170000804326
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_140",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            378,
+            130
+          ],
+          "exact": true,
+          "timing": {
+            "height": 378,
+            "width": 130,
+            "output_words": 58,
+            "call_ms": 2.4327510000148322
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            64,
+            148
+          ],
+          "exact": true,
+          "timing": {
+            "height": 64,
+            "width": 148,
+            "output_words": 58,
+            "call_ms": 1.584227999956056
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            241,
+            90
+          ],
+          "exact": true,
+          "timing": {
+            "height": 241,
+            "width": 90,
+            "output_words": 58,
+            "call_ms": 1.8926400000509602
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_141",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            171,
+            301
+          ],
+          "exact": true,
+          "timing": {
+            "height": 171,
+            "width": 301,
+            "output_words": 58,
+            "call_ms": 2.4122829997850204
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            122,
+            133
+          ],
+          "exact": true,
+          "timing": {
+            "height": 122,
+            "width": 133,
+            "output_words": 58,
+            "call_ms": 1.591982000036296
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_142",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            69,
+            119
+          ],
+          "exact": true,
+          "timing": {
+            "height": 69,
+            "width": 119,
+            "output_words": 58,
+            "call_ms": 1.5995139999631647
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            89,
+            117
+          ],
+          "exact": true,
+          "timing": {
+            "height": 89,
+            "width": 117,
+            "output_words": 58,
+            "call_ms": 1.590103999888015
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            159,
+            207
+          ],
+          "exact": true,
+          "timing": {
+            "height": 159,
+            "width": 207,
+            "output_words": 58,
+            "call_ms": 2.1380860000590474
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            268,
+            179
+          ],
+          "exact": true,
+          "timing": {
+            "height": 268,
+            "width": 179,
+            "output_words": 58,
+            "call_ms": 2.4054150001120433
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_143",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            133,
+            158
+          ],
+          "exact": true,
+          "timing": {
+            "height": 133,
+            "width": 158,
+            "output_words": 58,
+            "call_ms": 1.8776859999434237
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            222,
+            151
+          ],
+          "exact": true,
+          "timing": {
+            "height": 222,
+            "width": 151,
+            "output_words": 58,
+            "call_ms": 2.310941999894567
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_144",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            197,
+            156
+          ],
+          "exact": true,
+          "timing": {
+            "height": 197,
+            "width": 156,
+            "output_words": 58,
+            "call_ms": 2.379723000103695
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_145",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            284,
+            185
+          ],
+          "exact": true,
+          "timing": {
+            "height": 284,
+            "width": 185,
+            "output_words": 58,
+            "call_ms": 2.435618999925282
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            152,
+            154
+          ],
+          "exact": true,
+          "timing": {
+            "height": 152,
+            "width": 154,
+            "output_words": 58,
+            "call_ms": 1.885526000023674
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            113,
+            197
+          ],
+          "exact": true,
+          "timing": {
+            "height": 113,
+            "width": 197,
+            "output_words": 58,
+            "call_ms": 1.9183809999958612
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_146",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            311,
+            117
+          ],
+          "exact": true,
+          "timing": {
+            "height": 311,
+            "width": 117,
+            "output_words": 58,
+            "call_ms": 2.157980999982101
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            195,
+            157
+          ],
+          "exact": true,
+          "timing": {
+            "height": 195,
+            "width": 157,
+            "output_words": 58,
+            "call_ms": 2.331507999997484
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_147",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            207,
+            184
+          ],
+          "exact": true,
+          "timing": {
+            "height": 207,
+            "width": 184,
+            "output_words": 58,
+            "call_ms": 2.2835760000816663
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            98,
+            140
+          ],
+          "exact": true,
+          "timing": {
+            "height": 98,
+            "width": 140,
+            "output_words": 58,
+            "call_ms": 1.6030770000270422
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            103,
+            143
+          ],
+          "exact": true,
+          "timing": {
+            "height": 103,
+            "width": 143,
+            "output_words": 58,
+            "call_ms": 1.6075880000698817
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_148",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            185,
+            213
+          ],
+          "exact": true,
+          "timing": {
+            "height": 185,
+            "width": 213,
+            "output_words": 58,
+            "call_ms": 2.162670999950933
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            173,
+            289
+          ],
+          "exact": true,
+          "timing": {
+            "height": 173,
+            "width": 289,
+            "output_words": 58,
+            "call_ms": 2.406726999879538
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            284,
+            108
+          ],
+          "exact": true,
+          "timing": {
+            "height": 284,
+            "width": 108,
+            "output_words": 58,
+            "call_ms": 2.117378000093595
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            149,
+            120
+          ],
+          "exact": true,
+          "timing": {
+            "height": 149,
+            "width": 120,
+            "output_words": 58,
+            "call_ms": 1.8576859999939188
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_149",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            194,
+            129
+          ],
+          "exact": true,
+          "timing": {
+            "height": 194,
+            "width": 129,
+            "output_words": 58,
+            "call_ms": 2.0087440000224888
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            93,
+            66
+          ],
+          "exact": true,
+          "timing": {
+            "height": 93,
+            "width": 66,
+            "output_words": 58,
+            "call_ms": 1.7378519999056152
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            67,
+            101
+          ],
+          "exact": true,
+          "timing": {
+            "height": 67,
+            "width": 101,
+            "output_words": 58,
+            "call_ms": 1.5865730001678457
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_150",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            226,
+            143
+          ],
+          "exact": true,
+          "timing": {
+            "height": 226,
+            "width": 143,
+            "output_words": 58,
+            "call_ms": 2.275913999937984
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_151",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            213,
+            307
+          ],
+          "exact": true,
+          "timing": {
+            "height": 213,
+            "width": 307,
+            "output_words": 58,
+            "call_ms": 2.6760920000015176
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            252,
+            297
+          ],
+          "exact": true,
+          "timing": {
+            "height": 252,
+            "width": 297,
+            "output_words": 58,
+            "call_ms": 3.3220619998246548
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_152",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            123,
+            259
+          ],
+          "exact": true,
+          "timing": {
+            "height": 123,
+            "width": 259,
+            "output_words": 58,
+            "call_ms": 2.2440489999553392
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_153",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            455,
+            158
+          ],
+          "exact": true,
+          "timing": {
+            "height": 455,
+            "width": 158,
+            "output_words": 58,
+            "call_ms": 3.165021000086199
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            256,
+            159
+          ],
+          "exact": true,
+          "timing": {
+            "height": 256,
+            "width": 159,
+            "output_words": 58,
+            "call_ms": 2.2414889999708976
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_154",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            82,
+            320
+          ],
+          "exact": true,
+          "timing": {
+            "height": 82,
+            "width": 320,
+            "output_words": 58,
+            "call_ms": 1.9559820000267791
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            187,
+            487
+          ],
+          "exact": true,
+          "timing": {
+            "height": 187,
+            "width": 487,
+            "output_words": 58,
+            "call_ms": 3.2814210001106403
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            404,
+            254
+          ],
+          "exact": true,
+          "timing": {
+            "height": 404,
+            "width": 254,
+            "output_words": 58,
+            "call_ms": 3.5298090001560922
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_155",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            153,
+            311
+          ],
+          "exact": true,
+          "timing": {
+            "height": 153,
+            "width": 311,
+            "output_words": 58,
+            "call_ms": 2.5953910001135228
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            101,
+            320
+          ],
+          "exact": true,
+          "timing": {
+            "height": 101,
+            "width": 320,
+            "output_words": 58,
+            "call_ms": 2.249613000003592
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            268,
+            303
+          ],
+          "exact": true,
+          "timing": {
+            "height": 268,
+            "width": 303,
+            "output_words": 58,
+            "call_ms": 3.0988739999884274
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_156",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            82,
+            268
+          ],
+          "exact": true,
+          "timing": {
+            "height": 82,
+            "width": 268,
+            "output_words": 58,
+            "call_ms": 1.9447449999461242
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            183,
+            140
+          ],
+          "exact": true,
+          "timing": {
+            "height": 183,
+            "width": 140,
+            "output_words": 58,
+            "call_ms": 1.959809000027235
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_157",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            185,
+            228
+          ],
+          "exact": true,
+          "timing": {
+            "height": 185,
+            "width": 228,
+            "output_words": 58,
+            "call_ms": 2.231599999959144
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            203,
+            240
+          ],
+          "exact": true,
+          "timing": {
+            "height": 203,
+            "width": 240,
+            "output_words": 58,
+            "call_ms": 2.496959999916726
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_158",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            129,
+            320
+          ],
+          "exact": true,
+          "timing": {
+            "height": 129,
+            "width": 320,
+            "output_words": 58,
+            "call_ms": 2.220343999852048
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            392,
+            173
+          ],
+          "exact": true,
+          "timing": {
+            "height": 392,
+            "width": 173,
+            "output_words": 58,
+            "call_ms": 2.8897659999529424
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_159",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            212,
+            342
+          ],
+          "exact": true,
+          "timing": {
+            "height": 212,
+            "width": 342,
+            "output_words": 58,
+            "call_ms": 3.1329169999025908
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            111,
+            344
+          ],
+          "exact": true,
+          "timing": {
+            "height": 111,
+            "width": 344,
+            "output_words": 58,
+            "call_ms": 2.20066399992902
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            233,
+            354
+          ],
+          "exact": true,
+          "timing": {
+            "height": 233,
+            "width": 354,
+            "output_words": 58,
+            "call_ms": 3.0398460000924388
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_160",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            286,
+            182
+          ],
+          "exact": true,
+          "timing": {
+            "height": 286,
+            "width": 182,
+            "output_words": 58,
+            "call_ms": 2.489274000026853
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_161",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            144,
+            133
+          ],
+          "exact": true,
+          "timing": {
+            "height": 144,
+            "width": 133,
+            "output_words": 58,
+            "call_ms": 1.9538650001322821
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            414,
+            127
+          ],
+          "exact": true,
+          "timing": {
+            "height": 414,
+            "width": 127,
+            "output_words": 58,
+            "call_ms": 2.497532000006686
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            180,
+            162
+          ],
+          "exact": true,
+          "timing": {
+            "height": 180,
+            "width": 162,
+            "output_words": 58,
+            "call_ms": 1.9697049999649607
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_162",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            114,
+            431
+          ],
+          "exact": true,
+          "timing": {
+            "height": 114,
+            "width": 431,
+            "output_words": 58,
+            "call_ms": 2.5024249998750747
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_163",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            178,
+            274
+          ],
+          "exact": true,
+          "timing": {
+            "height": 178,
+            "width": 274,
+            "output_words": 58,
+            "call_ms": 2.5534829999287467
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            156,
+            182
+          ],
+          "exact": true,
+          "timing": {
+            "height": 156,
+            "width": 182,
+            "output_words": 58,
+            "call_ms": 1.9598579999637877
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_164",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            80,
+            198
+          ],
+          "exact": true,
+          "timing": {
+            "height": 80,
+            "width": 198,
+            "output_words": 58,
+            "call_ms": 2.1956860000500455
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            135,
+            180
+          ],
+          "exact": true,
+          "timing": {
+            "height": 135,
+            "width": 180,
+            "output_words": 58,
+            "call_ms": 2.0078039999589237
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_165",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            251,
+            326
+          ],
+          "exact": true,
+          "timing": {
+            "height": 251,
+            "width": 326,
+            "output_words": 58,
+            "call_ms": 3.025342000000819
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            245,
+            167
+          ],
+          "exact": true,
+          "timing": {
+            "height": 245,
+            "width": 167,
+            "output_words": 58,
+            "call_ms": 2.2118950000731274
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_166",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            84
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 84,
+            "output_words": 58,
+            "call_ms": 2.214179000020522
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            45
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 45,
+            "output_words": 58,
+            "call_ms": 1.9402770001306635
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_167",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            504,
+            69
+          ],
+          "exact": true,
+          "timing": {
+            "height": 504,
+            "width": 69,
+            "output_words": 58,
+            "call_ms": 2.356246999852374
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            503,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 503,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.9516490001478815
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            511,
+            45
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 45,
+            "output_words": 58,
+            "call_ms": 1.9559069999104395
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_168",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            310,
+            31
+          ],
+          "exact": true,
+          "timing": {
+            "height": 310,
+            "width": 31,
+            "output_words": 58,
+            "call_ms": 1.6693469999609079
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            123,
+            28
+          ],
+          "exact": true,
+          "timing": {
+            "height": 123,
+            "width": 28,
+            "output_words": 58,
+            "call_ms": 1.631002999829434
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_169",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            173,
+            56
+          ],
+          "exact": true,
+          "timing": {
+            "height": 173,
+            "width": 56,
+            "output_words": 58,
+            "call_ms": 1.6892670000743237
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            67,
+            31
+          ],
+          "exact": true,
+          "timing": {
+            "height": 67,
+            "width": 31,
+            "output_words": 58,
+            "call_ms": 1.6255749999345426
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_170",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            97
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 97,
+            "output_words": 58,
+            "call_ms": 2.4935569999797735
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            511,
+            51
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 51,
+            "output_words": 58,
+            "call_ms": 1.9487070001105167
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_171",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            77
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 77,
+            "output_words": 58,
+            "call_ms": 2.23327399999107
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            512,
+            52
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 52,
+            "output_words": 58,
+            "call_ms": 1.996700999825407
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_172",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            166,
+            55
+          ],
+          "exact": true,
+          "timing": {
+            "height": 166,
+            "width": 55,
+            "output_words": 58,
+            "call_ms": 1.7665410000518023
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            185,
+            30
+          ],
+          "exact": true,
+          "timing": {
+            "height": 185,
+            "width": 30,
+            "output_words": 58,
+            "call_ms": 1.805537999871376
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            90,
+            26
+          ],
+          "exact": true,
+          "timing": {
+            "height": 90,
+            "width": 26,
+            "output_words": 58,
+            "call_ms": 1.6308060000937985
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            120,
+            38
+          ],
+          "exact": true,
+          "timing": {
+            "height": 120,
+            "width": 38,
+            "output_words": 58,
+            "call_ms": 1.6558700001496618
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_173",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            75
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 75,
+            "output_words": 58,
+            "call_ms": 2.3557540000638255
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            338,
+            82
+          ],
+          "exact": true,
+          "timing": {
+            "height": 338,
+            "width": 82,
+            "output_words": 58,
+            "call_ms": 1.942258000099173
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            90,
+            63
+          ],
+          "exact": true,
+          "timing": {
+            "height": 90,
+            "width": 63,
+            "output_words": 58,
+            "call_ms": 1.6560309998112643
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            238,
+            21
+          ],
+          "exact": true,
+          "timing": {
+            "height": 238,
+            "width": 21,
+            "output_words": 58,
+            "call_ms": 1.6421660000105476
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_174",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            51
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 51,
+            "output_words": 58,
+            "call_ms": 1.9595569999637519
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            141,
+            33
+          ],
+          "exact": true,
+          "timing": {
+            "height": 141,
+            "width": 33,
+            "output_words": 58,
+            "call_ms": 1.6338580001047376
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            242,
+            41
+          ],
+          "exact": true,
+          "timing": {
+            "height": 242,
+            "width": 41,
+            "output_words": 58,
+            "call_ms": 1.6566580000016984
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_175",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            268,
+            40
+          ],
+          "exact": true,
+          "timing": {
+            "height": 268,
+            "width": 40,
+            "output_words": 58,
+            "call_ms": 1.6658890001508553
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            507,
+            74
+          ],
+          "exact": true,
+          "timing": {
+            "height": 507,
+            "width": 74,
+            "output_words": 58,
+            "call_ms": 2.2251689999848168
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            255,
+            41
+          ],
+          "exact": true,
+          "timing": {
+            "height": 255,
+            "width": 41,
+            "output_words": 58,
+            "call_ms": 1.6528370001651638
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            174,
+            37
+          ],
+          "exact": true,
+          "timing": {
+            "height": 174,
+            "width": 37,
+            "output_words": 58,
+            "call_ms": 1.660240000092017
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_176",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            53,
+            503
+          ],
+          "exact": true,
+          "timing": {
+            "height": 53,
+            "width": 503,
+            "output_words": 58,
+            "call_ms": 1.954572999920856
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            46,
+            463
+          ],
+          "exact": true,
+          "timing": {
+            "height": 46,
+            "width": 463,
+            "output_words": 58,
+            "call_ms": 1.9408429998293286
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_177",
+      "roi_count": 3,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            511,
+            111
+          ],
+          "exact": true,
+          "timing": {
+            "height": 511,
+            "width": 111,
+            "output_words": 58,
+            "call_ms": 2.512646000013774
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            507,
+            181
+          ],
+          "exact": true,
+          "timing": {
+            "height": 507,
+            "width": 181,
+            "output_words": 58,
+            "call_ms": 3.276344999903813
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            512,
+            27
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 27,
+            "output_words": 58,
+            "call_ms": 1.6798589999780233
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_178",
+      "roi_count": 4,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            84,
+            508
+          ],
+          "exact": true,
+          "timing": {
+            "height": 84,
+            "width": 508,
+            "output_words": 58,
+            "call_ms": 2.2292300000117393
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            48,
+            506
+          ],
+          "exact": true,
+          "timing": {
+            "height": 48,
+            "width": 506,
+            "output_words": 58,
+            "call_ms": 1.9703509999544622
+          }
+        },
+        {
+          "roi": 2,
+          "shape": [
+            31,
+            154
+          ],
+          "exact": true,
+          "timing": {
+            "height": 31,
+            "width": 154,
+            "output_words": 58,
+            "call_ms": 1.651052000170239
+          }
+        },
+        {
+          "roi": 3,
+          "shape": [
+            68,
+            309
+          ],
+          "exact": true,
+          "timing": {
+            "height": 68,
+            "width": 309,
+            "output_words": 58,
+            "call_ms": 1.9834530000935047
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_179",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            59,
+            509
+          ],
+          "exact": true,
+          "timing": {
+            "height": 59,
+            "width": 509,
+            "output_words": 58,
+            "call_ms": 1.9601159999638185
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            81,
+            124
+          ],
+          "exact": true,
+          "timing": {
+            "height": 81,
+            "width": 124,
+            "output_words": 58,
+            "call_ms": 1.6603999999915686
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_180",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            309,
+            44
+          ],
+          "exact": true,
+          "timing": {
+            "height": 309,
+            "width": 44,
+            "output_words": 58,
+            "call_ms": 1.6735080000671587
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            194,
+            55
+          ],
+          "exact": true,
+          "timing": {
+            "height": 194,
+            "width": 55,
+            "output_words": 58,
+            "call_ms": 1.660571999991589
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_181",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            512,
+            110
+          ],
+          "exact": true,
+          "timing": {
+            "height": 512,
+            "width": 110,
+            "output_words": 58,
+            "call_ms": 2.5219699998615397
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_182",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            95,
+            511
+          ],
+          "exact": true,
+          "timing": {
+            "height": 95,
+            "width": 511,
+            "output_words": 58,
+            "call_ms": 2.503230000002077
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_183",
+      "roi_count": 2,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            501,
+            52
+          ],
+          "exact": true,
+          "timing": {
+            "height": 501,
+            "width": 52,
+            "output_words": 58,
+            "call_ms": 1.9682520000969816
+          }
+        },
+        {
+          "roi": 1,
+          "shape": [
+            244,
+            60
+          ],
+          "exact": true,
+          "timing": {
+            "height": 244,
+            "width": 60,
+            "output_words": 58,
+            "call_ms": 1.6799689999515977
+          }
+        }
+      ]
+    },
+    {
+      "case": "frame_184",
+      "roi_count": 1,
+      "exact": true,
+      "rois": [
+        {
+          "roi": 0,
+          "shape": [
+            198,
+            506
+          ],
+          "exact": true,
+          "timing": {
+            "height": 198,
+            "width": 506,
+            "output_words": 58,
+            "call_ms": 3.454615000009653
+          }
+        }
+      ]
+    }
+  ],
+  "primitives": [
+    {
+      "case": 0,
+      "shape": [
+        1,
+        1
+      ],
+      "exact": true,
+      "timing": {
+        "height": 1,
+        "width": 1,
+        "output_words": 58,
+        "call_ms": 1.3313480000078926
+      }
+    },
+    {
+      "case": 1,
+      "shape": [
+        1,
+        17
+      ],
+      "exact": true,
+      "timing": {
+        "height": 1,
+        "width": 17,
+        "output_words": 58,
+        "call_ms": 1.5104059999657693
+      }
+    },
+    {
+      "case": 2,
+      "shape": [
+        17,
+        1
+      ],
+      "exact": true,
+      "timing": {
+        "height": 17,
+        "width": 1,
+        "output_words": 58,
+        "call_ms": 1.5472799999542985
+      }
+    },
+    {
+      "case": 3,
+      "shape": [
+        7,
+        7
+      ],
+      "exact": true,
+      "timing": {
+        "height": 7,
+        "width": 7,
+        "output_words": 58,
+        "call_ms": 1.5198529999906896
+      }
+    },
+    {
+      "case": 4,
+      "shape": [
+        13,
+        19
+      ],
+      "exact": true,
+      "timing": {
+        "height": 13,
+        "width": 19,
+        "output_words": 58,
+        "call_ms": 1.6541659999802505
+      }
+    },
+    {
+      "case": 5,
+      "shape": [
+        64,
+        63
+      ],
+      "exact": true,
+      "timing": {
+        "height": 64,
+        "width": 63,
+        "output_words": 58,
+        "call_ms": 1.865569999949912
+      }
+    },
+    {
+      "case": 6,
+      "shape": [
+        127,
+        131
+      ],
+      "exact": true,
+      "timing": {
+        "height": 127,
+        "width": 131,
+        "output_words": 58,
+        "call_ms": 1.7511570000579013
+      }
+    },
+    {
+      "case": 7,
+      "shape": [
+        512,
+        512
+      ],
+      "exact": true,
+      "timing": {
+        "height": 512,
+        "width": 512,
+        "output_words": 58,
+        "call_ms": 6.63449799992577
+      }
+    }
+  ],
+  "errors": [],
+  "result_directory": "/home/xilinx/jupyter_notebooks/q8_dual_test/steel_descriptor_reduce_v14_board_20261024/results/run_20250506_023122_03720ef8_full",
+  "scope": "Standalone descriptor reduction only; no released classifier path changed.",
+  "performance_scope": "Kernel DMA call timing only; no end-to-end speedup claim.",
+  "primitive_pass": true,
+  "roi_count": 403
+}

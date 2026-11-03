@@ -1,0 +1,43 @@
+--- frozen/DualFeatures.process
++++ candidate/feature_process
+@@ -1,4 +1,4 @@
+-def process(self, gray, timeout_seconds=10.0):
++def feature_process(self, gray, timeout_seconds=10.0):
+     if self.closed or self.failed:
+         raise RuntimeError("Driver closed or failed; recover before another frame")
+     gray = np.asarray(gray)
+@@ -46,9 +46,7 @@
+         self.sobel_out.invalidate()
+         self.q8_out.invalidate()
+         sobel = np.asarray(self.sobel_out).copy()
+-        words = np.asarray(self.q8_out).copy()
+-        std7 = (words & np.uint32(0xffff)).astype(np.uint16)
+-        std13 = (words >> np.uint32(16)).astype(np.uint16)
++        std7, std13 = _q8_path_decode(self.q8_out)
+         end = time.perf_counter()
+         return sobel, std7, std13, {
+             "prepare_and_flush_ms": (start - begin) * 1000,
+--- frozen/ROI.process_frame
++++ candidate/roi_process
+@@ -1,4 +1,4 @@
+-def process_frame(gray, predictions, *, sobel_frame=None, execution="arm_cpu",
++def roi_process(gray, predictions, *, sobel_frame=None, execution="arm_cpu",
+                   local_std_frames=None):
+     """Process one frame with optional externally computed (sigma2, sigma4) maps."""
+     start = time.perf_counter()
+@@ -36,14 +36,7 @@
+     stage_start = time.perf_counter()
+     std4 = local_std(gray, 4) if predictions and local_std_frames is None else None
+     if predictions and local_std_frames is not None:
+-        if len(local_std_frames) != 2:
+-            raise ValueError("local_std_frames must contain (sigma2_map, sigma4_map)")
+-        std2, std4 = (np.asarray(local_std_frames[0]), np.asarray(local_std_frames[1]))
+-        for name, values in (("sigma2", std2), ("sigma4", std4)):
+-            if values.shape != gray.shape or not np.issubdtype(values.dtype, np.number):
+-                raise ValueError("local_std_%s map must be numeric and 512x512" % name)
+-            if not np.isfinite(values).all() or np.any(values < 0):
+-                raise ValueError("local_std_%s map must contain finite nonnegative values" % name)
++        std2, std4 = _q8_path_validate(local_std_frames, gray.shape)
+     stage_ms["local_std_sigma4_ms"] = (time.perf_counter()-stage_start)*1000
+     stage_start = time.perf_counter()
+     inclusion_dark = inclusion_dark_response(gray) if 1 in classes else None

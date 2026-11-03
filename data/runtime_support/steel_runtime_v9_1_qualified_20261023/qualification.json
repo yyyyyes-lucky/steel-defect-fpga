@@ -1,0 +1,26 @@
+{
+  "version": "steel_runtime_v9_1_qualified_20261023",
+  "software_version": "v9.1",
+  "hardware_version": "v9",
+  "algorithm_board_qualified": true,
+  "representative_performance_reviewed": true,
+  "entrypoint_board_stability_pass": false,
+  "note": "Combined processing implementation is byte-identical to board-tested version. New daily wrapper needs short entry check.",
+  "new_bitstream_built": false,
+  "startup_configuration_changed": false,
+  "full_frames": 184,
+  "full_rois": 403,
+  "supplemental": 3,
+  "paired_wins": 60,
+  "paired_count": 60,
+  "combined_board_report_sha256": "f7f15ef047aaf77c7175924ecbcb23ad11acc58a366c7712a12c5b9eb0ef1d8e",
+  "required_board_manifest_sha256": "c4b62bda0185108f7dac1139c403ceecece7482f1f0c7f114a685fe1502713ce",
+  "qualified_implementations_sha256": {
+    "combined_runtime.py": "17f32e5302cc2b40202dae7c6278d1b5eca79c306ce5c312b6e856c41b502b7d",
+    "candidates.py": "1b09e2524f803ec73eeff8d73104f8865eeb0ac98d6a2790b00a3e5ff166ea5c",
+    "gaussian_candidate.py": "ee9feccbb319b9ed5636ac83dbcbd8b7e99b68bcbcfdf435376276b4cdc8abdb"
+  },
+  "host_lifecycle_tests": 3,
+  "host_lifecycle_tests_pass": true,
+  "scope": "Static postprocessing with frozen predictions; no detector/camera/full-system FPS claim"
+}

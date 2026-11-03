@@ -1,0 +1,6095 @@
+{
+  "schema_version": "strict_full/1.0",
+  "source_manifest_sha256": "d75e35115110b9f8502444aedc17b513f09234fb98f335b0630465b10a30809e",
+  "frame_count": 184,
+  "roi_count": 403,
+  "branch_states_covered": 11,
+  "frames": [
+    {
+      "frame_id": "frame_01",
+      "split": "development",
+      "image_name": "crazing_157_jpg.rf.33134cba15a828800c59bf32ae9478dc.jpg",
+      "input_gray": "frame_01/input_gray.png",
+      "sha256": "2e3d4dfb2ebf04d721f4a774e5b91ee2f79b7ffd59ed8d0af1b1208da3f397d3",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.412664,
+          "box_xyxy_pixel": [
+            349.505,
+            395.028,
+            512.0,
+            511.112
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.289493,
+          "box_xyxy_pixel": [
+            0.617,
+            0.0,
+            502.42,
+            113.731
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 2,
+          "confidence": 0.273601,
+          "box_xyxy_pixel": [
+            48.842,
+            134.7,
+            461.799,
+            346.803
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_02",
+      "split": "development",
+      "image_name": "crazing_210_jpg.rf.7539930cbaaca24ea4ca0a7acc10a04c.jpg",
+      "input_gray": "frame_02/input_gray.png",
+      "sha256": "7c799801f70339c8118bb063f862bbbf1fdf0d3f26c74def39f6de7b81677d5e",
+      "predictions": []
+    },
+    {
+      "frame_id": "frame_03",
+      "split": "development",
+      "image_name": "crazing_211_jpg.rf.07c167ae5b43e62052d43c9f38855e38.jpg",
+      "input_gray": "frame_03/input_gray.png",
+      "sha256": "66c616c1d937c42caf3dfbd237e688782d4fa9ec1af69878070f96977c293a1a",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.455246,
+          "box_xyxy_pixel": [
+            231.819,
+            283.591,
+            476.149,
+            445.834
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.259077,
+          "box_xyxy_pixel": [
+            284.526,
+            17.905,
+            499.684,
+            226.407
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_04",
+      "split": "development",
+      "image_name": "crazing_213_jpg.rf.7e9a18eb639d5f06096efa3770ffdcbd.jpg",
+      "input_gray": "frame_04/input_gray.png",
+      "sha256": "b0e71a80396ac1d0e9b164956af2857957a1393ac5a2cc9efbd46dcf7735d3a7",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.324394,
+          "box_xyxy_pixel": [
+            18.085,
+            374.255,
+            428.449,
+            511.276
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_05",
+      "split": "development",
+      "image_name": "crazing_233_jpg.rf.ab92c5028cc2e252ea9dd06fb96e5a21.jpg",
+      "input_gray": "frame_05/input_gray.png",
+      "sha256": "9a6e7e3f30448ab9d8d83ae46918892f43fdd635262f280ffbde34b3be4043df",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.31996,
+          "box_xyxy_pixel": [
+            0.511,
+            328.565,
+            512.0,
+            505.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_06",
+      "split": "development",
+      "image_name": "crazing_261_jpg.rf.671625b948467ed29a482fe09d263dbc.jpg",
+      "input_gray": "frame_06/input_gray.png",
+      "sha256": "f450aba67c25f3a1e1f643cf4d50d0da95ef418f9e3cbb289566d824aca213cc",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.622354,
+          "box_xyxy_pixel": [
+            15.64,
+            0.0,
+            510.707,
+            156.175
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.326646,
+          "box_xyxy_pixel": [
+            12.991,
+            373.887,
+            500.227,
+            511.584
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_07",
+      "split": "development",
+      "image_name": "crazing_263_jpg.rf.7d463ea57659356bd2d20d8faefa7ed5.jpg",
+      "input_gray": "frame_07/input_gray.png",
+      "sha256": "71700f427c2016f262f0efdf7dcf01c2c8d32357907b7dbeb55680a339ee08ec",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.633646,
+          "box_xyxy_pixel": [
+            0.194,
+            42.457,
+            313.143,
+            201.59
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.453887,
+          "box_xyxy_pixel": [
+            46.971,
+            204.945,
+            505.774,
+            354.496
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 2,
+          "confidence": 0.33004,
+          "box_xyxy_pixel": [
+            3.334,
+            333.463,
+            511.878,
+            484.976
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_08",
+      "split": "development",
+      "image_name": "crazing_289_jpg.rf.0a5788f4ee5ccf880d08af3f0b42823f.jpg",
+      "input_gray": "frame_08/input_gray.png",
+      "sha256": "fc252941687172d500e8775c7692073aa1dbc4bd9eba4f1e95c7bf36010c9c1c",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.381445,
+          "box_xyxy_pixel": [
+            125.787,
+            314.174,
+            509.635,
+            510.152
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.293276,
+          "box_xyxy_pixel": [
+            113.659,
+            163.771,
+            393.18,
+            438.809
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_09",
+      "split": "development",
+      "image_name": "crazing_294_jpg.rf.aae4962c05141977bd8d829e7b75a572.jpg",
+      "input_gray": "frame_09/input_gray.png",
+      "sha256": "cdd2e2d569dee238cfa4bd17ca6511228d74b0127427f513aa74ca0001e90eb3",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.264516,
+          "box_xyxy_pixel": [
+            0.264,
+            352.77,
+            188.618,
+            448.664
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_10",
+      "split": "development",
+      "image_name": "crazing_295_jpg.rf.8cad141e664cc0d06197e7345faeb1f3.jpg",
+      "input_gray": "frame_10/input_gray.png",
+      "sha256": "6e13b5d9c63f4f3da5598856d6ef75172fc092f73038b7df7d35d59b6aa31ff9",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.420589,
+          "box_xyxy_pixel": [
+            21.6,
+            42.152,
+            440.066,
+            209.045
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.296836,
+          "box_xyxy_pixel": [
+            226.392,
+            369.358,
+            370.872,
+            511.579
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_11",
+      "split": "development",
+      "image_name": "crazing_63_jpg.rf.146e72b3ab01cbdabd105f503870690e.jpg",
+      "input_gray": "frame_11/input_gray.png",
+      "sha256": "b731e3a4b96028f8e0f9c6a214a72e4581f676f971f5295e3ca97c21396b11aa",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.486089,
+          "box_xyxy_pixel": [
+            101.395,
+            328.275,
+            511.28,
+            471.48
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.267623,
+          "box_xyxy_pixel": [
+            87.433,
+            286.603,
+            302.474,
+            462.478
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_12",
+      "split": "development",
+      "image_name": "crazing_89_jpg.rf.fce0adf8ebe323c50e4db7ae053e28ba.jpg",
+      "input_gray": "frame_12/input_gray.png",
+      "sha256": "ae79454660d6bec27046af583f336d5c5abed80deb8ff884acbb19f4707379e9",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.366807,
+          "box_xyxy_pixel": [
+            276.827,
+            22.617,
+            508.599,
+            138.635
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_13",
+      "split": "development",
+      "image_name": "inclusion_105_jpg.rf.22fea39cafb7dcc9c4a52de1fb6b2aeb.jpg",
+      "input_gray": "frame_13/input_gray.png",
+      "sha256": "8b17cc397971e3e60435f0fbef84b8a51635c225463e6fae517e45a6e4f20c4c",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.72034,
+          "box_xyxy_pixel": [
+            363.105,
+            130.734,
+            418.468,
+            261.576
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.626931,
+          "box_xyxy_pixel": [
+            133.788,
+            0.0,
+            322.962,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_14",
+      "split": "development",
+      "image_name": "inclusion_112_jpg.rf.1ed4bd568946f1002a562b43ac48dfd5.jpg",
+      "input_gray": "frame_14/input_gray.png",
+      "sha256": "22140325d8b3a141df27f2249559b3d6bfacd74463977de6e154e1498ed7de0a",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.592997,
+          "box_xyxy_pixel": [
+            142.513,
+            1.07,
+            230.175,
+            360.909
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_15",
+      "split": "development",
+      "image_name": "inclusion_140_jpg.rf.58c8dacd2c6d4845253d20f7331348f9.jpg",
+      "input_gray": "frame_15/input_gray.png",
+      "sha256": "06f4ca457aab0ed861251e7b94cc6f62db8d5d1c545db03ff420ffb07302cc85",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.719297,
+          "box_xyxy_pixel": [
+            269.063,
+            185.207,
+            329.551,
+            302.866
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.702199,
+          "box_xyxy_pixel": [
+            297.645,
+            10.652,
+            358.572,
+            150.899
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.507083,
+          "box_xyxy_pixel": [
+            54.16,
+            276.349,
+            90.088,
+            344.517
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_16",
+      "split": "development",
+      "image_name": "inclusion_147_jpg.rf.aea76430b0ff6b325aa0824ae85f88be.jpg",
+      "input_gray": "frame_16/input_gray.png",
+      "sha256": "2a194fa92f896457d59ffd412002195ff93ff6560661227825eab8ee62646858",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.719675,
+          "box_xyxy_pixel": [
+            191.058,
+            300.821,
+            245.732,
+            428.247
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.661558,
+          "box_xyxy_pixel": [
+            377.367,
+            18.463,
+            489.427,
+            485.374
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.505954,
+          "box_xyxy_pixel": [
+            362.455,
+            0.0,
+            426.423,
+            209.727
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.434887,
+          "box_xyxy_pixel": [
+            384.411,
+            307.546,
+            450.374,
+            468.176
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 4,
+          "confidence": 0.352434,
+          "box_xyxy_pixel": [
+            61.587,
+            447.338,
+            100.733,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_17",
+      "split": "development",
+      "image_name": "inclusion_160_jpg.rf.689201c8c52686fafc9d2dbea295a2d2.jpg",
+      "input_gray": "frame_17/input_gray.png",
+      "sha256": "1d34685713fa2e502d7d59ccf9d260e9b403d040d706d0a5786309b36a4279d8",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.568231,
+          "box_xyxy_pixel": [
+            164.047,
+            39.826,
+            230.076,
+            511.92
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.453007,
+          "box_xyxy_pixel": [
+            242.822,
+            0.0,
+            347.814,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_18",
+      "split": "development",
+      "image_name": "inclusion_161_jpg.rf.ea89b3309e5d0eb29295bf198106808b.jpg",
+      "input_gray": "frame_18/input_gray.png",
+      "sha256": "e12e17a2d5a89fcc7d21e06682662905018245e1c3f33d7431e0bce5bbf5c46e",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.581109,
+          "box_xyxy_pixel": [
+            133.081,
+            0.0,
+            319.685,
+            511.307
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.398668,
+          "box_xyxy_pixel": [
+            139.848,
+            0.0,
+            213.809,
+            253.473
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_19",
+      "split": "development",
+      "image_name": "patches_01_t64_area20_input_gray.png",
+      "input_gray": "frame_19/input_gray.png",
+      "sha256": "7c5a947a8bb775a02dfb85dd92860e3b70e228a6b142b13fbb06770fcabab6f7",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.953397,
+          "box_xyxy_pixel": [
+            81.057,
+            303.354,
+            197.475,
+            482.954
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.835018,
+          "box_xyxy_pixel": [
+            50.119,
+            93.663,
+            150.734,
+            185.136
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.280077,
+          "box_xyxy_pixel": [
+            355.726,
+            80.639,
+            445.641,
+            165.333
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_20",
+      "split": "development",
+      "image_name": "patches_122_jpg.rf.99d9166b9cc5364a96bb98c16a2cf12e.jpg",
+      "input_gray": "frame_20/input_gray.png",
+      "sha256": "555c6ccb8391e1658d6225e19d8558da7587e14e39d2feb695b913a71caefb52",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.803741,
+          "box_xyxy_pixel": [
+            174.085,
+            67.546,
+            274.594,
+            151.633
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.733746,
+          "box_xyxy_pixel": [
+            219.188,
+            224.214,
+            410.623,
+            482.147
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.683108,
+          "box_xyxy_pixel": [
+            283.168,
+            12.472,
+            401.338,
+            207.465
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.589141,
+          "box_xyxy_pixel": [
+            48.852,
+            0.062,
+            143.372,
+            67.866
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 4,
+          "confidence": 0.441202,
+          "box_xyxy_pixel": [
+            269.828,
+            9.647,
+            397.991,
+            497.96
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_21",
+      "split": "development",
+      "image_name": "patches_178_jpg.rf.1fc7c0832e9c92f8216ae717486488fe.jpg",
+      "input_gray": "frame_21/input_gray.png",
+      "sha256": "d28cc072767af1b8b737fc7766c80b96991b60724cb496d388161fe0cfe185d4",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.857589,
+          "box_xyxy_pixel": [
+            159.551,
+            1.946,
+            363.861,
+            417.376
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_22",
+      "split": "development",
+      "image_name": "patches_180_jpg.rf.1d755297bf82e6ed0e8acc279809a027.jpg",
+      "input_gray": "frame_22/input_gray.png",
+      "sha256": "f98949e54b25ef944e1a5f8ac2b85b26ba21a4e0dcebcc50489594d75c83624c",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.833112,
+          "box_xyxy_pixel": [
+            266.962,
+            0.094,
+            381.601,
+            116.729
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.672622,
+          "box_xyxy_pixel": [
+            129.066,
+            6.285,
+            320.102,
+            328.378
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.660256,
+          "box_xyxy_pixel": [
+            0.082,
+            126.956,
+            92.364,
+            287.938
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.635849,
+          "box_xyxy_pixel": [
+            160.331,
+            354.817,
+            362.743,
+            510.395
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 4,
+          "confidence": 0.377128,
+          "box_xyxy_pixel": [
+            175.999,
+            179.855,
+            339.012,
+            336.837
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_23",
+      "split": "development",
+      "image_name": "patches_186_jpg.rf.68a4b7650d4e70467e4f8625a03e347c.jpg",
+      "input_gray": "frame_23/input_gray.png",
+      "sha256": "3f0aa00d00127c9ac30a08f2fa7d274e397a33c8a8ee1b4839999cc82d05fed1",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.920055,
+          "box_xyxy_pixel": [
+            306.186,
+            142.494,
+            512.0,
+            401.578
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.771431,
+          "box_xyxy_pixel": [
+            78.028,
+            56.019,
+            270.166,
+            367.049
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.403838,
+          "box_xyxy_pixel": [
+            106.233,
+            0.0,
+            217.441,
+            70.923
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_24",
+      "split": "development",
+      "image_name": "patches_69_jpg.rf.94317aacc58ca7a635f5b76f24a8e5a2.jpg",
+      "input_gray": "frame_24/input_gray.png",
+      "sha256": "e1e0cfeb0bb679a00040ca86e40280e38418117325bc50bb8f42ce20fffab897",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.854445,
+          "box_xyxy_pixel": [
+            101.621,
+            371.861,
+            223.165,
+            512.0
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.848733,
+          "box_xyxy_pixel": [
+            279.181,
+            380.092,
+            395.804,
+            511.762
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.250012,
+          "box_xyxy_pixel": [
+            294.572,
+            111.438,
+            371.787,
+            242.751
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_25",
+      "split": "development",
+      "image_name": "patches_80_jpg.rf.592239753bc0672a36e0cf74c6cac121.jpg",
+      "input_gray": "frame_25/input_gray.png",
+      "sha256": "0ec1f74627b366f76a07fa844b85ae83967fe17482f5e51f040be299ec71dece",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.839065,
+          "box_xyxy_pixel": [
+            187.793,
+            82.219,
+            312.579,
+            475.586
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_26",
+      "split": "development",
+      "image_name": "pitted_surface_119_jpg.rf.c4e9c278305f34bde10ecd79cc629131.jpg",
+      "input_gray": "frame_26/input_gray.png",
+      "sha256": "876d68875e9c9b27677fbcaab9b29e387125ae754b0564ce5489ad9e7580f575",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.866312,
+          "box_xyxy_pixel": [
+            0.3,
+            0.0,
+            315.877,
+            510.463
+          ]
+        },
+        {
+          "class_id": 3,
+          "detection_index": 1,
+          "confidence": 0.685957,
+          "box_xyxy_pixel": [
+            373.476,
+            0.0,
+            511.699,
+            510.369
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_27",
+      "split": "development",
+      "image_name": "pitted_surface_127_jpg.rf.c74c4c88e38a0a1799fba66819b4cde9.jpg",
+      "input_gray": "frame_27/input_gray.png",
+      "sha256": "80607c7efbf0b88b7f29516d55c9e6a37e32303d7f977f38e686cb35c8e1a828",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.752089,
+          "box_xyxy_pixel": [
+            0.547,
+            0.0,
+            213.62,
+            510.515
+          ]
+        },
+        {
+          "class_id": 3,
+          "detection_index": 1,
+          "confidence": 0.641885,
+          "box_xyxy_pixel": [
+            188.669,
+            0.0,
+            511.474,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_28",
+      "split": "development",
+      "image_name": "pitted_surface_131_jpg.rf.e9bcfbf9848244ad20b4c762391dfa2b.jpg",
+      "input_gray": "frame_28/input_gray.png",
+      "sha256": "641a9f1e227ddd711fa254341964b6ae567fa8e3e8c80b64de0f27b5e82a8a55",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.723054,
+          "box_xyxy_pixel": [
+            156.342,
+            1.494,
+            467.148,
+            510.622
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_29",
+      "split": "development",
+      "image_name": "pitted_surface_169_jpg.rf.639b2af8bdf5e1cd05a7548733844f31.jpg",
+      "input_gray": "frame_29/input_gray.png",
+      "sha256": "6cfdba560b7ef93741271212269903645a17968a847d49d9349bdacb6a02a27e",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.918075,
+          "box_xyxy_pixel": [
+            0.284,
+            0.173,
+            512.0,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_30",
+      "split": "development",
+      "image_name": "pitted_surface_201_jpg.rf.0819af35b518dd9a287a2bc5a888bea6.jpg",
+      "input_gray": "frame_30/input_gray.png",
+      "sha256": "c470ce8ab418145adcf97e1d368fbdb792ee245c466bcc4446b68d2cd7664a47",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.658921,
+          "box_xyxy_pixel": [
+            77.191,
+            0.0,
+            512.0,
+            511.133
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.473184,
+          "box_xyxy_pixel": [
+            6.913,
+            0.0,
+            102.359,
+            509.963
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_31",
+      "split": "development",
+      "image_name": "pitted_surface_20_jpg.rf.4b7db9227fee8747193bc41d5df72b8e.jpg",
+      "input_gray": "frame_31/input_gray.png",
+      "sha256": "ae10b300c027f2dff979edafe1bce951cfddaa5d647ca1436aa6cf000ae9a1be",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.916282,
+          "box_xyxy_pixel": [
+            8.59,
+            0.0,
+            213.166,
+            509.601
+          ]
+        },
+        {
+          "class_id": 3,
+          "detection_index": 1,
+          "confidence": 0.827365,
+          "box_xyxy_pixel": [
+            241.244,
+            0.0,
+            512.0,
+            509.773
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_32",
+      "split": "development",
+      "image_name": "pitted_surface_273_jpg.rf.dc3671d2e46cff359cae088a59281210.jpg",
+      "input_gray": "frame_32/input_gray.png",
+      "sha256": "1b9569ac425c963fc6eeaaf673865d188869be40ac7bfde8c16562b2862eed34",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.746342,
+          "box_xyxy_pixel": [
+            19.023,
+            0.988,
+            511.656,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_33",
+      "split": "development",
+      "image_name": "pitted_surface_72_jpg.rf.f9b5c06ce39f8743b1175ae879358cd9.jpg",
+      "input_gray": "frame_33/input_gray.png",
+      "sha256": "6a0892570eb916b2c40b4f7876c9ed5805fc1223037a4b2c5bb515165ed75bde",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.899669,
+          "box_xyxy_pixel": [
+            0.084,
+            0.208,
+            511.35,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_34",
+      "split": "development",
+      "image_name": "pitted_surface_99_jpg.rf.cf1e2531b61909a316252b0be6ce0cf9.jpg",
+      "input_gray": "frame_34/input_gray.png",
+      "sha256": "1cf651d86e80ee018cdde15a7ee22c507ef5eafc34df6d6d8460ab4c6d76faee",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.700154,
+          "box_xyxy_pixel": [
+            2.811,
+            0.0,
+            474.834,
+            510.575
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_35",
+      "split": "development",
+      "image_name": "rolled-in_scale_107_jpg.rf.bef5a2dfec082e50c5d01d84fa71b4ca.jpg",
+      "input_gray": "frame_35/input_gray.png",
+      "sha256": "547125d1543602c90d0fa375fafe9ebc329e05b8c603d4287282b2f15a8db76a",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.544334,
+          "box_xyxy_pixel": [
+            287.389,
+            199.462,
+            464.357,
+            511.676
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.261866,
+          "box_xyxy_pixel": [
+            179.253,
+            342.299,
+            419.383,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_36",
+      "split": "development",
+      "image_name": "rolled-in_scale_28_jpg.rf.7a27b0eaba1ca8b2681924d229213e34.jpg",
+      "input_gray": "frame_36/input_gray.png",
+      "sha256": "105fb3c288e98410653b39b0af06489e19ea945b28e66b48d2191022fa2aaf2b",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.571164,
+          "box_xyxy_pixel": [
+            239.826,
+            170.092,
+            380.886,
+            350.013
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.381049,
+          "box_xyxy_pixel": [
+            19.891,
+            435.527,
+            112.45,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.268166,
+          "box_xyxy_pixel": [
+            218.966,
+            459.958,
+            357.346,
+            511.878
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_37",
+      "split": "development",
+      "image_name": "rolled-in_scale_34_jpg.rf.0c47b4f881226fa4ba932255ee8b70de.jpg",
+      "input_gray": "frame_37/input_gray.png",
+      "sha256": "0a0a8ff373ac3b8932301a5ad6e3afc842b31c102390243be9234af576949173",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.430947,
+          "box_xyxy_pixel": [
+            130.964,
+            41.265,
+            250.288,
+            281.457
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_38",
+      "split": "development",
+      "image_name": "rolled-in_scale_49_jpg.rf.d9a2a1104953274226fcef0a47ead1f0.jpg",
+      "input_gray": "frame_38/input_gray.png",
+      "sha256": "b5379d6b7aef606a4254d78d90e4a3a4ff3e5c4d7a56e39eddfa701bfa17ad1c",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.464276,
+          "box_xyxy_pixel": [
+            193.866,
+            58.457,
+            385.877,
+            484.15
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.327227,
+          "box_xyxy_pixel": [
+            205.025,
+            274.729,
+            394.788,
+            482.409
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.31123,
+          "box_xyxy_pixel": [
+            200.156,
+            51.309,
+            340.078,
+            297.959
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_39",
+      "split": "development",
+      "image_name": "rolled-in_scale_78_jpg.rf.28b1b09c231aad8886dad9a70e06bc3c.jpg",
+      "input_gray": "frame_39/input_gray.png",
+      "sha256": "6f7439f590917654b05f4cddaf1c666a9a3cfe9b59d93281cb81a0ee7d73166c",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.72048,
+          "box_xyxy_pixel": [
+            240.472,
+            255.654,
+            450.37,
+            511.495
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.664802,
+          "box_xyxy_pixel": [
+            221.807,
+            23.076,
+            461.79,
+            223.985
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_40",
+      "split": "development",
+      "image_name": "scratch_01_t64_area20_input_gray.png",
+      "input_gray": "frame_40/input_gray.png",
+      "sha256": "8446b020d4d0ab72505b90b7367a3940f98d5d608c886a7b3b2c14850ad71930",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.573431,
+          "box_xyxy_pixel": [
+            89.439,
+            98.731,
+            143.16,
+            263.006
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.533981,
+          "box_xyxy_pixel": [
+            310.73,
+            327.12,
+            339.276,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.495555,
+          "box_xyxy_pixel": [
+            322.725,
+            79.639,
+            347.074,
+            168.571
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.291291,
+          "box_xyxy_pixel": [
+            120.561,
+            203.67,
+            157.516,
+            322.674
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_41",
+      "split": "development",
+      "image_name": "scratch_02_t64_area20_input_gray.png",
+      "input_gray": "frame_41/input_gray.png",
+      "sha256": "b332dcab00cc81824a871b70932bab9c0f40595db972361f78ffa31dd5374078",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.458906,
+          "box_xyxy_pixel": [
+            57.764,
+            170.727,
+            87.784,
+            479.107
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.421535,
+          "box_xyxy_pixel": [
+            63.237,
+            0.0,
+            90.499,
+            122.679
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_42",
+      "split": "development",
+      "image_name": "scratches_223_jpg.rf.bbc63a3cce1c66b8d132e2caa3722e36.jpg",
+      "input_gray": "frame_42/input_gray.png",
+      "sha256": "681b68ee145bd74d9a3be2bf5eac2a74224754a061b45a75a08108574a7c2b61",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.736296,
+          "box_xyxy_pixel": [
+            149.123,
+            4.222,
+            205.327,
+            269.698
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.598915,
+          "box_xyxy_pixel": [
+            317.71,
+            280.559,
+            362.669,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.394564,
+          "box_xyxy_pixel": [
+            315.64,
+            0.0,
+            363.01,
+            136.755
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.334429,
+          "box_xyxy_pixel": [
+            477.518,
+            376.252,
+            512.0,
+            511.72
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_43",
+      "split": "development",
+      "image_name": "scratches_240_jpg.rf.845b2bbee91626d470e6cffc55fde08b.jpg",
+      "input_gray": "frame_43/input_gray.png",
+      "sha256": "4bc6b146a82d33e593b1e1fbeab85e072a1d906c3ee2a91b41155142407b4871",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.606879,
+          "box_xyxy_pixel": [
+            314.193,
+            418.978,
+            510.636,
+            452.21
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.511946,
+          "box_xyxy_pixel": [
+            143.022,
+            258.126,
+            511.806,
+            325.648
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.475727,
+          "box_xyxy_pixel": [
+            137.129,
+            338.304,
+            512.0,
+            387.698
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.441747,
+          "box_xyxy_pixel": [
+            21.738,
+            181.422,
+            509.223,
+            224.262
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_44",
+      "split": "development",
+      "image_name": "scratches_266_jpg.rf.b887e158a9c4ca880bb1699cc0578be0.jpg",
+      "input_gray": "frame_44/input_gray.png",
+      "sha256": "6dfa915d633e9385522b1b69e1123fd1205953f35824364258ae7760f6d9c7ec",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.670917,
+          "box_xyxy_pixel": [
+            3.405,
+            366.427,
+            511.305,
+            411.522
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.665033,
+          "box_xyxy_pixel": [
+            0.0,
+            461.911,
+            259.467,
+            492.009
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_45",
+      "split": "development",
+      "image_name": "scratches_271_jpg.rf.fb81b7752a758e0feb4c4cd3335ce5d2.jpg",
+      "input_gray": "frame_45/input_gray.png",
+      "sha256": "501dc1bc3a8f56d96848d2ecc832e70dc5507ae4d048aa58d3e4aa4ad8d6d6a4",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.678445,
+          "box_xyxy_pixel": [
+            0.882,
+            472.386,
+            512.0,
+            511.654
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.677767,
+          "box_xyxy_pixel": [
+            0.0,
+            99.24,
+            511.131,
+            163.063
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.556934,
+          "box_xyxy_pixel": [
+            1.537,
+            203.507,
+            512.0,
+            300.559
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.28858,
+          "box_xyxy_pixel": [
+            28.393,
+            257.037,
+            510.899,
+            327.747
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_46",
+      "split": "development",
+      "image_name": "scratches_3_jpg.rf.82c0efda47b0ba6ec9aac44860655be4.jpg",
+      "input_gray": "frame_46/input_gray.png",
+      "sha256": "1ac12a3821a2cd2881b30c163f82a794ce6d19fce8c3b9d2bcae2a61c8796dbf",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.515662,
+          "box_xyxy_pixel": [
+            426.015,
+            0.0,
+            464.022,
+            309.692
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.339366,
+          "box_xyxy_pixel": [
+            357.46,
+            422.127,
+            450.94,
+            511.867
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_47",
+      "split": "development",
+      "image_name": "scratches_59_jpg.rf.706c65b36e371dc0a5ade4091ce7b923.jpg",
+      "input_gray": "frame_47/input_gray.png",
+      "sha256": "8b778c1936b8fd7750a24d32dfca5f6cbaac18333a5a68e91ce8004c6de2984d",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.878911,
+          "box_xyxy_pixel": [
+            0.813,
+            201.374,
+            512.0,
+            297.881
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_48",
+      "split": "development",
+      "image_name": "scratches_78_jpg.rf.3ca7638a98408b039c78d0a9116b607c.jpg",
+      "input_gray": "frame_48/input_gray.png",
+      "sha256": "357d5980463dde6f22c074a107a879f0bddc647733c7fda3046fbf325b30a303",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.802838,
+          "box_xyxy_pixel": [
+            251.454,
+            8.597,
+            301.498,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.708351,
+          "box_xyxy_pixel": [
+            377.217,
+            21.101,
+            413.936,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.542096,
+          "box_xyxy_pixel": [
+            83.354,
+            161.783,
+            119.835,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_49",
+      "split": "holdout",
+      "image_name": "crazing_109_jpg.rf.19806d87f1ed78377ba167156421eb8f.jpg",
+      "input_gray": "frame_49/input_gray.png",
+      "sha256": "4de5d6b16fc6e5f936485dcaa722fc37d76b93a582e3b85d2e77cb29e5b6203b",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.266326,
+          "box_xyxy_pixel": [
+            0.003,
+            385.209,
+            462.719,
+            509.967
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_50",
+      "split": "holdout",
+      "image_name": "crazing_12_jpg.rf.0b20dd56e590a2e76635f48c3114b474.jpg",
+      "input_gray": "frame_50/input_gray.png",
+      "sha256": "4cf49c7643b3d445c0e2b0bbf6eec8462c907b35368c27c0df6b45f9674a9cae",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.352087,
+          "box_xyxy_pixel": [
+            2.207,
+            317.646,
+            503.564,
+            488.875
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_51",
+      "split": "holdout",
+      "image_name": "crazing_136_jpg.rf.6828625af9d99dd90493dbcc4bf942e8.jpg",
+      "input_gray": "frame_51/input_gray.png",
+      "sha256": "1002e44895b873552615d1bdf627242ca04163478f1b7a0aaf22d5ba5f83369e",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.302067,
+          "box_xyxy_pixel": [
+            0.0,
+            252.614,
+            205.791,
+            368.683
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_52",
+      "split": "holdout",
+      "image_name": "crazing_148_jpg.rf.6e62fb7fa1a912aa7264ada10a099e8a.jpg",
+      "input_gray": "frame_52/input_gray.png",
+      "sha256": "bdfaa6afaed16614453825706ac3b5c33f7e50cd1ef0fe7a24ffce133fdee266",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.495011,
+          "box_xyxy_pixel": [
+            19.095,
+            103.848,
+            204.642,
+            313.143
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.319042,
+          "box_xyxy_pixel": [
+            13.262,
+            351.696,
+            289.065,
+            511.398
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 2,
+          "confidence": 0.312915,
+          "box_xyxy_pixel": [
+            220.482,
+            167.255,
+            511.272,
+            309.638
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_53",
+      "split": "holdout",
+      "image_name": "crazing_149_jpg.rf.d976faf1e6db10e6e6af8cf1d0358ecb.jpg",
+      "input_gray": "frame_53/input_gray.png",
+      "sha256": "481f2696036a24a7538825c49ef5654d5c8a2ca51c3a00230cf2423ba0c70ae3",
+      "predictions": []
+    },
+    {
+      "frame_id": "frame_54",
+      "split": "holdout",
+      "image_name": "crazing_14_jpg.rf.af608484741ad78dd08a7316c0aa65d9.jpg",
+      "input_gray": "frame_54/input_gray.png",
+      "sha256": "0f17365b86a3bf52abf615c0d8a604faf32466dd461e4fbb826fedf8f475f451",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.411779,
+          "box_xyxy_pixel": [
+            0.113,
+            225.2,
+            268.962,
+            423.177
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_55",
+      "split": "holdout",
+      "image_name": "crazing_155_jpg.rf.706ed2e4886cc6c2711d9d15d573cc5d.jpg",
+      "input_gray": "frame_55/input_gray.png",
+      "sha256": "604b42df378d5a29575112ba97705077676a4156b2e073a6bea31a31ebdc8f68",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.317786,
+          "box_xyxy_pixel": [
+            2.373,
+            131.936,
+            277.101,
+            299.734
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.299989,
+          "box_xyxy_pixel": [
+            194.59,
+            230.474,
+            511.532,
+            372.092
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_56",
+      "split": "holdout",
+      "image_name": "crazing_156_jpg.rf.8caab99ade486eb9876e23ad4e98554d.jpg",
+      "input_gray": "frame_56/input_gray.png",
+      "sha256": "18232d0ac3dbe1f1871ca745f18584e9311a0da80888e771b6e132e168c0c2cf",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.418178,
+          "box_xyxy_pixel": [
+            8.664,
+            257.438,
+            384.174,
+            393.53
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.309038,
+          "box_xyxy_pixel": [
+            32.248,
+            76.634,
+            508.442,
+            220.097
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_57",
+      "split": "holdout",
+      "image_name": "crazing_159_jpg.rf.db28701d4525b51adf0332d7977ff482.jpg",
+      "input_gray": "frame_57/input_gray.png",
+      "sha256": "a71d7ad2ad17b3e941394747c3b5ff74044d489e37433aab124a6c3d91aa4d75",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.646741,
+          "box_xyxy_pixel": [
+            86.948,
+            1.014,
+            412.247,
+            151.691
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.464826,
+          "box_xyxy_pixel": [
+            3.931,
+            323.511,
+            427.661,
+            477.957
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_58",
+      "split": "holdout",
+      "image_name": "crazing_169_jpg.rf.93f1821d3f0b9f4aa04bf2870122f349.jpg",
+      "input_gray": "frame_58/input_gray.png",
+      "sha256": "70b3b730d9fc162fcc9181397ce77ab9cb453bc51b1d7556a11eb8a8d517c052",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.303071,
+          "box_xyxy_pixel": [
+            32.003,
+            0.318,
+            470.315,
+            117.201
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.285731,
+          "box_xyxy_pixel": [
+            14.902,
+            232.035,
+            467.859,
+            409.254
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_59",
+      "split": "holdout",
+      "image_name": "crazing_179_jpg.rf.580ec911627600fdc4b7ddb2f3e63bad.jpg",
+      "input_gray": "frame_59/input_gray.png",
+      "sha256": "4abd49cac64499fc99192c72a288219b50715709334c123df26506d783c8c28e",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.557373,
+          "box_xyxy_pixel": [
+            0.373,
+            225.634,
+            329.502,
+            364.654
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.314114,
+          "box_xyxy_pixel": [
+            0.246,
+            8.899,
+            323.216,
+            186.65
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_60",
+      "split": "holdout",
+      "image_name": "crazing_193_jpg.rf.b0a7180c53eb051430da660e516cabec.jpg",
+      "input_gray": "frame_60/input_gray.png",
+      "sha256": "786780978c54a66abe04a5f944be243f451ce46a1ea2c0810eef7254bc967e8f",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.268665,
+          "box_xyxy_pixel": [
+            12.932,
+            76.283,
+            507.356,
+            264.564
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_61",
+      "split": "holdout",
+      "image_name": "crazing_195_jpg.rf.433042fe9919be46d3cc8997536f9b2f.jpg",
+      "input_gray": "frame_61/input_gray.png",
+      "sha256": "f6a7e9b0b7b6cb79cd50e5d1e7825744e6c73c72d540ad615eda9c570e504316",
+      "predictions": []
+    },
+    {
+      "frame_id": "frame_62",
+      "split": "holdout",
+      "image_name": "crazing_22_jpg.rf.9c2b06ea123d180dc8f38cddad86ccba.jpg",
+      "input_gray": "frame_62/input_gray.png",
+      "sha256": "42f29b25f107f3d0655b6e316615a01ac736e5926246e1d0c62e22da08680506",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.621159,
+          "box_xyxy_pixel": [
+            249.263,
+            297.078,
+            511.288,
+            442.989
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_63",
+      "split": "holdout",
+      "image_name": "crazing_244_jpg.rf.3499e54232d9cc03ded5fdcb6c9a256e.jpg",
+      "input_gray": "frame_63/input_gray.png",
+      "sha256": "a5256ec7b9a74bffc572527be201840cf1c1abfe0faedb7f4a441a427bc17fef",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.39996,
+          "box_xyxy_pixel": [
+            13.448,
+            229.163,
+            508.495,
+            423.572
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.32039,
+          "box_xyxy_pixel": [
+            9.669,
+            0.0,
+            510.13,
+            103.76
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_64",
+      "split": "holdout",
+      "image_name": "crazing_258_jpg.rf.046ec33dea23ba7f5bbd4e12e8aaa904.jpg",
+      "input_gray": "frame_64/input_gray.png",
+      "sha256": "2c5467944efab6bd73caadcdbf6b92c43aa28e2117311724de621ac84bc310f5",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.676113,
+          "box_xyxy_pixel": [
+            117.028,
+            115.292,
+            429.149,
+            311.258
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.357634,
+          "box_xyxy_pixel": [
+            22.06,
+            325.62,
+            504.238,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_65",
+      "split": "holdout",
+      "image_name": "crazing_265_jpg.rf.66b2dc53c397c9d544f9c33c8deee784.jpg",
+      "input_gray": "frame_65/input_gray.png",
+      "sha256": "b488300f6a49528102e2e114abf57212374e1182dcf071eaf551c4af34d9f151",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.348076,
+          "box_xyxy_pixel": [
+            17.214,
+            347.784,
+            511.678,
+            497.848
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.31385,
+          "box_xyxy_pixel": [
+            1.599,
+            98.406,
+            490.226,
+            259.847
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_66",
+      "split": "holdout",
+      "image_name": "crazing_282_jpg.rf.1f83aeb485d1576a2edc15fac3e4dc7c.jpg",
+      "input_gray": "frame_66/input_gray.png",
+      "sha256": "b9d5a446cd079e846e85e2b96790501abbc0b1d6e95672156f68fff4c444bcd7",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.503052,
+          "box_xyxy_pixel": [
+            1.369,
+            303.862,
+            364.373,
+            480.538
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.312043,
+          "box_xyxy_pixel": [
+            0.0,
+            94.012,
+            496.076,
+            242.539
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_67",
+      "split": "holdout",
+      "image_name": "crazing_297_jpg.rf.29ee465377f642c13ee3be33b5c67b9a.jpg",
+      "input_gray": "frame_67/input_gray.png",
+      "sha256": "7968126611b061c5b16eb02cff07385adbdfb311a0d060d65240f8cb836c2878",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.312672,
+          "box_xyxy_pixel": [
+            0.361,
+            57.986,
+            193.41,
+            245.798
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_68",
+      "split": "holdout",
+      "image_name": "crazing_31_jpg.rf.c7719234ef61ad318d5c64deb589f01e.jpg",
+      "input_gray": "frame_68/input_gray.png",
+      "sha256": "59195a2734ce310965f7e78bda500cc8097b069fc49ba9fc05072cdf3605cdae",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.380741,
+          "box_xyxy_pixel": [
+            2.857,
+            21.567,
+            512.0,
+            190.985
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.283704,
+          "box_xyxy_pixel": [
+            3.718,
+            275.52,
+            478.846,
+            482.27
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 2,
+          "confidence": 0.270559,
+          "box_xyxy_pixel": [
+            2.799,
+            79.009,
+            346.785,
+            241.58
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 3,
+          "confidence": 0.267223,
+          "box_xyxy_pixel": [
+            8.987,
+            358.791,
+            251.638,
+            507.653
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_69",
+      "split": "holdout",
+      "image_name": "crazing_39_jpg.rf.aa47868026d488a61fe32d674bec1776.jpg",
+      "input_gray": "frame_69/input_gray.png",
+      "sha256": "3fcaca3be3910e39aca3d4492e727eb91e48abdffcb3f4982f9ed12e957b3acb",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.30899,
+          "box_xyxy_pixel": [
+            2.299,
+            245.262,
+            453.287,
+            423.535
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_70",
+      "split": "holdout",
+      "image_name": "crazing_52_jpg.rf.991ff5209611f7968d8c07b630967228.jpg",
+      "input_gray": "frame_70/input_gray.png",
+      "sha256": "9fa3d3a4108a0bc7d043b8b40a222c2abe0544ec39dab30dae5937ee24b1fcd6",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.35748,
+          "box_xyxy_pixel": [
+            173.655,
+            299.994,
+            509.896,
+            479.718
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_71",
+      "split": "holdout",
+      "image_name": "crazing_6_jpg.rf.8c4f51f7b595ca870a98fa30515b17ad.jpg",
+      "input_gray": "frame_71/input_gray.png",
+      "sha256": "b4bf3eff706bd9d2b4b7b2da8046ec274c93b5597fd04a6515d387e4977781d7",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.329985,
+          "box_xyxy_pixel": [
+            5.706,
+            0.041,
+            497.162,
+            105.407
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_72",
+      "split": "holdout",
+      "image_name": "crazing_70_jpg.rf.5d9d41cfb517d35d3281ce1abb254385.jpg",
+      "input_gray": "frame_72/input_gray.png",
+      "sha256": "390d41472cf06b1f9933f74a1511e53c8e765645bf2de5837413d8b2c70debef",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.675787,
+          "box_xyxy_pixel": [
+            0.805,
+            251.014,
+            272.269,
+            404.31
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.375646,
+          "box_xyxy_pixel": [
+            44.018,
+            0.126,
+            506.82,
+            124.29
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_73",
+      "split": "holdout",
+      "image_name": "crazing_75_jpg.rf.569899a7d39218c733d55be922c52263.jpg",
+      "input_gray": "frame_73/input_gray.png",
+      "sha256": "28e11f0faee220d75abf259eb9a10612d2fbc6cfd6c9cd1f1743d50cc7a8f509",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.311352,
+          "box_xyxy_pixel": [
+            33.342,
+            258.297,
+            309.871,
+            423.867
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.293513,
+          "box_xyxy_pixel": [
+            2.177,
+            136.993,
+            183.288,
+            237.129
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_74",
+      "split": "holdout",
+      "image_name": "crazing_84_jpg.rf.cf8b85c1f27deb2eef744dc5e71dab19.jpg",
+      "input_gray": "frame_74/input_gray.png",
+      "sha256": "dcacd19b4b896775c863c60675d25a6241b1c71d60e563fd77832588f750a13f",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.307145,
+          "box_xyxy_pixel": [
+            9.996,
+            315.883,
+            512.0,
+            486.468
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_75",
+      "split": "holdout",
+      "image_name": "crazing_91_jpg.rf.3d9e18343c29e33b69b1666002957b26.jpg",
+      "input_gray": "frame_75/input_gray.png",
+      "sha256": "50eac820b9e3cf7e425b67bb8999152029cfdff81dff51d7c9027a043bd1061d",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.259296,
+          "box_xyxy_pixel": [
+            295.15,
+            210.791,
+            512.0,
+            365.714
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_76",
+      "split": "holdout",
+      "image_name": "crazing_93_jpg.rf.2d16f62fc8bfe3358e699b83c0c9d2ce.jpg",
+      "input_gray": "frame_76/input_gray.png",
+      "sha256": "3422f4cb33b8b66782fd9fac709f0b8e9451356415b67c3dfe78731ebe53ed06",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.444518,
+          "box_xyxy_pixel": [
+            0.556,
+            70.758,
+            218.696,
+            313.48
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.416705,
+          "box_xyxy_pixel": [
+            0.0,
+            359.663,
+            459.054,
+            480.466
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_77",
+      "split": "holdout",
+      "image_name": "crazing_95_jpg.rf.729439b96b9b3cf9ddf28743faae1c9c.jpg",
+      "input_gray": "frame_77/input_gray.png",
+      "sha256": "73a22751051bd910ff80230c39447f4410c4726a8a247214df46c37087070399",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.384708,
+          "box_xyxy_pixel": [
+            0.0,
+            36.475,
+            216.205,
+            152.548
+          ]
+        },
+        {
+          "class_id": 0,
+          "detection_index": 1,
+          "confidence": 0.359273,
+          "box_xyxy_pixel": [
+            18.821,
+            256.314,
+            506.054,
+            483.301
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_78",
+      "split": "holdout",
+      "image_name": "inclusion_110_jpg.rf.04e0832f93c9b2b77e80b7a0cb5be1a8.jpg",
+      "input_gray": "frame_78/input_gray.png",
+      "sha256": "762d9d0d4006fba9955c2b67b512e2e901e2e955abb47ad27b22a4b427933731",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.692048,
+          "box_xyxy_pixel": [
+            362.552,
+            0.376,
+            466.067,
+            512.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.491008,
+          "box_xyxy_pixel": [
+            249.365,
+            0.0,
+            339.534,
+            199.545
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.33858,
+          "box_xyxy_pixel": [
+            288.453,
+            382.648,
+            349.299,
+            508.793
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_79",
+      "split": "holdout",
+      "image_name": "inclusion_11_jpg.rf.4c1a74c175ce1481c7d1bc6b39aaff98.jpg",
+      "input_gray": "frame_79/input_gray.png",
+      "sha256": "11b29ece7e0631a4ee2bb3a61c1eeacb79fcd699fa13d93a3d6d73c58589588c",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.680624,
+          "box_xyxy_pixel": [
+            74.032,
+            73.211,
+            198.692,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_80",
+      "split": "holdout",
+      "image_name": "inclusion_138_jpg.rf.4ee3a5a438da6b56758476ad21ad42fb.jpg",
+      "input_gray": "frame_80/input_gray.png",
+      "sha256": "fba77654bd2cc764276fddff0adae3a6714ccce038abe6dbf40e82bcd69fa2ed",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.778342,
+          "box_xyxy_pixel": [
+            349.2,
+            317.688,
+            409.936,
+            458.415
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_81",
+      "split": "holdout",
+      "image_name": "inclusion_142_jpg.rf.a44ef2f5a2b4ec0d3721a2a31d405f4d.jpg",
+      "input_gray": "frame_81/input_gray.png",
+      "sha256": "2014608dd9fbff8c11b7a20765ac97c18cc9a402f56b36cfd315ed6f0bbb9bcc",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.687661,
+          "box_xyxy_pixel": [
+            362.793,
+            329.536,
+            411.724,
+            436.599
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.415665,
+          "box_xyxy_pixel": [
+            147.398,
+            84.823,
+            184.858,
+            142.954
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_82",
+      "split": "holdout",
+      "image_name": "inclusion_171_jpg.rf.20ee54d234eeea2f877e38b948b863e5.jpg",
+      "input_gray": "frame_82/input_gray.png",
+      "sha256": "040f50d46aec27ceafe359f6a1cef2a7b8cf83f6c54beeadf8135b25c1189c27",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.78866,
+          "box_xyxy_pixel": [
+            200.685,
+            0.047,
+            327.376,
+            309.997
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.523229,
+          "box_xyxy_pixel": [
+            208.277,
+            338.179,
+            267.342,
+            476.547
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_83",
+      "split": "holdout",
+      "image_name": "inclusion_1_jpg.rf.4fc8c6bf6cd12c84e13943c2e4bae254.jpg",
+      "input_gray": "frame_83/input_gray.png",
+      "sha256": "8cbd9412e50e98585b0d98d9e36ca7be4ad4d2731c37ec8259a3735516dedf3b",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.712665,
+          "box_xyxy_pixel": [
+            298.639,
+            183.246,
+            360.471,
+            289.765
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.516459,
+          "box_xyxy_pixel": [
+            302.072,
+            85.217,
+            339.54,
+            160.427
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.491368,
+          "box_xyxy_pixel": [
+            86.054,
+            15.885,
+            123.512,
+            90.896
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.482774,
+          "box_xyxy_pixel": [
+            289.489,
+            285.103,
+            346.01,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_84",
+      "split": "holdout",
+      "image_name": "inclusion_205_jpg.rf.ea5cd88657de8f4a8d72d78f78bfb194.jpg",
+      "input_gray": "frame_84/input_gray.png",
+      "sha256": "190f9b6a5c0244855908b4d891b78b893d3a916a1538d95cc8466c562c3c1412",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.796604,
+          "box_xyxy_pixel": [
+            308.585,
+            18.202,
+            434.293,
+            512.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.683781,
+          "box_xyxy_pixel": [
+            55.843,
+            145.612,
+            124.644,
+            478.558
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_85",
+      "split": "holdout",
+      "image_name": "inclusion_210_jpg.rf.f84f98226b08acd5eb78ab220577343b.jpg",
+      "input_gray": "frame_85/input_gray.png",
+      "sha256": "feb77593e3612706f82cc788bd001e6e4b598302030489656db3d82a569cbf7a",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.647121,
+          "box_xyxy_pixel": [
+            232.486,
+            71.943,
+            331.797,
+            454.661
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_86",
+      "split": "holdout",
+      "image_name": "inclusion_211_jpg.rf.dcd534e24755bec9233e39eff3b54d12.jpg",
+      "input_gray": "frame_86/input_gray.png",
+      "sha256": "2c0f4d22adf6d1c73e1efe61de9f84f11c9c1f607dec95ac707da384353b8c85",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.790513,
+          "box_xyxy_pixel": [
+            228.936,
+            295.536,
+            311.292,
+            512.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.626047,
+          "box_xyxy_pixel": [
+            185.302,
+            0.0,
+            281.947,
+            178.378
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_87",
+      "split": "holdout",
+      "image_name": "inclusion_215_jpg.rf.d9de7d540fbf8f5c8d510e4d5ea00be3.jpg",
+      "input_gray": "frame_87/input_gray.png",
+      "sha256": "15d233b08162afc965d3861cb45cdd1bd7055360561bcb27f4585bb7803b924f",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.761723,
+          "box_xyxy_pixel": [
+            180.141,
+            0.0,
+            315.039,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_88",
+      "split": "holdout",
+      "image_name": "inclusion_241_jpg.rf.edebe54a7e02c3dfa1c751e736ce6136.jpg",
+      "input_gray": "frame_88/input_gray.png",
+      "sha256": "5f63d977fdd2104499c95095ba6f2f187fb46df5e3a126686661acec1369c401",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.610853,
+          "box_xyxy_pixel": [
+            46.157,
+            316.994,
+            86.659,
+            430.805
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.600734,
+          "box_xyxy_pixel": [
+            319.997,
+            188.138,
+            363.397,
+            288.031
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.502915,
+          "box_xyxy_pixel": [
+            1.129,
+            459.412,
+            91.192,
+            511.746
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.393254,
+          "box_xyxy_pixel": [
+            327.594,
+            74.281,
+            370.181,
+            167.165
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_89",
+      "split": "holdout",
+      "image_name": "inclusion_256_jpg.rf.55ee96bacbc8234fe3fb0fc5dc4fa924.jpg",
+      "input_gray": "frame_89/input_gray.png",
+      "sha256": "6d342f68f009378a668fde3f26d4330097bd4d8ef7b9a2ba9a83b69d8a2df951",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.563875,
+          "box_xyxy_pixel": [
+            299.72,
+            0.537,
+            396.607,
+            507.209
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.562101,
+          "box_xyxy_pixel": [
+            315.853,
+            0.0,
+            402.657,
+            252.855
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.439883,
+          "box_xyxy_pixel": [
+            307.401,
+            244.401,
+            371.504,
+            504.377
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.398229,
+          "box_xyxy_pixel": [
+            111.246,
+            321.69,
+            159.108,
+            399.656
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_90",
+      "split": "holdout",
+      "image_name": "inclusion_270_jpg.rf.b5480c29806cbef2a82fb77100a96192.jpg",
+      "input_gray": "frame_90/input_gray.png",
+      "sha256": "c548c733d9749f62e3c8ca578b6e4708c298db0b0af1b6328658ff42fc0cd65b",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.725919,
+          "box_xyxy_pixel": [
+            56.304,
+            0.0,
+            168.766,
+            511.999
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_91",
+      "split": "holdout",
+      "image_name": "inclusion_277_jpg.rf.8279a80c3c6b3e7bac995667257b93be.jpg",
+      "input_gray": "frame_91/input_gray.png",
+      "sha256": "d4ce1be7e612efdefcc611bb7617f2cfce17328664ba60ca5832dcbcfaf1422e",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.744768,
+          "box_xyxy_pixel": [
+            68.771,
+            0.0,
+            187.164,
+            511.847
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_92",
+      "split": "holdout",
+      "image_name": "inclusion_280_jpg.rf.a1b0f3265ec54f1ad1bdf05557237696.jpg",
+      "input_gray": "frame_92/input_gray.png",
+      "sha256": "486a3a4684014445e89a5f888ba732cab893a903daea2c7e0f6f1429ea478328",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.706799,
+          "box_xyxy_pixel": [
+            109.937,
+            0.0,
+            183.78,
+            503.057
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_93",
+      "split": "holdout",
+      "image_name": "inclusion_299_jpg.rf.8bc8c72a9480e50d43206e3f411b0384.jpg",
+      "input_gray": "frame_93/input_gray.png",
+      "sha256": "418b0f02c0a99fc70fe1b15edc3d1c26ae245227762c1fd8cc6c895ff8218b26",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.767586,
+          "box_xyxy_pixel": [
+            293.793,
+            176.35,
+            348.003,
+            323.99
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.640621,
+          "box_xyxy_pixel": [
+            282.678,
+            310.438,
+            345.297,
+            474.138
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_94",
+      "split": "holdout",
+      "image_name": "inclusion_39_jpg.rf.66836d633babb0d04623b96d634aa91a.jpg",
+      "input_gray": "frame_94/input_gray.png",
+      "sha256": "8c4e4a3eb4947a289f11e7ca506747c78daa9e39c23a526f194c2311148cfdfc",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.540273,
+          "box_xyxy_pixel": [
+            24.733,
+            41.492,
+            99.785,
+            423.98
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.500362,
+          "box_xyxy_pixel": [
+            119.597,
+            0.712,
+            225.865,
+            376.64
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.486834,
+          "box_xyxy_pixel": [
+            294.125,
+            0.0,
+            386.841,
+            510.986
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_95",
+      "split": "holdout",
+      "image_name": "inclusion_49_jpg.rf.5d01625cecf1a19002f3274233557205.jpg",
+      "input_gray": "frame_95/input_gray.png",
+      "sha256": "9ce0448c0c8445de05e8b8d068d40011570a436e2fa55e0d70a4a38f983aa6ef",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.724122,
+          "box_xyxy_pixel": [
+            339.931,
+            1.635,
+            450.305,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_96",
+      "split": "holdout",
+      "image_name": "inclusion_58_jpg.rf.cc546e74436982f39fbc7a867702b5dc.jpg",
+      "input_gray": "frame_96/input_gray.png",
+      "sha256": "5fd61f5f94e88b1f5f7b924b7af41f41199eb5b0d9dc4fb4f09ff6392abc2c9d",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.67106,
+          "box_xyxy_pixel": [
+            276.942,
+            195.991,
+            351.299,
+            391.105
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.606909,
+          "box_xyxy_pixel": [
+            283.55,
+            0.0,
+            336.201,
+            97.683
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.346639,
+          "box_xyxy_pixel": [
+            153.76,
+            237.755,
+            214.785,
+            383.896
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.325926,
+          "box_xyxy_pixel": [
+            151.53,
+            377.288,
+            253.858,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_97",
+      "split": "holdout",
+      "image_name": "inclusion_5_jpg.rf.724ecd03b5e6491c1b77cc0ba3926d4d.jpg",
+      "input_gray": "frame_97/input_gray.png",
+      "sha256": "2363422201b320e8b2221e6cdc882d2768df6ff292663b45fb2e65fff6a24da5",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.70286,
+          "box_xyxy_pixel": [
+            363.283,
+            122.521,
+            427.442,
+            228.159
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.608028,
+          "box_xyxy_pixel": [
+            354.777,
+            223.293,
+            414.248,
+            477.424
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.516755,
+          "box_xyxy_pixel": [
+            367.859,
+            24.945,
+            406.711,
+            98.241
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_98",
+      "split": "holdout",
+      "image_name": "inclusion_68_jpg.rf.8a8aaf98e87e18de3535eee06543ad8c.jpg",
+      "input_gray": "frame_98/input_gray.png",
+      "sha256": "0fd63780ce5d79d8fa9300b11c8a52402c20b9b7bd9648e8500af37997c7e855",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.795232,
+          "box_xyxy_pixel": [
+            392.369,
+            5.121,
+            443.147,
+            151.519
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.536118,
+          "box_xyxy_pixel": [
+            239.433,
+            231.613,
+            299.47,
+            413.783
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_99",
+      "split": "holdout",
+      "image_name": "inclusion_86_jpg.rf.5bbc92badea00744e26f3f2dbb42831f.jpg",
+      "input_gray": "frame_99/input_gray.png",
+      "sha256": "acf3b65087a6a80f6bce6b2150d2a2a47ed3827c701f42b4a2b6d7c3941c540e",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.81191,
+          "box_xyxy_pixel": [
+            277.705,
+            31.041,
+            361.704,
+            277.203
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.765894,
+          "box_xyxy_pixel": [
+            85.377,
+            366.363,
+            184.796,
+            487.805
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.732709,
+          "box_xyxy_pixel": [
+            23.334,
+            279.929,
+            74.404,
+            447.808
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.720792,
+          "box_xyxy_pixel": [
+            37.509,
+            104.25,
+            96.027,
+            244.213
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 4,
+          "confidence": 0.491229,
+          "box_xyxy_pixel": [
+            79.057,
+            0.147,
+            145.081,
+            212.159
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_100",
+      "split": "holdout",
+      "image_name": "inclusion_89_jpg.rf.b534f74c31e3f0c9ed1a413e5b2bcbe0.jpg",
+      "input_gray": "frame_100/input_gray.png",
+      "sha256": "d9b68e4b0156f4706a5324ef19193af7bd2e81240df490ce11f4b22967522c5c",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.699479,
+          "box_xyxy_pixel": [
+            211.919,
+            133.053,
+            295.831,
+            313.601
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.599013,
+          "box_xyxy_pixel": [
+            435.15,
+            353.206,
+            473.326,
+            450.142
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 2,
+          "confidence": 0.458338,
+          "box_xyxy_pixel": [
+            308.448,
+            448.216,
+            343.875,
+            511.285
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.397868,
+          "box_xyxy_pixel": [
+            72.859,
+            51.742,
+            108.604,
+            113.333
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 4,
+          "confidence": 0.373275,
+          "box_xyxy_pixel": [
+            75.012,
+            189.214,
+            110.859,
+            261.225
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 5,
+          "confidence": 0.283875,
+          "box_xyxy_pixel": [
+            320.691,
+            0.0,
+            412.02,
+            141.35
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_101",
+      "split": "holdout",
+      "image_name": "patches_118_jpg.rf.20b35833b36109b61ef8ec31bb6908d4.jpg",
+      "input_gray": "frame_101/input_gray.png",
+      "sha256": "363dca0c8694ee96ccb71e398a93773b56d914150fd35a31d71006364e67cb14",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.950183,
+          "box_xyxy_pixel": [
+            2.154,
+            37.49,
+            265.224,
+            238.721
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.813783,
+          "box_xyxy_pixel": [
+            393.873,
+            19.384,
+            511.834,
+            511.742
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.78756,
+          "box_xyxy_pixel": [
+            228.759,
+            177.519,
+            406.115,
+            510.269
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_102",
+      "split": "holdout",
+      "image_name": "patches_134_jpg.rf.bd939ef90a372c9733060e50847028db.jpg",
+      "input_gray": "frame_102/input_gray.png",
+      "sha256": "2f68b2a64a8942b8ae10093c5136928cdbd790a1242983ef6d994a42d0abdf2f",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.900397,
+          "box_xyxy_pixel": [
+            394.065,
+            295.866,
+            512.0,
+            494.52
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.854095,
+          "box_xyxy_pixel": [
+            136.012,
+            86.439,
+            314.918,
+            441.858
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.276838,
+          "box_xyxy_pixel": [
+            0.0,
+            417.235,
+            54.55,
+            471.308
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_103",
+      "split": "holdout",
+      "image_name": "patches_137_jpg.rf.677668c1d4d69315e03fbc40045e0c80.jpg",
+      "input_gray": "frame_103/input_gray.png",
+      "sha256": "a30157101bc95bc5ef1b11510bc810ed923cd006f0e974ff0b323ccd617298e5",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.862182,
+          "box_xyxy_pixel": [
+            261.185,
+            135.087,
+            455.404,
+            490.73
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.723118,
+          "box_xyxy_pixel": [
+            52.947,
+            112.448,
+            255.575,
+            308.039
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.358495,
+          "box_xyxy_pixel": [
+            218.542,
+            0.0,
+            329.083,
+            39.971
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_104",
+      "split": "holdout",
+      "image_name": "patches_13_jpg.rf.74da3f3a729e3ceb50a3a5202a31ba06.jpg",
+      "input_gray": "frame_104/input_gray.png",
+      "sha256": "f57ca2a866449c8c51137c601a16386f19b78a791953d328d503103ba6a9785a",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.906796,
+          "box_xyxy_pixel": [
+            164.054,
+            213.289,
+            300.842,
+            465.752
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_105",
+      "split": "holdout",
+      "image_name": "patches_14_jpg.rf.7613c0a3611cad3a5921fa56c5dcfe5f.jpg",
+      "input_gray": "frame_105/input_gray.png",
+      "sha256": "80a5d8c3e6fcc4b4cb428f8af3736c7a6fae8c3a2a36a51bbf1f2c7e4e6a3b34",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.719112,
+          "box_xyxy_pixel": [
+            190.896,
+            193.193,
+            430.17,
+            356.16
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_106",
+      "split": "holdout",
+      "image_name": "patches_197_jpg.rf.1e3ea9534a8e50999840a25aced41289.jpg",
+      "input_gray": "frame_106/input_gray.png",
+      "sha256": "7e43c92dff1165a290bfe1742693e2630bd4e6250d0da567d949c7e76c487177",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.946645,
+          "box_xyxy_pixel": [
+            284.1,
+            95.965,
+            478.257,
+            302.973
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.910668,
+          "box_xyxy_pixel": [
+            0.0,
+            168.253,
+            140.155,
+            323.628
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.869798,
+          "box_xyxy_pixel": [
+            2.927,
+            0.0,
+            164.854,
+            53.526
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.808418,
+          "box_xyxy_pixel": [
+            30.449,
+            329.624,
+            148.738,
+            497.799
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_107",
+      "split": "holdout",
+      "image_name": "patches_206_jpg.rf.16550be48ed5067442fcbd22634b82cf.jpg",
+      "input_gray": "frame_107/input_gray.png",
+      "sha256": "62409b24e1d739888d6f85660d034e25dd816e5bfb826f12f5309d03a950fc3a",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.94463,
+          "box_xyxy_pixel": [
+            0.039,
+            0.088,
+            108.222,
+            239.235
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.886041,
+          "box_xyxy_pixel": [
+            184.53,
+            232.283,
+            308.638,
+            421.959
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.718377,
+          "box_xyxy_pixel": [
+            350.032,
+            0.0,
+            504.023,
+            449.501
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.468751,
+          "box_xyxy_pixel": [
+            0.875,
+            415.215,
+            103.752,
+            511.74
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_108",
+      "split": "holdout",
+      "image_name": "patches_223_jpg.rf.fc510392248c8ee5a82793cd430f524d.jpg",
+      "input_gray": "frame_108/input_gray.png",
+      "sha256": "a5530897d0da639aab09c1bdfef24c51f27b8b34da59e3db3e7e46dd4e5c0ce4",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.823286,
+          "box_xyxy_pixel": [
+            0.0,
+            154.841,
+            187.748,
+            512.0
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.722812,
+          "box_xyxy_pixel": [
+            304.719,
+            0.0,
+            413.401,
+            509.729
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.55153,
+          "box_xyxy_pixel": [
+            216.243,
+            0.0,
+            421.46,
+            117.096
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_109",
+      "split": "holdout",
+      "image_name": "patches_228_jpg.rf.9fcba3305efbae47256fed29caf68402.jpg",
+      "input_gray": "frame_109/input_gray.png",
+      "sha256": "7b4489f1f7de584c1b953a880e9ba6e39e3bc33a4d78df8bc6944fe2cfe41c0c",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.834399,
+          "box_xyxy_pixel": [
+            198.373,
+            25.396,
+            399.221,
+            483.054
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.82017,
+          "box_xyxy_pixel": [
+            34.379,
+            296.167,
+            180.93,
+            432.155
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.521039,
+          "box_xyxy_pixel": [
+            472.885,
+            0.053,
+            512.0,
+            133.78
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.377936,
+          "box_xyxy_pixel": [
+            183.73,
+            34.217,
+            397.889,
+            192.845
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 4,
+          "confidence": 0.292574,
+          "box_xyxy_pixel": [
+            427.035,
+            355.943,
+            507.275,
+            469.149
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 5,
+          "confidence": 0.251635,
+          "box_xyxy_pixel": [
+            467.468,
+            0.374,
+            511.837,
+            318.53
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_110",
+      "split": "holdout",
+      "image_name": "patches_234_jpg.rf.9f379bbc54aae48bafd50e9552bb8f44.jpg",
+      "input_gray": "frame_110/input_gray.png",
+      "sha256": "658afa881277e2e879533b413ce787a88b701869e821ea601f12013bbb959375",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.919574,
+          "box_xyxy_pixel": [
+            32.067,
+            1.631,
+            203.538,
+            222.951
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.73825,
+          "box_xyxy_pixel": [
+            45.68,
+            272.496,
+            199.153,
+            365.832
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.72174,
+          "box_xyxy_pixel": [
+            324.966,
+            178.914,
+            483.027,
+            308.406
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.568303,
+          "box_xyxy_pixel": [
+            0.511,
+            424.214,
+            190.06,
+            511.774
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 4,
+          "confidence": 0.294867,
+          "box_xyxy_pixel": [
+            434.914,
+            0.097,
+            493.841,
+            80.282
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_111",
+      "split": "holdout",
+      "image_name": "patches_244_jpg.rf.ac4fc41c4b9d34941d16b5e36c867ff5.jpg",
+      "input_gray": "frame_111/input_gray.png",
+      "sha256": "ebfeef16c2d102290295728c96684d54df8aa546fff685aa32e2d4f50eb77d2a",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.943641,
+          "box_xyxy_pixel": [
+            123.298,
+            269.67,
+            317.906,
+            424.746
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.862194,
+          "box_xyxy_pixel": [
+            65.016,
+            126.074,
+            193.64,
+            228.88
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_112",
+      "split": "holdout",
+      "image_name": "patches_252_jpg.rf.c7d75b70043b8ae2749fcad429aefdf6.jpg",
+      "input_gray": "frame_112/input_gray.png",
+      "sha256": "308c986d205346e91b3f99ce13521304d46660806e6ddfb811785c2c988b1064",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.928833,
+          "box_xyxy_pixel": [
+            306.909,
+            424.657,
+            447.481,
+            511.69
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.909485,
+          "box_xyxy_pixel": [
+            55.574,
+            395.105,
+            163.326,
+            500.375
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.789129,
+          "box_xyxy_pixel": [
+            322.398,
+            284.6,
+            493.178,
+            375.654
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_113",
+      "split": "holdout",
+      "image_name": "patches_257_jpg.rf.d642c9e4aebda5a59855d392a00c2110.jpg",
+      "input_gray": "frame_113/input_gray.png",
+      "sha256": "6480db387f7306b4ecbaa0bcbe9fd6173ddcdfb1356c57108b1dd5cfe0b07091",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.845772,
+          "box_xyxy_pixel": [
+            26.504,
+            339.738,
+            139.266,
+            447.633
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.723736,
+          "box_xyxy_pixel": [
+            0.946,
+            38.295,
+            112.297,
+            227.142
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.721454,
+          "box_xyxy_pixel": [
+            350.209,
+            91.907,
+            512.0,
+            338.641
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.691298,
+          "box_xyxy_pixel": [
+            1.841,
+            213.108,
+            174.843,
+            325.037
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 4,
+          "confidence": 0.436381,
+          "box_xyxy_pixel": [
+            0.068,
+            31.434,
+            162.418,
+            329.6
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_114",
+      "split": "holdout",
+      "image_name": "patches_261_jpg.rf.f7352ba8064615b2035df9bdf132f87a.jpg",
+      "input_gray": "frame_114/input_gray.png",
+      "sha256": "a3f2e0dcbc12609ac3d89e67296511bdd32559b40ec0b94c647541b8c6a2c946",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.899966,
+          "box_xyxy_pixel": [
+            260.674,
+            304.703,
+            485.619,
+            471.178
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.850056,
+          "box_xyxy_pixel": [
+            40.415,
+            193.94,
+            165.804,
+            390.14
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.80188,
+          "box_xyxy_pixel": [
+            414.041,
+            141.021,
+            510.696,
+            259.341
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_115",
+      "split": "holdout",
+      "image_name": "patches_263_jpg.rf.b8e480c6595e6702f07fcd32e873b719.jpg",
+      "input_gray": "frame_115/input_gray.png",
+      "sha256": "758ff0cf4f9e8842abb6642781d67ca4aa301460476b0508f156810bad95c7aa",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.637516,
+          "box_xyxy_pixel": [
+            136.935,
+            350.709,
+            444.679,
+            511.346
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.441595,
+          "box_xyxy_pixel": [
+            110.329,
+            155.405,
+            439.895,
+            509.296
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.29403,
+          "box_xyxy_pixel": [
+            98.352,
+            157.637,
+            254.037,
+            442.718
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_116",
+      "split": "holdout",
+      "image_name": "patches_277_jpg.rf.114747224abb70da7add90046891a82a.jpg",
+      "input_gray": "frame_116/input_gray.png",
+      "sha256": "308c40b0becb152c9ddbc42e12b349df7d2219ac609ea9342ed995376477a489",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.940644,
+          "box_xyxy_pixel": [
+            34.132,
+            215.521,
+            216.458,
+            455.417
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.87671,
+          "box_xyxy_pixel": [
+            372.131,
+            289.462,
+            483.12,
+            421.688
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.818091,
+          "box_xyxy_pixel": [
+            344.681,
+            0.049,
+            462.025,
+            135.249
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 3,
+          "confidence": 0.761179,
+          "box_xyxy_pixel": [
+            15.958,
+            0.662,
+            78.213,
+            61.5
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 4,
+          "confidence": 0.392405,
+          "box_xyxy_pixel": [
+            151.519,
+            473.559,
+            235.549,
+            512.0
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 5,
+          "confidence": 0.320387,
+          "box_xyxy_pixel": [
+            400.839,
+            464.151,
+            478.14,
+            511.75
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_117",
+      "split": "holdout",
+      "image_name": "patches_282_jpg.rf.8b7b12fa101388fa9f70f70914d89186.jpg",
+      "input_gray": "frame_117/input_gray.png",
+      "sha256": "a196d026e4df8192d07915fa6ba4a8079f55d145c174ea94fc030b1a4dd46f10",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.981616,
+          "box_xyxy_pixel": [
+            24.995,
+            161.814,
+            177.947,
+            371.276
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.848586,
+          "box_xyxy_pixel": [
+            333.554,
+            0.0,
+            477.76,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_118",
+      "split": "holdout",
+      "image_name": "patches_294_jpg.rf.ee32a866c7b268d3dd944dd422b3df5c.jpg",
+      "input_gray": "frame_118/input_gray.png",
+      "sha256": "2e079e729a74ac4634d17c9a99ec8dce3f89597b431a6c5e86ad22bedc594c86",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.899209,
+          "box_xyxy_pixel": [
+            318.329,
+            172.15,
+            512.0,
+            512.0
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.889402,
+          "box_xyxy_pixel": [
+            1.231,
+            0.0,
+            165.592,
+            499.123
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_119",
+      "split": "holdout",
+      "image_name": "patches_41_jpg.rf.3c9bab6293463c01864609090255249c.jpg",
+      "input_gray": "frame_119/input_gray.png",
+      "sha256": "7c5a947a8bb775a02dfb85dd92860e3b70e228a6b142b13fbb06770fcabab6f7",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.953397,
+          "box_xyxy_pixel": [
+            81.057,
+            303.354,
+            197.475,
+            482.954
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.835018,
+          "box_xyxy_pixel": [
+            50.119,
+            93.663,
+            150.734,
+            185.136
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.280077,
+          "box_xyxy_pixel": [
+            355.726,
+            80.639,
+            445.641,
+            165.333
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_120",
+      "split": "holdout",
+      "image_name": "patches_59_jpg.rf.ccb94d8a2aea9a3ff29903f3d9447a54.jpg",
+      "input_gray": "frame_120/input_gray.png",
+      "sha256": "b7eb2fcc49dbb06c75e7750b5c9c41f152131508de1159de660570ef3694aa22",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.945493,
+          "box_xyxy_pixel": [
+            177.532,
+            332.032,
+            310.037,
+            511.735
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.876529,
+          "box_xyxy_pixel": [
+            201.891,
+            9.859,
+            299.668,
+            322.629
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_121",
+      "split": "holdout",
+      "image_name": "patches_5_jpg.rf.dfd6bac4c25dc2083ea1b6bceaba38cf.jpg",
+      "input_gray": "frame_121/input_gray.png",
+      "sha256": "b2687b7979f590107c9c4c679412a8b1db754320373929999026d08aaab78d66",
+      "predictions": [
+        {
+          "class_id": 2,
+          "detection_index": 0,
+          "confidence": 0.901931,
+          "box_xyxy_pixel": [
+            284.939,
+            163.41,
+            430.054,
+            499.525
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 1,
+          "confidence": 0.896175,
+          "box_xyxy_pixel": [
+            291.228,
+            0.0,
+            511.161,
+            90.724
+          ]
+        },
+        {
+          "class_id": 2,
+          "detection_index": 2,
+          "confidence": 0.85049,
+          "box_xyxy_pixel": [
+            87.275,
+            0.98,
+            244.366,
+            393.434
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 3,
+          "confidence": 0.496333,
+          "box_xyxy_pixel": [
+            288.919,
+            418.892,
+            356.015,
+            492.935
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_122",
+      "split": "holdout",
+      "image_name": "pitted_surface_115_jpg.rf.99683124196d70948a46af67c4a8d459.jpg",
+      "input_gray": "frame_122/input_gray.png",
+      "sha256": "ee2ceb73230e78bb7ee2a0670e8e4509d97ff65d58da7ec923b5f7dda79d479b",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.890353,
+          "box_xyxy_pixel": [
+            0.459,
+            0.0,
+            512.0,
+            509.907
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_123",
+      "split": "holdout",
+      "image_name": "pitted_surface_116_jpg.rf.bff266c9ae7a112e78f8971bd9def44f.jpg",
+      "input_gray": "frame_123/input_gray.png",
+      "sha256": "25d91c7f02ba81823cf67c646a99b37b26a825d1fb349e07ee59f73c37eef665",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.862446,
+          "box_xyxy_pixel": [
+            0.754,
+            0.256,
+            509.957,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_124",
+      "split": "holdout",
+      "image_name": "pitted_surface_125_jpg.rf.b4ac659e2c8557920a61db9f1251e823.jpg",
+      "input_gray": "frame_124/input_gray.png",
+      "sha256": "8d93d92ce26ee8816e840d6d3b2e3c791ce208b054451620578d714b74c5fb82",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.391471,
+          "box_xyxy_pixel": [
+            340.14,
+            0.402,
+            511.644,
+            507.046
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_125",
+      "split": "holdout",
+      "image_name": "pitted_surface_132_jpg.rf.fabff7c09d459c7d06040524b49a9531.jpg",
+      "input_gray": "frame_125/input_gray.png",
+      "sha256": "c758fd75be2e5e155f47282ed7d4d22d5fddd9da5e9e8771d9ec346fbb126d11",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.719776,
+          "box_xyxy_pixel": [
+            130.151,
+            2.381,
+            448.669,
+            505.228
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_126",
+      "split": "holdout",
+      "image_name": "pitted_surface_138_jpg.rf.e57c91e5f5391413f91a8c76c7199de6.jpg",
+      "input_gray": "frame_126/input_gray.png",
+      "sha256": "63ae204953c0b9fc6b884139e36df41edddd5882fa7de9161ceb1df35d87a55f",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.915753,
+          "box_xyxy_pixel": [
+            1.031,
+            0.0,
+            511.263,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_127",
+      "split": "holdout",
+      "image_name": "pitted_surface_157_jpg.rf.35e261bd564f32e147e277702e003b48.jpg",
+      "input_gray": "frame_127/input_gray.png",
+      "sha256": "ddb2e496718bbaff89a3c821f78d708521a52d354900a539d938a3744861ad70",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.874555,
+          "box_xyxy_pixel": [
+            0.0,
+            27.432,
+            510.925,
+            511.07
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_128",
+      "split": "holdout",
+      "image_name": "pitted_surface_211_jpg.rf.54bea3c843bfba64f7bcf876b0f2fbb1.jpg",
+      "input_gray": "frame_128/input_gray.png",
+      "sha256": "ae8fbf7f16e62f60d6d993c459ec0c3744c0bdc3990ca289f8d1dafeaf75cf48",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.645129,
+          "box_xyxy_pixel": [
+            193.395,
+            0.586,
+            508.739,
+            489.298
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_129",
+      "split": "holdout",
+      "image_name": "pitted_surface_217_jpg.rf.699f8e6340ca5ca9fedf8c318cd6d1ac.jpg",
+      "input_gray": "frame_129/input_gray.png",
+      "sha256": "c6e8b8a190f2405195195a62903e0d19bee1373c6fb7e195088e6b9df9beb79e",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.462644,
+          "box_xyxy_pixel": [
+            146.238,
+            7.462,
+            375.747,
+            510.573
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_130",
+      "split": "holdout",
+      "image_name": "pitted_surface_230_jpg.rf.ea87263a565178b7c5663c2444868acf.jpg",
+      "input_gray": "frame_130/input_gray.png",
+      "sha256": "5ca25fae66be2b7ec64be2941768fdf576518ff940572a5fdb5b3809857408e7",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.403585,
+          "box_xyxy_pixel": [
+            74.222,
+            0.97,
+            506.852,
+            503.7
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_131",
+      "split": "holdout",
+      "image_name": "pitted_surface_264_jpg.rf.e7c9b053d578e3a1393f218ecedcd4b6.jpg",
+      "input_gray": "frame_131/input_gray.png",
+      "sha256": "61d08076139e8f6236873bf7c23cd86656d5cc17d6438198aee48a05037c653f",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.827931,
+          "box_xyxy_pixel": [
+            0.193,
+            0.0,
+            512.0,
+            505.788
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_132",
+      "split": "holdout",
+      "image_name": "pitted_surface_271_jpg.rf.8276fe693b65a30f5bc754f42954dc05.jpg",
+      "input_gray": "frame_132/input_gray.png",
+      "sha256": "c5ac8688b8e7a578ba64c0318d2b5ce7dd033139634935ddc9ae09c4e4c742f3",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.825091,
+          "box_xyxy_pixel": [
+            2.113,
+            0.284,
+            512.0,
+            510.158
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_133",
+      "split": "holdout",
+      "image_name": "pitted_surface_40_jpg.rf.4371d8d17546f634c005b32f55dbe7a8.jpg",
+      "input_gray": "frame_133/input_gray.png",
+      "sha256": "1574aef001e63b15f34f2ab9056f13df62669e3ec8a8d067513a6796bcb4d78d",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.680097,
+          "box_xyxy_pixel": [
+            3.929,
+            0.0,
+            511.687,
+            509.241
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_134",
+      "split": "holdout",
+      "image_name": "pitted_surface_47_jpg.rf.e76be9790aa47d9e1e6a3d870d12ded2.jpg",
+      "input_gray": "frame_134/input_gray.png",
+      "sha256": "3c7a1abd9de455df4bdc55aca929dacf6959299c96a723540a511aa508433333",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.717678,
+          "box_xyxy_pixel": [
+            3.77,
+            0.0,
+            226.346,
+            511.394
+          ]
+        },
+        {
+          "class_id": 3,
+          "detection_index": 1,
+          "confidence": 0.68405,
+          "box_xyxy_pixel": [
+            297.027,
+            2.121,
+            511.948,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_135",
+      "split": "holdout",
+      "image_name": "pitted_surface_48_jpg.rf.7b43f418e7e8fa41e87e1db16fd63a1b.jpg",
+      "input_gray": "frame_135/input_gray.png",
+      "sha256": "e41b21670b320e980b8f083e1815a7a08bcd396582692a1d5a0c3356eb659e96",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.893623,
+          "box_xyxy_pixel": [
+            4.975,
+            0.0,
+            512.0,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_136",
+      "split": "holdout",
+      "image_name": "pitted_surface_54_jpg.rf.8377369df6528ce2830cdd9228c7ab38.jpg",
+      "input_gray": "frame_136/input_gray.png",
+      "sha256": "bb87d338d30bb8e511fa79ecdd2f8197ddffa0331107c7528e2ef837c7b4a914",
+      "predictions": [
+        {
+          "class_id": 3,
+          "detection_index": 0,
+          "confidence": 0.378137,
+          "box_xyxy_pixel": [
+            401.754,
+            0.636,
+            511.975,
+            510.853
+          ]
+        },
+        {
+          "class_id": 3,
+          "detection_index": 1,
+          "confidence": 0.362829,
+          "box_xyxy_pixel": [
+            1.279,
+            1.429,
+            259.778,
+            507.528
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_137",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_103_jpg.rf.3a1a47372820a5a06513500c2db379e7.jpg",
+      "input_gray": "frame_137/input_gray.png",
+      "sha256": "0d382ca4ec148509b6fce83b8fdad4c23c003fa8c7ab9b897071318c15956860",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.738804,
+          "box_xyxy_pixel": [
+            271.319,
+            217.684,
+            511.633,
+            451.792
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.336068,
+          "box_xyxy_pixel": [
+            246.365,
+            0.0,
+            415.427,
+            45.279
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_138",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_114_jpg.rf.b9f64348f9987e000856047f8e7d56ec.jpg",
+      "input_gray": "frame_138/input_gray.png",
+      "sha256": "8070cd274ffbe9f582b449212961a309066e5dc463242aa5120a4713188c5686",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.717945,
+          "box_xyxy_pixel": [
+            0.006,
+            79.404,
+            163.283,
+            511.546
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.452362,
+          "box_xyxy_pixel": [
+            223.765,
+            68.456,
+            314.082,
+            224.319
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_139",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_119_jpg.rf.8286eacfedc1b94aaf5c740742b10ce3.jpg",
+      "input_gray": "frame_139/input_gray.png",
+      "sha256": "41ae97b1fd8722d2a5cc3144b144eaece2132c86383ba92172d210ba21b14969",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.883062,
+          "box_xyxy_pixel": [
+            212.355,
+            193.956,
+            332.367,
+            406.465
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.802457,
+          "box_xyxy_pixel": [
+            204.586,
+            0.033,
+            354.413,
+            121.739
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_140",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_122_jpg.rf.316d22c052f65c573a82e4f2071ac08c.jpg",
+      "input_gray": "frame_140/input_gray.png",
+      "sha256": "53ac27dcb4299a9147608f58013f010c09c5d26573f800f8972087e665ed0bc0",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.789124,
+          "box_xyxy_pixel": [
+            43.119,
+            98.452,
+            172.626,
+            475.929
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.77561,
+          "box_xyxy_pixel": [
+            364.124,
+            0.0,
+            511.178,
+            63.891
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.381373,
+          "box_xyxy_pixel": [
+            267.637,
+            202.203,
+            356.187,
+            442.599
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_141",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_132_jpg.rf.1214a379bf61c80d2a95c3eaa026ff7a.jpg",
+      "input_gray": "frame_141/input_gray.png",
+      "sha256": "939d463434ea15991ec67bea618e98717d1c328ac73783d4dd1be05a470f50a1",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.701758,
+          "box_xyxy_pixel": [
+            164.536,
+            4.14,
+            464.766,
+            174.643
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.52065,
+          "box_xyxy_pixel": [
+            133.329,
+            390.597,
+            265.317,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_142",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_157_jpg.rf.fc61193a4f6851f34bca1479a9268259.jpg",
+      "input_gray": "frame_142/input_gray.png",
+      "sha256": "68710c16b58161ec626fc9252e94a7f0a1bb77c61f3c6103e8ba90b17d2af179",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.740555,
+          "box_xyxy_pixel": [
+            255.162,
+            58.931,
+            373.323,
+            126.611
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.726704,
+          "box_xyxy_pixel": [
+            182.805,
+            188.821,
+            298.184,
+            276.314
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.529188,
+          "box_xyxy_pixel": [
+            147.634,
+            332.002,
+            353.49,
+            490.28
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 3,
+          "confidence": 0.372762,
+          "box_xyxy_pixel": [
+            175.051,
+            190.373,
+            353.644,
+            457.944
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_143",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_163_jpg.rf.83a25ccc305a9acc8b3daeccfca8fa76.jpg",
+      "input_gray": "frame_143/input_gray.png",
+      "sha256": "8a67c02065ff4925a7d3d2a37d5a170b4360e05fd2db553f26db341d8c3ee894",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.688441,
+          "box_xyxy_pixel": [
+            146.174,
+            379.127,
+            303.265,
+            511.927
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.278808,
+          "box_xyxy_pixel": [
+            132.044,
+            123.544,
+            282.279,
+            344.323
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_144",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_164_jpg.rf.d2e2352a423a6fc4c5d8b00375ecd710.jpg",
+      "input_gray": "frame_144/input_gray.png",
+      "sha256": "f9b0e2f05fe82d5f9e7fdeecaa69c3b70664abcfee8bf76af0d01d1ad0562635",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.823327,
+          "box_xyxy_pixel": [
+            137.535,
+            147.768,
+            292.239,
+            343.053
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_145",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_178_jpg.rf.6ac4502188bb1caad10bed1df4ea153c.jpg",
+      "input_gray": "frame_145/input_gray.png",
+      "sha256": "12d17bdeef4f27210ab390ac70537574e5f707fde0bf1e8c69b79365b0ee0255",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.853583,
+          "box_xyxy_pixel": [
+            18.953,
+            162.131,
+            202.43,
+            445.388
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.534333,
+          "box_xyxy_pixel": [
+            0.0,
+            0.15,
+            153.475,
+            151.186
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.491564,
+          "box_xyxy_pixel": [
+            190.971,
+            14.594,
+            386.562,
+            126.004
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_146",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_192_jpg.rf.faf7d6c45067f47c20865ad2bd347db8.jpg",
+      "input_gray": "frame_146/input_gray.png",
+      "sha256": "6a15c65443b0d7c40a7b3b84cfc45ec5c7dbcfb19717334bbfa916c1bf892033",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.59032,
+          "box_xyxy_pixel": [
+            118.813,
+            72.486,
+            234.293,
+            382.012
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.499022,
+          "box_xyxy_pixel": [
+            293.085,
+            316.254,
+            449.872,
+            510.38
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_147",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_197_jpg.rf.ed48c740737a2dc610dfa0d1a9ef5afe.jpg",
+      "input_gray": "frame_147/input_gray.png",
+      "sha256": "67c7c6c1d030d7d43575ab590ca8136f3c4d11c7474282c2dacb718360a9ad0b",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.829006,
+          "box_xyxy_pixel": [
+            222.319,
+            305.401,
+            405.158,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.729806,
+          "box_xyxy_pixel": [
+            275.775,
+            0.0,
+            414.208,
+            97.894
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.524653,
+          "box_xyxy_pixel": [
+            40.547,
+            239.967,
+            182.776,
+            341.515
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_148",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_198_jpg.rf.b17f140e720838aef5964053d000b6b8.jpg",
+      "input_gray": "frame_148/input_gray.png",
+      "sha256": "37642bcecf2bf3e33dae8b28d625da4e367e8be77ae2dc966d8754811ee8afd8",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.874327,
+          "box_xyxy_pixel": [
+            121.904,
+            327.133,
+            333.166,
+            511.606
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.571393,
+          "box_xyxy_pixel": [
+            133.668,
+            4.954,
+            421.392,
+            176.671
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.439921,
+          "box_xyxy_pixel": [
+            404.252,
+            228.077,
+            511.218,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 3,
+          "confidence": 0.25767,
+          "box_xyxy_pixel": [
+            384.216,
+            363.748,
+            503.838,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_149",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_214_jpg.rf.a129d18bb8381647970719dbb6725812.jpg",
+      "input_gray": "frame_149/input_gray.png",
+      "sha256": "4eaadea8254b16e6cece0911fef3e920acf59ed3340da3270091f66edaf50ad5",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.781334,
+          "box_xyxy_pixel": [
+            189.261,
+            318.007,
+            317.122,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.375532,
+          "box_xyxy_pixel": [
+            239.274,
+            93.666,
+            304.115,
+            185.906
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.362219,
+          "box_xyxy_pixel": [
+            208.92,
+            314.567,
+            308.75,
+            380.261
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_150",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_223_jpg.rf.7443ac0490d1a9c8d29f91179b24bf50.jpg",
+      "input_gray": "frame_150/input_gray.png",
+      "sha256": "02c5b6c3c54d8c5628bb3d92e00ce517d8669e4c2411f4c83004a33e19b9fcaa",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.513027,
+          "box_xyxy_pixel": [
+            149.882,
+            284.649,
+            291.176,
+            509.999
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_151",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_228_jpg.rf.e73f3dd90b651a902c620a8e4b293f5e.jpg",
+      "input_gray": "frame_151/input_gray.png",
+      "sha256": "c3742b132dcf31601f0cca56a78c63a1e4d14dcd66a571f5ac5362dcf6b8c057",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.681183,
+          "box_xyxy_pixel": [
+            123.281,
+            0.309,
+            429.573,
+            212.798
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.531385,
+          "box_xyxy_pixel": [
+            157.583,
+            260.24,
+            453.695,
+            511.819
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_152",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_236_jpg.rf.10b03e2ff81da9b9c520f2757b3466c6.jpg",
+      "input_gray": "frame_152/input_gray.png",
+      "sha256": "aea7773bce099f498426e86763255920ea559232b7b38f0cb907fca5d6a4241c",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.3018,
+          "box_xyxy_pixel": [
+            121.393,
+            0.07,
+            379.568,
+            122.86
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_153",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_244_jpg.rf.3495dfa24b410ca8c25eb9f51a75093a.jpg",
+      "input_gray": "frame_153/input_gray.png",
+      "sha256": "562031b10535cc98666183cdb45f641c3abe9def8095cc6c71244e1cdc12982e",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.50583,
+          "box_xyxy_pixel": [
+            284.662,
+            56.383,
+            441.001,
+            510.52
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.315098,
+          "box_xyxy_pixel": [
+            41.081,
+            86.952,
+            199.071,
+            341.461
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_154",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_259_jpg.rf.4e6dea58d3875fb3e42a195e0e7da0f7.jpg",
+      "input_gray": "frame_154/input_gray.png",
+      "sha256": "c833b9cbfd9bc3e5f38522f794a1bfdddcfd9da8995ef20ceacf79a1bce65d30",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.595077,
+          "box_xyxy_pixel": [
+            123.074,
+            0.0,
+            442.655,
+            81.334
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.471553,
+          "box_xyxy_pixel": [
+            25.615,
+            325.644,
+            511.399,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.444079,
+          "box_xyxy_pixel": [
+            8.036,
+            107.005,
+            261.954,
+            510.19
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_155",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_267_jpg.rf.9ce62cc0ff97b16203782cbb56df0683.jpg",
+      "input_gray": "frame_155/input_gray.png",
+      "sha256": "fc9dffb892a7e998a619b56d2ed21e3faf566c669292712ca0d9ec1db4ac735d",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.710819,
+          "box_xyxy_pixel": [
+            201.732,
+            359.834,
+            511.464,
+            511.923
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.428205,
+          "box_xyxy_pixel": [
+            192.169,
+            0.0,
+            511.316,
+            100.101
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.309168,
+          "box_xyxy_pixel": [
+            204.87,
+            1.042,
+            506.32,
+            268.938
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_156",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_271_jpg.rf.f03e0c3cb08f25f96239109f89a644ac.jpg",
+      "input_gray": "frame_156/input_gray.png",
+      "sha256": "fdac68f42b7d5bd1c3d85475c83f3ed802d3a59fb285ae169c0f675f97cd31ed",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.518952,
+          "box_xyxy_pixel": [
+            0.317,
+            0.0,
+            267.96,
+            81.303
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.257742,
+          "box_xyxy_pixel": [
+            195.521,
+            324.582,
+            334.821,
+            506.158
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_157",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_280_jpg.rf.090c748ef99dba7bb3478fe21a3fabe7.jpg",
+      "input_gray": "frame_157/input_gray.png",
+      "sha256": "205b05e7487b9cca5f4c7bcf4c804d69de34f1043e3544fe0cfc967d40d52903",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.66497,
+          "box_xyxy_pixel": [
+            152.31,
+            45.743,
+            379.377,
+            229.62
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.643593,
+          "box_xyxy_pixel": [
+            186.833,
+            309.445,
+            425.432,
+            511.781
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_158",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_284_jpg.rf.ad5b107feac4935a953329973bbd4d3c.jpg",
+      "input_gray": "frame_158/input_gray.png",
+      "sha256": "36c27e5f67984a067ebbf9a7ac959722a2d26035c05b6c9670589f1906346cf4",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.540836,
+          "box_xyxy_pixel": [
+            0.0,
+            0.024,
+            319.362,
+            128.851
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.439045,
+          "box_xyxy_pixel": [
+            159.85,
+            120.821,
+            331.966,
+            511.765
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_159",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_285_jpg.rf.3413a7a3e94fb1f92ca84c397662c32d.jpg",
+      "input_gray": "frame_159/input_gray.png",
+      "sha256": "c10955e6d4cc1d4ab9115905613628e5f18af11086bd774dfad4e6f02a2f233d",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.454689,
+          "box_xyxy_pixel": [
+            87.405,
+            300.455,
+            428.119,
+            511.72
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.389713,
+          "box_xyxy_pixel": [
+            83.841,
+            0.0,
+            426.836,
+            110.324
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.321072,
+          "box_xyxy_pixel": [
+            87.943,
+            85.844,
+            440.964,
+            317.203
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_160",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_300_jpg.rf.1dd1eaaa59a67dad438de48d01e42903.jpg",
+      "input_gray": "frame_160/input_gray.png",
+      "sha256": "fc0658af78559ce9984ebffd90436dca7b5f0a207f74471ef10d729866421f3a",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.305903,
+          "box_xyxy_pixel": [
+            156.157,
+            226.276,
+            337.938,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_161",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_45_jpg.rf.29ca31100c43e7c07d741163eeeb9ff3.jpg",
+      "input_gray": "frame_161/input_gray.png",
+      "sha256": "9d02928f6dc0d9d8ca26562c65d2b0021cb9d2bf35a13d161e382d6a1bbebecf",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.703095,
+          "box_xyxy_pixel": [
+            314.895,
+            368.831,
+            446.684,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.69993,
+          "box_xyxy_pixel": [
+            312.967,
+            98.523,
+            438.316,
+            512.0
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 2,
+          "confidence": 0.454612,
+          "box_xyxy_pixel": [
+            51.454,
+            80.879,
+            212.35,
+            259.333
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_162",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_57_jpg.rf.78f5d7536b3b8d14e14e381b6d9ba6c5.jpg",
+      "input_gray": "frame_162/input_gray.png",
+      "sha256": "de1651ade9d1e0037875fe14b7cc0fcce458c0b19cdb7f95dc13cc8019e78446",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.282134,
+          "box_xyxy_pixel": [
+            80.581,
+            388.491,
+            510.984,
+            501.39
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_163",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_66_jpg.rf.396e85e5ab19af79c2d8472ad462434b.jpg",
+      "input_gray": "frame_163/input_gray.png",
+      "sha256": "fefe2524f70df9e738443c8a7877ef90ded260a6df6a73cebd6d51f12124f8b6",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.862326,
+          "box_xyxy_pixel": [
+            0.0,
+            0.099,
+            273.881,
+            177.236
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.69004,
+          "box_xyxy_pixel": [
+            0.235,
+            224.106,
+            181.529,
+            379.333
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_164",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_83_jpg.rf.3170d24b66ce5aac76b005b0efc7b2c6.jpg",
+      "input_gray": "frame_164/input_gray.png",
+      "sha256": "497dbb1477b44dd288327f0dd878b8db7c04fec14141a904ce0d65df50932316",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.70107,
+          "box_xyxy_pixel": [
+            285.694,
+            0.0,
+            482.724,
+            79.38
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.389679,
+          "box_xyxy_pixel": [
+            303.318,
+            377.995,
+            482.162,
+            511.892
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_165",
+      "split": "holdout",
+      "image_name": "rolled-in_scale_89_jpg.rf.c2ee591caa28e2fa74353b81d6e3d0f4.jpg",
+      "input_gray": "frame_165/input_gray.png",
+      "sha256": "6a91206372dccd9ef9b0ba3c730e935a65a7d5860210d08628291c0c6710f22e",
+      "predictions": [
+        {
+          "class_id": 4,
+          "detection_index": 0,
+          "confidence": 0.485901,
+          "box_xyxy_pixel": [
+            19.321,
+            8.335,
+            344.594,
+            258.352
+          ]
+        },
+        {
+          "class_id": 4,
+          "detection_index": 1,
+          "confidence": 0.29329,
+          "box_xyxy_pixel": [
+            4.843,
+            4.462,
+            170.125,
+            248.236
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_166",
+      "split": "holdout",
+      "image_name": "scratches_113_jpg.rf.d414e5bacbdc50dc28d3753352959e9a.jpg",
+      "input_gray": "frame_166/input_gray.png",
+      "sha256": "6e6b7664527625ac27d0094eb77740128a2ec4ea8126204130bdcc646bbccebe",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.742165,
+          "box_xyxy_pixel": [
+            169.804,
+            0.426,
+            252.914,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.506958,
+          "box_xyxy_pixel": [
+            129.062,
+            0.859,
+            173.103,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_167",
+      "split": "holdout",
+      "image_name": "scratches_116_jpg.rf.710528c127a3b934d86c296340e5475f.jpg",
+      "input_gray": "frame_167/input_gray.png",
+      "sha256": "9ba4d0251cd3328059172d896771bf460270601abef11a8fa0f15cc7418fdc10",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.734072,
+          "box_xyxy_pixel": [
+            262.906,
+            7.465,
+            330.221,
+            510.634
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.371219,
+          "box_xyxy_pixel": [
+            207.031,
+            9.157,
+            243.871,
+            511.582
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.310337,
+          "box_xyxy_pixel": [
+            0.0,
+            0.435,
+            44.766,
+            510.67
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_168",
+      "split": "holdout",
+      "image_name": "scratches_12_jpg.rf.b0a51f5d6a44e665a8f0533a7800f639.jpg",
+      "input_gray": "frame_168/input_gray.png",
+      "sha256": "b332dcab00cc81824a871b70932bab9c0f40595db972361f78ffa31dd5374078",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.458906,
+          "box_xyxy_pixel": [
+            57.764,
+            170.727,
+            87.784,
+            479.107
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.421535,
+          "box_xyxy_pixel": [
+            63.237,
+            0.0,
+            90.499,
+            122.679
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_169",
+      "split": "holdout",
+      "image_name": "scratches_14_jpg.rf.1f1bce47c48cc1a6836f2e65286e638c.jpg",
+      "input_gray": "frame_169/input_gray.png",
+      "sha256": "4dc5ef4235fce9745bc5a47d18e2a46b3a4122e991e2e4ad216dededb11c7a1a",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.503971,
+          "box_xyxy_pixel": [
+            280.562,
+            165.007,
+            335.183,
+            337.765
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.463112,
+          "box_xyxy_pixel": [
+            85.936,
+            41.53,
+            115.513,
+            107.505
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_170",
+      "split": "holdout",
+      "image_name": "scratches_150_jpg.rf.0b871d4b8f7a0844b99a9b5df113aec4.jpg",
+      "input_gray": "frame_170/input_gray.png",
+      "sha256": "75df556fa85e48b0620898abff45f5ef85d6dae3ac840610b4a9e35fdbff35d9",
+      "predictions": [
+        {
+          "class_id": 1,
+          "detection_index": 0,
+          "confidence": 0.777479,
+          "box_xyxy_pixel": [
+            415.709,
+            0.0,
+            512.0,
+            511.123
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.720219,
+          "box_xyxy_pixel": [
+            318.884,
+            0.0,
+            368.083,
+            510.817
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_171",
+      "split": "holdout",
+      "image_name": "scratches_157_jpg.rf.a90c6a7787c5cacc4b90d5fb5beccaec.jpg",
+      "input_gray": "frame_171/input_gray.png",
+      "sha256": "fc5928baea5f33e2a9501883db7785a20a35d053f8524dbeed32d4fc36994e2d",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.722339,
+          "box_xyxy_pixel": [
+            111.233,
+            0.0,
+            187.75,
+            510.441
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.690507,
+          "box_xyxy_pixel": [
+            244.21,
+            0.948,
+            295.339,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_172",
+      "split": "holdout",
+      "image_name": "scratches_15_jpg.rf.aa307eae7a1784ea88e15f6a4482d90e.jpg",
+      "input_gray": "frame_172/input_gray.png",
+      "sha256": "8446b020d4d0ab72505b90b7367a3940f98d5d608c886a7b3b2c14850ad71930",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.573431,
+          "box_xyxy_pixel": [
+            89.439,
+            98.731,
+            143.16,
+            263.006
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.533981,
+          "box_xyxy_pixel": [
+            310.73,
+            327.12,
+            339.276,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.495555,
+          "box_xyxy_pixel": [
+            322.725,
+            79.639,
+            347.074,
+            168.571
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.291291,
+          "box_xyxy_pixel": [
+            120.561,
+            203.67,
+            157.516,
+            322.674
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_173",
+      "split": "holdout",
+      "image_name": "scratches_161_jpg.rf.712416ec29d0acc5678f1d3309b11d26.jpg",
+      "input_gray": "frame_173/input_gray.png",
+      "sha256": "0e93d6ff56668a9bb267223b2fb97f2557f919cee6398699e6a82bfaa2bc67a9",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.69477,
+          "box_xyxy_pixel": [
+            334.494,
+            0.0,
+            408.481,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.690957,
+          "box_xyxy_pixel": [
+            56.388,
+            1.711,
+            137.318,
+            338.127
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.368113,
+          "box_xyxy_pixel": [
+            449.924,
+            0.044,
+            512.0,
+            89.356
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.363118,
+          "box_xyxy_pixel": [
+            0.259,
+            0.0,
+            20.668,
+            237.82
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_174",
+      "split": "holdout",
+      "image_name": "scratches_198_jpg.rf.e24da900712b1d911729d7957c2d29fb.jpg",
+      "input_gray": "frame_174/input_gray.png",
+      "sha256": "dcdbeb8bad43d747e44d2f5f0f48a2930b5b1713265e7afb278847629d4e494b",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.796424,
+          "box_xyxy_pixel": [
+            267.427,
+            0.0,
+            317.962,
+            511.643
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.571559,
+          "box_xyxy_pixel": [
+            86.514,
+            0.04,
+            118.967,
+            140.634
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.488684,
+          "box_xyxy_pixel": [
+            82.028,
+            270.291,
+            122.434,
+            512.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_175",
+      "split": "holdout",
+      "image_name": "scratches_218_jpg.rf.8436779f7e346a71cf472e1ddbd851ff.jpg",
+      "input_gray": "frame_175/input_gray.png",
+      "sha256": "ac979163d28f78c3b712a1257e418278ebf110ed5a5bdc070b57da14ef407fdb",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.670785,
+          "box_xyxy_pixel": [
+            322.121,
+            144.609,
+            361.122,
+            411.701
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.534917,
+          "box_xyxy_pixel": [
+            156.932,
+            5.006,
+            229.868,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.502204,
+          "box_xyxy_pixel": [
+            25.854,
+            161.669,
+            65.681,
+            415.752
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.490336,
+          "box_xyxy_pixel": [
+            128.111,
+            0.085,
+            164.493,
+            173.949
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_176",
+      "split": "holdout",
+      "image_name": "scratches_246_jpg.rf.e05f295669ed5af706399a21bdd22bd2.jpg",
+      "input_gray": "frame_176/input_gray.png",
+      "sha256": "2ce9c6eb6e88538594aec99deae7d21da52ff21f38d80532a087216f1b461f36",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.615078,
+          "box_xyxy_pixel": [
+            6.407,
+            122.766,
+            508.572,
+            174.737
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.545113,
+          "box_xyxy_pixel": [
+            9.407,
+            394.084,
+            471.86,
+            439.684
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_177",
+      "split": "holdout",
+      "image_name": "scratches_25_jpg.rf.02bfc9ae378f0720d8d2dd472aa81eca.jpg",
+      "input_gray": "frame_177/input_gray.png",
+      "sha256": "7007829806563024d4d45a6ea14523a873cc15d0eac4da9cba43bba589dbc94f",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.759571,
+          "box_xyxy_pixel": [
+            280.585,
+            0.493,
+            390.839,
+            510.708
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.653442,
+          "box_xyxy_pixel": [
+            68.142,
+            5.012,
+            248.792,
+            512.0
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.29242,
+          "box_xyxy_pixel": [
+            0.0,
+            0.0,
+            26.154,
+            511.778
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_178",
+      "split": "holdout",
+      "image_name": "scratches_278_jpg.rf.028e2f6b64b4ee569ac3a133d995430f.jpg",
+      "input_gray": "frame_178/input_gray.png",
+      "sha256": "ea649e675a8e8bd9c031edb364e7a31ed7e0e0245def911df722e273a34bf10e",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.760939,
+          "box_xyxy_pixel": [
+            0.0,
+            10.996,
+            507.318,
+            93.259
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.664539,
+          "box_xyxy_pixel": [
+            1.093,
+            145.246,
+            506.208,
+            192.322
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 2,
+          "confidence": 0.548055,
+          "box_xyxy_pixel": [
+            0.0,
+            409.12,
+            153.906,
+            439.229
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 3,
+          "confidence": 0.383511,
+          "box_xyxy_pixel": [
+            0.081,
+            361.376,
+            308.651,
+            428.061
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_179",
+      "split": "holdout",
+      "image_name": "scratches_282_jpg.rf.a09e6835a9b23bdb13279bacbaaa5ec3.jpg",
+      "input_gray": "frame_179/input_gray.png",
+      "sha256": "6690cb2829b4036d53a8c6e85b3652f5c29002db43060a2a5fe25948004ae928",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.783498,
+          "box_xyxy_pixel": [
+            3.122,
+            394.408,
+            512.0,
+            452.914
+          ]
+        },
+        {
+          "class_id": 5,
+          "detection_index": 1,
+          "confidence": 0.48551,
+          "box_xyxy_pixel": [
+            388.969,
+            88.141,
+            512.0,
+            168.245
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_180",
+      "split": "holdout",
+      "image_name": "scratches_33_jpg.rf.86206b7e77b08c544fc56ae053f89d27.jpg",
+      "input_gray": "frame_180/input_gray.png",
+      "sha256": "650233e2f59e8867a663cfc141db2d70547fed77ea41e3089c227c0f0c0bcbc6",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.699506,
+          "box_xyxy_pixel": [
+            273.917,
+            72.088,
+            316.049,
+            380.184
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.569174,
+          "box_xyxy_pixel": [
+            83.195,
+            30.508,
+            137.314,
+            223.111
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_181",
+      "split": "holdout",
+      "image_name": "scratches_53_jpg.rf.df7897344d16d0292ec86aeed63c98d9.jpg",
+      "input_gray": "frame_181/input_gray.png",
+      "sha256": "e0a2ffe9ff5976b6aa5ac8a3a4318be35610d329c20e2384f318243d807d72d5",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.866595,
+          "box_xyxy_pixel": [
+            364.525,
+            0.0,
+            473.894,
+            511.635
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_182",
+      "split": "holdout",
+      "image_name": "scratches_62_jpg.rf.d78b6201b45385385fcf9e7d07957cbd.jpg",
+      "input_gray": "frame_182/input_gray.png",
+      "sha256": "831e041991b1298293413ec7410eb9ab2968d0016841851b0da7fd0358aa8103",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.797554,
+          "box_xyxy_pixel": [
+            1.18,
+            44.027,
+            512.0,
+            138.549
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_183",
+      "split": "holdout",
+      "image_name": "scratches_69_jpg.rf.9c5b2af04e940e9b4368cf8e58f01cf8.jpg",
+      "input_gray": "frame_183/input_gray.png",
+      "sha256": "55ae15ff7a242b345510f71acebd7ee3fb44eac59d64b13df43d04ccd8287add",
+      "predictions": [
+        {
+          "class_id": 5,
+          "detection_index": 0,
+          "confidence": 0.680399,
+          "box_xyxy_pixel": [
+            376.667,
+            11.192,
+            427.154,
+            512.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "detection_index": 1,
+          "confidence": 0.538394,
+          "box_xyxy_pixel": [
+            217.034,
+            32.889,
+            276.63,
+            275.441
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_184",
+      "split": "holdout",
+      "image_name": "test.jpg",
+      "input_gray": "frame_184/input_gray.png",
+      "sha256": "f9b3b0e09d0dd46b8d774df8418e558cafd87aa492f6c36120048002b69636d4",
+      "predictions": [
+        {
+          "class_id": 0,
+          "detection_index": 0,
+          "confidence": 0.369873,
+          "box_xyxy_pixel": [
+            1.555,
+            41.799,
+            506.991,
+            238.166
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "package": "steel_gaussian_v10_board_20261023",
+    "manifest": "manifest.json",
+    "manifest_sha256": "10bbeceb50560024d36c89e64d7439a4e90f2f636f70bdd2ae3b398773fd791a",
+    "verified_files": 28
+  },
+  {
+    "package": "steel_runtime_v9_1_qualified_20261023",
+    "manifest": "manifest.json",
+    "manifest_sha256": "3f5cd482d4bbb015c6340c24a405d2be01ee925f52715b926ad4aa2eccb931a4",
+    "verified_files": 12
+  },
+  {
+    "package": "steel_roi_blur3_v9_board_20261023",
+    "manifest": "manifest.json",
+    "manifest_sha256": "ee3d37d62c178cada893f7a765ec886725423f0bf872ae59fc5b83a5c446b7c3",
+    "verified_files": 31
+  },
+  {
+    "package": "steel_binary_ops_v8_experiment_20261022",
+    "manifest": "release_manifest.json",
+    "manifest_sha256": "501c0fd3986e1f8e4b380d0ff3cf5a119848dcccada411803554d6e995c6ddf2",
+    "verified_files": 242
+  }
+]

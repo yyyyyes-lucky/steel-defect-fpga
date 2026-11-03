@@ -1,0 +1,40 @@
+{
+  "schema": "roi_blur3_build/1.0",
+  "wns_ns": 0.679,
+  "whs_ns": 0.017,
+  "csim_fixture_cases": 120,
+  "cosim_pass": true,
+  "board_tested": false,
+  "tail32_board_qualified": true,
+  "ellipse_default": "PS",
+  "host_tests": {
+    "scope": "HOST MOCK ONLY; not FPGA performance or board acceptance",
+    "command": "Python313/python.exe steel_roi_blur3_v9_20261023/test_host.py",
+    "tests": 4,
+    "seconds": 40.027,
+    "pass": true,
+    "coverage": [
+      "120 primitive fixtures through fake packed DMA driver; strided input; output ownership",
+      "Invalid input, timeout, protocol error, received length, failed reset and retained buffers",
+      "Scoped runtime replacement restored after injected failure",
+      "Real runtime full184/403 and three supplemental fixtures using fake hardware",
+      "Smoke old/new paths and 24 timing pairs using fake hardware",
+      "86 actual class2 blur calls, no unexpected routing",
+      "Persistent interrupted-session marker across simulated module reload and reboot"
+    ]
+  },
+  "bit_sha256": "b11e91fb9f5cea2ea4ba0264c9e8aa8942e9548f677d49ccbbd94096b4d953b6",
+  "hwh_sha256": "7dcbef385f222953f6c46dae9ba8520c881465996c8089f3b1c636b6bfcb5e7f",
+  "preserved_module_parameters": [
+    "processing_system7_0",
+    "axi_dma_0",
+    "axi_dma_sobel",
+    "axi_dma_dark",
+    "axi_dma_ellipse",
+    "gaussian_row_q30_0",
+    "ellipse7_0",
+    "axis_sobel_0",
+    "axis_q8_0"
+  ],
+  "inherited_warnings": "PSU-1..4 negative DDR DQS skew warnings also present in v8; PS parameters unchanged. Routed DRC checked separately."
+}

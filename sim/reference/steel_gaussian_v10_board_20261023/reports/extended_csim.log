@@ -1,0 +1,16 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../test_extended.cpp in debug mode
+   Compiling ../../../../gaussian_row_q30.cpp in debug mode
+   Generating csim.exe
+EXTENDED mode=0 rows=1 EXACT
+EXTENDED mode=0 rows=512 EXACT
+EXTENDED mode=1 rows=1 EXACT
+EXTENDED mode=1 rows=512 EXACT
+EXTENDED mode=2 rows=1 EXACT
+EXTENDED mode=2 rows=512 EXACT
+EXTENDED mode=3 rows=1 EXACT
+EXTENDED mode=3 rows=512 EXACT
+EXTENDED_CSIM_PASS cases=14
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 364544
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

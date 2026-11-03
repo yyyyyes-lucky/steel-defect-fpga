@@ -1,0 +1,108 @@
+{
+  "schema": "v8_local_build_evidence/1.0",
+  "created_at": "2026-10-22T21:35:49.088909",
+  "new_fpga_access": false,
+  "board_test": false,
+  "formal_runtime_replaced": false,
+  "hls": {
+    "csim_pass": true,
+    "rtl_cosim_pass": true,
+    "ip_exported": true,
+    "fixture_cases": 45,
+    "total_transactions_including_errors_and_recovery": 49,
+    "resources_hls_estimate": {
+      "BRAM_18K": "6",
+      "FF": "786",
+      "LUT": "2027",
+      "DSP": "0",
+      "URAM": "0"
+    },
+    "sources_sha256": {
+      "hls/ellipse7.cpp": "3b25cc34a85351d467755f5d3fa608c421d24d404d81eb41cef2c80736260982",
+      "hls/ellipse7.hpp": "b466aa8d689ebcde1f59c70443d71d7bac9ea41a4408e55c3a7935f8144b3ce2",
+      "hls/fixtures.bin": "b903b490d1c11a12fa69f728fbcaf661aeff1cda49003bc292ffb25d3aae2f9c",
+      "hls/run_hls_export.tcl": "7d401a42910e4eddf598dd67a3517dd1fc9f54614544c5d1eee9d5da3420aea8",
+      "hls/test_ellipse7.cpp": "2ec4c627dcfc501d407ee7a0d8e7cfba7726ab8249b224bd455ae80eddc13e14"
+    },
+    "reports_sha256": {
+      "ellipse7_csim.log": "ef121c9735c07ac1e072ebb21640e0ee120c94e70106d4e3a7a62f14f1a0daff",
+      "ellipse7_cosim.rpt": "d731feb5696de00f161d721199e8f96bd5665f9830feca64a9bedcded0bfcc49",
+      "ellipse7_csynth.xml": "0fe16999b62ba61269bed464ed532e204bf64396a4928678888fa1e1b77704d1"
+    },
+    "component_xml_sha256": "93cae109afbb534d4d5b01a96a725e7b3bad42f0043214970802294dd460d7bd"
+  },
+  "vivado": {
+    "build_and_export_pass": true,
+    "wns_ns": 0.701,
+    "whs_ns": 0.027,
+    "unchanged_inherited_module_parameters": [
+      "processing_system7_0",
+      "axi_dma_0",
+      "axi_dma_sobel",
+      "axi_dma_dark",
+      "gaussian_row_q30_0",
+      "axis_q8_0",
+      "axis_sobel_0"
+    ],
+    "report_sha256": {
+      "binary_experiment_drc.rpt": "35f74b63c34209653d358cb05c87618d39fb6b7fddb7ed76afe43d2ff1201270",
+      "binary_experiment_timing.rpt": "ab5991fbd98285c49ef299d533ac8ea0159654d79309481dca637e4c7bb2fcf9",
+      "binary_experiment_utilization.rpt": "57ae005d39d1d025e07e9d5f6a1441dc3b5e54bee0134fb922fa8a943d6c104e"
+    },
+    "log_error_messages_preserved_for_review": [
+      {
+        "run": "system_axi_dma_0_0_synth_1",
+        "message": "ERROR: [Common 17-1257] Failed to create directory 'C'.",
+        "completed_with_verified_checkpoint": true,
+        "checkpoint_sha256": {
+          "system_axi_dma_0_0.dcp": "07ea7995e09b47c88f21afc2d3312e7cfb78dbf408b41c8a2f75b4d5675eb215"
+        }
+      },
+      {
+        "run": "system_axi_dma_ellipse_0_synth_1",
+        "message": "ERROR: [Common 17-1257] Failed to create directory 'C'.",
+        "completed_with_verified_checkpoint": true,
+        "checkpoint_sha256": {
+          "system_axi_dma_ellipse_0.dcp": "49aa2ae099d66d8a067b701d87b751e920581403bd0be00f34776d4242d3763e"
+        }
+      },
+      {
+        "run": "system_axi_mem_intercon_imp_auto_us_1_synth_1",
+        "message": "ERROR: [Common 17-1257] Failed to create directory 'C'.",
+        "completed_with_verified_checkpoint": true,
+        "checkpoint_sha256": {
+          "system_axi_mem_intercon_imp_auto_us_1.dcp": "a2f474645c9bdf2d818f57b63615ed6fc493b36c48c929cc4b92a863c12382fa"
+        }
+      },
+      {
+        "run": "system_axi_mem_intercon_imp_auto_us_4_synth_1",
+        "message": "ERROR: [Common 17-354] Could not open 'C' for writing.",
+        "completed_with_verified_checkpoint": true,
+        "checkpoint_sha256": {
+          "system_axi_mem_intercon_imp_auto_us_4.dcp": "7f042d8015d6f69ef102d95483efa9423baf06609cada74c0ba1343f142e6ce3"
+        }
+      }
+    ],
+    "startup_error_assessment": "Four child Vivado processes logged directory/file-C access errors before synthesis Tcl; each subsequently completed synthesis or a valid IP cache hit, emitted a DCP, and that DCP was loaded by implementation. The linked system passed routing, DRC and bitgen. Message preserved; environment root cause not independently resolved.",
+    "inherited_critical_warnings": [
+      "CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. ",
+      "CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. ",
+      "CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. ",
+      "CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. "
+    ],
+    "inherited_critical_warning_assessment": "Exact same PSU DDR skew warnings occur in the preserved triple build; all processing_system7 parameters match. DDR settings were not changed to suppress warnings; board regression is required.",
+    "baseline_build_log_sha256": "e5c6f03051f2ab579e58e710fbfd11998e0ee0342e3c03edf597c834620fd50a"
+  },
+  "host_tests": {
+    "pass": true,
+    "output": "test_bad_inputs_never_start_dma (__main__.DriverTests.test_bad_inputs_never_start_dma) ... ok\ntest_errors_disable_driver (__main__.DriverTests.test_errors_disable_driver) ... ok\ntest_failed_reset_retains_memory (__main__.DriverTests.test_failed_reset_retains_memory) ... ok\ntest_valid_and_size_changes (__main__.DriverTests.test_valid_and_size_changes) ... ok\ntest_frozen_coverage_and_hashes (__main__.RuntimeTests.test_frozen_coverage_and_hashes) ... ok\ntest_full184_private_injection_software_only (__main__.RuntimeTests.test_full184_private_injection_software_only) ... ok\ntest_packager_rejects_incomplete_build (__main__.RuntimeTests.test_packager_rejects_incomplete_build) ... ok\ntest_primitive_harness_with_software_double (__main__.RuntimeTests.test_primitive_harness_with_software_double) ... ok\ntest_private_operator_matches_unchanged_runtime (__main__.RuntimeTests.test_private_operator_matches_unchanged_runtime) ... ok\ntest_runtime_entry_injection_with_shared_features (__main__.RuntimeTests.test_runtime_entry_injection_with_shared_features) ... ok\ntest_unified_runner_reports_success_and_failure (__main__.RuntimeTests.test_unified_runner_reports_success_and_failure) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 10.482s\n\nOK\n",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "opencv": "5.0.0",
+    "numpy": "2.5.3",
+    "note": "Mock DMA and software injection only; not board evidence or PL performance"
+  },
+  "historical_reference_files": [
+    "reference/hls_evidence.json",
+    "reference/host_evidence.json"
+  ]
+}

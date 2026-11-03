@@ -1,0 +1,32 @@
+{
+  "schema": "camera_q8_package/1.0",
+  "files": {
+    "board_camera.py": "1053abbd106617e23eeb32e3ab558a9a4ab32db49fe2649c9dc44c0747069be3",
+    "camera_runtime.py": "068c1e44206a979a7dbd6dfa13206a98da400969e2fd957a4f2b7a3dcaec9360",
+    "pc_camera.py": "d9677bc7a944865b5d92f0d2a07961fcd3ec33492e4d08548dc929adb7a36629",
+    "protocol.py": "4a0d9e02386d53b333214cc271c8e50fbc30fb3facaf82ef6ecb4c01873e1ed9",
+    "test_camera_q8.py": "56b44d479ad48da8b80c1c862eec20bd0c15c229e9c46641535943d281ff4768",
+    "readme_zh.md": "6ac3174c62ad0f531db53b36b6d459c72fbd1e66f9ce20b3e985f5fa32f500cd",
+    "provenance.json": "0064fe66f2d9c0b8b4263ce17b09e961aa17ee4cc80815e682cce828c539c800",
+    "reference/run_camera_q8.template.ipynb": "c0caa34311c3803f7e60836eb1f5b595048a85687a3fc185c762bb88676feb32"
+  },
+  "dependencies": {
+    "steel_camera_bridge_v10_20261025/board_service.py": "f5f47c9a3850fd7e0918dca56af522dd789b6612ebaffe01c46315dbe05c3643",
+    "steel_camera_bridge_v10_20261025/pc_camera.py": "63dccdd66fb378c68a264db1cfd579163d29759d95fdb12eec13fa7e1bf9577d",
+    "steel_camera_bridge_v10_20261025/protocol.py": "4a0d9e02386d53b333214cc271c8e50fbc30fb3facaf82ef6ecb4c01873e1ed9",
+    "steel_camera_bridge_v10_20261025/readme_zh.md": "63aa8338416e7c550b374277a43da3aa86cd0f45e3127482f27d5ba5fd5b50ea",
+    "steel_camera_bridge_v10_20261025/reference/run_camera_service.template.ipynb": "215e124afa705012675f299a3416c4eb388e76e92169cf758c8bf7dad2bc8869",
+    "steel_camera_bridge_v10_20261025/test_bridge.py": "de1e6d6ceea9e19acc6b1df3b45c216d7c660f2545282f348412dd3fbf132560",
+    "steel_camera_bridge_v10_20261025/manifest.json": "7a458381bf5561244d8a9ca5e8db3d717b7bc606bc4aaf58b050496344a46cbb",
+    "steel_q8_path_integration_20261025/integration_context.py": "7ca8bd61dd1f67801c45410eecae099f84597aba31e8c24e9676f2469827c135",
+    "steel_q8_path_integration_20261025/generated_paths.py": "ebfd5c3b8c7e2130b4d6b0572202fded24e6a228b978a65d42c4df52712446b5",
+    "steel_q8_path_integration_20261025/integration_kernels.py": "9d2c48aad4a0ecf712410c8d6d7153e06f69951e3a752154e0ef9aae16c3ae73",
+    "steel_q8_path_integration_20261025/manifest.json": "086e0ea3cfcfe9f5596e6b6a14fca8f44ca3b077771c78e1562a8477f31daf09",
+    "steel_dma_f1_probe_20261026/candidate_decode.py": "79dfeb3295b8328705d1399331b46d5647fb13811c3451a42bbd611d4475ef44",
+    "steel_dma_f1_probe_20261026/manifest.json": "bf5c51022f438f5220aa67169bb91b351215ec1adcf5dae08b934113bc7149fc",
+    "steel_runtime_v10_candidate_20261025/manifest.json": "70139d61d96a8ffc68663e86ce65564f328edbe3e896d2feb5a009ae4c9e549f"
+  },
+  "working_notebook_mutable": true,
+  "new_bitstream_built": false,
+  "camera_adapter_board_acceptance_pending": true
+}

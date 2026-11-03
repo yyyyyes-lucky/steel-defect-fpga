@@ -1,0 +1,17 @@
+﻿{
+    "completed":  true,
+    "target_part":  "xc7z020clg400-1",
+    "expected_vivado_version":  "2026.1",
+    "vivado_version":  "vivado v2026.1 (64-bit)\r\nTool Version Limit: 2026.06\r\nSW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026\r\nIP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026\r\nSharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026\r\nCopyright 1986-2022 Xilinx, Inc. All Rights Reserved.\r\nCopyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.",
+    "hls_version":  "****** vitis-run v2026.1 (64-bit)\r\n  **** SW Build 6511674 on 2026-06-16-13:14:00\r\n  **** Start of session at: Sat Oct 31 14:12:07 2026\r\n    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.\r\n    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.",
+    "hls_command":  "vitis-run --mode hls --tcl",
+    "bit_sha256":  "c3078385294ea67d0b112b47d22617cf4f69d213712897505cfcdf284708820e",
+    "hwh_sha256":  "e4daa69bc8845896e7ff4b72ad4e3082c870a19d4a6fb3c126c07b689f565285",
+    "reference_bit_sha256":  "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+    "reference_hwh_sha256":  "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362",
+    "bit_byte_identical_to_reference":  false,
+    "hwh_byte_identical_to_reference":  false,
+    "build_directory":  "E:\\steel_defect_fpga\\build\\output\\v10_20261031_141207_691",
+    "board_tested_by_this_script":  false,
+    "build_script_sha256":  "c683121d80c3afd1c181b1545a3075d0ca043332ad358a9f23cbbebde9791264"
+}

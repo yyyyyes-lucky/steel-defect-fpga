@@ -1,0 +1,4606 @@
+{
+  "schema": "candidate_screen_host/1.0",
+  "completed": true,
+  "pass": true,
+  "board_access_performed": false,
+  "new_hardware_built": false,
+  "host_environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "opencv": "5.0.0",
+    "numpy": "2.5.3"
+  },
+  "manifest_sha256": "024d549cc7ac39e21300153fc64c23ea489aedc7b4eac46c9c096be322881c38",
+  "model_sha256": "831836f9147411d4fadf446b49b42b51b523f16cd7de03234ea50ab6dd062f13",
+  "full_frames": 184,
+  "full_rois": 403,
+  "q8_quantiles_checked": 806,
+  "edge_cases": 14,
+  "model_rows": [
+    {
+      "case": "frame_01",
+      "roi_index": 0,
+      "pixels": 21375,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 17.207031,
+      "std13_p90": 20.609375
+    },
+    {
+      "case": "frame_01",
+      "roi_index": 1,
+      "pixels": 62342,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.191406,
+      "std13_p90": 22.484375
+    },
+    {
+      "case": "frame_01",
+      "roi_index": 2,
+      "pixels": 98470,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.347656,
+      "std13_p90": 22.546875
+    },
+    {
+      "case": "frame_03",
+      "roi_index": 0,
+      "pixels": 46898,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 13.800781,
+      "std13_p90": 16.523438
+    },
+    {
+      "case": "frame_03",
+      "roi_index": 1,
+      "pixels": 52432,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 14.421875,
+      "std13_p90": 17.683594
+    },
+    {
+      "case": "frame_04",
+      "roi_index": 0,
+      "pixels": 62342,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 12.515234,
+      "std13_p90": 14.992188
+    },
+    {
+      "case": "frame_05",
+      "roi_index": 0,
+      "pixels": 98304,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.976562,
+      "std13_p90": 23.737109
+    },
+    {
+      "case": "frame_06",
+      "roi_index": 0,
+      "pixels": 83325,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.238281,
+      "std13_p90": 24.527344
+    },
+    {
+      "case": "frame_06",
+      "roi_index": 1,
+      "pixels": 74235,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.234375,
+      "std13_p90": 23.984375
+    },
+    {
+      "case": "frame_07",
+      "roi_index": 0,
+      "pixels": 56672,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 17.300781,
+      "std13_p90": 20.792969
+    },
+    {
+      "case": "frame_07",
+      "roi_index": 1,
+      "pixels": 79158,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.394531,
+      "std13_p90": 22.082031
+    },
+    {
+      "case": "frame_07",
+      "roi_index": 2,
+      "pixels": 86016,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.113281,
+      "std13_p90": 23.21875
+    },
+    {
+      "case": "frame_08",
+      "roi_index": 0,
+      "pixels": 81370,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.234375,
+      "std13_p90": 22.070312
+    },
+    {
+      "case": "frame_08",
+      "roi_index": 1,
+      "pixels": 86724,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 16.832031,
+      "std13_p90": 19.863281
+    },
+    {
+      "case": "frame_09",
+      "roi_index": 0,
+      "pixels": 22261,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.660156,
+      "std13_p90": 26.570312
+    },
+    {
+      "case": "frame_10",
+      "roi_index": 0,
+      "pixels": 80224,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.394531,
+      "std13_p90": 24.507812
+    },
+    {
+      "case": "frame_10",
+      "roi_index": 1,
+      "pixels": 24311,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 22.964844,
+      "std13_p90": 30.164062
+    },
+    {
+      "case": "frame_11",
+      "roi_index": 0,
+      "pixels": 67040,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 12.847656,
+      "std13_p90": 15.453125
+    },
+    {
+      "case": "frame_11",
+      "roi_index": 1,
+      "pixels": 44776,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 14.109375,
+      "std13_p90": 17.121094
+    },
+    {
+      "case": "frame_12",
+      "roi_index": 0,
+      "pixels": 32452,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 12.199219,
+      "std13_p90": 13.933594
+    },
+    {
+      "case": "frame_13",
+      "roi_index": 0,
+      "pixels": 10656,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.90625,
+      "std13_p90": 5.675781
+    },
+    {
+      "case": "frame_13",
+      "roi_index": 1,
+      "pixels": 105472,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.960938,
+      "std13_p90": 5.722656
+    },
+    {
+      "case": "frame_14",
+      "roi_index": 0,
+      "pixels": 38745,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.4375,
+      "std13_p90": 3.921875
+    },
+    {
+      "case": "frame_15",
+      "roi_index": 0,
+      "pixels": 10318,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 6.527344,
+      "std13_p90": 9.949219
+    },
+    {
+      "case": "frame_15",
+      "roi_index": 1,
+      "pixels": 12246,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.523438,
+      "std13_p90": 6.996094
+    },
+    {
+      "case": "frame_15",
+      "roi_index": 2,
+      "pixels": 4505,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 8.396875,
+      "std13_p90": 13.946094
+    },
+    {
+      "case": "frame_16",
+      "roi_index": 0,
+      "pixels": 10295,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.625,
+      "std13_p90": 3.683594
+    },
+    {
+      "case": "frame_16",
+      "roi_index": 1,
+      "pixels": 62436,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.363281,
+      "std13_p90": 7.09375
+    },
+    {
+      "case": "frame_16",
+      "roi_index": 2,
+      "pixels": 17658,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.472656,
+      "std13_p90": 7.184766
+    },
+    {
+      "case": "frame_16",
+      "roi_index": 3,
+      "pixels": 14774,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 5.5,
+      "std13_p90": 9.035156
+    },
+    {
+      "case": "frame_16",
+      "roi_index": 4,
+      "pixels": 4088,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.9375,
+      "std13_p90": 4.101562
+    },
+    {
+      "case": "frame_17",
+      "roi_index": 0,
+      "pixels": 39923,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.917969,
+      "std13_p90": 4.328125
+    },
+    {
+      "case": "frame_17",
+      "roi_index": 1,
+      "pixels": 62464,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.992188,
+      "std13_p90": 4.09375
+    },
+    {
+      "case": "frame_18",
+      "roi_index": 0,
+      "pixels": 103936,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.5625,
+      "std13_p90": 5.09375
+    },
+    {
+      "case": "frame_18",
+      "roi_index": 1,
+      "pixels": 23842,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.023438,
+      "std13_p90": 4.425781
+    },
+    {
+      "case": "frame_19",
+      "roi_index": 0,
+      "pixels": 26068,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 12.839844,
+      "std13_p90": 19.278516
+    },
+    {
+      "case": "frame_19",
+      "roi_index": 1,
+      "pixels": 12753,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 11.226562,
+      "std13_p90": 15.304688
+    },
+    {
+      "case": "frame_19",
+      "roi_index": 2,
+      "pixels": 10914,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.545703,
+      "std13_p90": 23.432422
+    },
+    {
+      "case": "frame_20",
+      "roi_index": 0,
+      "pixels": 11817,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 5.925781,
+      "std13_p90": 7.328125
+    },
+    {
+      "case": "frame_20",
+      "roi_index": 1,
+      "pixels": 57200,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.875,
+      "std13_p90": 10.417969
+    },
+    {
+      "case": "frame_20",
+      "roi_index": 2,
+      "pixels": 28620,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.4375,
+      "std13_p90": 9.832031
+    },
+    {
+      "case": "frame_20",
+      "roi_index": 3,
+      "pixels": 8512,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.058594,
+      "std13_p90": 9.199219
+    },
+    {
+      "case": "frame_20",
+      "roi_index": 4,
+      "pixels": 73225,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.515625,
+      "std13_p90": 10.117188
+    },
+    {
+      "case": "frame_21",
+      "roi_index": 0,
+      "pixels": 94146,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.210938,
+      "std13_p90": 11.53125
+    },
+    {
+      "case": "frame_22",
+      "roi_index": 0,
+      "pixels": 16500,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.667969,
+      "std13_p90": 11.03125
+    },
+    {
+      "case": "frame_22",
+      "roi_index": 1,
+      "pixels": 70096,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.917969,
+      "std13_p90": 10.167969
+    },
+    {
+      "case": "frame_22",
+      "roi_index": 2,
+      "pixels": 17978,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 5.886719,
+      "std13_p90": 7.316406
+    },
+    {
+      "case": "frame_22",
+      "roi_index": 3,
+      "pixels": 36354,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.203125,
+      "std13_p90": 10.175781
+    },
+    {
+      "case": "frame_22",
+      "roi_index": 4,
+      "pixels": 31494,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 7.949219,
+      "std13_p90": 9.910156
+    },
+    {
+      "case": "frame_23",
+      "roi_index": 0,
+      "pixels": 59064,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 16.660156,
+      "std13_p90": 22.21875
+    },
+    {
+      "case": "frame_23",
+      "roi_index": 1,
+      "pixels": 68552,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.519141,
+      "std13_p90": 18.741797
+    },
+    {
+      "case": "frame_23",
+      "roi_index": 2,
+      "pixels": 10112,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.003906,
+      "std13_p90": 17.066016
+    },
+    {
+      "case": "frame_24",
+      "roi_index": 0,
+      "pixels": 20711,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.074219,
+      "std13_p90": 21.746094
+    },
+    {
+      "case": "frame_24",
+      "roi_index": 1,
+      "pixels": 18620,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.933984,
+      "std13_p90": 21.395703
+    },
+    {
+      "case": "frame_24",
+      "roi_index": 2,
+      "pixels": 13912,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 19.539062,
+      "std13_p90": 26.053516
+    },
+    {
+      "case": "frame_25",
+      "roi_index": 0,
+      "pixels": 58220,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.996094,
+      "std13_p90": 19.953125
+    },
+    {
+      "case": "frame_26",
+      "roi_index": 0,
+      "pixels": 165888,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 11.578125,
+      "std13_p90": 15.933594
+    },
+    {
+      "case": "frame_26",
+      "roi_index": 1,
+      "pixels": 75264,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 8.976562,
+      "std13_p90": 10.0
+    },
+    {
+      "case": "frame_27",
+      "roi_index": 0,
+      "pixels": 113664,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 4.773438,
+      "std13_p90": 6.265625
+    },
+    {
+      "case": "frame_27",
+      "roi_index": 1,
+      "pixels": 169984,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 2.800781,
+      "std13_p90": 3.910156
+    },
+    {
+      "case": "frame_28",
+      "roi_index": 0,
+      "pixels": 167936,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 7.152344,
+      "std13_p90": 10.371094
+    },
+    {
+      "case": "frame_29",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 15.875,
+      "std13_p90": 20.679688
+    },
+    {
+      "case": "frame_30",
+      "roi_index": 0,
+      "pixels": 226816,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 8.464844,
+      "std13_p90": 10.6875
+    },
+    {
+      "case": "frame_30",
+      "roi_index": 1,
+      "pixels": 56832,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 10.812109,
+      "std13_p90": 16.605469
+    },
+    {
+      "case": "frame_31",
+      "roi_index": 0,
+      "pixels": 113664,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 11.324219,
+      "std13_p90": 15.554688
+    },
+    {
+      "case": "frame_31",
+      "roi_index": 1,
+      "pixels": 142848,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 11.921875,
+      "std13_p90": 14.066406
+    },
+    {
+      "case": "frame_32",
+      "roi_index": 0,
+      "pixels": 256512,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 6.4375,
+      "std13_p90": 8.351562
+    },
+    {
+      "case": "frame_33",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 7.539062,
+      "std13_p90": 9.25
+    },
+    {
+      "case": "frame_34",
+      "roi_index": 0,
+      "pixels": 247296,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 7.574219,
+      "std13_p90": 9.707031
+    },
+    {
+      "case": "frame_35",
+      "roi_index": 0,
+      "pixels": 62274,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.585938,
+      "std13_p90": 11.28125
+    },
+    {
+      "case": "frame_35",
+      "roi_index": 1,
+      "pixels": 45746,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.267578,
+      "std13_p90": 11.3125
+    },
+    {
+      "case": "frame_36",
+      "roi_index": 0,
+      "pixels": 31126,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 13.15625,
+      "std13_p90": 16.742188
+    },
+    {
+      "case": "frame_36",
+      "roi_index": 1,
+      "pixels": 9350,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.805078,
+      "std13_p90": 11.808984
+    },
+    {
+      "case": "frame_36",
+      "roi_index": 2,
+      "pixels": 9516,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 14.027344,
+      "std13_p90": 18.310547
+    },
+    {
+      "case": "frame_37",
+      "roi_index": 0,
+      "pixels": 35209,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 13.035156,
+      "std13_p90": 16.125
+    },
+    {
+      "case": "frame_38",
+      "roi_index": 0,
+      "pixels": 92587,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.875,
+      "std13_p90": 14.441406
+    },
+    {
+      "case": "frame_38",
+      "roi_index": 1,
+      "pixels": 46350,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.605469,
+      "std13_p90": 15.347656
+    },
+    {
+      "case": "frame_38",
+      "roi_index": 2,
+      "pixels": 41291,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.609375,
+      "std13_p90": 14.105469
+    },
+    {
+      "case": "frame_39",
+      "roi_index": 0,
+      "pixels": 60155,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 14.910156,
+      "std13_p90": 18.679688
+    },
+    {
+      "case": "frame_39",
+      "roi_index": 1,
+      "pixels": 55769,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 14.09375,
+      "std13_p90": 17.734375
+    },
+    {
+      "case": "frame_40",
+      "roi_index": 0,
+      "pixels": 12922,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 26.733594,
+      "std13_p90": 37.862891
+    },
+    {
+      "case": "frame_40",
+      "roi_index": 1,
+      "pixels": 8878,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 19.809375,
+      "std13_p90": 25.051953
+    },
+    {
+      "case": "frame_40",
+      "roi_index": 2,
+      "pixels": 4452,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 21.894141,
+      "std13_p90": 26.979688
+    },
+    {
+      "case": "frame_40",
+      "roi_index": 3,
+      "pixels": 7344,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 28.680859,
+      "std13_p90": 40.075781
+    },
+    {
+      "case": "frame_41",
+      "roi_index": 0,
+      "pixels": 15322,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 18.957031,
+      "std13_p90": 24.335547
+    },
+    {
+      "case": "frame_41",
+      "roi_index": 1,
+      "pixels": 5764,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 16.898438,
+      "std13_p90": 20.932812
+    },
+    {
+      "case": "frame_42",
+      "roi_index": 0,
+      "pixels": 20294,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 11.698047,
+      "std13_p90": 17.480469
+    },
+    {
+      "case": "frame_42",
+      "roi_index": 1,
+      "pixels": 14880,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 15.781641,
+      "std13_p90": 22.136719
+    },
+    {
+      "case": "frame_42",
+      "roi_index": 2,
+      "pixels": 9425,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 6.90625,
+      "std13_p90": 10.321094
+    },
+    {
+      "case": "frame_42",
+      "roi_index": 3,
+      "pixels": 6192,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 16.871875,
+      "std13_p90": 27.360547
+    },
+    {
+      "case": "frame_43",
+      "roi_index": 0,
+      "pixels": 10506,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 7.789062,
+      "std13_p90": 10.880859
+    },
+    {
+      "case": "frame_43",
+      "roi_index": 1,
+      "pixels": 31668,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 10.558594,
+      "std13_p90": 15.132812
+    },
+    {
+      "case": "frame_43",
+      "roi_index": 2,
+      "pixels": 25278,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.167969,
+      "std13_p90": 19.735547
+    },
+    {
+      "case": "frame_43",
+      "roi_index": 3,
+      "pixels": 29940,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 6.359375,
+      "std13_p90": 9.941797
+    },
+    {
+      "case": "frame_44",
+      "roi_index": 0,
+      "pixels": 31744,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 26.324219,
+      "std13_p90": 39.264453
+    },
+    {
+      "case": "frame_44",
+      "roi_index": 1,
+      "pixels": 12864,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 15.280859,
+      "std13_p90": 21.768359
+    },
+    {
+      "case": "frame_45",
+      "roi_index": 0,
+      "pixels": 24576,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 11.158203,
+      "std13_p90": 19.892578
+    },
+    {
+      "case": "frame_45",
+      "roi_index": 1,
+      "pixels": 41472,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 26.957031,
+      "std13_p90": 38.6875
+    },
+    {
+      "case": "frame_45",
+      "roi_index": 2,
+      "pixels": 58368,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 14.753906,
+      "std13_p90": 23.079297
+    },
+    {
+      "case": "frame_45",
+      "roi_index": 3,
+      "pixels": 42804,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.121094,
+      "std13_p90": 19.152344
+    },
+    {
+      "case": "frame_46",
+      "roi_index": 0,
+      "pixels": 17490,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.40625,
+      "std13_p90": 18.617578
+    },
+    {
+      "case": "frame_46",
+      "roi_index": 1,
+      "pixels": 10780,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 22.090234,
+      "std13_p90": 34.602344
+    },
+    {
+      "case": "frame_47",
+      "roi_index": 0,
+      "pixels": 57856,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 15.207031,
+      "std13_p90": 20.488281
+    },
+    {
+      "case": "frame_48",
+      "roi_index": 0,
+      "pixels": 34304,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 32.511719,
+      "std13_p90": 40.627734
+    },
+    {
+      "case": "frame_48",
+      "roi_index": 1,
+      "pixels": 26447,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 21.617188,
+      "std13_p90": 28.225781
+    },
+    {
+      "case": "frame_48",
+      "roi_index": 2,
+      "pixels": 19027,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 8.413281,
+      "std13_p90": 11.078125
+    },
+    {
+      "case": "frame_49",
+      "roi_index": 0,
+      "pixels": 63585,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 15.167969,
+      "std13_p90": 17.6875
+    },
+    {
+      "case": "frame_50",
+      "roi_index": 0,
+      "pixels": 96256,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.875,
+      "std13_p90": 22.40625
+    },
+    {
+      "case": "frame_51",
+      "roi_index": 0,
+      "pixels": 28462,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 15.511719,
+      "std13_p90": 18.171484
+    },
+    {
+      "case": "frame_52",
+      "roi_index": 0,
+      "pixels": 45854,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 21.054688,
+      "std13_p90": 27.238281
+    },
+    {
+      "case": "frame_52",
+      "roi_index": 1,
+      "pixels": 49517,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.122656,
+      "std13_p90": 23.196875
+    },
+    {
+      "case": "frame_52",
+      "roi_index": 2,
+      "pixels": 47700,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 15.28125,
+      "std13_p90": 18.144922
+    },
+    {
+      "case": "frame_54",
+      "roi_index": 0,
+      "pixels": 59555,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 15.582031,
+      "std13_p90": 18.717187
+    },
+    {
+      "case": "frame_55",
+      "roi_index": 0,
+      "pixels": 52910,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.863281,
+      "std13_p90": 22.777344
+    },
+    {
+      "case": "frame_55",
+      "roi_index": 1,
+      "pixels": 51834,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 16.589844,
+      "std13_p90": 19.546875
+    },
+    {
+      "case": "frame_56",
+      "roi_index": 0,
+      "pixels": 60129,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 17.976562,
+      "std13_p90": 21.574219
+    },
+    {
+      "case": "frame_56",
+      "roi_index": 1,
+      "pixels": 78568,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 16.921875,
+      "std13_p90": 20.355469
+    },
+    {
+      "case": "frame_57",
+      "roi_index": 0,
+      "pixels": 54880,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.738281,
+      "std13_p90": 22.222656
+    },
+    {
+      "case": "frame_57",
+      "roi_index": 1,
+      "pixels": 74556,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.199219,
+      "std13_p90": 22.882812
+    },
+    {
+      "case": "frame_58",
+      "roi_index": 0,
+      "pixels": 57330,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 17.832031,
+      "std13_p90": 21.226562
+    },
+    {
+      "case": "frame_58",
+      "roi_index": 1,
+      "pixels": 91180,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.609375,
+      "std13_p90": 22.132812
+    },
+    {
+      "case": "frame_59",
+      "roi_index": 0,
+      "pixels": 52728,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.703125,
+      "std13_p90": 25.480469
+    },
+    {
+      "case": "frame_59",
+      "roi_index": 1,
+      "pixels": 64740,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.277344,
+      "std13_p90": 23.257812
+    },
+    {
+      "case": "frame_60",
+      "roi_index": 0,
+      "pixels": 104140,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 15.070312,
+      "std13_p90": 17.820312
+    },
+    {
+      "case": "frame_62",
+      "roi_index": 0,
+      "pixels": 43902,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.933203,
+      "std13_p90": 24.441016
+    },
+    {
+      "case": "frame_63",
+      "roi_index": 0,
+      "pixels": 106977,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 21.019531,
+      "std13_p90": 26.179688
+    },
+    {
+      "case": "frame_63",
+      "roi_index": 1,
+      "pixels": 57232,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 21.074219,
+      "std13_p90": 25.867188
+    },
+    {
+      "case": "frame_64",
+      "roi_index": 0,
+      "pixels": 70077,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.808594,
+      "std13_p90": 25.21875
+    },
+    {
+      "case": "frame_64",
+      "roi_index": 1,
+      "pixels": 97110,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.195312,
+      "std13_p90": 24.410156
+    },
+    {
+      "case": "frame_65",
+      "roi_index": 0,
+      "pixels": 84001,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.5625,
+      "std13_p90": 23.574219
+    },
+    {
+      "case": "frame_65",
+      "roi_index": 1,
+      "pixels": 88822,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.800781,
+      "std13_p90": 23.925781
+    },
+    {
+      "case": "frame_66",
+      "roi_index": 0,
+      "pixels": 72362,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.039062,
+      "std13_p90": 22.773438
+    },
+    {
+      "case": "frame_66",
+      "roi_index": 1,
+      "pixels": 83325,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.928125,
+      "std13_p90": 24.796875
+    },
+    {
+      "case": "frame_67",
+      "roi_index": 0,
+      "pixels": 41410,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 21.789062,
+      "std13_p90": 27.480469
+    },
+    {
+      "case": "frame_68",
+      "roi_index": 0,
+      "pixels": 95232,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.695312,
+      "std13_p90": 22.25
+    },
+    {
+      "case": "frame_68",
+      "roi_index": 1,
+      "pixels": 109088,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.558594,
+      "std13_p90": 23.742188
+    },
+    {
+      "case": "frame_68",
+      "roi_index": 2,
+      "pixels": 63545,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.148438,
+      "std13_p90": 24.400781
+    },
+    {
+      "case": "frame_68",
+      "roi_index": 3,
+      "pixels": 42120,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 21.523438,
+      "std13_p90": 26.855859
+    },
+    {
+      "case": "frame_69",
+      "roi_index": 0,
+      "pixels": 90090,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 14.992188,
+      "std13_p90": 18.632812
+    },
+    {
+      "case": "frame_70",
+      "roi_index": 0,
+      "pixels": 68359,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 12.949219,
+      "std13_p90": 14.910156
+    },
+    {
+      "case": "frame_71",
+      "roi_index": 0,
+      "pixels": 57684,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.535156,
+      "std13_p90": 23.84375
+    },
+    {
+      "case": "frame_72",
+      "roi_index": 0,
+      "pixels": 47770,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.371094,
+      "std13_p90": 22.25
+    },
+    {
+      "case": "frame_72",
+      "roi_index": 1,
+      "pixels": 63308,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.640625,
+      "std13_p90": 24.398438
+    },
+    {
+      "case": "frame_73",
+      "roi_index": 0,
+      "pixels": 53326,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 14.8125,
+      "std13_p90": 18.144531
+    },
+    {
+      "case": "frame_73",
+      "roi_index": 1,
+      "pixels": 22656,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 16.335938,
+      "std13_p90": 20.625
+    },
+    {
+      "case": "frame_74",
+      "roi_index": 0,
+      "pixels": 96068,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 18.992188,
+      "std13_p90": 22.734375
+    },
+    {
+      "case": "frame_75",
+      "roi_index": 0,
+      "pixels": 38700,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.96875,
+      "std13_p90": 24.046875
+    },
+    {
+      "case": "frame_76",
+      "roi_index": 0,
+      "pixels": 59020,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 20.28125,
+      "std13_p90": 25.082031
+    },
+    {
+      "case": "frame_76",
+      "roi_index": 1,
+      "pixels": 64584,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 17.484375,
+      "std13_p90": 20.558594
+    },
+    {
+      "case": "frame_77",
+      "roi_index": 0,
+      "pixels": 29925,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.857813,
+      "std13_p90": 24.44375
+    },
+    {
+      "case": "frame_77",
+      "roi_index": 1,
+      "pixels": 122488,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 16.473828,
+      "std13_p90": 19.589844
+    },
+    {
+      "case": "frame_78",
+      "roi_index": 0,
+      "pixels": 61952,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.097656,
+      "std13_p90": 4.621094
+    },
+    {
+      "case": "frame_78",
+      "roi_index": 1,
+      "pixels": 22256,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.355469,
+      "std13_p90": 3.230469
+    },
+    {
+      "case": "frame_78",
+      "roi_index": 2,
+      "pixels": 10764,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.621094,
+      "std13_p90": 5.226562
+    },
+    {
+      "case": "frame_79",
+      "roi_index": 0,
+      "pixels": 63027,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.460938,
+      "std13_p90": 3.699219
+    },
+    {
+      "case": "frame_80",
+      "roi_index": 0,
+      "pixels": 12166,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.515625,
+      "std13_p90": 7.015625
+    },
+    {
+      "case": "frame_81",
+      "roi_index": 0,
+      "pixels": 8184,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 5.323047,
+      "std13_p90": 8.557422
+    },
+    {
+      "case": "frame_81",
+      "roi_index": 1,
+      "pixels": 4050,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 5.664062,
+      "std13_p90": 8.060547
+    },
+    {
+      "case": "frame_82",
+      "roi_index": 0,
+      "pixels": 45792,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.574219,
+      "std13_p90": 5.671875
+    },
+    {
+      "case": "frame_82",
+      "roi_index": 1,
+      "pixels": 11780,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.777344,
+      "std13_p90": 7.438281
+    },
+    {
+      "case": "frame_83",
+      "roi_index": 0,
+      "pixels": 9717,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 9.786719,
+      "std13_p90": 14.704687
+    },
+    {
+      "case": "frame_83",
+      "roi_index": 1,
+      "pixels": 4968,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 7.0625,
+      "std13_p90": 11.425781
+    },
+    {
+      "case": "frame_83",
+      "roi_index": 2,
+      "pixels": 4968,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 9.03125,
+      "std13_p90": 14.258984
+    },
+    {
+      "case": "frame_83",
+      "roi_index": 3,
+      "pixels": 17390,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 7.691406,
+      "std13_p90": 11.402734
+    },
+    {
+      "case": "frame_84",
+      "roi_index": 0,
+      "pixels": 71786,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.234375,
+      "std13_p90": 3.183594
+    },
+    {
+      "case": "frame_84",
+      "roi_index": 1,
+      "pixels": 30100,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.703125,
+      "std13_p90": 4.269531
+    },
+    {
+      "case": "frame_85",
+      "roi_index": 0,
+      "pixels": 46400,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.039062,
+      "std13_p90": 6.644531
+    },
+    {
+      "case": "frame_86",
+      "roi_index": 0,
+      "pixels": 22500,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.683984,
+      "std13_p90": 7.792969
+    },
+    {
+      "case": "frame_86",
+      "roi_index": 1,
+      "pixels": 21131,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.679688,
+      "std13_p90": 7.277344
+    },
+    {
+      "case": "frame_87",
+      "roi_index": 0,
+      "pixels": 77824,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.757812,
+      "std13_p90": 5.523438
+    },
+    {
+      "case": "frame_88",
+      "roi_index": 0,
+      "pixels": 7467,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 8.604688,
+      "std13_p90": 13.505469
+    },
+    {
+      "case": "frame_88",
+      "roi_index": 1,
+      "pixels": 7137,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.653906,
+      "std13_p90": 6.625
+    },
+    {
+      "case": "frame_88",
+      "roi_index": 2,
+      "pixels": 6100,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 9.958203,
+      "std13_p90": 14.606641
+    },
+    {
+      "case": "frame_88",
+      "roi_index": 3,
+      "pixels": 6600,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.082422,
+      "std13_p90": 5.546875
+    },
+    {
+      "case": "frame_89",
+      "roi_index": 0,
+      "pixels": 58368,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.746094,
+      "std13_p90": 7.035156
+    },
+    {
+      "case": "frame_89",
+      "roi_index": 1,
+      "pixels": 27144,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.976562,
+      "std13_p90": 7.230469
+    },
+    {
+      "case": "frame_89",
+      "roi_index": 2,
+      "pixels": 22356,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 5.03125,
+      "std13_p90": 7.570312
+    },
+    {
+      "case": "frame_89",
+      "roi_index": 3,
+      "pixels": 6175,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.074219,
+      "std13_p90": 5.636719
+    },
+    {
+      "case": "frame_90",
+      "roi_index": 0,
+      "pixels": 66048,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.210938,
+      "std13_p90": 4.816406
+    },
+    {
+      "case": "frame_91",
+      "roi_index": 0,
+      "pixels": 69632,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.808203,
+      "std13_p90": 5.660156
+    },
+    {
+      "case": "frame_92",
+      "roi_index": 0,
+      "pixels": 46592,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.78125,
+      "std13_p90": 6.789062
+    },
+    {
+      "case": "frame_93",
+      "roi_index": 0,
+      "pixels": 11808,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 8.591016,
+      "std13_p90": 13.985547
+    },
+    {
+      "case": "frame_93",
+      "roi_index": 1,
+      "pixels": 14480,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 7.203906,
+      "std13_p90": 10.191406
+    },
+    {
+      "case": "frame_94",
+      "roi_index": 0,
+      "pixels": 36708,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 1.839844,
+      "std13_p90": 2.378906
+    },
+    {
+      "case": "frame_94",
+      "roi_index": 1,
+      "pixels": 47355,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 1.628906,
+      "std13_p90": 2.203125
+    },
+    {
+      "case": "frame_94",
+      "roi_index": 2,
+      "pixels": 55808,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 1.328125,
+      "std13_p90": 1.746094
+    },
+    {
+      "case": "frame_95",
+      "roi_index": 0,
+      "pixels": 65536,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.804688,
+      "std13_p90": 4.160156
+    },
+    {
+      "case": "frame_96",
+      "roi_index": 0,
+      "pixels": 19596,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.222656,
+      "std13_p90": 5.226562
+    },
+    {
+      "case": "frame_96",
+      "roi_index": 1,
+      "pixels": 7420,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 1.710938,
+      "std13_p90": 2.070312
+    },
+    {
+      "case": "frame_96",
+      "roi_index": 2,
+      "pixels": 12714,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.445312,
+      "std13_p90": 3.398438
+    },
+    {
+      "case": "frame_96",
+      "roi_index": 3,
+      "pixels": 17017,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.496094,
+      "std13_p90": 3.414062
+    },
+    {
+      "case": "frame_97",
+      "roi_index": 0,
+      "pixels": 9963,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 9.792188,
+      "std13_p90": 14.655469
+    },
+    {
+      "case": "frame_97",
+      "roi_index": 1,
+      "pixels": 20867,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 7.179688,
+      "std13_p90": 10.84375
+    },
+    {
+      "case": "frame_97",
+      "roi_index": 2,
+      "pixels": 5096,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 6.845703,
+      "std13_p90": 11.195312
+    },
+    {
+      "case": "frame_98",
+      "roi_index": 0,
+      "pixels": 10880,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 6.359375,
+      "std13_p90": 9.25
+    },
+    {
+      "case": "frame_98",
+      "roi_index": 1,
+      "pixels": 15323,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.698438,
+      "std13_p90": 6.796875
+    },
+    {
+      "case": "frame_99",
+      "roi_index": 0,
+      "pixels": 26563,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.140625,
+      "std13_p90": 6.550781
+    },
+    {
+      "case": "frame_99",
+      "roi_index": 1,
+      "pixels": 16008,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.625,
+      "std13_p90": 5.378906
+    },
+    {
+      "case": "frame_99",
+      "roi_index": 2,
+      "pixels": 12580,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.871094,
+      "std13_p90": 7.492578
+    },
+    {
+      "case": "frame_99",
+      "roi_index": 3,
+      "pixels": 11932,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.761719,
+      "std13_p90": 6.0625
+    },
+    {
+      "case": "frame_99",
+      "roi_index": 4,
+      "pixels": 18343,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.386719,
+      "std13_p90": 5.332031
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 0,
+      "pixels": 19897,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.0625,
+      "std13_p90": 6.066406
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 1,
+      "pixels": 6270,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 5.071875,
+      "std13_p90": 7.554688
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 2,
+      "pixels": 3744,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 4.585938,
+      "std13_p90": 6.550781
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 3,
+      "pixels": 4187,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.1875,
+      "std13_p90": 4.251563
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 4,
+      "pixels": 4628,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.415234,
+      "std13_p90": 4.742188
+    },
+    {
+      "case": "frame_100",
+      "roi_index": 5,
+      "pixels": 16350,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 3.414062,
+      "std13_p90": 5.027344
+    },
+    {
+      "case": "frame_101",
+      "roi_index": 0,
+      "pixels": 59732,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.464844,
+      "std13_p90": 18.871094
+    },
+    {
+      "case": "frame_101",
+      "roi_index": 1,
+      "pixels": 63627,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.339844,
+      "std13_p90": 21.417969
+    },
+    {
+      "case": "frame_101",
+      "roi_index": 2,
+      "pixels": 66885,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.0,
+      "std13_p90": 19.160156
+    },
+    {
+      "case": "frame_102",
+      "roi_index": 0,
+      "pixels": 27216,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.03125,
+      "std13_p90": 10.390625
+    },
+    {
+      "case": "frame_102",
+      "roi_index": 1,
+      "pixels": 72540,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 6.582031,
+      "std13_p90": 8.453125
+    },
+    {
+      "case": "frame_102",
+      "roi_index": 2,
+      "pixels": 4473,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 6.038281,
+      "std13_p90": 7.234375
+    },
+    {
+      "case": "frame_103",
+      "roi_index": 0,
+      "pixels": 78492,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 12.320312,
+      "std13_p90": 15.960547
+    },
+    {
+      "case": "frame_103",
+      "roi_index": 1,
+      "pixels": 46860,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.425781,
+      "std13_p90": 10.648438
+    },
+    {
+      "case": "frame_103",
+      "roi_index": 2,
+      "pixels": 6144,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.338672,
+      "std13_p90": 11.632812
+    },
+    {
+      "case": "frame_104",
+      "roi_index": 0,
+      "pixels": 41157,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.786719,
+      "std13_p90": 21.222656
+    },
+    {
+      "case": "frame_105",
+      "roi_index": 0,
+      "pixels": 46260,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.585938,
+      "std13_p90": 18.222656
+    },
+    {
+      "case": "frame_106",
+      "roi_index": 0,
+      "pixels": 47264,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 11.769531,
+      "std13_p90": 15.424609
+    },
+    {
+      "case": "frame_106",
+      "roi_index": 1,
+      "pixels": 25628,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.328125,
+      "std13_p90": 10.8125
+    },
+    {
+      "case": "frame_106",
+      "roi_index": 2,
+      "pixels": 10726,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.427734,
+      "std13_p90": 10.722656
+    },
+    {
+      "case": "frame_106",
+      "roi_index": 3,
+      "pixels": 24975,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.410156,
+      "std13_p90": 12.800781
+    },
+    {
+      "case": "frame_107",
+      "roi_index": 0,
+      "pixels": 29016,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.710938,
+      "std13_p90": 19.550781
+    },
+    {
+      "case": "frame_107",
+      "roi_index": 1,
+      "pixels": 29046,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 18.392578,
+      "std13_p90": 23.951172
+    },
+    {
+      "case": "frame_107",
+      "roi_index": 2,
+      "pixels": 77860,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.921875,
+      "std13_p90": 18.808594
+    },
+    {
+      "case": "frame_107",
+      "roi_index": 3,
+      "pixels": 11760,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 16.0625,
+      "std13_p90": 19.316406
+    },
+    {
+      "case": "frame_108",
+      "roi_index": 0,
+      "pixels": 71736,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 19.136719,
+      "std13_p90": 25.896484
+    },
+    {
+      "case": "frame_108",
+      "roi_index": 1,
+      "pixels": 64512,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 21.558594,
+      "std13_p90": 29.480078
+    },
+    {
+      "case": "frame_108",
+      "roi_index": 2,
+      "pixels": 27972,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 19.035156,
+      "std13_p90": 26.242188
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 0,
+      "pixels": 103550,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.601562,
+      "std13_p90": 23.65625
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 1,
+      "pixels": 24939,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 18.925781,
+      "std13_p90": 24.574219
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 2,
+      "pixels": 6816,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 22.201172,
+      "std13_p90": 27.644531
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 3,
+      "pixels": 40425,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.914062,
+      "std13_p90": 24.199219
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 4,
+      "pixels": 12183,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 36.729688,
+      "std13_p90": 53.784375
+    },
+    {
+      "case": "frame_109",
+      "roi_index": 5,
+      "pixels": 17331,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 23.414062,
+      "std13_p90": 29.964844
+    },
+    {
+      "case": "frame_110",
+      "roi_index": 0,
+      "pixels": 43428,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.726562,
+      "std13_p90": 17.625
+    },
+    {
+      "case": "frame_110",
+      "roi_index": 1,
+      "pixels": 18810,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 12.933594,
+      "std13_p90": 16.480469
+    },
+    {
+      "case": "frame_110",
+      "roi_index": 2,
+      "pixels": 25872,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 20.535156,
+      "std13_p90": 25.753516
+    },
+    {
+      "case": "frame_110",
+      "roi_index": 3,
+      "pixels": 19104,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.647266,
+      "std13_p90": 18.705859
+    },
+    {
+      "case": "frame_110",
+      "roi_index": 4,
+      "pixels": 6764,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 41.257812,
+      "std13_p90": 58.09375
+    },
+    {
+      "case": "frame_111",
+      "roi_index": 0,
+      "pixels": 36292,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.464844,
+      "std13_p90": 12.300781
+    },
+    {
+      "case": "frame_111",
+      "roi_index": 1,
+      "pixels": 17255,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.160156,
+      "std13_p90": 11.574219
+    },
+    {
+      "case": "frame_112",
+      "roi_index": 0,
+      "pixels": 15168,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.696484,
+      "std13_p90": 19.128906
+    },
+    {
+      "case": "frame_112",
+      "roi_index": 1,
+      "pixels": 15250,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 10.691406,
+      "std13_p90": 13.945312
+    },
+    {
+      "case": "frame_112",
+      "roi_index": 2,
+      "pixels": 20304,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.381641,
+      "std13_p90": 20.146094
+    },
+    {
+      "case": "frame_113",
+      "roi_index": 0,
+      "pixels": 16250,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 20.707031,
+      "std13_p90": 28.019922
+    },
+    {
+      "case": "frame_113",
+      "roi_index": 1,
+      "pixels": 24926,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 18.927734,
+      "std13_p90": 24.976562
+    },
+    {
+      "case": "frame_113",
+      "roi_index": 2,
+      "pixels": 44880,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 11.578125,
+      "std13_p90": 14.628906
+    },
+    {
+      "case": "frame_113",
+      "roi_index": 3,
+      "pixels": 23607,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 18.671875,
+      "std13_p90": 24.93125
+    },
+    {
+      "case": "frame_113",
+      "roi_index": 4,
+      "pixels": 53865,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 19.502344,
+      "std13_p90": 25.265625
+    },
+    {
+      "case": "frame_114",
+      "roi_index": 0,
+      "pixels": 44528,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 8.446484,
+      "std13_p90": 10.484375
+    },
+    {
+      "case": "frame_114",
+      "roi_index": 1,
+      "pixels": 30388,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 6.179688,
+      "std13_p90": 7.679688
+    },
+    {
+      "case": "frame_114",
+      "roi_index": 2,
+      "pixels": 14310,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 9.238281,
+      "std13_p90": 11.277734
+    },
+    {
+      "case": "frame_115",
+      "roi_index": 0,
+      "pixels": 55250,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.53125,
+      "std13_p90": 18.410156
+    },
+    {
+      "case": "frame_115",
+      "roi_index": 1,
+      "pixels": 126290,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.1875,
+      "std13_p90": 18.457031
+    },
+    {
+      "case": "frame_115",
+      "roi_index": 2,
+      "pixels": 52246,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 11.175781,
+      "std13_p90": 14.285156
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 0,
+      "pixels": 51143,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.074219,
+      "std13_p90": 22.886719
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 1,
+      "pixels": 19072,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.691016,
+      "std13_p90": 17.687109
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 2,
+      "pixels": 19440,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 14.617188,
+      "std13_p90": 19.321094
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 3,
+      "pixels": 5600,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.34375,
+      "std13_p90": 23.0
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 4,
+      "pixels": 4747,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 16.827344,
+      "std13_p90": 22.945312
+    },
+    {
+      "case": "frame_116",
+      "roi_index": 5,
+      "pixels": 5320,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.324609,
+      "std13_p90": 19.367578
+    },
+    {
+      "case": "frame_117",
+      "roi_index": 0,
+      "pixels": 38590,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 20.355469,
+      "std13_p90": 28.597656
+    },
+    {
+      "case": "frame_117",
+      "roi_index": 1,
+      "pixels": 82432,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.632812,
+      "std13_p90": 17.699219
+    },
+    {
+      "case": "frame_118",
+      "roi_index": 0,
+      "pixels": 70296,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 13.3125,
+      "std13_p90": 17.269531
+    },
+    {
+      "case": "frame_118",
+      "roi_index": 1,
+      "pixels": 88392,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.796875,
+      "std13_p90": 25.222266
+    },
+    {
+      "case": "frame_119",
+      "roi_index": 0,
+      "pixels": 26068,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 12.839844,
+      "std13_p90": 19.278516
+    },
+    {
+      "case": "frame_119",
+      "roi_index": 1,
+      "pixels": 12753,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 11.226562,
+      "std13_p90": 15.304688
+    },
+    {
+      "case": "frame_119",
+      "roi_index": 2,
+      "pixels": 10914,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 17.545703,
+      "std13_p90": 23.432422
+    },
+    {
+      "case": "frame_120",
+      "roi_index": 0,
+      "pixels": 28200,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 20.176172,
+      "std13_p90": 26.801563
+    },
+    {
+      "case": "frame_120",
+      "roi_index": 1,
+      "pixels": 37950,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 20.617188,
+      "std13_p90": 28.003906
+    },
+    {
+      "case": "frame_121",
+      "roi_index": 0,
+      "pixels": 57539,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 19.207031,
+      "std13_p90": 25.980469
+    },
+    {
+      "case": "frame_121",
+      "roi_index": 1,
+      "pixels": 22671,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 15.640625,
+      "std13_p90": 21.082031
+    },
+    {
+      "case": "frame_121",
+      "roi_index": 2,
+      "pixels": 69948,
+      "class_id": 2,
+      "exact": true,
+      "std7_p90": 16.007812,
+      "std13_p90": 21.411328
+    },
+    {
+      "case": "frame_121",
+      "roi_index": 3,
+      "pixels": 7735,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 28.070312,
+      "std13_p90": 40.74375
+    },
+    {
+      "case": "frame_122",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 8.453125,
+      "std13_p90": 10.109375
+    },
+    {
+      "case": "frame_123",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 9.414062,
+      "std13_p90": 11.921875
+    },
+    {
+      "case": "frame_124",
+      "roi_index": 0,
+      "pixels": 92160,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 5.089844,
+      "std13_p90": 7.015625
+    },
+    {
+      "case": "frame_125",
+      "roi_index": 0,
+      "pixels": 171520,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 8.707031,
+      "std13_p90": 12.554688
+    },
+    {
+      "case": "frame_126",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 12.03125,
+      "std13_p90": 15.113281
+    },
+    {
+      "case": "frame_127",
+      "roi_index": 0,
+      "pixels": 252416,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 7.09375,
+      "std13_p90": 9.199219
+    },
+    {
+      "case": "frame_128",
+      "roi_index": 0,
+      "pixels": 162846,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 5.640625,
+      "std13_p90": 7.644531
+    },
+    {
+      "case": "frame_129",
+      "roi_index": 0,
+      "pixels": 125952,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 2.179688,
+      "std13_p90": 3.339844
+    },
+    {
+      "case": "frame_130",
+      "roi_index": 0,
+      "pixels": 228352,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 10.441406,
+      "std13_p90": 13.820312
+    },
+    {
+      "case": "frame_131",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 8.152344,
+      "std13_p90": 10.617188
+    },
+    {
+      "case": "frame_132",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 12.121094,
+      "std13_p90": 15.441406
+    },
+    {
+      "case": "frame_133",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 11.757812,
+      "std13_p90": 13.5625
+    },
+    {
+      "case": "frame_134",
+      "roi_index": 0,
+      "pixels": 120320,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 5.316406,
+      "std13_p90": 7.597656
+    },
+    {
+      "case": "frame_134",
+      "roi_index": 1,
+      "pixels": 114176,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 6.455078,
+      "std13_p90": 7.953125
+    },
+    {
+      "case": "frame_135",
+      "roi_index": 0,
+      "pixels": 262144,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 7.277344,
+      "std13_p90": 8.886719
+    },
+    {
+      "case": "frame_136",
+      "roi_index": 0,
+      "pixels": 60928,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 3.628906,
+      "std13_p90": 4.738281
+    },
+    {
+      "case": "frame_136",
+      "roi_index": 1,
+      "pixels": 137216,
+      "class_id": 3,
+      "exact": true,
+      "std7_p90": 5.890625,
+      "std13_p90": 7.714844
+    },
+    {
+      "case": "frame_137",
+      "roi_index": 0,
+      "pixels": 62499,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.46875,
+      "std13_p90": 10.910156
+    },
+    {
+      "case": "frame_137",
+      "roi_index": 1,
+      "pixels": 10044,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.147266,
+      "std13_p90": 10.488281
+    },
+    {
+      "case": "frame_138",
+      "roi_index": 0,
+      "pixels": 75852,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.539062,
+      "std13_p90": 14.085547
+    },
+    {
+      "case": "frame_138",
+      "roi_index": 1,
+      "pixels": 18684,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.09375,
+      "std13_p90": 10.433594
+    },
+    {
+      "case": "frame_139",
+      "roi_index": 0,
+      "pixels": 31510,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.710938,
+      "std13_p90": 11.539062
+    },
+    {
+      "case": "frame_139",
+      "roi_index": 1,
+      "pixels": 21710,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.5625,
+      "std13_p90": 12.844141
+    },
+    {
+      "case": "frame_140",
+      "roi_index": 0,
+      "pixels": 57524,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.355469,
+      "std13_p90": 12.054688
+    },
+    {
+      "case": "frame_140",
+      "roi_index": 1,
+      "pixels": 11232,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 14.553906,
+      "std13_p90": 19.808594
+    },
+    {
+      "case": "frame_140",
+      "roi_index": 2,
+      "pixels": 27242,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.433594,
+      "std13_p90": 12.140625
+    },
+    {
+      "case": "frame_141",
+      "roi_index": 0,
+      "pixels": 58011,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.867188,
+      "std13_p90": 15.511719
+    },
+    {
+      "case": "frame_141",
+      "roi_index": 1,
+      "pixels": 19370,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.691406,
+      "std13_p90": 11.984766
+    },
+    {
+      "case": "frame_142",
+      "roi_index": 0,
+      "pixels": 11475,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 12.111719,
+      "std13_p90": 17.021875
+    },
+    {
+      "case": "frame_142",
+      "roi_index": 1,
+      "pixels": 13965,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.304688,
+      "std13_p90": 12.9375
+    },
+    {
+      "case": "frame_142",
+      "roi_index": 2,
+      "pixels": 39025,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.511719,
+      "std13_p90": 13.390625
+    },
+    {
+      "case": "frame_142",
+      "roi_index": 3,
+      "pixels": 55380,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.996094,
+      "std13_p90": 12.59375
+    },
+    {
+      "case": "frame_143",
+      "roi_index": 0,
+      "pixels": 24534,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 12.382812,
+      "std13_p90": 16.398438
+    },
+    {
+      "case": "frame_143",
+      "roi_index": 1,
+      "pixels": 39746,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.351562,
+      "std13_p90": 14.488281
+    },
+    {
+      "case": "frame_144",
+      "roi_index": 0,
+      "pixels": 36636,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.964844,
+      "std13_p90": 16.060547
+    },
+    {
+      "case": "frame_145",
+      "roi_index": 0,
+      "pixels": 60300,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 13.578516,
+      "std13_p90": 18.15625
+    },
+    {
+      "case": "frame_145",
+      "roi_index": 1,
+      "pixels": 25920,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.570312,
+      "std13_p90": 15.016016
+    },
+    {
+      "case": "frame_145",
+      "roi_index": 2,
+      "pixels": 27477,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 13.058594,
+      "std13_p90": 17.417188
+    },
+    {
+      "case": "frame_146",
+      "roi_index": 0,
+      "pixels": 43491,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.097656,
+      "std13_p90": 11.714844
+    },
+    {
+      "case": "frame_146",
+      "roi_index": 1,
+      "pixels": 35292,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.472656,
+      "std13_p90": 11.472656
+    },
+    {
+      "case": "frame_147",
+      "roi_index": 0,
+      "pixels": 43000,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.367578,
+      "std13_p90": 14.234766
+    },
+    {
+      "case": "frame_147",
+      "roi_index": 1,
+      "pixels": 16536,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.746094,
+      "std13_p90": 12.9375
+    },
+    {
+      "case": "frame_147",
+      "roi_index": 2,
+      "pixels": 18921,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.695312,
+      "std13_p90": 12.40625
+    },
+    {
+      "case": "frame_148",
+      "roi_index": 0,
+      "pixels": 44197,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 11.847656,
+      "std13_p90": 15.958594
+    },
+    {
+      "case": "frame_148",
+      "roi_index": 1,
+      "pixels": 56425,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.428125,
+      "std13_p90": 12.492188
+    },
+    {
+      "case": "frame_148",
+      "roi_index": 2,
+      "pixels": 33872,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.331641,
+      "std13_p90": 11.70625
+    },
+    {
+      "case": "frame_148",
+      "roi_index": 3,
+      "pixels": 21352,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.945312,
+      "std13_p90": 13.148438
+    },
+    {
+      "case": "frame_149",
+      "roi_index": 0,
+      "pixels": 29290,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.878906,
+      "std13_p90": 14.293359
+    },
+    {
+      "case": "frame_149",
+      "roi_index": 1,
+      "pixels": 8938,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 12.214844,
+      "std13_p90": 16.314453
+    },
+    {
+      "case": "frame_149",
+      "roi_index": 2,
+      "pixels": 9711,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.652344,
+      "std13_p90": 14.105469
+    },
+    {
+      "case": "frame_150",
+      "roi_index": 0,
+      "pixels": 37524,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.369922,
+      "std13_p90": 8.703125
+    },
+    {
+      "case": "frame_151",
+      "roi_index": 0,
+      "pixels": 71383,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.710938,
+      "std13_p90": 11.285156
+    },
+    {
+      "case": "frame_151",
+      "roi_index": 1,
+      "pixels": 81380,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.9375,
+      "std13_p90": 11.472656
+    },
+    {
+      "case": "frame_152",
+      "roi_index": 0,
+      "pixels": 36025,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.125,
+      "std13_p90": 8.553125
+    },
+    {
+      "case": "frame_153",
+      "roi_index": 0,
+      "pixels": 80736,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.855469,
+      "std13_p90": 9.929688
+    },
+    {
+      "case": "frame_153",
+      "roi_index": 1,
+      "pixels": 47600,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 6.820312,
+      "std13_p90": 8.589844
+    },
+    {
+      "case": "frame_154",
+      "roi_index": 0,
+      "pixels": 30240,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.457031,
+      "std13_p90": 9.441797
+    },
+    {
+      "case": "frame_154",
+      "roi_index": 1,
+      "pixels": 96525,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.714844,
+      "std13_p90": 9.722656
+    },
+    {
+      "case": "frame_154",
+      "roi_index": 2,
+      "pixels": 111510,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.191406,
+      "std13_p90": 9.085938
+    },
+    {
+      "case": "frame_155",
+      "roi_index": 0,
+      "pixels": 51359,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.324219,
+      "std13_p90": 9.113281
+    },
+    {
+      "case": "frame_155",
+      "roi_index": 1,
+      "pixels": 35752,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.46875,
+      "std13_p90": 10.714844
+    },
+    {
+      "case": "frame_155",
+      "roi_index": 2,
+      "pixels": 87532,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.292969,
+      "std13_p90": 9.007812
+    },
+    {
+      "case": "frame_156",
+      "roi_index": 0,
+      "pixels": 24840,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.0,
+      "std13_p90": 10.28125
+    },
+    {
+      "case": "frame_156",
+      "roi_index": 1,
+      "pixels": 30576,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.53125,
+      "std13_p90": 9.089844
+    },
+    {
+      "case": "frame_157",
+      "roi_index": 0,
+      "pixels": 49044,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.8125,
+      "std13_p90": 9.722656
+    },
+    {
+      "case": "frame_157",
+      "roi_index": 1,
+      "pixels": 54016,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.988281,
+      "std13_p90": 9.777344
+    },
+    {
+      "case": "frame_158",
+      "roi_index": 0,
+      "pixels": 44936,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.90625,
+      "std13_p90": 12.619141
+    },
+    {
+      "case": "frame_158",
+      "roi_index": 1,
+      "pixels": 75600,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.547266,
+      "std13_p90": 12.132812
+    },
+    {
+      "case": "frame_159",
+      "roi_index": 0,
+      "pixels": 78760,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.902344,
+      "std13_p90": 10.894531
+    },
+    {
+      "case": "frame_159",
+      "roi_index": 1,
+      "pixels": 42840,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.359375,
+      "std13_p90": 12.925781
+    },
+    {
+      "case": "frame_159",
+      "roi_index": 2,
+      "pixels": 92130,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.574219,
+      "std13_p90": 12.011719
+    },
+    {
+      "case": "frame_160",
+      "roi_index": 0,
+      "pixels": 58212,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.507812,
+      "std13_p90": 9.03125
+    },
+    {
+      "case": "frame_161",
+      "roi_index": 0,
+      "pixels": 22648,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.921875,
+      "std13_p90": 15.183594
+    },
+    {
+      "case": "frame_161",
+      "roi_index": 1,
+      "pixels": 60346,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.53125,
+      "std13_p90": 14.472656
+    },
+    {
+      "case": "frame_161",
+      "roi_index": 2,
+      "pixels": 34888,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 7.65625,
+      "std13_p90": 9.230469
+    },
+    {
+      "case": "frame_162",
+      "roi_index": 0,
+      "pixels": 57200,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.914453,
+      "std13_p90": 12.570312
+    },
+    {
+      "case": "frame_163",
+      "roi_index": 0,
+      "pixels": 52452,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 10.589844,
+      "std13_p90": 13.773047
+    },
+    {
+      "case": "frame_163",
+      "roi_index": 1,
+      "pixels": 32680,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 8.574219,
+      "std13_p90": 11.359375
+    },
+    {
+      "case": "frame_164",
+      "roi_index": 0,
+      "pixels": 18832,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 17.280859,
+      "std13_p90": 22.726172
+    },
+    {
+      "case": "frame_164",
+      "roi_index": 1,
+      "pixels": 28028,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 13.480469,
+      "std13_p90": 17.075391
+    },
+    {
+      "case": "frame_165",
+      "roi_index": 0,
+      "pixels": 91314,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.351562,
+      "std13_p90": 12.194141
+    },
+    {
+      "case": "frame_165",
+      "roi_index": 1,
+      "pixels": 46003,
+      "class_id": 4,
+      "exact": true,
+      "std7_p90": 9.957031,
+      "std13_p90": 13.25
+    },
+    {
+      "case": "frame_166",
+      "roi_index": 0,
+      "pixels": 51200,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 19.898438,
+      "std13_p90": 33.253906
+    },
+    {
+      "case": "frame_166",
+      "roi_index": 1,
+      "pixels": 31232,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 20.718359,
+      "std13_p90": 32.628906
+    },
+    {
+      "case": "frame_167",
+      "roi_index": 0,
+      "pixels": 43520,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 20.351562,
+      "std13_p90": 34.609375
+    },
+    {
+      "case": "frame_167",
+      "roi_index": 1,
+      "pixels": 27083,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 23.585938,
+      "std13_p90": 36.278906
+    },
+    {
+      "case": "frame_167",
+      "roi_index": 2,
+      "pixels": 27136,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 8.28125,
+      "std13_p90": 11.824219
+    },
+    {
+      "case": "frame_168",
+      "roi_index": 0,
+      "pixels": 15322,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 18.957031,
+      "std13_p90": 24.335547
+    },
+    {
+      "case": "frame_168",
+      "roi_index": 1,
+      "pixels": 5764,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 16.898438,
+      "std13_p90": 20.932812
+    },
+    {
+      "case": "frame_169",
+      "roi_index": 0,
+      "pixels": 13608,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 26.260156,
+      "std13_p90": 37.344531
+    },
+    {
+      "case": "frame_169",
+      "roi_index": 1,
+      "pixels": 3901,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 24.0,
+      "std13_p90": 34.320312
+    },
+    {
+      "case": "frame_170",
+      "roi_index": 0,
+      "pixels": 53760,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.0625,
+      "std13_p90": 3.019531
+    },
+    {
+      "case": "frame_170",
+      "roi_index": 1,
+      "pixels": 34304,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 9.894531,
+      "std13_p90": 15.570312
+    },
+    {
+      "case": "frame_171",
+      "roi_index": 0,
+      "pixels": 47616,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 21.044922,
+      "std13_p90": 27.746094
+    },
+    {
+      "case": "frame_171",
+      "roi_index": 1,
+      "pixels": 34816,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 21.671875,
+      "std13_p90": 32.523438
+    },
+    {
+      "case": "frame_172",
+      "roi_index": 0,
+      "pixels": 12922,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 26.733594,
+      "std13_p90": 37.862891
+    },
+    {
+      "case": "frame_172",
+      "roi_index": 1,
+      "pixels": 8878,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 19.809375,
+      "std13_p90": 25.051953
+    },
+    {
+      "case": "frame_172",
+      "roi_index": 2,
+      "pixels": 4452,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 21.894141,
+      "std13_p90": 26.979688
+    },
+    {
+      "case": "frame_172",
+      "roi_index": 3,
+      "pixels": 7344,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 28.680859,
+      "std13_p90": 40.075781
+    },
+    {
+      "case": "frame_173",
+      "roi_index": 0,
+      "pixels": 46592,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 10.683203,
+      "std13_p90": 14.382422
+    },
+    {
+      "case": "frame_173",
+      "roi_index": 1,
+      "pixels": 34006,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 15.664062,
+      "std13_p90": 24.59375
+    },
+    {
+      "case": "frame_173",
+      "roi_index": 2,
+      "pixels": 6958,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 10.407031,
+      "std13_p90": 15.991797
+    },
+    {
+      "case": "frame_173",
+      "roi_index": 3,
+      "pixels": 7134,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 16.717578,
+      "std13_p90": 19.872656
+    },
+    {
+      "case": "frame_174",
+      "roi_index": 0,
+      "pixels": 34304,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 13.889453,
+      "std13_p90": 21.003906
+    },
+    {
+      "case": "frame_174",
+      "roi_index": 1,
+      "pixels": 7301,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 9.210938,
+      "std13_p90": 13.425781
+    },
+    {
+      "case": "frame_174",
+      "roi_index": 2,
+      "pixels": 14250,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 9.766406,
+      "std13_p90": 15.219141
+    },
+    {
+      "case": "frame_175",
+      "roi_index": 0,
+      "pixels": 15904,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 23.135547,
+      "std13_p90": 34.230469
+    },
+    {
+      "case": "frame_175",
+      "roi_index": 1,
+      "pixels": 46080,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 11.766016,
+      "std13_p90": 16.84375
+    },
+    {
+      "case": "frame_175",
+      "roi_index": 2,
+      "pixels": 15447,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 6.345312,
+      "std13_p90": 9.095312
+    },
+    {
+      "case": "frame_175",
+      "roi_index": 3,
+      "pixels": 9646,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 27.949219,
+      "std13_p90": 35.972656
+    },
+    {
+      "case": "frame_176",
+      "roi_index": 0,
+      "pixels": 35328,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 5.137891,
+      "std13_p90": 6.632812
+    },
+    {
+      "case": "frame_176",
+      "roi_index": 1,
+      "pixels": 29698,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 9.359375,
+      "std13_p90": 14.872266
+    },
+    {
+      "case": "frame_177",
+      "roi_index": 0,
+      "pixels": 65024,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 18.760547,
+      "std13_p90": 28.475391
+    },
+    {
+      "case": "frame_177",
+      "roi_index": 1,
+      "pixels": 100864,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 10.842578,
+      "std13_p90": 30.116016
+    },
+    {
+      "case": "frame_177",
+      "roi_index": 2,
+      "pixels": 17920,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 9.433594,
+      "std13_p90": 14.335938
+    },
+    {
+      "case": "frame_178",
+      "roi_index": 0,
+      "pixels": 51200,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 19.792969,
+      "std13_p90": 27.3125
+    },
+    {
+      "case": "frame_178",
+      "roi_index": 1,
+      "pixels": 32768,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.257812,
+      "std13_p90": 19.421875
+    },
+    {
+      "case": "frame_178",
+      "roi_index": 2,
+      "pixels": 7614,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.851562,
+      "std13_p90": 17.638281
+    },
+    {
+      "case": "frame_178",
+      "roi_index": 3,
+      "pixels": 26628,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 7.839844,
+      "std13_p90": 13.360547
+    },
+    {
+      "case": "frame_179",
+      "roi_index": 0,
+      "pixels": 38400,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 12.339844,
+      "std13_p90": 19.636719
+    },
+    {
+      "case": "frame_179",
+      "roi_index": 1,
+      "pixels": 12804,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 6.803516,
+      "std13_p90": 10.316406
+    },
+    {
+      "case": "frame_180",
+      "roi_index": 0,
+      "pixels": 19500,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 5.769531,
+      "std13_p90": 9.09375
+    },
+    {
+      "case": "frame_180",
+      "roi_index": 1,
+      "pixels": 14910,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 1.964844,
+      "std13_p90": 2.519531
+    },
+    {
+      "case": "frame_181",
+      "roi_index": 0,
+      "pixels": 64512,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 14.214844,
+      "std13_p90": 19.246094
+    },
+    {
+      "case": "frame_182",
+      "roi_index": 0,
+      "pixels": 56832,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 11.914062,
+      "std13_p90": 16.265625
+    },
+    {
+      "case": "frame_183",
+      "roi_index": 0,
+      "pixels": 34612,
+      "class_id": 5,
+      "exact": true,
+      "std7_p90": 4.765625,
+      "std13_p90": 7.609375
+    },
+    {
+      "case": "frame_183",
+      "roi_index": 1,
+      "pixels": 19760,
+      "class_id": 1,
+      "exact": true,
+      "std7_p90": 2.351562,
+      "std13_p90": 3.34375
+    },
+    {
+      "case": "frame_184",
+      "roi_index": 0,
+      "pixels": 109568,
+      "class_id": 0,
+      "exact": true,
+      "std7_p90": 19.214844,
+      "std13_p90": 23.328125
+    }
+  ],
+  "gradient_reuse": {
+    "roi_interior_pixels": 19914217,
+    "unique_pixels": 18841372,
+    "repeat_pixel_fraction": 0.05387332075371076,
+    "whole_frame_pixels": 48234496,
+    "decision": "Do not prioritize whole-frame Gx/Gy solely for ROI overlap; only 5.39% interior reuse.",
+    "per_frame": [
+      {
+        "case": "frame_01",
+        "roi_interior_pixels": 179023,
+        "unique_interior_pixels": 179023
+      },
+      {
+        "case": "frame_02",
+        "roi_interior_pixels": 0,
+        "unique_interior_pixels": 0
+      },
+      {
+        "case": "frame_03",
+        "roi_interior_pixels": 97540,
+        "unique_interior_pixels": 97540
+      },
+      {
+        "case": "frame_04",
+        "roi_interior_pixels": 61200,
+        "unique_interior_pixels": 61200
+      },
+      {
+        "case": "frame_05",
+        "roi_interior_pixels": 96900,
+        "unique_interior_pixels": 96900
+      },
+      {
+        "case": "frame_06",
+        "roi_interior_pixels": 154924,
+        "unique_interior_pixels": 154924
+      },
+      {
+        "case": "frame_07",
+        "roi_interior_pixels": 218220,
+        "unique_interior_pixels": 197844
+      },
+      {
+        "case": "frame_08",
+        "roi_interior_pixels": 165722,
+        "unique_interior_pixels": 126385
+      },
+      {
+        "case": "frame_09",
+        "roi_interior_pixels": 21645,
+        "unique_interior_pixels": 21645
+      },
+      {
+        "case": "frame_10",
+        "roi_interior_pixels": 102679,
+        "unique_interior_pixels": 102679
+      },
+      {
+        "case": "frame_11",
+        "roi_interior_pixels": 109816,
+        "unique_interior_pixels": 77632
+      },
+      {
+        "case": "frame_12",
+        "roi_interior_pixels": 31702,
+        "unique_interior_pixels": 31702
+      },
+      {
+        "case": "frame_13",
+        "roi_interior_pixels": 114260,
+        "unique_interior_pixels": 114260
+      },
+      {
+        "case": "frame_14",
+        "roi_interior_pixels": 37801,
+        "unique_interior_pixels": 37801
+      },
+      {
+        "case": "frame_15",
+        "roi_interior_pixels": 25913,
+        "unique_interior_pixels": 25913
+      },
+      {
+        "case": "frame_16",
+        "roi_interior_pixels": 106235,
+        "unique_interior_pixels": 78795
+      },
+      {
+        "case": "frame_17",
+        "roi_interior_pixels": 99999,
+        "unique_interior_pixels": 98562
+      },
+      {
+        "case": "frame_18",
+        "roi_interior_pixels": 125650,
+        "unique_interior_pixels": 102510
+      },
+      {
+        "case": "frame_19",
+        "roi_interior_pixels": 48219,
+        "unique_interior_pixels": 48219
+      },
+      {
+        "case": "frame_20",
+        "roi_interior_pixels": 175622,
+        "unique_interior_pixels": 107513
+      },
+      {
+        "case": "frame_21",
+        "roi_interior_pixels": 92856,
+        "unique_interior_pixels": 92856
+      },
+      {
+        "case": "frame_22",
+        "roi_interior_pixels": 168800,
+        "unique_interior_pixels": 134073
+      },
+      {
+        "case": "frame_23",
+        "roi_interior_pixels": 135272,
+        "unique_interior_pixels": 131618
+      },
+      {
+        "case": "frame_24",
+        "roi_interior_pixels": 51649,
+        "unique_interior_pixels": 51649
+      },
+      {
+        "case": "frame_25",
+        "roi_interior_pixels": 57120,
+        "unique_interior_pixels": 57120
+      },
+      {
+        "case": "frame_26",
+        "roi_interior_pixels": 238170,
+        "unique_interior_pixels": 238170
+      },
+      {
+        "case": "frame_27",
+        "roi_interior_pixels": 280500,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_28",
+        "roi_interior_pixels": 166260,
+        "unique_interior_pixels": 166260
+      },
+      {
+        "case": "frame_29",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_30",
+        "roi_interior_pixels": 280500,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_31",
+        "roi_interior_pixels": 253470,
+        "unique_interior_pixels": 253470
+      },
+      {
+        "case": "frame_32",
+        "roi_interior_pixels": 254490,
+        "unique_interior_pixels": 254490
+      },
+      {
+        "case": "frame_33",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_34",
+        "roi_interior_pixels": 245310,
+        "unique_interior_pixels": 245310
+      },
+      {
+        "case": "frame_35",
+        "roi_interior_pixels": 106128,
+        "unique_interior_pixels": 80256
+      },
+      {
+        "case": "frame_36",
+        "roi_interior_pixels": 48470,
+        "unique_interior_pixels": 48470
+      },
+      {
+        "case": "frame_37",
+        "roi_interior_pixels": 34425,
+        "unique_interior_pixels": 34425
+      },
+      {
+        "case": "frame_38",
+        "roi_interior_pixels": 177234,
+        "unique_interior_pixels": 94379
+      },
+      {
+        "case": "frame_39",
+        "roi_interior_pixels": 114000,
+        "unique_interior_pixels": 114000
+      },
+      {
+        "case": "frame_40",
+        "roi_interior_pixels": 31952,
+        "unique_interior_pixels": 29102
+      },
+      {
+        "case": "frame_41",
+        "roi_interior_pixels": 19998,
+        "unique_interior_pixels": 19998
+      },
+      {
+        "case": "frame_42",
+        "roi_interior_pixels": 48707,
+        "unique_interior_pixels": 48707
+      },
+      {
+        "case": "frame_43",
+        "roi_interior_pixels": 93956,
+        "unique_interior_pixels": 93206
+      },
+      {
+        "case": "frame_44",
+        "roi_interior_pixels": 42836,
+        "unique_interior_pixels": 42836
+      },
+      {
+        "case": "frame_45",
+        "roi_interior_pixels": 162520,
+        "unique_interior_pixels": 134100
+      },
+      {
+        "case": "frame_46",
+        "roi_interior_pixels": 27116,
+        "unique_interior_pixels": 27116
+      },
+      {
+        "case": "frame_47",
+        "roi_interior_pixels": 56610,
+        "unique_interior_pixels": 56610
+      },
+      {
+        "case": "frame_48",
+        "roi_interior_pixels": 76704,
+        "unique_interior_pixels": 76704
+      },
+      {
+        "case": "frame_49",
+        "roi_interior_pixels": 62377,
+        "unique_interior_pixels": 62377
+      },
+      {
+        "case": "frame_50",
+        "roi_interior_pixels": 94860,
+        "unique_interior_pixels": 94860
+      },
+      {
+        "case": "frame_51",
+        "roi_interior_pixels": 27772,
+        "unique_interior_pixels": 27772
+      },
+      {
+        "case": "frame_52",
+        "roi_interior_pixels": 140383,
+        "unique_interior_pixels": 140383
+      },
+      {
+        "case": "frame_53",
+        "roi_interior_pixels": 0,
+        "unique_interior_pixels": 0
+      },
+      {
+        "case": "frame_54",
+        "roi_interior_pixels": 58575,
+        "unique_interior_pixels": 58575
+      },
+      {
+        "case": "frame_55",
+        "roi_interior_pixels": 102840,
+        "unique_interior_pixels": 94608
+      },
+      {
+        "case": "frame_56",
+        "roi_interior_pixels": 136315,
+        "unique_interior_pixels": 136315
+      },
+      {
+        "case": "frame_57",
+        "roi_interior_pixels": 127224,
+        "unique_interior_pixels": 127224
+      },
+      {
+        "case": "frame_58",
+        "roi_interior_pixels": 146028,
+        "unique_interior_pixels": 146028
+      },
+      {
+        "case": "frame_59",
+        "roi_interior_pixels": 115434,
+        "unique_interior_pixels": 115434
+      },
+      {
+        "case": "frame_60",
+        "roi_interior_pixels": 102718,
+        "unique_interior_pixels": 102718
+      },
+      {
+        "case": "frame_61",
+        "roi_interior_pixels": 0,
+        "unique_interior_pixels": 0
+      },
+      {
+        "case": "frame_62",
+        "roi_interior_pixels": 43040,
+        "unique_interior_pixels": 43040
+      },
+      {
+        "case": "frame_63",
+        "roi_interior_pixels": 161535,
+        "unique_interior_pixels": 161535
+      },
+      {
+        "case": "frame_64",
+        "roi_interior_pixels": 164725,
+        "unique_interior_pixels": 164398
+      },
+      {
+        "case": "frame_65",
+        "roi_interior_pixels": 170137,
+        "unique_interior_pixels": 170137
+      },
+      {
+        "case": "frame_66",
+        "roi_interior_pixels": 153221,
+        "unique_interior_pixels": 153221
+      },
+      {
+        "case": "frame_67",
+        "roi_interior_pixels": 40600,
+        "unique_interior_pixels": 40600
+      },
+      {
+        "case": "frame_68",
+        "roi_interior_pixels": 305271,
+        "unique_interior_pixels": 224931
+      },
+      {
+        "case": "frame_69",
+        "roi_interior_pixels": 88780,
+        "unique_interior_pixels": 88780
+      },
+      {
+        "case": "frame_70",
+        "roi_interior_pixels": 67275,
+        "unique_interior_pixels": 67275
+      },
+      {
+        "case": "frame_71",
+        "roi_interior_pixels": 56448,
+        "unique_interior_pixels": 56448
+      },
+      {
+        "case": "frame_72",
+        "roi_interior_pixels": 108966,
+        "unique_interior_pixels": 108966
+      },
+      {
+        "case": "frame_73",
+        "roi_interior_pixels": 74420,
+        "unique_interior_pixels": 74420
+      },
+      {
+        "case": "frame_74",
+        "roi_interior_pixels": 94674,
+        "unique_interior_pixels": 94674
+      },
+      {
+        "case": "frame_75",
+        "roi_interior_pixels": 37910,
+        "unique_interior_pixels": 37910
+      },
+      {
+        "case": "frame_76",
+        "roi_interior_pixels": 121426,
+        "unique_interior_pixels": 121426
+      },
+      {
+        "case": "frame_77",
+        "roi_interior_pixels": 150213,
+        "unique_interior_pixels": 150213
+      },
+      {
+        "case": "frame_78",
+        "roi_interior_pixels": 92656,
+        "unique_interior_pixels": 92384
+      },
+      {
+        "case": "frame_79",
+        "roi_interior_pixels": 61855,
+        "unique_interior_pixels": 61855
+      },
+      {
+        "case": "frame_80",
+        "roi_interior_pixels": 11700,
+        "unique_interior_pixels": 11700
+      },
+      {
+        "case": "frame_81",
+        "roi_interior_pixels": 11604,
+        "unique_interior_pixels": 11604
+      },
+      {
+        "case": "frame_82",
+        "roi_interior_pixels": 56194,
+        "unique_interior_pixels": 56194
+      },
+      {
+        "case": "frame_83",
+        "roi_interior_pixels": 35453,
+        "unique_interior_pixels": 34256
+      },
+      {
+        "case": "frame_84",
+        "roi_interior_pixels": 99732,
+        "unique_interior_pixels": 99732
+      },
+      {
+        "case": "frame_85",
+        "roi_interior_pixels": 45372,
+        "unique_interior_pixels": 45372
+      },
+      {
+        "case": "frame_86",
+        "roi_interior_pixels": 42389,
+        "unique_interior_pixels": 42389
+      },
+      {
+        "case": "frame_87",
+        "roi_interior_pixels": 76500,
+        "unique_interior_pixels": 76500
+      },
+      {
+        "case": "frame_88",
+        "roi_interior_pixels": 25926,
+        "unique_interior_pixels": 25926
+      },
+      {
+        "case": "frame_89",
+        "roi_interior_pixels": 111043,
+        "unique_interior_pixels": 64533
+      },
+      {
+        "case": "frame_90",
+        "roi_interior_pixels": 64770,
+        "unique_interior_pixels": 64770
+      },
+      {
+        "case": "frame_91",
+        "roi_interior_pixels": 68340,
+        "unique_interior_pixels": 68340
+      },
+      {
+        "case": "frame_92",
+        "roi_interior_pixels": 45390,
+        "unique_interior_pixels": 45390
+      },
+      {
+        "case": "frame_93",
+        "roi_interior_pixels": 25302,
+        "unique_interior_pixels": 23426
+      },
+      {
+        "case": "frame_94",
+        "roi_interior_pixels": 136643,
+        "unique_interior_pixels": 136643
+      },
+      {
+        "case": "frame_95",
+        "roi_interior_pixels": 64260,
+        "unique_interior_pixels": 64260
+      },
+      {
+        "case": "frame_96",
+        "roi_interior_pixels": 54795,
+        "unique_interior_pixels": 53199
+      },
+      {
+        "case": "frame_97",
+        "roi_interior_pixels": 34540,
+        "unique_interior_pixels": 33220
+      },
+      {
+        "case": "frame_98",
+        "roi_interior_pixels": 25203,
+        "unique_interior_pixels": 25203
+      },
+      {
+        "case": "frame_99",
+        "roi_interior_pixels": 82630,
+        "unique_interior_pixels": 78310
+      },
+      {
+        "case": "frame_100",
+        "roi_interior_pixels": 52854,
+        "unique_interior_pixels": 52854
+      },
+      {
+        "case": "frame_101",
+        "roi_interior_pixels": 186940,
+        "unique_interior_pixels": 173440
+      },
+      {
+        "case": "frame_102",
+        "roi_interior_pixels": 102155,
+        "unique_interior_pixels": 102155
+      },
+      {
+        "case": "frame_103",
+        "roi_interior_pixels": 129124,
+        "unique_interior_pixels": 127432
+      },
+      {
+        "case": "frame_104",
+        "roi_interior_pixels": 40317,
+        "unique_interior_pixels": 40317
+      },
+      {
+        "case": "frame_105",
+        "roi_interior_pixels": 45390,
+        "unique_interior_pixels": 45390
+      },
+      {
+        "case": "frame_106",
+        "roi_interior_pixels": 105987,
+        "unique_interior_pixels": 104862
+      },
+      {
+        "case": "frame_107",
+        "roi_interior_pixels": 144584,
+        "unique_interior_pixels": 144584
+      },
+      {
+        "case": "frame_108",
+        "roi_interior_pixels": 161136,
+        "unique_interior_pixels": 145760
+      },
+      {
+        "case": "frame_109",
+        "roi_interior_pixels": 200850,
+        "unique_interior_pixels": 157388
+      },
+      {
+        "case": "frame_110",
+        "roi_interior_pixels": 111032,
+        "unique_interior_pixels": 111032
+      },
+      {
+        "case": "frame_111",
+        "roi_interior_pixels": 52261,
+        "unique_interior_pixels": 52261
+      },
+      {
+        "case": "frame_112",
+        "roi_interior_pixels": 49140,
+        "unique_interior_pixels": 49140
+      },
+      {
+        "case": "frame_113",
+        "roi_interior_pixels": 159920,
+        "unique_interior_pixels": 113541
+      },
+      {
+        "case": "frame_114",
+        "roi_interior_pixels": 87192,
+        "unique_interior_pixels": 87192
+      },
+      {
+        "case": "frame_115",
+        "roi_interior_pixels": 230436,
+        "unique_interior_pixels": 129312
+      },
+      {
+        "case": "frame_116",
+        "roi_interior_pixels": 102424,
+        "unique_interior_pixels": 102424
+      },
+      {
+        "case": "frame_117",
+        "roi_interior_pixels": 118890,
+        "unique_interior_pixels": 118890
+      },
+      {
+        "case": "frame_118",
+        "roi_interior_pixels": 156232,
+        "unique_interior_pixels": 156232
+      },
+      {
+        "case": "frame_119",
+        "roi_interior_pixels": 48219,
+        "unique_interior_pixels": 48219
+      },
+      {
+        "case": "frame_120",
+        "roi_interior_pixels": 64592,
+        "unique_interior_pixels": 64027
+      },
+      {
+        "case": "frame_121",
+        "roi_interior_pixels": 154717,
+        "unique_interior_pixels": 147330
+      },
+      {
+        "case": "frame_122",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_123",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_124",
+        "roi_interior_pixels": 90780,
+        "unique_interior_pixels": 90780
+      },
+      {
+        "case": "frame_125",
+        "roi_interior_pixels": 169830,
+        "unique_interior_pixels": 169830
+      },
+      {
+        "case": "frame_126",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_127",
+        "roi_interior_pixels": 250410,
+        "unique_interior_pixels": 250410
+      },
+      {
+        "case": "frame_128",
+        "roi_interior_pixels": 161200,
+        "unique_interior_pixels": 161200
+      },
+      {
+        "case": "frame_129",
+        "roi_interior_pixels": 124440,
+        "unique_interior_pixels": 124440
+      },
+      {
+        "case": "frame_130",
+        "roi_interior_pixels": 226440,
+        "unique_interior_pixels": 226440
+      },
+      {
+        "case": "frame_131",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_132",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_133",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_134",
+        "roi_interior_pixels": 231540,
+        "unique_interior_pixels": 231540
+      },
+      {
+        "case": "frame_135",
+        "roi_interior_pixels": 260100,
+        "unique_interior_pixels": 260100
+      },
+      {
+        "case": "frame_136",
+        "roi_interior_pixels": 195330,
+        "unique_interior_pixels": 195330
+      },
+      {
+        "case": "frame_137",
+        "roi_interior_pixels": 71071,
+        "unique_interior_pixels": 71071
+      },
+      {
+        "case": "frame_138",
+        "roi_interior_pixels": 92756,
+        "unique_interior_pixels": 92756
+      },
+      {
+        "case": "frame_139",
+        "roi_interior_pixels": 51900,
+        "unique_interior_pixels": 51900
+      },
+      {
+        "case": "frame_140",
+        "roi_interior_pixels": 93748,
+        "unique_interior_pixels": 93748
+      },
+      {
+        "case": "frame_141",
+        "roi_interior_pixels": 75831,
+        "unique_interior_pixels": 75831
+      },
+      {
+        "case": "frame_142",
+        "roi_interior_pixels": 117191,
+        "unique_interior_pixels": 76940
+      },
+      {
+        "case": "frame_143",
+        "roi_interior_pixels": 62848,
+        "unique_interior_pixels": 62848
+      },
+      {
+        "case": "frame_144",
+        "roi_interior_pixels": 35870,
+        "unique_interior_pixels": 35870
+      },
+      {
+        "case": "frame_145",
+        "roi_interior_pixels": 111379,
+        "unique_interior_pixels": 110779
+      },
+      {
+        "case": "frame_146",
+        "roi_interior_pixels": 77117,
+        "unique_interior_pixels": 77117
+      },
+      {
+        "case": "frame_147",
+        "roi_interior_pixels": 76559,
+        "unique_interior_pixels": 76559
+      },
+      {
+        "case": "frame_148",
+        "roi_interior_pixels": 152636,
+        "unique_interior_pixels": 134966
+      },
+      {
+        "case": "frame_149",
+        "roi_interior_pixels": 46475,
+        "unique_interior_pixels": 37620
+      },
+      {
+        "case": "frame_150",
+        "roi_interior_pixels": 36738,
+        "unique_interior_pixels": 36738
+      },
+      {
+        "case": "frame_151",
+        "roi_interior_pixels": 150537,
+        "unique_interior_pixels": 150537
+      },
+      {
+        "case": "frame_152",
+        "roi_interior_pixels": 35217,
+        "unique_interior_pixels": 35217
+      },
+      {
+        "case": "frame_153",
+        "roi_interior_pixels": 126174,
+        "unique_interior_pixels": 126174
+      },
+      {
+        "case": "frame_154",
+        "roi_interior_pixels": 234689,
+        "unique_interior_pixels": 186246
+      },
+      {
+        "case": "frame_155",
+        "roi_interior_pixels": 171635,
+        "unique_interior_pixels": 138037
+      },
+      {
+        "case": "frame_156",
+        "roi_interior_pixels": 53988,
+        "unique_interior_pixels": 53988
+      },
+      {
+        "case": "frame_157",
+        "roi_interior_pixels": 101244,
+        "unique_interior_pixels": 101244
+      },
+      {
+        "case": "frame_158",
+        "roi_interior_pixels": 118436,
+        "unique_interior_pixels": 114411
+      },
+      {
+        "case": "frame_159",
+        "roi_interior_pixels": 210390,
+        "unique_interior_pixels": 184838
+      },
+      {
+        "case": "frame_160",
+        "roi_interior_pixels": 57232,
+        "unique_interior_pixels": 57232
+      },
+      {
+        "case": "frame_161",
+        "roi_interior_pixels": 115414,
+        "unique_interior_pixels": 94564
+      },
+      {
+        "case": "frame_162",
+        "roi_interior_pixels": 56064,
+        "unique_interior_pixels": 56064
+      },
+      {
+        "case": "frame_163",
+        "roi_interior_pixels": 83480,
+        "unique_interior_pixels": 83480
+      },
+      {
+        "case": "frame_164",
+        "roi_interior_pixels": 45586,
+        "unique_interior_pixels": 45586
+      },
+      {
+        "case": "frame_165",
+        "roi_interior_pixels": 135235,
+        "unique_interior_pixels": 92905
+      },
+      {
+        "case": "frame_166",
+        "roi_interior_pixels": 80070,
+        "unique_interior_pixels": 70380
+      },
+      {
+        "case": "frame_167",
+        "roi_interior_pixels": 94299,
+        "unique_interior_pixels": 94299
+      },
+      {
+        "case": "frame_168",
+        "roi_interior_pixels": 19998,
+        "unique_interior_pixels": 19998
+      },
+      {
+        "case": "frame_169",
+        "roi_interior_pixels": 16735,
+        "unique_interior_pixels": 16735
+      },
+      {
+        "case": "frame_170",
+        "roi_interior_pixels": 85680,
+        "unique_interior_pixels": 85680
+      },
+      {
+        "case": "frame_171",
+        "roi_interior_pixels": 80070,
+        "unique_interior_pixels": 80070
+      },
+      {
+        "case": "frame_172",
+        "roi_interior_pixels": 31952,
+        "unique_interior_pixels": 29102
+      },
+      {
+        "case": "frame_173",
+        "roi_interior_pixels": 91722,
+        "unique_interior_pixels": 91722
+      },
+      {
+        "case": "frame_174",
+        "roi_interior_pixels": 53699,
+        "unique_interior_pixels": 53699
+      },
+      {
+        "case": "frame_175",
+        "roi_interior_pixels": 84083,
+        "unique_interior_pixels": 79943
+      },
+      {
+        "case": "frame_176",
+        "roi_interior_pixels": 62790,
+        "unique_interior_pixels": 62790
+      },
+      {
+        "case": "frame_177",
+        "roi_interior_pixels": 180030,
+        "unique_interior_pixels": 180030
+      },
+      {
+        "case": "frame_178",
+        "roi_interior_pixels": 114630,
+        "unique_interior_pixels": 109190
+      },
+      {
+        "case": "frame_179",
+        "roi_interior_pixels": 49580,
+        "unique_interior_pixels": 49580
+      },
+      {
+        "case": "frame_180",
+        "roi_interior_pixels": 33086,
+        "unique_interior_pixels": 33086
+      },
+      {
+        "case": "frame_181",
+        "roi_interior_pixels": 63240,
+        "unique_interior_pixels": 63240
+      },
+      {
+        "case": "frame_182",
+        "roi_interior_pixels": 55590,
+        "unique_interior_pixels": 55590
+      },
+      {
+        "case": "frame_183",
+        "roi_interior_pixels": 52554,
+        "unique_interior_pixels": 52554
+      },
+      {
+        "case": "frame_184",
+        "roi_interior_pixels": 108120,
+        "unique_interior_pixels": 108120
+      }
+    ]
+  },
+  "q8_radix_budget": {
+    "roi_pixels": 20276577,
+    "input_bytes_per_pixel_per_pass": 4,
+    "passes": 2,
+    "total_input_bytes": 162212616,
+    "output_bytes_per_roi_proposed": 24,
+    "minimum_scan_ms_100mhz_ii1": 405.53154,
+    "counter_bits": 19,
+    "histogram_banks_max": 6,
+    "histogram_storage_bits": 29184,
+    "bram36_capacity_lower_bound": 0.7916666666666666,
+    "proposed_histogram_bram36_tiles": 3,
+    "planning_total_bram36_tiles_ceiling": 8,
+    "planning_lut_ceiling": 6000,
+    "planning_dsp_ceiling": 0,
+    "budget_is_not_synthesis": true,
+    "hazards": [
+      "19 bits required for count 262144; 18 bits overflows.",
+      "Same-bin consecutive updates require forwarding or II>1.",
+      "Two-pass DMA/control, histogram reset/scan and cache costs remain unmeasured.",
+      "No ROI frame buffer is assumed; PS resends packed input for pass two."
+    ],
+    "decision": "Model qualified on host. Need PS cost/packing budget from current board environment before HLS."
+  },
+  "limitations": [
+    "No board performance prediction from Windows timings.",
+    "Host reference uses float64 interpolation to match NumPy 1.21 semantics; board diagnostic verifies installed implementation.",
+    "No complete pipeline integration or RTL/HLS verification for the new model."
+  ],
+  "host_wall_seconds_not_pipeline_timing": 5.559347800000978
+}

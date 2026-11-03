@@ -1,0 +1,181 @@
+{
+  "schema": "steel_v10_reproducible_hardware_sources/1.0",
+  "target_part": "xc7z020clg400-1",
+  "vivado_version": "2026.1",
+  "vitis_hls_version": "2026.1",
+  "hls_ips": {
+    "gaussian_row_q30": "steel.local:hls:gaussian_row_q30:2.1",
+    "ellipse7": "steel.local:hls:ellipse7:1.0",
+    "blur3": "steel.local:hls:blur3:1.0"
+  },
+  "reference_evidence": {
+    "hardware_built": true,
+    "board_tested": false,
+    "promoted": false,
+    "wns_ns": 0.747,
+    "whs_ns": 0.014,
+    "interface_check": {
+      "same_instance_names": true,
+      "same_address_map": true,
+      "same_gaussian_registers": true,
+      "gaussian_vlnv": "steel.local:hls:gaussian_row_q30:2.1"
+    },
+    "rtl_cosim_pass": true,
+    "frozen_csim_cases": 24,
+    "extended_csim_cases": 14,
+    "host_test_exit_code": 0,
+    "host_test_output": "test_faults_never_pass_or_remove_guard (__main__.Tests.test_faults_never_pass_or_remove_guard) ... ok\ntest_full_and_rollback (__main__.Tests.test_full_and_rollback) ... ok\ntest_real_fixtures_and_tamper (__main__.Tests.test_real_fixtures_and_tamper) ... ok\ntest_smoke_abba_and_safe_old_hardware (__main__.Tests.test_smoke_abba_and_safe_old_hardware) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.205s\n\nOK\n",
+    "bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+    "hwh_sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362",
+    "ccl_in_bitstream": false
+  },
+  "files": {
+    "hls/gaussian_row_q30/gaussian_row_q30.cpp": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/gaussian_row_q30.cpp",
+      "sha256": "c22242dfe36e2d69b83cfdcfd2c86a7ac634213b37ca5b93ab246f05bd29a6ab"
+    },
+    "hls/gaussian_row_q30/gaussian_row_q30.hpp": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/gaussian_row_q30.hpp",
+      "sha256": "8e275aaea208fc0020e145bff3b90bf77e9af804421cd80550a14739fa0c8b22"
+    },
+    "hls/gaussian_row_q30/coefficients_q30.hpp": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/coefficients_q30.hpp",
+      "sha256": "d0b7b7def2a6c98b9d2d8c476460f10540d37e4884e85feec9f4e5f5911e3e5b"
+    },
+    "hls/gaussian_row_q30/fixtures.bin": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/fixtures.bin",
+      "sha256": "b5c097927d89550494f9a0e67440568e681f7a6d94992feff82ca3ea631f6ad6"
+    },
+    "hls/gaussian_row_q30/run_hls.tcl": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/run_hls.tcl",
+      "sha256": "e784fc325fff45d93f27973bd68056b9327b0730cb4df48108e5f0f62fb5bfd4"
+    },
+    "hls/gaussian_row_q30/run_extended.tcl": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/run_extended.tcl",
+      "sha256": "630b6d668cd4aae3f2cecf27885961a1c984cae87e11ba7234964d971d902d21"
+    },
+    "hls/gaussian_row_q30/test_gaussian_row.cpp": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/test_gaussian_row.cpp",
+      "sha256": "6a9e136f29b909220a617fe429e9df2e8bc47d6114c6c17f32daea9bfe602044"
+    },
+    "hls/gaussian_row_q30/test_extended.cpp": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/test_extended.cpp",
+      "sha256": "1bc59975f6fa27fe811ac35df183b18f886c0fa58c020a51761b200479ada5ed"
+    },
+    "hls/ellipse7/ellipse7.cpp": {
+      "origin": "steel_binary_ops_v8_experiment_20261022/hls/ellipse7.cpp",
+      "sha256": "3b25cc34a85351d467755f5d3fa608c421d24d404d81eb41cef2c80736260982"
+    },
+    "hls/ellipse7/ellipse7.hpp": {
+      "origin": "steel_binary_ops_v8_experiment_20261022/hls/ellipse7.hpp",
+      "sha256": "b466aa8d689ebcde1f59c70443d71d7bac9ea41a4408e55c3a7935f8144b3ce2"
+    },
+    "hls/ellipse7/fixtures.bin": {
+      "origin": "steel_binary_ops_v8_experiment_20261022/hls/fixtures.bin",
+      "sha256": "b903b490d1c11a12fa69f728fbcaf661aeff1cda49003bc292ffb25d3aae2f9c"
+    },
+    "hls/ellipse7/run_hls_export.tcl": {
+      "origin": "steel_binary_ops_v8_experiment_20261022/hls/run_hls_export.tcl",
+      "sha256": "7d401a42910e4eddf598dd67a3517dd1fc9f54614544c5d1eee9d5da3420aea8"
+    },
+    "hls/ellipse7/test_ellipse7.cpp": {
+      "origin": "steel_binary_ops_v8_experiment_20261022/hls/test_ellipse7.cpp",
+      "sha256": "2ec4c627dcfc501d407ee7a0d8e7cfba7726ab8249b224bd455ae80eddc13e14"
+    },
+    "hls/blur3/blur3.cpp": {
+      "origin": "steel_roi_blur3_v9_20261023/hls/blur3.cpp",
+      "sha256": "a439e369d53311875ec84dcc8e261f138f8d1cfddc46b796c7aa9e390d47a67b"
+    },
+    "hls/blur3/blur3.hpp": {
+      "origin": "steel_roi_blur3_v9_20261023/hls/blur3.hpp",
+      "sha256": "125c7b82e32ec800dd311d4e0de23d78746cd2d5d5eb2b408a7bcb9c625c23ee"
+    },
+    "hls/blur3/fixtures.bin": {
+      "origin": "steel_roi_blur3_v9_20261023/hls/fixtures.bin",
+      "sha256": "9e55d82026c987c702424e8e47e86322c0d62c91ca7a2c9700c849dadeb53498"
+    },
+    "hls/blur3/run_hls.tcl": {
+      "origin": "steel_roi_blur3_v9_20261023/hls/run_hls.tcl",
+      "sha256": "8e181960f4d725db4584c5d9ac3be438343f1c9f134f7cd55bfbcb653a10240d"
+    },
+    "hls/blur3/test_blur3.cpp": {
+      "origin": "steel_roi_blur3_v9_20261023/hls/test_blur3.cpp",
+      "sha256": "87c58ea2733a029e08420010e32ed6a72ecbbd3bc5f435244b3d7f27c6cc5131"
+    },
+    "platform/rtl/axis_gray_unpacker_4to1.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_local_std_q8_v4/steel_preprocess_sobel_v2.srcs/sources_1/new/axis_gray_unpacker_4to1.v",
+      "sha256": "88c679d960d6b073fc1ef3d7593c3ea816cf2137ebdaf351f29a6fe758a0eca6"
+    },
+    "platform/rtl/axis_local_std_q8_interior_1px.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_local_std_q8_v4/steel_preprocess_sobel_v2.srcs/sources_1/new/axis_local_std_q8_interior_1px.v",
+      "sha256": "b06633da7e10dec4e77cf9cb0ce39c98b97a67ce677d8777b62a34497bf3a12d"
+    },
+    "platform/rtl/q8_std_math.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_local_std_q8_v4/steel_preprocess_sobel_v2.srcs/sources_1/new/q8_std_math.v",
+      "sha256": "60ffd94ebc1ff79adbfa2c3e7b89aadf1e3a88bc51994193563bf74c91ed01c2"
+    },
+    "platform/rtl/axis_q8_padded_frame_chain_32to32.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_local_std_q8_v4/steel_preprocess_sobel_v2.srcs/sources_1/new/axis_q8_padded_frame_chain_32to32.v",
+      "sha256": "bf9e241b07ba76d84fc68f2bf0528edddcfec3328fb2c0b25d6290e31c31d90b"
+    },
+    "platform/rtl/axis_sobel.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_sobel_v2/steel_preprocess_sobel_v2.srcs/sources_1/new/axis_sobel.v",
+      "sha256": "ac7910491d14938db9a72cfce8130dcee54b22755533826c44684e48da60a287"
+    },
+    "platform/rtl/sobel_pixel.v": {
+      "origin": "steel_preprocess_dual_v5/vivado/steel_preprocess_dual_v5.srcs/sources_1/imports/FPGAyz/steel_preprocess_sobel_v2/steel_preprocess_sobel_v2.srcs/sources_1/new/sobel_pixel.v",
+      "sha256": "5367734adb6dd4dff3d8d33d9fdb8d9802b7fc493b38e445432a98580210912e"
+    },
+    "platform/rtl/dual_system_bd.tcl": {
+      "origin": "steel_preprocess_dual_v5/dual_system_bd.tcl",
+      "sha256": "4d9ae9cc74ed2d7875d2bc77a066ea70026b8b47b8dc67b2143819c1d09bb94d"
+    },
+    "reference/hardware/steel_gaussian_v10.bit": {
+      "origin": "steel_gaussian_v10_board_20261023/hardware/steel_gaussian_v10.bit",
+      "sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10"
+    },
+    "reference/hardware/steel_gaussian_v10.hwh": {
+      "origin": "steel_gaussian_v10_board_20261023/hardware/steel_gaussian_v10.hwh",
+      "sha256": "420b535ac8e483a7e5ff43330ba880ea6e0f9c568290976ffa97b2e671da9362"
+    },
+    "reference/build_evidence.json": {
+      "origin": "steel_gaussian_v10_board_20261023/evidence/build_evidence.json",
+      "sha256": "a490f0f58cf41b44366a461e36ebe8f55d0a91f0b5828d3ed6725f4392bec68d"
+    },
+    "reference/reports/gaussian_v10_utilization.rpt": {
+      "origin": "steel_gaussian_v10_board_20261023/reports/gaussian_v10_utilization.rpt",
+      "sha256": "552327a36fd5f49da809b897de3cc9b7d7243ae6e374a662ca1e951f0a8b543a"
+    },
+    "reference/reports/gaussian_v10_timing.rpt": {
+      "origin": "steel_gaussian_v10_board_20261023/reports/gaussian_v10_timing.rpt",
+      "sha256": "05f0b4af87b4b1a9f4f13d6aa162ceda380af3df1c48e3574ee7de7276475464"
+    },
+    "reference/reports/gaussian_v10_drc.rpt": {
+      "origin": "steel_gaussian_v10_board_20261023/reports/gaussian_v10_drc.rpt",
+      "sha256": "8945ae4c5c1ab0edee192534021d9c2f9caae59fad2908fb5bda3575c922a9fe"
+    },
+    "reference/reports/gaussian_row_q30_csynth.rpt": {
+      "origin": "hardware_candidates_v10_20261023/gaussian_csa/continuous_project/solution1/syn/report/gaussian_row_q30_csynth.rpt",
+      "sha256": "b31c5893f83bd05e037351e2312acafe6c57d72b54084f5a1d326cc18e0b0433"
+    },
+    "scripts/build_vivado.tcl": {
+      "origin": "hardware_candidates_v10_20261023/build_vivado.tcl",
+      "sha256": "cae10dc27f4b3a7ac9b033c3afd65839f9cc67fc1641bbd034f443fa1533eca3",
+      "derived_changes": [
+        "absolute dependencies changed to package-relative paths",
+        "Vivado version gate added"
+      ]
+    },
+    "README_zh.md": {
+      "origin": "authored in reproducible hardware source bundle",
+      "sha256": "e63a62dfa570fda956fdd9a181af1fc4fb953bebbe06de014bf3b4834c661dcf"
+    },
+    "build.ps1": {
+      "origin": "authored in reproducible hardware source bundle",
+      "sha256": "3e2b8999e3594f49ac5763a8d80ec86fabb38705cc8808d6a6d14c2afc8fa3fb"
+    }
+  },
+  "external_project_paths": false,
+  "output_process": "Run build.ps1. It stages sources into a clean unique build folder, generates HLS IPs, runs Vivado synthesis/routing/DRC/timing, then exports matching .bit/.hwh names.",
+  "important": "Same-tool-version source rebuild is intended. Different Vivado patch/build, OS or place-and-route may change bitstream bytes; compare design/IP/address/timing and board behavior as well as hashes."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "v10_entry_qualification/1.0",
+  "entry_board_check_pending": true,
+  "formal_release_replaced": false,
+  "new_bitstream_built": false,
+  "reused_v10_bit_sha256": "fd1e28f656ddbed0d97315ce88acfe956c5d11645babcad73b2a750b23d52b10",
+  "host_lifecycle_tests": 6,
+  "host_lifecycle_tests_pass": true,
+  "tests_scope": "Simulated hardware lifecycle only; test execution log retained externally.",
+  "candidate_quantile_host_checks": 806,
+  "candidate_board_hardware_tested": false,
+  "baseline_evidence": {
+    "v10_original": "6624588ca300909797c695fbf7be20d99425b69d28513246f63608e9e97d5f4c",
+    "v10_recovered": "654d0028ae7bbd4ea38e936756d221c4f16ce70c51d39bc9c3f1077dea24962e"
+  },
+  "scope": "New wrapper qualification remains separate from existing algorithm and performance evidence."
+}

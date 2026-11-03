@@ -1,0 +1,31 @@
+{
+  "csim_pass": true,
+  "rtl_cosim_pass": true,
+  "board_test": false,
+  "part": "xc7z020clg400-1",
+  "target_clock_ns": 10,
+  "resources_hls_estimate": {
+    "BRAM_18K": "6",
+    "FF": "786",
+    "LUT": "2027",
+    "DSP": "0",
+    "URAM": "0"
+  },
+  "timing_hls_estimate": {
+    "unit": "ns",
+    "EstimatedClockPeriod": "7.166"
+  },
+  "vivado_implemented": false,
+  "reports_sha256": {
+    "ellipse7_csim.log": "ef121c9735c07ac1e072ebb21640e0ee120c94e70106d4e3a7a62f14f1a0daff",
+    "ellipse7_cosim.rpt": "3454da8650e01272fa40322bed712f01a11e15cfecc59302d2c1104f2700e9bb",
+    "ellipse7_csynth.xml": "e037145d895c4ca2bcc3a2a716857d03f0b80eb8d04c6b41e2885ea03b4cd269"
+  },
+  "source_sha256": {
+    "ellipse7.cpp": "901d0d5cd45600948cf5671540fc396ad5a3d2c0b4291fe08ece1a57b702d050",
+    "ellipse7.hpp": "f815ffe6960f259fc01d175af2c8d3df428966e3bc5f6707ea13ade081eec1ea",
+    "fixtures.bin": "b903b490d1c11a12fa69f728fbcaf661aeff1cda49003bc292ffb25d3aae2f9c",
+    "run_hls.tcl": "b2c1a10b122c820aeba1862c0d679a28728a28e7e8246c7259de99972d7dd4d0",
+    "test_ellipse7.cpp": "2ec4c627dcfc501d407ee7a0d8e7cfba7726ab8249b224bd455ae80eddc13e14"
+  }
+}
